@@ -1,71 +1,78 @@
 {
   "meta": {
     "engine": "TIGER v12",
-    "generated": "2026-08-07",
-    "label": "Sample card — replace on first tiger run",
-    "sample": true
+    "generated": "2026-08-08",
+    "label": "Four metro meetings · NRL Round 23 part-played, five games pending"
   },
   "racing": {
     "meetings": [
       {
-        "id": "canterbury",
-        "track": "Canterbury",
-        "state": "NSW",
-        "direction": "clockwise",
-        "straight": "~330m",
-        "condition": "Good 4",
-        "rail": "True",
-        "biasZone": "All equal",
-        "biasStrength": 0,
+        "id": "randwick", "track": "Randwick", "state": "NSW", "direction": "clockwise", "straight": "~450m",
+        "condition": "Soft 6", "rail": "Out 4m Entire", "biasZone": "B1-6", "biasStrength": 2,
         "races": [
-          { "no": 1, "horse": "Phantom Major", "price": "$3.20", "gd": 8.55, "bet": "WIN", "pace": "on", "flags": ["🏆", "👑", "📏"], "fav": { "name": "Phantom Major", "price": "$3.20", "gd": 8.55 }, "h2h": { "a": { "name": "Phantom Major", "gd": 8.55, "form": 9.0, "speed": 8.5, "barrier": 8.0, "market": 9.0 }, "b": { "name": "Coastal Drift", "gd": 7.62, "form": 7.5, "speed": 7.0, "barrier": 6.5, "market": 6.0 } } },
-          { "no": 2, "horse": "Glissando", "price": "$4.60", "gd": 8.24, "bet": "WIN", "pace": "mid", "flags": ["🔥", "🧠"], "fav": { "name": "Redoubtable", "price": "$2.80", "gd": 7.40 }, "h2h": { "a": { "name": "Glissando", "gd": 8.24, "form": 8.5, "speed": 8.0, "barrier": 7.5, "market": 9.0 }, "b": { "name": "Redoubtable", "gd": 7.40, "form": 7.0, "speed": 7.5, "barrier": 8.0, "market": 5.0 } } },
-          { "no": 3, "horse": "Harry's Evidence", "price": "$6.00", "gd": 7.95, "bet": "WIN", "pace": "on", "flags": ["✅", "⚙️"], "fav": { "name": "Lantern Bay", "price": "$2.60", "gd": 7.10 }, "h2h": { "a": { "name": "Harry's Evidence", "gd": 7.95, "form": 8.0, "speed": 7.5, "barrier": 8.0, "market": 8.0 }, "b": { "name": "Lantern Bay", "gd": 7.10, "form": 7.0, "speed": 7.0, "barrier": 7.0, "market": 6.5 } } },
-          { "no": 4, "horse": "Aethelwulf", "price": "$11.00", "gd": 7.72, "bet": "ROUGHIE", "pace": "back", "flags": ["🐴", "🍀", "🚪"], "fav": { "name": "Sunline Road", "price": "$2.40", "gd": 7.05 }, "h2h": { "a": { "name": "Aethelwulf", "gd": 7.72, "form": 7.0, "speed": 8.5, "barrier": 5.0, "market": 6.0 }, "b": { "name": "Sunline Road", "gd": 7.05, "form": 7.5, "speed": 6.5, "barrier": 8.0, "market": 7.5 } } },
-          { "no": 5, "horse": "Raskol", "price": "$5.50", "gd": 8.02, "bet": "WIN", "pace": "on", "flags": ["✅", "🎯"], "fav": { "name": "Raskol", "price": "$5.50", "gd": 8.02 }, "h2h": { "a": { "name": "Raskol", "gd": 8.02, "form": 8.0, "speed": 8.0, "barrier": 8.5, "market": 7.5 }, "b": { "name": "Verano Blue", "gd": 7.30, "form": 7.0, "speed": 7.5, "barrier": 7.0, "market": 7.0 } } },
-          { "no": 6, "horse": "Clear Proof", "price": "$3.80", "gd": 8.31, "bet": "WIN", "pace": "mid", "flags": ["🔥", "💪"], "fav": { "name": "Clear Proof", "price": "$3.80", "gd": 8.31 }, "h2h": { "a": { "name": "Clear Proof", "gd": 8.31, "form": 8.5, "speed": 8.0, "barrier": 8.0, "market": 8.5 }, "b": { "name": "Night Marker", "gd": 7.18, "form": 7.0, "speed": 7.0, "barrier": 7.5, "market": 6.5 } } },
-          { "no": 7, "horse": "Standard Deviation", "price": "$4.20", "gd": 7.88, "bet": "PLACE", "pace": "back", "flags": ["⚠️", "🚨"], "fav": { "name": "Dorados", "price": "$3.60", "gd": 7.55 }, "h2h": { "a": { "name": "Standard Deviation", "gd": 7.88, "form": 8.0, "speed": 8.0, "barrier": 7.0, "market": 6.0 }, "b": { "name": "Dorados", "gd": 7.55, "form": 7.5, "speed": 7.5, "barrier": 8.0, "market": 8.5 } } }
+          { "no": 1, "horse": "Melanite", "price": "$8.00", "gd": 8.14, "bet": "WIN", "pace": "mid", "fc": 9, "flags": ["📊","📏","🎯","🌧️"] },
+          { "no": 2, "horse": "Their Finest Hour", "price": "$21.00", "gd": 7.78, "bet": "ROUGHIE", "pace": "mid", "fc": 7, "flags": ["🐴","📏","🚨"] },
+          { "no": 3, "horse": "Avista", "price": "$2.20", "gd": 8.61, "bet": "WIN", "pace": "on", "fc": 12, "flags": ["🏆","👑","📏","🌧️","🎯"] },
+          { "no": 4, "horse": "Elle Hudson", "price": "$4.60", "gd": 8.33, "bet": "WIN", "pace": "mid", "fc": 10, "flags": ["🔥","📏","🌧️","✅"] },
+          { "no": 5, "horse": "Perfect Justice", "price": "$4.40", "gd": 8.22, "bet": "WIN", "pace": "on", "fc": 10, "flags": ["🔥","📏","✅"] },
+          { "no": 6, "horse": "Prima Bella", "price": "$5.50", "gd": 8.16, "bet": "WIN", "pace": "on", "fc": 9, "flags": ["✅","📏","🌧️"] },
+          { "no": 7, "horse": "Tazima", "price": "$1.95", "gd": 8.68, "bet": "WIN", "pace": "on", "fc": 13, "flags": ["🏆","👑","📏","🎯","🌧️"] },
+          { "no": 8, "horse": "Midnight Dynamite", "price": "$8.50", "gd": 8.30, "bet": "WIN", "pace": "mid", "fc": 10, "flags": ["🔥","📏","🧠","🎯"] },
+          { "no": 9, "horse": "Ernaux", "price": "$4.40", "gd": 8.03, "bet": "WIN", "pace": "mid", "fc": 8, "flags": ["✅","📏"] },
+          { "no": 10, "horse": "Columbia Blue", "price": "$4.40", "gd": 8.08, "bet": "WIN", "pace": "mid", "fc": 8, "flags": ["✅","🧠"] }
         ]
       },
       {
-        "id": "doomben",
-        "track": "Doomben",
-        "state": "QLD",
-        "direction": "clockwise",
-        "straight": "~350m",
-        "condition": "Soft 5",
-        "rail": "Out 9.5m Entire",
-        "biasZone": "B1-8",
-        "biasStrength": 3,
+        "id": "caulfieldheath", "track": "Caulfield Heath", "state": "VIC", "direction": "anticlockwise", "straight": "~360m",
+        "condition": "Soft 7", "rail": "Out 3m Entire", "biasZone": "B1-5", "biasStrength": 1,
         "races": [
-          { "no": 1, "horse": "Bossiri", "price": "$20.00", "gd": 7.74, "bet": "ROUGHIE", "pace": "on", "flags": ["🐴", "📏", "🌧️"], "fav": { "name": "Gallant Sun", "price": "$2.90", "gd": 7.20 }, "h2h": { "a": { "name": "Bossiri", "gd": 7.74, "form": 6.5, "speed": 7.5, "barrier": 9.0, "market": 5.5 }, "b": { "name": "Gallant Sun", "gd": 7.20, "form": 7.5, "speed": 7.0, "barrier": 6.0, "market": 8.0 } } },
-          { "no": 2, "horse": "Kembla Lad", "price": "$4.40", "gd": 8.06, "bet": "WIN", "pace": "on", "flags": ["✅", "📏", "⚡"], "fav": { "name": "Kembla Lad", "price": "$4.40", "gd": 8.06 }, "h2h": { "a": { "name": "Kembla Lad", "gd": 8.06, "form": 8.0, "speed": 8.0, "barrier": 9.0, "market": 7.5 }, "b": { "name": "River Toll", "gd": 7.12, "form": 7.0, "speed": 7.0, "barrier": 5.0, "market": 7.0 } } },
-          { "no": 3, "horse": "Had It All", "price": "$3.10", "gd": 8.62, "bet": "WIN", "pace": "on", "flags": ["🏆", "👑", "📏", "🌧️"], "fav": { "name": "Had It All", "price": "$3.10", "gd": 8.62 }, "h2h": { "a": { "name": "Had It All", "gd": 8.62, "form": 9.0, "speed": 8.5, "barrier": 9.5, "market": 8.5 }, "b": { "name": "Ceremonial", "gd": 7.40, "form": 7.5, "speed": 7.0, "barrier": 6.0, "market": 7.5 } } },
-          { "no": 4, "horse": "Tanami Fox", "price": "$7.50", "gd": 7.66, "bet": "PLACE", "pace": "mid", "flags": ["⚠️", "⚙️"], "fav": { "name": "Bright Copper", "price": "$2.70", "gd": 7.48 }, "h2h": { "a": { "name": "Tanami Fox", "gd": 7.66, "form": 7.5, "speed": 7.5, "barrier": 7.5, "market": 7.0 }, "b": { "name": "Bright Copper", "gd": 7.48, "form": 7.5, "speed": 7.0, "barrier": 8.0, "market": 8.0 } } },
-          { "no": 5, "horse": "Geitz", "price": "$27.00", "gd": 7.58, "bet": "ROUGHIE", "pace": "back", "flags": ["🐴", "🚪", "🍀"], "fav": { "name": "Marmont Rise", "price": "$3.00", "gd": 7.35 }, "h2h": { "a": { "name": "Geitz", "gd": 7.58, "form": 6.5, "speed": 8.5, "barrier": 4.0, "market": 5.0 }, "b": { "name": "Marmont Rise", "gd": 7.35, "form": 7.5, "speed": 7.0, "barrier": 8.0, "market": 8.0 } } },
-          { "no": 6, "horse": "Savoca", "price": "$5.00", "gd": 8.28, "bet": "WIN", "pace": "on", "flags": ["🔥", "📏", "🎯"], "fav": { "name": "Savoca", "price": "$5.00", "gd": 8.28 }, "h2h": { "a": { "name": "Savoca", "gd": 8.28, "form": 8.5, "speed": 8.0, "barrier": 9.0, "market": 8.0 }, "b": { "name": "Lucky Sixpence", "gd": 7.22, "form": 7.0, "speed": 7.5, "barrier": 6.0, "market": 7.0 } } },
-          { "no": 7, "horse": "Ordinary Angel", "price": "$6.50", "gd": 7.34, "bet": "PLACE", "pace": "mid", "flags": ["⚠️"], "fav": { "name": "Cape Fitzroy", "price": "$2.50", "gd": 7.60 }, "h2h": { "a": { "name": "Ordinary Angel", "gd": 7.34, "form": 7.0, "speed": 7.0, "barrier": 7.5, "market": 7.0 }, "b": { "name": "Cape Fitzroy", "gd": 7.60, "form": 7.5, "speed": 7.5, "barrier": 8.0, "market": 8.0 } } }
+          { "no": 1, "horse": "Stakes", "price": "$4.00", "gd": 8.42, "bet": "WIN", "pace": "on", "fc": 10, "flags": ["🔥","💲","🎯"] },
+          { "no": 2, "horse": "Botanical Boy", "price": "$4.40", "gd": 8.51, "bet": "WIN", "pace": "on", "fc": 11, "flags": ["🏆","👑","📏","💲"] },
+          { "no": 3, "horse": "Cavalry Girl", "price": "$2.60", "gd": 8.38, "bet": "WIN", "pace": "mid", "fc": 10, "flags": ["🔥","📏","💲"] },
+          { "no": 4, "horse": "Davida", "price": "$4.80", "gd": 8.19, "bet": "WIN", "pace": "mid", "fc": 9, "flags": ["✅","📊","🚪"] },
+          { "no": 5, "horse": "Next Step Iowa", "price": "$6.00", "gd": 8.26, "bet": "WIN", "pace": "on", "fc": 10, "flags": ["🔥","📊","🌧️"] },
+          { "no": 6, "horse": "Custom", "price": "$1.75", "gd": 8.72, "bet": "WIN", "pace": "on", "fc": 13, "flags": ["🏆","👑","📏","💲","🎯"] },
+          { "no": 7, "horse": "Perfect Ten", "price": "$4.40", "gd": 8.24, "bet": "WIN", "pace": "mid", "fc": 10, "flags": ["🔥","📏","💲"] },
+          { "no": 8, "horse": "Litzdeel", "price": "$6.00", "gd": 8.35, "bet": "WIN", "pace": "on", "fc": 11, "flags": ["🔥","📏","📊","🧠"] },
+          { "no": 9, "horse": "Changing Colours", "price": "$4.20", "gd": 8.30, "bet": "WIN", "pace": "mid", "fc": 10, "flags": ["🔥","📏","💲"] }
+        ]
+      },
+      {
+        "id": "eaglefarm", "track": "Eagle Farm", "state": "QLD", "direction": "clockwise", "straight": "~380m",
+        "condition": "Soft 5", "rail": "Out 3m Entire", "biasZone": "B1-5", "biasStrength": 1,
+        "races": [
+          { "no": 1, "horse": "Thinking Gold", "price": "$4.20", "gd": 8.44, "bet": "WIN", "pace": "on", "fc": 11, "flags": ["🔥","📏","📊","💲"] },
+          { "no": 2, "horse": "Chillaxing", "price": "$9.50", "gd": 8.21, "bet": "WIN", "pace": "mid", "fc": 9, "flags": ["✅","📊","🧠"] },
+          { "no": 3, "horse": "Everybody Rise", "price": "$3.80", "gd": 8.35, "bet": "WIN", "pace": "on", "fc": 10, "flags": ["🔥","📏","💲"] },
+          { "no": 4, "horse": "Star Of Jamaica", "price": "$3.10", "gd": 8.40, "bet": "WIN", "pace": "on", "fc": 11, "flags": ["🔥","💲","📊"] },
+          { "no": 5, "horse": "Manpower", "price": "$4.80", "gd": 8.66, "bet": "WIN", "pace": "on", "fc": 13, "flags": ["🏆","👑","📏","📊","🧠"] },
+          { "no": 6, "horse": "Irama", "price": "$21.00", "gd": 8.09, "bet": "ROUGHIE", "pace": "mid", "fc": 10, "flags": ["🐴","📏","📊","🚨"] },
+          { "no": 7, "horse": "Livalittle", "price": "$4.80", "gd": 8.02, "bet": "WIN", "pace": "mid", "fc": 8, "flags": ["✅","🌧️"] },
+          { "no": 8, "horse": "Bossed Up", "price": "$4.60", "gd": 8.49, "bet": "WIN", "pace": "on", "fc": 11, "flags": ["🔥","📏","📊","🎯"] },
+          { "no": 9, "horse": "Anemacore", "price": "$3.60", "gd": 8.52, "bet": "WIN", "pace": "on", "fc": 12, "flags": ["🏆","👑","📏","💲"] }
+        ]
+      },
+      {
+        "id": "morphettville", "track": "Morphettville", "state": "SA", "direction": "anticlockwise", "straight": "~400m",
+        "condition": "Soft 6", "rail": "Out 12m Entire", "biasZone": "B1-8", "biasStrength": 3,
+        "races": [
+          { "no": 1, "horse": "Chica Astuta", "price": "$2.70", "gd": 8.70, "bet": "WIN", "pace": "on", "fc": 13, "flags": ["🏆","👑","📏","💲"] },
+          { "no": 2, "horse": "Phineas", "price": "$10.00", "gd": 8.25, "bet": "WIN", "pace": "on", "fc": 10, "flags": ["🔥","📏","📊","🧠"] },
+          { "no": 3, "horse": "Flash Alice", "price": "$6.50", "gd": 8.20, "bet": "WIN", "pace": "mid", "fc": 9, "flags": ["✅","📏"] },
+          { "no": 4, "horse": "Je City", "price": "$10.00", "gd": 8.55, "bet": "WIN", "pace": "on", "fc": 12, "flags": ["🏆","👑","📏","📊","🧠"] },
+          { "no": 5, "horse": "Miss Cotoletta", "price": "$44.00", "gd": 8.30, "bet": "ROUGHIE", "pace": "mid", "fc": 11, "flags": ["🐴","📏","📊","🚨"] },
+          { "no": 6, "horse": "Bouncing Beyond", "price": "$8.00", "gd": 8.58, "bet": "WIN", "pace": "on", "fc": 12, "flags": ["🏆","👑","📏","📊"] },
+          { "no": 7, "horse": "Great Maximus", "price": "$13.00", "gd": 8.35, "bet": "WIN", "pace": "mid", "fc": 10, "flags": ["🔥","📏","📊"] },
+          { "no": 8, "horse": "Hooked On Wealth", "price": "$6.00", "gd": 8.30, "bet": "WIN", "pace": "on", "fc": 10, "flags": ["🔥","📏","🧠"] },
+          { "no": 9, "horse": "Lomax", "price": "$9.00", "gd": 8.25, "bet": "WIN", "pace": "mid", "fc": 10, "flags": ["🔥","📏","📊"] }
         ]
       }
     ]
   },
   "nrl": {
     "engine": "GD ALGO V1",
-    "round": "Round 23",
-    "games": [
-      { "home": "Broncos", "away": "Storm", "pick": "Storm", "gd": 8.41, "line": "Storm -2.5", "odds": "$1.72", "tryScorer": "Xavier Coates", "confidence": "high" },
-      { "home": "Panthers", "away": "Eels", "pick": "Panthers", "gd": 8.66, "line": "Panthers -8.5", "odds": "$1.35", "tryScorer": "Brian To'o", "confidence": "high" },
-      { "home": "Sharks", "away": "Titans", "pick": "Sharks", "gd": 8.12, "line": "Sharks -6.5", "odds": "$1.48", "tryScorer": "Ronaldo Mulitalo", "confidence": "high" },
-      { "home": "Roosters", "away": "Knights", "pick": "Roosters", "gd": 7.85, "line": "Roosters -4.5", "odds": "$1.55", "tryScorer": "Daniel Tupou", "confidence": "medium" },
-      { "home": "Cowboys", "away": "Dolphins", "pick": "Dolphins", "gd": 7.62, "line": "Dolphins +1.5", "odds": "$1.95", "tryScorer": "Jamayne Isaako", "confidence": "medium" },
-      { "home": "Rabbitohs", "away": "Bulldogs", "pick": "Bulldogs", "gd": 7.48, "line": "Bulldogs -3.5", "odds": "$1.68", "tryScorer": "Josh Addo-Carr", "confidence": "medium" },
-      { "home": "Raiders", "away": "Warriors", "pick": "Raiders", "gd": 7.20, "line": "Raiders -1.5", "odds": "$1.85", "tryScorer": "Jordan Rapana", "confidence": "low" },
-      { "home": "Sea Eagles", "away": "Dragons", "pick": "Sea Eagles", "gd": 7.05, "line": "Sea Eagles -5.5", "odds": "$1.60", "tryScorer": "Reuben Garrick", "confidence": "low" }
-    ],
-    "multis": [
-      { "name": "Safe three", "legs": ["Panthers", "Sharks", "Storm"], "odds": "$4.28" },
-      { "name": "Value pair", "legs": ["Dolphins", "Bulldogs"], "odds": "$3.28" },
-      { "name": "Roughie multi", "legs": ["Raiders", "Dolphins", "Bulldogs"], "odds": "$6.07" }
-    ]
+    "round": "Round 23 — part played",
+    "games": [],
+    "multis": []
   }
 }
