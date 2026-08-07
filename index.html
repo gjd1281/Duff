@@ -4,15 +4,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head><body>
+<div id="toast"><span id="toastText"></span></div>
 <header><div class="w">
 <div class="br">
-<svg class="mini" viewBox="0 0 200 130" aria-hidden="true">
-<path id="ov" d="M60,14 H140 A46,46 0 0 1 140,116 H60 A46,46 0 0 1 60,14 Z" fill="none" stroke="#0C241D" stroke-width="18"/>
-<path d="M60,14 H140 A46,46 0 0 1 140,116 H60 A46,46 0 0 1 60,14 Z" fill="none" stroke="#3DF5C0" stroke-width="1.4" opacity=".3"/>
-<path d="M60,26 H140 A34,34 0 0 1 140,104 H60 A34,34 0 0 1 60,26 Z" fill="none" stroke="#FFB43D" stroke-width="1.8" opacity=".85"/>
-<circle r="5" fill="#FFB43D"><animateMotion id="mo" dur="7s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#ov"/></animateMotion></circle>
-</svg>
-<h1>Duffs<span>Way</span></h1>
+<div class="mark"><h1>Duffs<span>Way</span></h1><em>V12</em></div>
 <div id="stamp">TIGER v12</div>
 </div>
 <div class="seg"><button id="mR" aria-selected="true">Racing</button><button id="mN" aria-selected="false">NRL</button></div>
@@ -27,7 +22,14 @@
 <div><b>Track</b><span id="cT">&mdash;</span></div>
 <div><b>Going</b><span id="cC">&mdash;</span></div>
 <div><b>Rail</b><span id="cR">&mdash;</span></div>
-<div><b>Bias</b><span id="cB">&mdash;</span></div>
+<div class="mapcell"><b>Circuit</b>
+<svg viewBox="0 0 200 130" aria-hidden="true">
+<path id="ov" d="M60,14 H140 A46,46 0 0 1 140,116 H60 A46,46 0 0 1 60,14 Z" fill="none" stroke="#0C241D" stroke-width="20"/>
+<path d="M60,14 H140 A46,46 0 0 1 140,116 H60 A46,46 0 0 1 60,14 Z" fill="none" stroke="#3DF5C0" stroke-width="1.6" opacity=".32"/>
+<path d="M60,26 H140 A34,34 0 0 1 140,104 H60 A34,34 0 0 1 60,26 Z" fill="none" stroke="#FFB43D" stroke-width="2" opacity=".9"/>
+<circle r="7" fill="#FFB43D"><animateMotion id="mo" dur="7s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#ov"/></animateMotion></circle>
+<text x="100" y="70" text-anchor="middle" font-family="monospace" font-size="15" fill="#6E9C8C" id="dir">CW</text>
+</svg></div>
 </div>
 <div class="pace"><span class="v" id="pV">PACE LOCKED</span><span class="d" id="pD">&mdash;</span></div>
 <div class="tabs"><button data-v="card" aria-selected="true">Duffs Way</button><button data-v="rough" aria-selected="false">Roughies</button></div>
@@ -35,6 +37,19 @@
 </section>
 
 <section id="pN" hidden><div id="nb"></div></section>
+
+<div class="sec">Rating Scale</div>
+<div class="lg">
+<div class="tier">
+<div><em>&#127942;</em>8.50 and above &mdash; WIN, banker</div>
+<div><em>&#128293;</em>8.20&ndash;8.49 &mdash; WIN, high confidence</div>
+<div><em>&#9989;</em>7.70&ndash;8.19 &mdash; WIN, solid</div>
+<div><em>&#129352;</em>7.30&ndash;7.69 &mdash; EACH-WAY</div>
+<div><em>&#127919;</em>7.00&ndash;7.29 &mdash; PLACE only</div>
+<div><em>&#10060;</em>Below 7.00 &mdash; AVOID</div>
+<div><em>&#128052;</em>$20 or longer &mdash; EACH-WAY roughie</div>
+</div>
+</div>
 
 <div class="sec">Signal Tiers</div>
 <div class="lg">
@@ -59,7 +74,7 @@
 <li><span>&#128207;</span>Bias runner</li><li><span>&#128680;</span>Drifter, model strong</li>
 <li><span>&#9889;</span>Fast sectionals</li>
 </ul>
-<p><b>Pace</b> is set automatically from the track rating. On a wet track the engine rewards on-pace runners and penalises backmarkers; on a dry track it leaves the raw scores alone. The readout above each card states which is in force.</p>
+<p><b>Pace</b> is set automatically from the track rating. On a wet track the engine rewards on-pace runners and penalises backmarkers; on a dry track it leaves the raw scores alone.</p>
 <p><b>Results</b> &mdash; tap W, P or L after each race. The strike rate at the foot of the page counts wins and places against every race marked, and is stored on this device only.</p></div>
 
 <div class="sec">Bookmakers</div>
