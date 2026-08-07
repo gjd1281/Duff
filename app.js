@@ -6,6 +6,7 @@ function sv(){try{localStorage.setItem("dw",JSON.stringify(R))}catch(e){}}
 function wet(m){var c=(m.condition||"").toLowerCase();return c.indexOf("soft")>-1||c.indexOf("heavy")>-1}
 function adj(r,m){if(!wet(m))return{g:r.gd,d:0};var d=r.pace=="on"?.3:r.pace=="back"?-.3:0;return{g:Math.round((r.gd+d)*100)/100,d:d}}
 function bet(g,o){return g>=7.7?(o=="ROUGHIE"?"ROUGHIE":"WIN"):g>=7?(o=="ROUGHIE"?"ROUGHIE":"PLACE"):"AVOID"}
+function rate(g,o){if(o=="ROUGHIE")return{t:"EACH-WAY",e:"\uD83D\uDC34",c:"roughie"};if(g>=8.5)return{t:"WIN",e:"\uD83C\uDFC6",c:"win"};if(g>=8.2)return{t:"WIN",e:"\uD83D\uDD25",c:"win"};if(g>=7.7)return{t:"WIN",e:"\u2705",c:"win"};if(g>=7.3)return{t:"EACH-WAY",e:"\uD83E\uDD48",c:"place"};if(g>=7)return{t:"PLACE",e:"\uD83C\uDFAF",c:"place"};return{t:"AVOID",e:"\u274C",c:""}}
 function tier(n){n=n||0;return n>=11?"\uD83E\uDD11\uD83E\uDD11\u26A1\u26A1\uD83D\uDCB0":n>=8?"\u26A1\uD83E\uDD11\u26A1":n>=5?"\u26A1\u26A1":n>=1?"\u26A1":""}
 function fire(p){var n=parseFloat(String(p).replace(/[^0-9.]/g,""));if(!n)return"";return n<3?"\uD83D\uDD25":"\uD83D\uDD25\uD83D\uDD25"}
 function chips(){var m=D.racing.meetings;$("#chips").innerHTML=m.map(function(x,i){return'<button class="chip" aria-pressed="'+(i==mi)+'" data-i="'+i+'">'+E(x.track)+'</button>'}).join("")||'<span style="color:#6E9C8C;font-size:13px">No meetings in data.json</span>'}
@@ -13,12 +14,12 @@ function cond(){var m=D.racing.meetings[mi];if(!m)return;$("#cT").textContent=m.
 var cw=(m.direction||"clockwise")=="clockwise",o=$("#mo");o.setAttribute("keyPoints",cw?"0;1":"1;0");o.parentNode.replaceChild(o.cloneNode(true),o);
 if(wet(m)){$("#pV").textContent="PACE LOCKED \u2014 WET";$("#pD").textContent="On-pace runners +0.30, backmarkers \u22120.30"}
 else{$("#pV").textContent="PACE LOCKED \u2014 DRY";$("#pD").textContent="Raw engine scores, no pace adjustment"}}
-function slat(r,m,lbl){var a=adj(r,m),t=bet(a.g,r.bet),c=t.toLowerCase(),id=m.id+"-"+r.no,cu=R[id]||"";
+function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,r.bet),c=v.c,id=m.id+"-"+r.no,cu=R[id]||"";
 return'<article class="card '+c+'"><div class="row"><div class="no">R'+r.no+'</div><div>'
 +(lbl?'<div class="meet">'+E(m.track)+'</div>':'')
 +'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
 +'<div class="sig"><span class="em">'+tier(r.fc)+fire(r.price)+'</span><span class="ct">'+(r.fc||0)+'/15</span><span class="em">'+(r.flags||[]).join(" ")+'</span></div>'
-+'</div><div class="gd"><b class="'+(a.d>0?"up":a.d<0?"dn":"")+'">'+a.g.toFixed(2)+'</b><i class="'+c+'">'+t+'</i></div></div>'
++'</div><div class="gd"><b class="'+(a.d>0?"up":a.d<0?"dn":"")+'">'+a.g.toFixed(2)+'</b><i class="'+c+'">'+v.e+' '+v.t+'</i></div></div>'
 +'<div class="res" data-id="'+id+'"><button data-v="W" class="'+(cu=="W"?"on":"")+'">W</button><button data-v="P" class="'+(cu=="P"?"on":"")+'">P</button><button data-v="L" class="'+(cu=="L"?"on":"")+'">L</button></div></article>'}
 function racing(){var b=$("#rb");
 if(vw=="rough"){var out="",any=0;D.racing.meetings.forEach(function(m){(m.races||[]).forEach(function(r){if(bet(adj(r,m).g,r.bet)=="ROUGHIE"){out+=slat(r,m,1);any++}})});
