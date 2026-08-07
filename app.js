@@ -18,9 +18,9 @@ else{$("#pV").textContent="PACE LOCKED \u2014 DRY";$("#pD").textContent="Raw eng
 function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet),c=v.c,id=m.id+"-"+r.no,cu=R[id]||"";
 return'<article class="card '+c+'"><div class="row"><div class="no">R'+r.no+'</div><div>'
 +(lbl?'<div class="meet">'+E(m.track)+'</div>':'')
-+'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
++'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span><span class="tag">TAB</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
 +'<div class="sig"><span class="em">'+tier(r.fc)+fire(r.price)+'</span><span class="ct">'+(r.fc||0)+'/15</span><span class="em">'+(r.flags||[]).join(" ")+'</span></div>'
-+'</div><div class="gd"><b class="'+(a.d>0?"up":a.d<0?"dn":"")+'">'+a.g.toFixed(2)+'</b><i class="'+c+'">'+v.e+' '+v.t+'</i></div></div>'
++'</div><div class="gd"><span style="display:block;font:700 8px \'Barlow Condensed\',sans-serif;letter-spacing:.24em;color:#6E9C8C;margin-bottom:3px">GD SCORE</span><b style="font-size:20px" class="'+(a.d>0?"up":a.d<0?"dn":"")+'">'+a.g.toFixed(2)+'</b><i class="'+c+'">'+v.e+' '+v.t+'</i></div></div>'
 +'<div class="res" data-id="'+id+'" data-price="'+E(r.price)+'"><button data-v="W" class="'+(cu=="W"?"on":"")+'">W</button><button data-v="P" class="'+(cu=="P"?"on":"")+'">P</button><button data-v="L" class="'+(cu=="L"?"on":"")+'">L</button></div></article>'}
 function racing(){var b=$("#rb");
 if(vw=="rough"){var out="",any=0;D.racing.meetings.forEach(function(m){(m.races||[]).forEach(function(r){if(rough(r)){out+=slat(r,m,1);any++}})});
@@ -47,6 +47,4 @@ sv();strike()};
 $("#rst").onclick=function(){R={};sv();racing();strike()};
 [["#mR",1],["#mN",0]].forEach(function(p){$(p[0]).onclick=function(){$("#mR").setAttribute("aria-selected",!!p[1]);$("#mN").setAttribute("aria-selected",!p[1]);$("#pR").hidden=!p[1];$("#pN").hidden=!!p[1];$("#sb").hidden=!p[1];scrollTo(0,0)}});
 fetch("data.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){D=d}).catch(function(){$("#bn").hidden=false;$("#bn").textContent="data.json didn\u2019t load."}).then(function(){
-$("#stamp").innerHTML=E(D.meta.engine||"TIGER v12")+"<br>"+E(D.meta.generated||"");
-if(D.meta.sample){$("#bn").hidden=false;$("#bn").textContent=D.meta.label||"Sample card"}
-ld();chips();cond();racing();nrl();strike()});
+$("#stamp").innerHTML=E(D.meta.engine||"TIGER v12")+"
