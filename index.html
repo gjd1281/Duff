@@ -1,46 +1,77 @@
 <!DOCTYPE html><html lang="en-AU"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#071C16"><title>Duffs Way</title>
+<meta name="theme-color" content="#04120E"><title>Duffs Way</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head><body>
 <header><div class="w">
-<div class="br"><h1>Duffs<span>Way</span></h1><span id="stamp">TIGER v12</span></div>
+<div class="br">
+<svg class="mini" viewBox="0 0 200 130" aria-hidden="true">
+<path id="ov" d="M60,14 H140 A46,46 0 0 1 140,116 H60 A46,46 0 0 1 60,14 Z" fill="none" stroke="#0C241D" stroke-width="18"/>
+<path d="M60,14 H140 A46,46 0 0 1 140,116 H60 A46,46 0 0 1 60,14 Z" fill="none" stroke="#3DF5C0" stroke-width="1.4" opacity=".3"/>
+<path d="M60,26 H140 A34,34 0 0 1 140,104 H60 A34,34 0 0 1 60,26 Z" fill="none" stroke="#FFB43D" stroke-width="1.8" opacity=".85"/>
+<circle r="5" fill="#FFB43D"><animateMotion id="mo" dur="7s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#ov"/></animateMotion></circle>
+</svg>
+<h1>Duffs<span>Way</span></h1>
+<div id="stamp">TIGER v12</div>
+</div>
 <div class="seg"><button id="mR" aria-selected="true">Racing</button><button id="mN" aria-selected="false">NRL</button></div>
 </div></header>
+
 <main class="w">
 <div class="bn" id="bn" hidden></div>
+
 <section id="pR">
 <div class="chips" id="chips"></div>
-<div class="cir"><svg viewBox="0 0 200 130">
-<path id="ov" d="M60,14 H140 A46,46 0 0 1 140,116 H60 A46,46 0 0 1 60,14 Z" fill="none" stroke="#0B2B22" stroke-width="17"/>
-<path d="M60,14 H140 A46,46 0 0 1 140,116 H60 A46,46 0 0 1 60,14 Z" fill="none" stroke="#6FB79A" stroke-width="1.2" stroke-dasharray="3 4" opacity=".55"/>
-<path d="M60,26 H140 A34,34 0 0 1 140,104 H60 A34,34 0 0 1 60,26 Z" fill="none" stroke="#F2A83B" stroke-width="1.6" opacity=".85"/>
-<circle r="4.5" fill="#F2A83B"><animateMotion id="mo" dur="7s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#ov"/></animateMotion></circle>
-<text x="100" y="69" text-anchor="middle" font-family="monospace" font-size="9" fill="#6FB79A" id="dir">CW</text>
-</svg><div class="cd">
-<div><b>Track</b><span id="cT">—</span></div><div><b>Going</b><span id="cC">—</span></div>
-<div><b>Rail</b><span id="cR">—</span></div><div><b>Bias</b><span id="cB">—</span></div>
-</div></div>
-<div class="pb"><label class="sw"><input type="checkbox" id="pace"><i></i></label><span class="bc">Pace override</span><span class="s">Rewards on-pace, penalises backmarkers</span></div>
-<div class="tabs"><button data-v="card" aria-selected="true">📊 Duffs Way</button><button data-v="favs" aria-selected="false">💲 Favs</button><button data-v="h2h" aria-selected="false">⚔️ H2H</button></div>
+<div class="cond">
+<div><b>Track</b><span id="cT">&mdash;</span></div>
+<div><b>Going</b><span id="cC">&mdash;</span></div>
+<div><b>Rail</b><span id="cR">&mdash;</span></div>
+<div><b>Bias</b><span id="cB">&mdash;</span></div>
+</div>
+<div class="pace"><span class="v" id="pV">PACE LOCKED</span><span class="d" id="pD">&mdash;</span></div>
+<div class="tabs"><button data-v="card" aria-selected="true">Duffs Way</button><button data-v="rough" aria-selected="false">Roughies</button></div>
 <div id="rb"></div>
 </section>
+
 <section id="pN" hidden><div id="nb"></div></section>
-<div class="sec">Legend</div>
+
+<div class="sec">Signal Tiers</div>
+<div class="lg">
+<div class="tier">
+<div><em>&#9889;</em>1&ndash;4 of 15 variables flagged</div>
+<div><em>&#9889;&#9889;</em>5&ndash;7 of 15 flagged</div>
+<div><em>&#9889;&#129297;&#9889;</em>8&ndash;10 of 15 flagged</div>
+<div><em>&#129297;&#129297;&#9889;&#9889;&#128176;</em>11&ndash;15 of 15 flagged</div>
+</div>
+<p><b>&#128293;</b> marks a pick under $3. <b>&#128293;&#128293;</b> marks a pick at $3 or longer. The count beside each pick &mdash; such as 9/15 &mdash; is how many of the fifteen scoring variables returned a positive signal for that runner.</p>
+</div>
+
+<div class="sec">Flag Key</div>
 <div class="lg"><ul>
-<li><span>🏆</span>Banker</li><li><span>🔥</span>High confidence</li><li><span>✅</span>Solid</li><li><span>⚠️</span>Marginal</li>
-<li><span>🐴</span>Roughie</li><li><span>👑</span>Banker tag</li><li><span>🧠</span>Smart money</li><li><span>📉</span>Class drop</li>
-<li><span>🎯</span>Jockey flag</li><li><span>🌧️</span>Wet specialist</li><li><span>🚪</span>Wide gate</li><li><span>💪</span>New stable</li>
-<li><span>⚙️</span>Gear change</li><li><span>🍀</span>Bad luck last start</li><li><span>📏</span>Bias runner</li><li><span>🚨</span>Drifter, model strong</li><li><span>⚡</span>Fast sectionals</li>
+<li><span>&#127942;</span>Banker</li><li><span>&#128293;</span>High confidence</li>
+<li><span>&#9989;</span>Solid</li><li><span>&#9888;&#65039;</span>Marginal</li>
+<li><span>&#128052;</span>Roughie</li><li><span>&#128081;</span>Banker tag</li>
+<li><span>&#129504;</span>Smart money</li><li><span>&#128201;</span>Class drop</li>
+<li><span>&#127919;</span>Jockey flag</li><li><span>&#127783;&#65039;</span>Wet specialist</li>
+<li><span>&#128682;</span>Wide gate</li><li><span>&#128170;</span>New stable</li>
+<li><span>&#9881;&#65039;</span>Gear change</li><li><span>&#127808;</span>Bad luck last start</li>
+<li><span>&#128207;</span>Bias runner</li><li><span>&#128680;</span>Drifter, model strong</li>
+<li><span>&#9889;</span>Fast sectionals</li>
 </ul>
-<p><b>Pace override</b> — on-pace runners gain 0.30, backmarkers lose 0.30. Use it when the rail is out and the track rides on-pace. Moved scores turn green or red and bet types re-rate.</p>
-<p><b>W / P / L</b> — tap a result after each race. Strike rate counts wins and places. Kept on this phone only.</p></div>
+<p><b>Pace</b> is set automatically from the track rating. On a wet track the engine rewards on-pace runners and penalises backmarkers; on a dry track it leaves the raw scores alone. The readout above each card states which is in force.</p>
+<p><b>Results</b> &mdash; tap W, P or L after each race. The strike rate at the foot of the page counts wins and places against every race marked, and is stored on this device only.</p></div>
+
 <div class="sec">Bookmakers</div>
-<div class="bk"><a href="https://www.sportsbet.com.au" target="_blank" rel="noopener">Sportsbet</a><a href="https://www.bet365.com.au" target="_blank" rel="noopener">Bet365</a><a href="https://www.ladbrokes.com.au" target="_blank" rel="noopener">Ladbrokes</a></div>
-<p class="ft">Duffs Way · Tiger v12 · GD Algo V1<br>Model output, not advice. Gamble responsibly — 1800 858 858.</p>
-<div class="strike" id="sb"><b id="sr">—</b><small>Strike rate<br><span id="sc" style="letter-spacing:0;text-transform:none">No races marked</span></small><button id="rst">Clear</button></div>
+<div class="bk">
+<a href="https://www.sportsbet.com.au" target="_blank" rel="noopener">Sportsbet</a>
+<a href="https://www.bet365.com.au" target="_blank" rel="noopener">Bet365</a>
+<a href="https://www.ladbrokes.com.au" target="_blank" rel="noopener">Ladbrokes</a>
+</div>
+
+<p class="ft">DUFFS WAY &middot; TIGER v12 RACING ENGINE &middot; GD ALGO V1 LEAGUE ENGINE<br>Model output, not advice. Gamble responsibly &mdash; 1800 858 858.</p>
+
+<div class="strike" id="sb"><b id="sr">&mdash;</b><small>STRIKE RATE<br><span id="sc">No races marked</span></small><button id="rst">Clear</button></div>
 </main>
 <script src="app.js"></script>
 </body></html>
-
