@@ -14,14 +14,14 @@
         "rail": "True",
         "direction": "clockwise",
         "races": [
-          { "no": 1, "horse": "Snitzstream", "price": "3.30", "gd": 7.35, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Gate 1", "2nd-up", "2 x 2nd at trip", "Trial win"] },
-          { "no": 2, "horse": "Don'tcha Luv'er", "price": "1.90", "gd": 7.94, "pace": "mid", "bet": "WIN", "fc": 11, "flags": ["Won 2 of 3", "Won here", "Won at trip", "Bruce/Thompson", "Solid fav"] },
-          { "no": 3, "horse": "Rock Hard Love", "price": "3.20", "gd": 7.61, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Bad luck LS", "Class drop", "2nd-up 2 of 4", "60kg query"] },
-          { "no": 4, "horse": "Makamae", "price": "2.70", "gd": 7.24, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["Rodd", "Light weight", "Quick back-up"] },
-          { "no": 5, "horse": "Summer Sensation", "price": "2.25", "gd": 7.25, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["2nd LS", "2nd-up", "Fav"] },
-          { "no": 6, "horse": "Wondereach", "price": "3.30", "gd": 7.47, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Proven fresh", "Gate 3", "Bruce 17%", "55kg"] },
-          { "no": 7, "horse": "El Centro", "price": "5.50", "gd": 7.39, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Leader", "Just missed x2", "B Thompson"] },
-          { "no": 8, "horse": "Yes Donald Yes", "price": "2.40", "gd": 7.82, "pace": "mid", "bet": "WIN", "fc": 11, "flags": ["Gate 1 leader", "Won at trip", "Fresh specialist", "Solid fav"] }
+          { "no": 1, "horse": "9. Snitzstream", "price": "3.30", "gd": 7.35, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
+          { "no": 2, "horse": "4. Don'tcha Luv'er", "price": "1.90", "gd": 7.94, "pace": "mid", "bet": "WIN", "fc": 11, "flags": [] },
+          { "no": 3, "horse": "1. Rock Hard Love", "price": "3.20", "gd": 7.61, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
+          { "no": 4, "horse": "8. Makamae", "price": "2.70", "gd": 7.24, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
+          { "no": 5, "horse": "7. Summer Sensation", "price": "2.25", "gd": 7.25, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
+          { "no": 6, "horse": "6. Wondereach", "price": "3.30", "gd": 7.47, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
+          { "no": 7, "horse": "5. El Centro", "price": "5.50", "gd": 7.39, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
+          { "no": 8, "horse": "5. Yes Donald Yes", "price": "2.40", "gd": 7.82, "pace": "mid", "bet": "WIN", "fc": 11, "flags": [] }
         ]
       },
       {
@@ -31,13 +31,13 @@
         "rail": "True",
         "direction": "anticlockwise",
         "races": [
-          { "no": 1, "horse": "Ikon Park", "price": "2.50", "gd": 7.16, "pace": "mid", "bet": "PLACE", "fc": 6, "flags": ["Placed debut this route", "2nd-up", "Wide gate"] },
-          { "no": 2, "horse": "County Kilkenny", "price": "3.30", "gd": 7.42, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Won last 2", "64kg burden", "Genuine pace race"] },
-          { "no": 3, "horse": "Brial Rose", "price": "3.20", "gd": 7.44, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Won LS", "Leader", "Claim to 55.5kg", "Up in class"] },
-          { "no": 4, "horse": "Call Me Rhonda", "price": "3.20", "gd": 7.31, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["Freshened", "Gate 6", "Pace map"] },
-          { "no": 5, "horse": "Pariah Flyer", "price": "3.80", "gd": 7.32, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["Gate 1", "2nd LS", "Value tag"] },
-          { "no": 6, "horse": "Masakari", "price": "4.40", "gd": 7.60, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Bad luck LS", "2nd-up", "McDougall", "$50k maiden"] },
-          { "no": 7, "horse": "Brutal Force", "price": "4.40", "gd": 7.56, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Strung wins", "Gate 2", "Pace", "61kg"] }
+          { "no": 1, "horse": "1. Ikon Park", "price": "2.50", "gd": 7.16, "pace": "mid", "bet": "PLACE", "fc": 6, "flags": [] },
+          { "no": 2, "horse": "1. County Kilkenny", "price": "3.30", "gd": 7.42, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
+          { "no": 3, "horse": "6. Brial Rose", "price": "3.20", "gd": 7.44, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
+          { "no": 4, "horse": "4. Call Me Rhonda", "price": "3.20", "gd": 7.31, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
+          { "no": 5, "horse": "8. Pariah Flyer", "price": "3.80", "gd": 7.32, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
+          { "no": 6, "horse": "1. Masakari", "price": "4.40", "gd": 7.60, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
+          { "no": 7, "horse": "4. Brutal Force", "price": "4.40", "gd": 7.56, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] }
         ]
       },
       {
@@ -47,14 +47,14 @@
         "rail": "True",
         "direction": "anticlockwise",
         "races": [
-          { "no": 1, "horse": "Gaelic Kiwi", "price": "2.90", "gd": 7.50, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["2nd at 2 of last 3", "John Allen", "Gate 3", "Fit"] },
-          { "no": 2, "horse": "Justibella", "price": "7.50", "gd": 7.36, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Wet to good", "Maher", "Placed 3 of 4", "Market gap"] },
-          { "no": 3, "horse": "Winsilence", "price": "3.70", "gd": 7.16, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["Model fav not market fav", "3rd-up", "Game wide run"] },
-          { "no": 4, "horse": "Lady In Red", "price": "5.00", "gd": 7.39, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Just missed here LS", "Placed here x2", "Gate 3", "Value tag"] },
-          { "no": 5, "horse": "Blondie's Award", "price": "5.00", "gd": 7.32, "pace": "mid", "bet": "PLACE", "fc": 8, "flags": ["Won LS", "Pace map", "No harder here"] },
-          { "no": 6, "horse": "Tomanado", "price": "3.80", "gd": 7.72, "pace": "mid", "bet": "WIN", "fc": 11, "flags": ["Won last 3", "Both surfaces", "Gate 5", "Pace"] },
-          { "no": 7, "horse": "Aitu", "price": "2.25", "gd": 7.71, "pace": "mid", "bet": "WIN", "fc": 10, "flags": ["Bad luck LS", "2nd-up improver", "Synthetic form", "Fav"] },
-          { "no": 8, "horse": "Aka Daka", "price": "2.80", "gd": 7.42, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Won here", "Leader", "Rawiller", "62kg"] }
+          { "no": 1, "horse": "3. Gaelic Kiwi", "price": "2.90", "gd": 7.50, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
+          { "no": 2, "horse": "10. Justibella", "price": "7.50", "gd": 7.36, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
+          { "no": 3, "horse": "5. Winsilence", "price": "3.70", "gd": 7.16, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
+          { "no": 4, "horse": "7. Lady In Red", "price": "5.00", "gd": 7.39, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
+          { "no": 5, "horse": "4. Blondie's Award", "price": "5.00", "gd": 7.32, "pace": "mid", "bet": "PLACE", "fc": 8, "flags": [] },
+          { "no": 6, "horse": "6. Tomanado", "price": "3.80", "gd": 7.72, "pace": "mid", "bet": "WIN", "fc": 11, "flags": [] },
+          { "no": 7, "horse": "3. Aitu", "price": "2.25", "gd": 7.71, "pace": "mid", "bet": "WIN", "fc": 10, "flags": [] },
+          { "no": 8, "horse": "1. Aka Daka", "price": "2.80", "gd": 7.42, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] }
         ]
       }
     ]
