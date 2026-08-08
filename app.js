@@ -50,3 +50,24 @@ fetch("data.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r
 $("#stamp").innerHTML=E(D.meta.engine||"TIGER v12")+"<br>"+E(D.meta.generated||"");
 if(D.meta.sample){$("#bn").hidden=false;$("#bn").textContent=D.meta.label||"Sample card"}
 ld();chips();cond();racing();nrl();strike()});
+(function(){
+var tb=document.querySelector(".tabs");
+var b=document.createElement("button");
+b.setAttribute("data-v","top5");
+b.textContent="TOP 5";
+tb.appendChild(b);
+function top5(){
+var all=[];
+(D.racing.meetings||[]).forEach(function(m){
+(m.races||[]).forEach(function(r){all.push({r:r,m:m})})});
+all.sort(function(x,y){return y.r.gd-x.r.gd});
+$("#rb").innerHTML=all.slice(0,5).map(function(x){
+return slat(x.r,x.m,1)}).join("")||'<p style="color:#6E9C8C">No data.</p>';
+strike()}
+tb.onclick=function(e){
+var x=e.target.closest("button");if(!x)return;
+vw=x.getAttribute("data-v");
+tb.querySelectorAll("button").forEach(function(y){
+y.setAttribute("aria-selected",y===x)});
+if(vw=="top5"){top5()}else{racing()}};
+})();
