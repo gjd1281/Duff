@@ -1,58 +1,46 @@
 {
-  "meta": { "day": "Saturday 8 August 2026", "updated": "09:10 AEST", "version": 11 },
-  "meetings": [
-    { "track": "Randwick", "going": "Soft 5", "rail": "Out 4m", "bias": "B1-6 (str 2)", "pace": "WET - on-pace +0.30",
-      "races": [
-        { "r": 1, "horse": "Melanite", "price": "$7.00", "gd": 8.20, "bet": "WIN", "fc": 8, "flags": "📏🔥🔥" },
-        { "r": 2, "horse": "Their Finest Hour", "price": "$18.00", "gd": 7.85, "bet": "ROUGHIE", "fc": 6, "flags": "🐴📏👑🔥" },
-        { "r": 3, "horse": "Avista", "price": "$2.10", "gd": 8.61, "bet": "WIN", "fc": 12, "flags": "🏆💲📏🔥" },
-        { "r": 4, "horse": "Elle Hudson", "price": "$4.60", "gd": 8.33, "bet": "WIN", "fc": 10, "flags": "🔥🔥📏" },
-        { "r": 5, "horse": "Kenmare Bay", "price": "$7.50", "gd": 7.95, "bet": "PLACE", "fc": 5, "flags": "⚠️📏🥈" },
-        { "r": 6, "horse": "Prima Bella", "price": "$6.00", "gd": 8.10, "bet": "WIN", "fc": 7, "flags": "✅📏🔥🔥" },
-        { "r": 7, "horse": "Tazima", "price": "$2.00", "gd": 8.55, "bet": "WIN", "fc": 11, "flags": "🏆💲📏🔥" },
-        { "r": 8, "horse": "Midnight Dynamite", "price": "$9.00", "gd": 8.22, "bet": "WIN", "fc": 8, "flags": "🔥🔥🚨📏" },
-        { "r": 9, "horse": "Ernaux", "price": "$4.40", "gd": 8.03, "bet": "WIN", "fc": 7, "flags": "✅📏🔥🔥" },
-        { "r": 10, "horse": "Columbia Blue", "price": "$4.20", "gd": 8.12, "bet": "WIN", "fc": 7, "flags": "✅🚫🔥🔥" }
-      ] },
-    { "track": "Caulfield Heath", "going": "Soft 6", "rail": "Out 3m", "bias": "B1-5 (str 1)", "pace": "WET - on-pace +0.30",
-      "races": [
-        { "r": 1, "horse": "Stakes", "price": "$4.40", "gd": 8.36, "bet": "WIN", "fc": 9, "flags": "🔥🔥🚫🔙" },
-        { "r": 2, "horse": "Botanical Boy", "price": "$3.90", "gd": 8.51, "bet": "WIN", "fc": 11, "flags": "🏆📏🔥🔥" },
-        { "r": 3, "horse": "Cavalry Girl", "price": "$2.60", "gd": 8.38, "bet": "WIN", "fc": 10, "flags": "🔥💲📏" },
-        { "r": 4, "horse": "Davida", "price": "$5.00", "gd": 8.14, "bet": "WIN", "fc": 7, "flags": "✅🚨🔥🔥" },
-        { "r": 5, "horse": "Next Step Iowa", "price": "$4.60", "gd": 8.26, "bet": "WIN", "fc": 9, "flags": "🔥🔥🧠📏" },
-        { "r": 6, "horse": "Custom", "price": "$1.65", "gd": 8.72, "bet": "WIN", "fc": 13, "flags": "🏆👑💲📏🔥" },
-        { "r": 7, "horse": "Perfect Ten", "price": "$4.50", "gd": 8.24, "bet": "WIN", "fc": 9, "flags": "🔥🔥📏" },
-        { "r": 8, "horse": "Litzdeel", "price": "$4.40", "gd": 8.35, "bet": "WIN", "fc": 10, "flags": "🔥🔥🧠📏" },
-        { "r": 9, "horse": "Changing Colours", "price": "$1.75", "gd": 8.30, "bet": "WIN", "fc": 10, "flags": "🔥💲📈📏" }
-      ] },
-    { "track": "Eagle Farm", "going": "Good 4", "rail": "Out 3m", "bias": "B1-5 (str 1)", "pace": "NEUTRAL - raw scores",
-      "races": [
-        { "r": 1, "horse": "Thinking Gold", "price": "$3.80", "gd": 8.50, "bet": "WIN", "fc": 11, "flags": "🏆📏🔥🔥" },
-        { "r": 2, "horse": "Chillaxing", "price": "$7.50", "gd": 8.30, "bet": "WIN", "fc": 8, "flags": "🔥🔥🧠🚫" },
-        { "r": 3, "horse": "Everybody Rise", "price": "$4.60", "gd": 8.15, "bet": "WIN", "fc": 7, "flags": "✅📏🚨🔥🔥" },
-        { "r": 4, "horse": "Star Of Jamaica", "price": "$4.00", "gd": 8.05, "bet": "WIN", "fc": 6, "flags": "✅🚨🚫🔥🔥" },
-        { "r": 5, "horse": "Manpower", "price": "$3.00", "gd": 8.75, "bet": "WIN", "fc": 13, "flags": "🏆📈📏🔥🔥" },
-        { "r": 6, "horse": "Irama", "price": "$9.50", "gd": 8.30, "bet": "WIN", "fc": 9, "flags": "🔥🔥📈🧠📏" },
-        { "r": 7, "horse": "Livalittle", "price": "$4.80", "gd": 7.90, "bet": "PLACE", "fc": 5, "flags": "⚠️🚫🥈" },
-        { "r": 8, "horse": "Bossed Up", "price": "$5.50", "gd": 8.28, "bet": "WIN", "fc": 9, "flags": "🔥🔥🚨📏" },
-        { "r": 9, "horse": "Anemacore", "price": "$2.40", "gd": 8.65, "bet": "WIN", "fc": 12, "flags": "🏆👑💲📈📏🔥" }
-      ] },
-    { "track": "Morphettville", "going": "Soft 6", "rail": "Out 12m", "bias": "B1-8 (str 3)", "pace": "WET - on-pace +0.30",
-      "races": [
-        { "r": 1, "horse": "Chica Astuta", "price": "$2.70", "gd": 8.70, "bet": "WIN", "fc": 13, "flags": "🏆👑💲📏🔥" },
-        { "r": 2, "horse": "Phineas", "price": "$10.00", "gd": 8.15, "bet": "PLACE", "fc": 6, "flags": "✅📏🥈" },
-        { "r": 3, "horse": "Flash Alice", "price": "$6.50", "gd": 8.20, "bet": "WIN", "fc": 8, "flags": "🔥🔥📏" },
-        { "r": 4, "horse": "Je City", "price": "$10.00", "gd": 8.55, "bet": "WIN", "fc": 11, "flags": "🏆📏🧠🔥🔥" },
-        { "r": 5, "horse": "Miss Cotoletta", "price": "$4.40", "gd": 8.60, "bet": "WIN", "fc": 12, "flags": "🏆📏💲🔥🔥" },
-        { "r": 6, "horse": "Bouncing Beyond", "price": "$8.50", "gd": 8.58, "bet": "WIN", "fc": 11, "flags": "🏆📏🚨🔥🔥" },
-        { "r": 7, "horse": "Great Maximus", "price": "$13.00", "gd": 8.35, "bet": "WIN", "fc": 9, "flags": "🔥🔥📏🧠" },
-        { "r": 8, "horse": "Hooked On Wealth", "price": "$4.80", "gd": 8.30, "bet": "WIN", "fc": 10, "flags": "🔥🔥📈📏" },
-        { "r": 9, "horse": "Lomax", "price": "$11.00", "gd": 8.25, "bet": "WIN", "fc": 8, "flags": "🔥🔥🚨📏" }
-      ] }
-  ],
-  "roughies": [
-    { "track": "Randwick", "r": 2, "horse": "Their Finest Hour", "price": "$18.00", "gd": 7.85, "flags": "🐴📏👑🔥" }
-  ],
-  "nrl": []
+"meta":{"engine":"TIGER v12","generated":"Sat 8 Aug 2026 · 12:15","label":"","sample":false},
+"racing":{"meetings":[
+{"id":"RAN","track":"Randwick","condition":"Soft 5","rail":"Out 4m","direction":"clockwise","races":[
+{"no":1,"horse":"Melanite","price":"$7.00","gd":8.20,"pace":"mid","bet":"WIN","fc":8,"flags":["📏","🧠"]},
+{"no":2,"horse":"Their Finest Hour","price":"$18.00","gd":7.85,"pace":"mid","bet":"WIN","fc":6,"flags":["🐴","📏"]},
+{"no":3,"horse":"Avista","price":"$2.10","gd":8.61,"pace":"mid","bet":"WIN","fc":12,"flags":["👑","💲","📏"]},
+{"no":4,"horse":"Elle Hudson","price":"$4.60","gd":8.33,"pace":"mid","bet":"WIN","fc":10,"flags":["📏","📊"]},
+{"no":5,"horse":"Kenmare Bay","price":"$7.50","gd":7.95,"pace":"mid","bet":"WIN","fc":5,"flags":["⚠️","📏"]},
+{"no":6,"horse":"Prima Bella","price":"$6.00","gd":8.10,"pace":"mid","bet":"WIN","fc":7,"flags":["📏"]},
+{"no":7,"horse":"Tazima","price":"$2.00","gd":8.55,"pace":"mid","bet":"WIN","fc":11,"flags":["👑","💲","📏"]},
+{"no":8,"horse":"Midnight Dynamite","price":"$9.00","gd":8.22,"pace":"mid","bet":"WIN","fc":8,"flags":["🚨","📏"]},
+{"no":9,"horse":"Ernaux","price":"$4.40","gd":8.03,"pace":"mid","bet":"WIN","fc":7,"flags":["📏"]},
+{"no":10,"horse":"Columbia Blue","price":"$4.20","gd":8.12,"pace":"mid","bet":"WIN","fc":7,"flags":["🚫","📈"]}]},
+{"id":"CAU","track":"Caulfield Heath","condition":"Soft 6","rail":"Out 3m","direction":"anticlockwise","races":[
+{"no":1,"horse":"Stakes","price":"$4.40","gd":8.36,"pace":"mid","bet":"WIN","fc":9,"flags":["🚫","🔙","💲"]},
+{"no":2,"horse":"Botanical Boy","price":"$3.90","gd":8.51,"pace":"mid","bet":"WIN","fc":11,"flags":["👑","📏"]},
+{"no":3,"horse":"Cavalry Girl","price":"$2.60","gd":8.38,"pace":"mid","bet":"WIN","fc":10,"flags":["💲","📏"]},
+{"no":4,"horse":"Davida","price":"$5.00","gd":8.14,"pace":"mid","bet":"WIN","fc":7,"flags":["🚨","📏"]},
+{"no":5,"horse":"Next Step Iowa","price":"$4.60","gd":8.26,"pace":"mid","bet":"WIN","fc":9,"flags":["🧠","📏"]},
+{"no":6,"horse":"Custom","price":"$1.65","gd":8.72,"pace":"mid","bet":"WIN","fc":13,"flags":["👑","💲","📏"]},
+{"no":7,"horse":"Perfect Ten","price":"$4.50","gd":8.24,"pace":"mid","bet":"WIN","fc":9,"flags":["📏"]},
+{"no":8,"horse":"Litzdeel","price":"$4.40","gd":8.35,"pace":"mid","bet":"WIN","fc":10,"flags":["🧠","📈","📏"]},
+{"no":9,"horse":"Changing Colours","price":"$1.75","gd":8.30,"pace":"mid","bet":"WIN","fc":10,"flags":["💲","📈","📏"]}]},
+{"id":"EAG","track":"Eagle Farm","condition":"Good 4","rail":"Out 3m","direction":"clockwise","races":[
+{"no":1,"horse":"Thinking Gold","price":"$3.80","gd":8.50,"pace":"back","bet":"WIN","fc":11,"flags":["👑","📏"]},
+{"no":2,"horse":"Chillaxing","price":"$7.50","gd":8.30,"pace":"on","bet":"WIN","fc":8,"flags":["🧠","🚫"]},
+{"no":3,"horse":"Everybody Rise","price":"$4.60","gd":8.15,"pace":"back","bet":"WIN","fc":7,"flags":["🚨","📏"]},
+{"no":4,"horse":"Star Of Jamaica","price":"$4.00","gd":8.05,"pace":"on","bet":"WIN","fc":6,"flags":["🚨","🚫"]},
+{"no":5,"horse":"Manpower","price":"$3.00","gd":8.75,"pace":"on","bet":"WIN","fc":13,"flags":["👑","📈","📏"]},
+{"no":6,"horse":"Irama","price":"$9.50","gd":8.30,"pace":"on","bet":"WIN","fc":9,"flags":["📈","🧠","📏"]},
+{"no":7,"horse":"Livalittle","price":"$4.80","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["⚠️","🚫"]},
+{"no":8,"horse":"Bossed Up","price":"$5.50","gd":8.28,"pace":"mid","bet":"WIN","fc":9,"flags":["🚨","📏"]},
+{"no":9,"horse":"Anemacore","price":"$2.40","gd":8.65,"pace":"back","bet":"WIN","fc":12,"flags":["👑","💲","📈"]}]},
+{"id":"MOR","track":"Morphettville","condition":"Soft 6","rail":"Out 12m","direction":"anticlockwise","races":[
+{"no":1,"horse":"Chica Astuta","price":"$2.70","gd":8.70,"pace":"mid","bet":"WIN","fc":13,"flags":["👑","💲","📏"]},
+{"no":2,"horse":"Phineas","price":"$10.00","gd":8.15,"pace":"mid","bet":"WIN","fc":6,"flags":["📏"]},
+{"no":3,"horse":"Flash Alice","price":"$6.50","gd":8.20,"pace":"mid","bet":"WIN","fc":8,"flags":["📏"]},
+{"no":4,"horse":"Je City","price":"$10.00","gd":8.55,"pace":"mid","bet":"WIN","fc":11,"flags":["👑","🧠","📏"]},
+{"no":5,"horse":"Miss Cotoletta","price":"$4.40","gd":8.60,"pace":"mid","bet":"WIN","fc":12,"flags":["👑","💲","📏"]},
+{"no":6,"horse":"Bouncing Beyond","price":"$8.50","gd":8.58,"pace":"mid","bet":"WIN","fc":11,"flags":["👑","🚨","📏"]},
+{"no":7,"horse":"Great Maximus","price":"$13.00","gd":8.35,"pace":"mid","bet":"WIN","fc":9,"flags":["🧠","📏"]},
+{"no":8,"horse":"Hooked On Wealth","price":"$4.80","gd":8.30,"pace":"mid","bet":"WIN","fc":10,"flags":["📈","📏"]},
+{"no":9,"horse":"Lomax","price":"$11.00","gd":8.25,"pace":"mid","bet":"WIN","fc":8,"flags":["🚨","📏"]}]}]},
+"nrl":{"engine":"GD ALGO V1","round":"Round 23","games":[],"multis":[]}
 }
