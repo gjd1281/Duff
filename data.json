@@ -1,46 +1,63 @@
 {
-"meta":{"engine":"TIGER v12","generated":"Sat 8 Aug 2026 · 12:15","label":"","sample":false},
-"racing":{"meetings":[
-{"id":"RAN","track":"Randwick","condition":"Soft 5","rail":"Out 4m","direction":"clockwise","races":[
-{"no":1,"horse":"Melanite","price":"$7.00","gd":8.20,"pace":"mid","bet":"WIN","fc":8,"flags":["📏","🧠"]},
-{"no":2,"horse":"Their Finest Hour","price":"$18.00","gd":7.85,"pace":"mid","bet":"WIN","fc":6,"flags":["🐴","📏"]},
-{"no":3,"horse":"Avista","price":"$2.10","gd":8.61,"pace":"mid","bet":"WIN","fc":12,"flags":["👑","💲","📏"]},
-{"no":4,"horse":"Elle Hudson","price":"$4.60","gd":8.33,"pace":"mid","bet":"WIN","fc":10,"flags":["📏","📊"]},
-{"no":5,"horse":"Kenmare Bay","price":"$7.50","gd":7.95,"pace":"mid","bet":"WIN","fc":5,"flags":["⚠️","📏"]},
-{"no":6,"horse":"Prima Bella","price":"$6.00","gd":8.10,"pace":"mid","bet":"WIN","fc":7,"flags":["📏"]},
-{"no":7,"horse":"Tazima","price":"$2.00","gd":8.55,"pace":"mid","bet":"WIN","fc":11,"flags":["👑","💲","📏"]},
-{"no":8,"horse":"Midnight Dynamite","price":"$9.00","gd":8.22,"pace":"mid","bet":"WIN","fc":8,"flags":["🚨","📏"]},
-{"no":9,"horse":"Ernaux","price":"$4.40","gd":8.03,"pace":"mid","bet":"WIN","fc":7,"flags":["📏"]},
-{"no":10,"horse":"Columbia Blue","price":"$4.20","gd":8.12,"pace":"mid","bet":"WIN","fc":7,"flags":["🚫","📈"]}]},
-{"id":"CAU","track":"Caulfield Heath","condition":"Soft 6","rail":"Out 3m","direction":"anticlockwise","races":[
-{"no":1,"horse":"Stakes","price":"$4.40","gd":8.36,"pace":"mid","bet":"WIN","fc":9,"flags":["🚫","🔙","💲"]},
-{"no":2,"horse":"Botanical Boy","price":"$3.90","gd":8.51,"pace":"mid","bet":"WIN","fc":11,"flags":["👑","📏"]},
-{"no":3,"horse":"Cavalry Girl","price":"$2.60","gd":8.38,"pace":"mid","bet":"WIN","fc":10,"flags":["💲","📏"]},
-{"no":4,"horse":"Davida","price":"$5.00","gd":8.14,"pace":"mid","bet":"WIN","fc":7,"flags":["🚨","📏"]},
-{"no":5,"horse":"Next Step Iowa","price":"$4.60","gd":8.26,"pace":"mid","bet":"WIN","fc":9,"flags":["🧠","📏"]},
-{"no":6,"horse":"Custom","price":"$1.65","gd":8.72,"pace":"mid","bet":"WIN","fc":13,"flags":["👑","💲","📏"]},
-{"no":7,"horse":"Perfect Ten","price":"$4.50","gd":8.24,"pace":"mid","bet":"WIN","fc":9,"flags":["📏"]},
-{"no":8,"horse":"Litzdeel","price":"$4.40","gd":8.35,"pace":"mid","bet":"WIN","fc":10,"flags":["🧠","📈","📏"]},
-{"no":9,"horse":"Changing Colours","price":"$1.75","gd":8.30,"pace":"mid","bet":"WIN","fc":10,"flags":["💲","📈","📏"]}]},
-{"id":"EAG","track":"Eagle Farm","condition":"Good 4","rail":"Out 3m","direction":"clockwise","races":[
-{"no":1,"horse":"Thinking Gold","price":"$3.80","gd":8.50,"pace":"back","bet":"WIN","fc":11,"flags":["👑","📏"]},
-{"no":2,"horse":"Chillaxing","price":"$7.50","gd":8.30,"pace":"on","bet":"WIN","fc":8,"flags":["🧠","🚫"]},
-{"no":3,"horse":"Everybody Rise","price":"$4.60","gd":8.15,"pace":"back","bet":"WIN","fc":7,"flags":["🚨","📏"]},
-{"no":4,"horse":"Star Of Jamaica","price":"$4.00","gd":8.05,"pace":"on","bet":"WIN","fc":6,"flags":["🚨","🚫"]},
-{"no":5,"horse":"Manpower","price":"$3.00","gd":8.75,"pace":"on","bet":"WIN","fc":13,"flags":["👑","📈","📏"]},
-{"no":6,"horse":"Irama","price":"$9.50","gd":8.30,"pace":"on","bet":"WIN","fc":9,"flags":["📈","🧠","📏"]},
-{"no":7,"horse":"Livalittle","price":"$4.80","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["⚠️","🚫"]},
-{"no":8,"horse":"Bossed Up","price":"$5.50","gd":8.28,"pace":"mid","bet":"WIN","fc":9,"flags":["🚨","📏"]},
-{"no":9,"horse":"Anemacore","price":"$2.40","gd":8.65,"pace":"back","bet":"WIN","fc":12,"flags":["👑","💲","📈"]}]},
-{"id":"MOR","track":"Morphettville","condition":"Soft 6","rail":"Out 12m","direction":"anticlockwise","races":[
-{"no":1,"horse":"Chica Astuta","price":"$2.70","gd":8.70,"pace":"mid","bet":"WIN","fc":13,"flags":["👑","💲","📏"]},
-{"no":2,"horse":"Phineas","price":"$10.00","gd":8.15,"pace":"mid","bet":"WIN","fc":6,"flags":["📏"]},
-{"no":3,"horse":"Flash Alice","price":"$6.50","gd":8.20,"pace":"mid","bet":"WIN","fc":8,"flags":["📏"]},
-{"no":4,"horse":"Je City","price":"$10.00","gd":8.55,"pace":"mid","bet":"WIN","fc":11,"flags":["👑","🧠","📏"]},
-{"no":5,"horse":"Miss Cotoletta","price":"$4.40","gd":8.60,"pace":"mid","bet":"WIN","fc":12,"flags":["👑","💲","📏"]},
-{"no":6,"horse":"Bouncing Beyond","price":"$8.50","gd":8.58,"pace":"mid","bet":"WIN","fc":11,"flags":["👑","🚨","📏"]},
-{"no":7,"horse":"Great Maximus","price":"$13.00","gd":8.35,"pace":"mid","bet":"WIN","fc":9,"flags":["🧠","📏"]},
-{"no":8,"horse":"Hooked On Wealth","price":"$4.80","gd":8.30,"pace":"mid","bet":"WIN","fc":10,"flags":["📈","📏"]},
-{"no":9,"horse":"Lomax","price":"$11.00","gd":8.25,"pace":"mid","bet":"WIN","fc":8,"flags":["🚨","📏"]}]}]},
-"nrl":{"engine":"GD ALGO V1","round":"Round 23","games":[],"multis":[]}
+  "meta": {
+    "engine": "TIGER v12",
+    "generated": "2026-08-09",
+    "label": "Duffs Way — Sunday 9 August 2026",
+    "sample": "3 meetings · 23 races · zero-bias day"
+  },
+  "racing": {
+    "meetings": [
+      {
+        "id": "scst090826",
+        "track": "Sunshine Coast",
+        "condition": "Soft 5",
+        "rail": "True",
+        "direction": "clockwise",
+        "races": [
+          { "no": 1, "horse": "Snitzstream", "price": "3.30", "gd": 7.35, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Gate 1", "2nd-up", "2 x 2nd at trip", "Trial win"] },
+          { "no": 2, "horse": "Don'tcha Luv'er", "price": "1.90", "gd": 7.94, "pace": "mid", "bet": "WIN", "fc": 11, "flags": ["Won 2 of 3", "Won here", "Won at trip", "Bruce/Thompson", "Solid fav"] },
+          { "no": 3, "horse": "Rock Hard Love", "price": "3.20", "gd": 7.61, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Bad luck LS", "Class drop", "2nd-up 2 of 4", "60kg query"] },
+          { "no": 4, "horse": "Makamae", "price": "2.70", "gd": 7.24, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["Rodd", "Light weight", "Quick back-up"] },
+          { "no": 5, "horse": "Summer Sensation", "price": "2.25", "gd": 7.25, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["2nd LS", "2nd-up", "Fav"] },
+          { "no": 6, "horse": "Wondereach", "price": "3.30", "gd": 7.47, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Proven fresh", "Gate 3", "Bruce 17%", "55kg"] },
+          { "no": 7, "horse": "El Centro", "price": "5.50", "gd": 7.39, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Leader", "Just missed x2", "B Thompson"] },
+          { "no": 8, "horse": "Yes Donald Yes", "price": "2.40", "gd": 7.82, "pace": "mid", "bet": "WIN", "fc": 11, "flags": ["Gate 1 leader", "Won at trip", "Fresh specialist", "Solid fav"] }
+        ]
+      },
+      {
+        "id": "wagg090826",
+        "track": "Wagga",
+        "condition": "Soft 6",
+        "rail": "True",
+        "direction": "anticlockwise",
+        "races": [
+          { "no": 1, "horse": "Ikon Park", "price": "2.50", "gd": 7.16, "pace": "mid", "bet": "PLACE", "fc": 6, "flags": ["Placed debut this route", "2nd-up", "Wide gate"] },
+          { "no": 2, "horse": "County Kilkenny", "price": "3.30", "gd": 7.42, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Won last 2", "64kg burden", "Genuine pace race"] },
+          { "no": 3, "horse": "Brial Rose", "price": "3.20", "gd": 7.44, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Won LS", "Leader", "Claim to 55.5kg", "Up in class"] },
+          { "no": 4, "horse": "Call Me Rhonda", "price": "3.20", "gd": 7.31, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["Freshened", "Gate 6", "Pace map"] },
+          { "no": 5, "horse": "Pariah Flyer", "price": "3.80", "gd": 7.32, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["Gate 1", "2nd LS", "Value tag"] },
+          { "no": 6, "horse": "Masakari", "price": "4.40", "gd": 7.60, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Bad luck LS", "2nd-up", "McDougall", "$50k maiden"] },
+          { "no": 7, "horse": "Brutal Force", "price": "4.40", "gd": 7.56, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Strung wins", "Gate 2", "Pace", "61kg"] }
+        ]
+      },
+      {
+        "id": "brts090826",
+        "track": "Ballarat Synthetic",
+        "condition": "Good 3",
+        "rail": "True",
+        "direction": "anticlockwise",
+        "races": [
+          { "no": 1, "horse": "Gaelic Kiwi", "price": "2.90", "gd": 7.50, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["2nd at 2 of last 3", "John Allen", "Gate 3", "Fit"] },
+          { "no": 2, "horse": "Justibella", "price": "7.50", "gd": 7.36, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Wet to good", "Maher", "Placed 3 of 4", "Market gap"] },
+          { "no": 3, "horse": "Winsilence", "price": "3.70", "gd": 7.16, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": ["Model fav not market fav", "3rd-up", "Game wide run"] },
+          { "no": 4, "horse": "Lady In Red", "price": "5.00", "gd": 7.39, "pace": "mid", "bet": "EW", "fc": 8, "flags": ["Just missed here LS", "Placed here x2", "Gate 3", "Value tag"] },
+          { "no": 5, "horse": "Blondie's Award", "price": "5.00", "gd": 7.32, "pace": "mid", "bet": "PLACE", "fc": 8, "flags": ["Won LS", "Pace map", "No harder here"] },
+          { "no": 6, "horse": "Tomanado", "price": "3.80", "gd": 7.72, "pace": "mid", "bet": "WIN", "fc": 11, "flags": ["Won last 3", "Both surfaces", "Gate 5", "Pace"] },
+          { "no": 7, "horse": "Aitu", "price": "2.25", "gd": 7.71, "pace": "mid", "bet": "WIN", "fc": 10, "flags": ["Bad luck LS", "2nd-up improver", "Synthetic form", "Fav"] },
+          { "no": 8, "horse": "Aka Daka", "price": "2.80", "gd": 7.42, "pace": "mid", "bet": "EW", "fc": 9, "flags": ["Won here", "Leader", "Rawiller", "62kg"] }
+        ]
+      }
+    ]
+  },
+  "nrl": { "games": [], "multis": [], "engine": "GD ALGO V1", "round": "" }
 }
