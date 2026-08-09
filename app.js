@@ -71,7 +71,7 @@ tb.querySelectorAll("button").forEach(function(y){
 y.setAttribute("aria-selected",y===x)});
 if(vw=="top5"){top5()}else{racing()}};
 })();
-/* ---- DUFFS WAY: MOUTH v2 ---- */
+/* ---- DUFFS WAY: MOUTH v3 ---- */
 (function(){
   const W=["🏆 FUCKIN OATH! Pay the man 💰",
     "🐅 Like the Tigers in '05 — come from fuckin nowhere!",
@@ -93,23 +93,37 @@ if(vw=="top5"){top5()}else{racing()}};
     "🥴 Legs must've fallen off",
     "🧨 Bastard of a thing",
     "🙈 Never leaving the fuckin barrier again"];
+  const K=["📣 KICK IT HOME YA BEAUTY!!",
+    "🏇 GO ON! GO ON! GOOOO ON!",
+    "😱 RIDE IT! FUCKIN RIDE IT!",
+    "💨 HOLD ON! HOLD FUCKIN ON!",
+    "🔊 GET UP! GET UP YA GOOD THING!",
+    "🐅 COME ON! DO A TIGERS ON EM!",
+    "🙏 ONE MORE STRIDE! ONE MORE!",
+    "⚡ SPLIT EM! GO THROUGH EM!",
+    "🗣️ RUN YA BASTARD! RUUUUN!",
+    "🔥 KICK! KICK! FUCKIN KICK!"];
 
   const p=document.createElement('div');
   p.style.cssText="position:fixed;left:50%;bottom:120px;transform:translate(-50%,12px);background:#3DF5C0;color:#04120D;font:800 15px/1.3 -apple-system,sans-serif;padding:12px 20px;border-radius:4px;opacity:0;transition:.2s;pointer-events:none;z-index:9999;max-width:88vw;text-align:center";
   document.body.appendChild(p);
   let t;
-  function say(list,bad){
+  function say(list,col){
     p.textContent=list[Math.floor(Math.random()*list.length)];
-    p.style.background=bad?"#FFB43D":"#3DF5C0";
+    p.style.background=col;
     p.style.opacity=1;p.style.transform="translate(-50%,0)";
     clearTimeout(t);t=setTimeout(function(){p.style.opacity=0;p.style.transform="translate(-50%,12px)"},2200);
   }
 
   const b=document.createElement('div');
-  b.style.cssText="position:fixed;left:0;right:0;bottom:0;display:flex;gap:8px;padding:10px 12px;background:rgba(6,11,9,.94);border-top:1px solid rgba(61,245,192,.18);z-index:9998";
-  b.innerHTML='<button id="dwL" style="flex:1;background:transparent;border:1px solid rgba(255,180,61,.45);color:#FFB43D;font:700 11px/1 ui-monospace,monospace;letter-spacing:.08em;padding:14px 4px;border-radius:2px">💀 FUCKEN BARSTERED</button><button id="dwW" style="flex:1;background:transparent;border:1px solid rgba(61,245,192,.45);color:#3DF5C0;font:700 11px/1 ui-monospace,monospace;letter-spacing:.08em;padding:14px 4px;border-radius:2px">🏆 GET IN YA BEAUTY</button>';
+  b.style.cssText="position:fixed;left:0;right:0;bottom:0;display:flex;gap:6px;padding:10px;background:rgba(6,11,9,.94);border-top:1px solid rgba(61,245,192,.18);z-index:9998";
+  const st="flex:1;background:transparent;font:700 9.5px/1.1 ui-monospace,monospace;letter-spacing:.04em;padding:14px 2px;border-radius:2px;";
+  b.innerHTML='<button id="dwL" style="'+st+'border:1px solid rgba(255,180,61,.45);color:#FFB43D">💀 BARSTERED</button>'+
+    '<button id="dwK" style="'+st+'border:1px solid rgba(255,255,255,.35);color:#FFFFFF">📣 KICK IT HOME</button>'+
+    '<button id="dwW" style="'+st+'border:1px solid rgba(61,245,192,.45);color:#3DF5C0">🏆 YA BEAUTY</button>';
   document.body.appendChild(b);
   document.body.style.paddingBottom="115px";
-  document.getElementById('dwL').onclick=function(){say(L,true)};
-  document.getElementById('dwW').onclick=function(){say(W,false)};
+  document.getElementById('dwL').onclick=function(){say(L,"#FFB43D")};
+  document.getElementById('dwK').onclick=function(){say(K,"#FFFFFF")};
+  document.getElementById('dwW').onclick=function(){say(W,"#3DF5C0")};
 })();
