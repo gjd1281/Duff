@@ -105,7 +105,7 @@ if(vw=="top5"){top5()}else{racing()}};
     "🔥 KICK! KICK! FUCKIN KICK!"];
 
   const p=document.createElement('div');
-  p.style.cssText="position:fixed;left:50%;bottom:120px;transform:translate(-50%,12px);background:#3DF5C0;color:#04120D;font:800 15px/1.3 -apple-system,sans-serif;padding:12px 20px;border-radius:4px;opacity:0;transition:.2s;pointer-events:none;z-index:9999;max-width:88vw;text-align:center";
+  p.style.cssText="position:fixed;left:50%;bottom:150px;transform:translate(-50%,12px);background:#3DF5C0;color:#04120D;font:800 15px/1.3 -apple-system,sans-serif;padding:12px 20px;border-radius:4px;opacity:0;transition:.2s;pointer-events:none;z-index:9999;max-width:88vw;text-align:center";
   document.body.appendChild(p);
   let t;
   function say(list,col){
@@ -116,14 +116,25 @@ if(vw=="top5"){top5()}else{racing()}};
   }
 
   const b=document.createElement('div');
-  b.style.cssText="position:fixed;left:0;right:0;bottom:0;display:flex;gap:6px;padding:10px;background:rgba(6,11,9,.94);border-top:1px solid rgba(61,245,192,.18);z-index:9998";
+  b.id="dwBar";
+  b.style.cssText="position:fixed;left:0;right:0;bottom:0;display:flex;gap:6px;padding:10px;background:rgba(6,11,9,.96);border-top:1px solid rgba(61,245,192,.18);z-index:9998";
   const st="flex:1;background:transparent;font:700 9.5px/1.1 ui-monospace,monospace;letter-spacing:.04em;padding:14px 2px;border-radius:2px;";
   b.innerHTML='<button id="dwL" style="'+st+'border:1px solid rgba(255,180,61,.45);color:#FFB43D">💀 BARSTERED</button>'+
     '<button id="dwK" style="'+st+'border:1px solid rgba(255,255,255,.35);color:#FFFFFF">📣 KICK IT HOME</button>'+
     '<button id="dwW" style="'+st+'border:1px solid rgba(61,245,192,.45);color:#3DF5C0">🏆 YA BEAUTY</button>';
   document.body.appendChild(b);
-  document.body.style.paddingBottom="115px";
   document.getElementById('dwL').onclick=function(){say(L,"#FFB43D")};
   document.getElementById('dwK').onclick=function(){say(K,"#FFFFFF")};
   document.getElementById('dwW').onclick=function(){say(W,"#3DF5C0")};
+
+  function lift(){
+    const h=b.offsetHeight;
+    document.body.style.paddingBottom=(h+20)+"px";
+    document.querySelectorAll('body *').forEach(function(el){
+      if(el===b||b.contains(el)||el===p)return;
+      const s=getComputedStyle(el);
+      if(s.position==='fixed'&&(s.bottom==='0px'||parseFloat(s.bottom)<8)) el.style.bottom=h+"px";
+    });
+  }
+  setTimeout(lift,300);setTimeout(lift,1500);
 })();
