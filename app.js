@@ -71,37 +71,45 @@ tb.querySelectorAll("button").forEach(function(y){
 y.setAttribute("aria-selected",y===x)});
 if(vw=="top5"){top5()}else{racing()}};
 })();
-/* ---- DUFFS WAY: MOUTH v1 ---- */
+/* ---- DUFFS WAY: MOUTH v2 ---- */
 (function(){
-  const W=["Fucken oath!","Get in ya beauty","Pay the man","Bloody ripper","Filthy. Absolutely filthy."];
-  const L=["Fucken barstered","Bastard of a thing","Useless prick couldn't beat a bloke on a bike","Bin the fucken lot of em","Still running, that one"];
-  const B=["Went too early","Sat three wide the whole way","Should've been a $2 fav","Never got a crack at it","Hoop had a shocker"];
+  const W=["🏆 FUCKIN OATH! Pay the man 💰",
+    "🐅 Like the Tigers in '05 — come from fuckin nowhere!",
+    "💸 Get in ya beauty ya bloody legend!",
+    "🔥 Filthy. Absolutely fuckin filthy.",
+    "🥇 Bang! Straight to the bank ya good thing",
+    "🍺 Beers are on Duffy. Fuckin ripper!",
+    "🚀 Bolted in! Didn't even raise a sweat",
+    "😤 Told ya! Fuckin TOLD ya!",
+    "💥 Cleaned em up. Pay up ya mugs",
+    "🐎 Ya beauty! What a fuckin horse"];
+  const L=["😡 Fucken barstered",
+    "🐕 Fuckin dog! Useless prick",
+    "🗑️ Bin the fuckin lot of em",
+    "🐌 He's STILL fuckin running",
+    "🤬 Couldn't beat a bloke on a bike",
+    "💩 Absolute rubbish. Waste of a fuckin stamp",
+    "😤 Robbed! Fuckin robbed I tell ya",
+    "🥴 Legs must've fallen off",
+    "🧨 Bastard of a thing",
+    "🙈 Never leaving the fuckin barrier again"];
 
   const p=document.createElement('div');
-  p.style.cssText="position:fixed;left:50%;bottom:110px;transform:translate(-50%,12px);background:#3DF5C0;color:#04120D;font:800 15px/1.2 -apple-system,sans-serif;padding:11px 20px;border-radius:3px;opacity:0;transition:.2s;pointer-events:none;z-index:9999;max-width:88vw;text-align:center";
+  p.style.cssText="position:fixed;left:50%;bottom:120px;transform:translate(-50%,12px);background:#3DF5C0;color:#04120D;font:800 15px/1.3 -apple-system,sans-serif;padding:12px 20px;border-radius:4px;opacity:0;transition:.2s;pointer-events:none;z-index:9999;max-width:88vw;text-align:center";
   document.body.appendChild(p);
   let t;
   function say(list,bad){
     p.textContent=list[Math.floor(Math.random()*list.length)];
     p.style.background=bad?"#FFB43D":"#3DF5C0";
     p.style.opacity=1;p.style.transform="translate(-50%,0)";
-    clearTimeout(t);t=setTimeout(()=>{p.style.opacity=0;p.style.transform="translate(-50%,12px)"},1800);
+    clearTimeout(t);t=setTimeout(function(){p.style.opacity=0;p.style.transform="translate(-50%,12px)"},2200);
   }
 
   const b=document.createElement('div');
   b.style.cssText="position:fixed;left:0;right:0;bottom:0;display:flex;gap:8px;padding:10px 12px;background:rgba(6,11,9,.94);border-top:1px solid rgba(61,245,192,.18);z-index:9998";
-  b.innerHTML='<button id="dwSwear" style="flex:1;background:transparent;border:1px solid rgba(255,180,61,.45);color:#FFB43D;font:700 11px/1 ui-monospace,monospace;letter-spacing:.1em;padding:13px 4px;border-radius:2px">FUCKEN BARSTERED</button><button id="dwBlame" style="flex:1;background:transparent;border:1px solid rgba(61,245,192,.35);color:#3DF5C0;font:700 11px/1 ui-monospace,monospace;letter-spacing:.1em;padding:13px 4px;border-radius:2px">BLAME THE HOOP</button>';
+  b.innerHTML='<button id="dwL" style="flex:1;background:transparent;border:1px solid rgba(255,180,61,.45);color:#FFB43D;font:700 11px/1 ui-monospace,monospace;letter-spacing:.08em;padding:14px 4px;border-radius:2px">💀 FUCKEN BARSTERED</button><button id="dwW" style="flex:1;background:transparent;border:1px solid rgba(61,245,192,.45);color:#3DF5C0;font:700 11px/1 ui-monospace,monospace;letter-spacing:.08em;padding:14px 4px;border-radius:2px">🏆 GET IN YA BEAUTY</button>';
   document.body.appendChild(b);
-  document.body.style.paddingBottom="80px";
-  document.getElementById('dwSwear').onclick=()=>say(L,true);
-  document.getElementById('dwBlame').onclick=()=>say(B,false);
-
-  document.addEventListener('click',function(e){
-    setTimeout(function(){
-      const el=e.target.closest('*');if(!el)return;
-      const s=(el.className||"")+" "+(el.textContent||"").trim().slice(0,3);
-      if(/\bwin\b|(^|\s)W(\s|$)/i.test(s)) say(W,false);
-      else if(/\blos|\blost\b|(^|\s)L(\s|$)/i.test(s)) say(L,true);
-    },0);
-  },true);
+  document.body.style.paddingBottom="115px";
+  document.getElementById('dwL').onclick=function(){say(L,true)};
+  document.getElementById('dwW').onclick=function(){say(W,false)};
 })();
