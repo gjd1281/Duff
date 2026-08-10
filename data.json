@@ -1,5 +1,5 @@
 {
-  "meta": {"engine":"TIGER v12","generated":"2026-08-10","label":"Hawkesbury 11 Aug — no live odds","sample":false},
+  "meta": {"engine":"TIGER v12","generated":"2026-08-10","label":"Hawkesbury + Ballina 11 Aug — no live odds","sample":false},
   "racing": {
     "meetings": [
       {
@@ -9,13 +9,30 @@
         "rail": "Unconfirmed (check raceday)",
         "direction": "clockwise",
         "races": [
-          {"no":1,"horse":"Pierro Lad","price":"TBC","gd":7.65,"pace":"mid","bet":"WIN","fc":3,"flags":[]},
-          {"no":2,"horse":"Rapid Revenue","price":"TBC","gd":7.40,"pace":"mid","bet":"PLACE","fc":2,"flags":[]},
-          {"no":3,"horse":"Farfetched","price":"TBC","gd":7.55,"pace":"mid","bet":"PLACE","fc":2,"flags":[]},
-          {"no":4,"horse":"Waerea","price":"TBC","gd":7.85,"pace":"on","bet":"WIN","fc":4,"flags":[]},
-          {"no":5,"horse":"Viewpoint","price":"TBC","gd":8.05,"pace":"mid","bet":"WIN","fc":5,"flags":[]},
-          {"no":6,"horse":"Legaselli","price":"TBC","gd":7.35,"pace":"mid","bet":"PLACE","fc":2,"flags":[]},
-          {"no":7,"horse":"Castlejohn","price":"TBC","gd":8.15,"pace":"on","bet":"WIN","fc":5,"flags":[]}
+          {"no":1,"horse":"Pierro Lad","price":"TBC","gd":7.65,"pace":"mid","bet":"WIN","fc":3,"flags":["placed 2nd last start, drop in grade","proven trainer 14%+","good barrier draw"]},
+          {"no":2,"horse":"Rapid Revenue","price":"TBC","gd":7.40,"pace":"mid","bet":"PLACE","fc":2,"flags":["placed twice from 3 starts","Baker/Berry combo"]},
+          {"no":3,"horse":"Farfetched","price":"TBC","gd":7.55,"pace":"mid","bet":"PLACE","fc":2,"flags":["2 placings from 6, well-bred","Waterhouse/Bott stable"]},
+          {"no":4,"horse":"Waerea","price":"TBC","gd":7.85,"pace":"on","bet":"WIN","fc":4,"flags":["1-4-0 from 6 starts, elite strike rate","strong 1st-up record","on-pace, drops back to C1","Widdup/Schofield combo"]},
+          {"no":5,"horse":"Viewpoint","price":"TBC","gd":8.05,"pace":"mid","bet":"WIN","fc":5,"flags":["2 wins from 10, track specialist","returns to preferred Good/firm ground","inside barrier","elite hit-out fitness","Dilmi in form"]},
+          {"no":6,"horse":"Legaselli","price":"TBC","gd":7.35,"pace":"mid","bet":"PLACE","fc":2,"flags":["well-bred $65k filly, untried at trip","John Thompson stable"]},
+          {"no":7,"horse":"Castlejohn","price":"TBC","gd":8.15,"pace":"on","bet":"WIN","fc":5,"flags":["career 1 win from 2, dominant debut win","drops in grade after debut success","on-pace, good gate","Pride/Schofield combo","fresh off trial"]}
+        ]
+      },
+      {
+        "id": "blna-110826",
+        "track": "Ballina",
+        "condition": "Good (unconfirmed exact rating)",
+        "rail": "Unconfirmed (check raceday)",
+        "direction": "clockwise",
+        "races": [
+          {"no":1,"horse":"Gavin","price":"TBC","gd":7.60,"pace":"mid","bet":"WIN","fc":3,"flags":["2-3-5 career record, placed 2nd last Ballina 1590m start","distance specialist 9:1-3-2","in-form, ran on last start"]},
+          {"no":2,"horse":"Sorrenti","price":"TBC","gd":7.30,"pace":"mid","bet":"EACH-WAY","fc":2,"flags":["2 seconds, 1 third from 3 starts","consistent maiden, placed at short odds"]},
+          {"no":3,"horse":"Funky Cold Medina","price":"TBC","gd":7.20,"pace":"mid","bet":"PLACE","fc":1,"flags":["placed twice from 5, thin field after scratchings"]},
+          {"no":4,"horse":"Coccinella","price":"TBC","gd":7.90,"pace":"on","bet":"WIN","fc":4,"flags":["won last start easily at Gold Coast","1-0-2 career record","on-pace, Nick Heywood retained"]},
+          {"no":5,"horse":"She's A Dame","price":"TBC","gd":7.30,"pace":"mid","bet":"EACH-WAY","fc":2,"flags":["0-1-5 from 10, extremely consistent placer","yet to miss a place 1st-up"]},
+          {"no":6,"horse":"Do It For You","price":"TBC","gd":8.20,"pace":"on","bet":"WIN","fc":5,"flags":["6-2-1 from 29, elite strike rate","won last Ballina start at this trip","track specialist 6:2-1-0","in career-best form"]},
+          {"no":7,"horse":"Immortal Storm","price":"TBC","gd":7.90,"pace":"mid","bet":"WIN","fc":4,"flags":["2-3-2 from 8, ran 3rd last start","strong distance record 5:1-2-1","trainer strike rate 21.6%"]},
+          {"no":8,"horse":"Vetoed","price":"TBC","gd":7.85,"pace":"mid","bet":"WIN","fc":4,"flags":["4-7-2 from 32, exceptional Ballina record 11:2-4-0","placed narrowly last start at this track","proven at the trip"]}
         ]
       }
     ]
