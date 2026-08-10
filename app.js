@@ -145,3 +145,28 @@ if(vw=="top5"){top5()}else{racing()}};
   lift();
   window.addEventListener('resize',lift);
 })();
+/* ---- DUFFS WAY: VALUE TAB ---- */
+(function(){
+  var tb=document.querySelector(".tabs");
+  var b=document.createElement("button");
+  b.setAttribute("data-v","value");
+  b.textContent="VALUE";
+  tb.appendChild(b);
+  function valueTab(){
+    var out="",any=0;
+    (D.racing.meetings||[]).forEach(function(m){
+      (m.races||[]).forEach(function(r){if(r.value){out+=slat(r,m,1);any++}})
+    });
+    $("#rb").innerHTML=any?out:'<p style="color:#6E9C8C">No value plays flagged today.</p>';
+    strike()
+  }
+  var prev=tb.onclick;
+  tb.onclick=function(e){
+    var x=e.target.closest("button");if(!x)return;
+    vw=x.getAttribute("data-v");
+    tb.querySelectorAll("button").forEach(function(y){y.setAttribute("aria-selected",y===x)});
+    if(vw=="value"){valueTab()}
+    else if(prev){prev(e)}
+  };
+})();
+
