@@ -1,63 +1,147 @@
-{
-  "meta": {
-    "engine": "TIGER v12",
-    "generated": "2026-08-09",
-    "label": "Duffs Way — Sunday 9 August 2026",
-    "sample": "3 meetings · 23 races · zero-bias day"
-  },
-  "racing": {
-    "meetings": [
-      {
-        "id": "scst090826",
-        "track": "Sunshine Coast",
-        "condition": "Soft 5",
-        "rail": "True",
-        "direction": "clockwise",
-        "races": [
-          { "no": 1, "horse": "9. Snitzstream", "price": "3.30", "gd": 7.35, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
-          { "no": 2, "horse": "4. Don'tcha Luv'er", "price": "1.90", "gd": 7.94, "pace": "mid", "bet": "WIN", "fc": 11, "flags": [] },
-          { "no": 3, "horse": "1. Rock Hard Love", "price": "3.20", "gd": 7.61, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
-          { "no": 4, "horse": "8. Makamae", "price": "2.70", "gd": 7.24, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
-          { "no": 5, "horse": "7. Summer Sensation", "price": "2.25", "gd": 7.25, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
-          { "no": 6, "horse": "6. Wondereach", "price": "3.30", "gd": 7.47, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
-          { "no": 7, "horse": "5. El Centro", "price": "5.50", "gd": 7.39, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
-          { "no": 8, "horse": "5. Yes Donald Yes", "price": "2.40", "gd": 7.82, "pace": "mid", "bet": "WIN", "fc": 11, "flags": [] }
-        ]
-      },
-      {
-        "id": "wagg090826",
-        "track": "Wagga",
-        "condition": "Soft 6",
-        "rail": "True",
-        "direction": "anticlockwise",
-        "races": [
-          { "no": 1, "horse": "1. Ikon Park", "price": "2.50", "gd": 7.16, "pace": "mid", "bet": "PLACE", "fc": 6, "flags": [] },
-          { "no": 2, "horse": "1. County Kilkenny", "price": "3.30", "gd": 7.42, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
-          { "no": 3, "horse": "6. Brial Rose", "price": "3.20", "gd": 7.44, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
-          { "no": 4, "horse": "4. Call Me Rhonda", "price": "3.20", "gd": 7.31, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
-          { "no": 5, "horse": "8. Pariah Flyer", "price": "3.80", "gd": 7.32, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
-          { "no": 6, "horse": "1. Masakari", "price": "4.40", "gd": 7.60, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
-          { "no": 7, "horse": "4. Brutal Force", "price": "4.40", "gd": 7.56, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] }
-        ]
-      },
-      {
-        "id": "brts090826",
-        "track": "Ballarat Synthetic",
-        "condition": "Good 3",
-        "rail": "True",
-        "direction": "anticlockwise",
-        "races": [
-          { "no": 1, "horse": "3. Gaelic Kiwi", "price": "2.90", "gd": 7.50, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] },
-          { "no": 2, "horse": "10. Justibella", "price": "7.50", "gd": 7.36, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
-          { "no": 3, "horse": "5. Winsilence", "price": "3.70", "gd": 7.16, "pace": "mid", "bet": "PLACE", "fc": 7, "flags": [] },
-          { "no": 4, "horse": "7. Lady In Red", "price": "5.00", "gd": 7.39, "pace": "mid", "bet": "EW", "fc": 8, "flags": [] },
-          { "no": 5, "horse": "4. Blondie's Award", "price": "5.00", "gd": 7.32, "pace": "mid", "bet": "PLACE", "fc": 8, "flags": [] },
-          { "no": 6, "horse": "6. Tomanado", "price": "3.80", "gd": 7.72, "pace": "mid", "bet": "WIN", "fc": 11, "flags": [] },
-          { "no": 7, "horse": "3. Aitu", "price": "2.25", "gd": 7.71, "pace": "mid", "bet": "WIN", "fc": 10, "flags": [] },
-          { "no": 8, "horse": "1. Aka Daka", "price": "2.80", "gd": 7.42, "pace": "mid", "bet": "EW", "fc": 9, "flags": [] }
-        ]
-      }
-    ]
-  },
-  "nrl": { "games": [], "multis": [], "engine": "GD ALGO V1", "round": "" }
-}
+var D={meta:{engine:"TIGER v12",generated:"",label:"data.json not loaded",sample:true},racing:{meetings:[]},nrl:{games:[],multis:[]}},mi=0,vw="card",R={};
+var $=function(s){return document.querySelector(s)};
+var E=function(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
+function ld(){try{R=JSON.parse(localStorage.getItem("dw")||"{}")}catch(e){R={}}}
+function sv(){try{localStorage.setItem("dw",JSON.stringify(R))}catch(e){}}
+function wet(m){var c=(m.condition||"").toLowerCase();return c.indexOf("soft")>-1||c.indexOf("heavy")>-1}
+function adj(r,m){if(!wet(m))return{g:r.gd,d:0};var d=r.pace=="on"?.3:r.pace=="back"?-.3:0;return{g:Math.round((r.gd+d)*100)/100,d:d}}
+function rate(g,o){if(o=="ROUGHIE")return{t:"EACH-WAY",e:"\uD83D\uDC34",c:"roughie"};if(g>=8.5)return{t:"WIN",e:"\uD83C\uDFC6",c:"win"};if(g>=8.2)return{t:"WIN",e:"\uD83D\uDD25",c:"win"};if(g>=7.7)return{t:"WIN",e:"\u2705",c:"win"};if(g>=7.3)return{t:"EACH-WAY",e:"\uD83E\uDD48",c:"place"};if(g>=7)return{t:"PLACE",e:"\uD83C\uDFAF",c:"place"};return{t:"AVOID",e:"\u274C",c:""}}
+function tier(n){n=n||0;return n>=11?"\uD83E\uDD11\uD83E\uDD11\u26A1\u26A1\uD83D\uDCB0":n>=8?"\u26A1\uD83E\uDD11\u26A1":n>=5?"\u26A1\u26A1":n>=1?"\u26A1":""}
+function num(p){return parseFloat(String(p).replace(/[^0-9.]/g,""))||0}
+function rough(r){return num(r.price)>=12}
+function fire(p){var n=num(p);if(!n)return"";return n<3?"\uD83D\uDD25":"\uD83D\uDD25\uD83D\uDD25"}
+function chips(){var m=D.racing.meetings;$("#chips").innerHTML=m.map(function(x,i){return'<button class="chip" aria-pressed="'+(i==mi)+'" data-i="'+i+'">'+E(x.track)+'</button>'}).join("")||'<span style="color:#6E9C8C;font-size:13px">No meetings in data.json</span>'}
+function cond(){var m=D.racing.meetings[mi];if(!m)return;$("#cT").textContent=m.track;$("#cC").textContent=m.condition;$("#cR").textContent=m.rail;
+var cw=(m.direction||"clockwise")=="clockwise",o=$("#mo");o.setAttribute("keyPoints",cw?"0;1":"1;0");o.parentNode.replaceChild(o.cloneNode(true),o);$("#dir").textContent=cw?"CW":"ACW";
+if(wet(m)){$("#pV").textContent="PACE LOCKED \u2014 WET";$("#pD").textContent="On-pace runners +0.30, backmarkers \u22120.30"}
+else{$("#pV").textContent="PACE LOCKED \u2014 DRY";$("#pD").textContent="Raw engine scores, no pace adjustment"}}
+function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet),c=v.c,id=m.id+"-"+r.no,cu=R[id]||"",hf=(r.flags&&r.flags.length)?1:0;
+return'<article class="card '+c+'"><div class="row"><div class="no">R'+r.no+'</div><div>'
++(lbl?'<div class="meet">'+E(m.track)+'</div>':'')
++'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span><span class="tag">TAB</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
++'<div class="sig"><span class="em">'+tier(r.fc)+fire(r.price)+'</span><span class="ct">'+(r.fc||0)+'/15</span>'
++(hf?'<button class="flagbtn" data-t="'+id+'" style="background:rgba(61,245,192,.08);border:1px solid #3DF5C0;color:#3DF5C0;font:600 10px ui-monospace,monospace;border-radius:20px;padding:2px 8px;margin-left:6px;cursor:pointer">FLAGS \u25BE</button>':'')
++'</div>'
++(hf?'<div class="flagpanel" id="fp-'+id+'" hidden style="margin-top:6px;padding:8px 10px;font-size:12px;line-height:1.7;color:#CFE8DE;background:rgba(0,0,0,.25);border-top:1px dashed rgba(61,245,192,.18)">'+r.flags.map(E).join(" \u00B7 ")+'</div>':'')
++'</div><div class="gd"><span style="display:block;font:700 8px \'Barlow Condensed\',sans-serif;letter-spacing:.24em;color:#6E9C8C;margin-bottom:3px">GD SCORE</span><b style="font-size:20px" class="'+(a.d>0?"up":a.d<0?"dn":"")+'">'+a.g.toFixed(2)+'</b><i class="'+c+'">'+v.e+' '+v.t+'</i></div></div>'
++'<div class="res" data-id="'+id+'" data-price="'+E(r.price)+'"><button data-v="W" class="'+(cu=="W"?"on":"")+'">W</button><button data-v="P" class="'+(cu=="P"?"on":"")+'">P</button><button data-v="L" class="'+(cu=="L"?"on":"")+'">L</button></div></article>'}
+function racing(){var b=$("#rb");
+if(vw=="rough"){var out="",any=0;D.racing.meetings.forEach(function(m){(m.races||[]).forEach(function(r){if(rough(r)){out+=slat(r,m,1);any++}})});
+b.innerHTML=any?out:'<p style="color:#6E9C8C">No runners at $12 or longer across today\u2019s meetings.</p>';strike();return}
+var m=D.racing.meetings[mi];if(!m){b.innerHTML='<p style="color:#6E9C8C">No meeting data.</p>';return}
+b.innerHTML=(m.races||[]).map(function(r){return slat(r,m,0)}).join("");strike()}
+function nrl(){var n=D.nrl||{},g=(n.games||[]).slice().sort(function(a,b){return b.gd-a.gd}),t3={};g.slice(0,3).forEach(function(x){t3[x.home+x.away]=1});
+$("#nb").innerHTML='<div class="sec" style="margin-top:2px">'+E(n.engine||"GD ALGO V1")+" \u00b7 "+E(n.round||"")+'</div>'+(g.map(function(x){var tp=t3[x.home+x.away],ph=x.pick==x.home;
+return'<article class="card'+(tp?" win":"")+'"><div class="row" style="grid-template-columns:1fr auto"><div><div class="hn">'+(ph?'<span style="color:#FFB43D">'+E(x.home)+'</span>':E(x.home))+" v "+(!ph?'<span style="color:#FFB43D">'+E(x.away)+'</span>':E(x.away))+'</div><div class="sub"><span class="tag">'+E(x.line)+" "+E(x.odds)+'</span><span class="tag">TRY '+E(x.tryScorer)+'</span>'+(tp?'<span class="meet">TOP 3</span>':"")+'</div></div><div class="gd"><b>'+x.gd.toFixed(2)+'</b></div></div></article>'}).join("")||'<p style="color:#6E9C8C">No games in data.json</p>')
++'<div class="sec">Multis</div>'+(n.multis||[]).map(function(m){return'<article class="card"><div class="row" style="grid-template-columns:1fr auto"><div><div class="hn">'+E(m.name)+'</div><div class="sub"><span class="tag">'+m.legs.map(E).join(" \u00b7 ")+'</span></div></div><div class="gd"><b>'+E(m.odds)+'</b></div></div></article>'}).join("")
++'<p style="color:#6E9C8C;font-size:12px">Suggested only \u2014 you finalise the multis.</p>'}
+function strike(){var v=[],k;for(k in R)v.push(R[k]);var n=v.length,h=0,w=0;v.forEach(function(x){if(x!="L")h++;if(x=="W")w++});
+if(!n){$("#sr").textContent="\u2014";$("#sc").textContent="No races marked";return}
+$("#sr").textContent=Math.round(h/n*100)+"%";$("#sc").textContent=w+" win \u00b7 "+(h-w)+" place \u00b7 "+(n-h)+" loss of "+n}
+function toast(msg,bad){var t=$("#toast");$("#toastText").textContent=msg;t.className=(bad?"bad ":"")+"show";clearTimeout(window._tt);window._tt=setTimeout(function(){t.className=""},2600)}
+$("#chips").onclick=function(e){var b=e.target.closest(".chip");if(b){mi=+b.dataset.i;chips();cond();racing()}};
+document.querySelector(".tabs").onclick=function(e){var b=e.target.closest("button");if(b){vw=b.dataset.v;document.querySelectorAll(".tabs button").forEach(function(x){x.setAttribute("aria-selected",x==b)});racing()}};
+$("#rb").onclick=function(e){
+var fb=e.target.closest(".flagbtn");
+if(fb){var pnl=document.getElementById("fp-"+fb.getAttribute("data-t"));if(pnl){var was=pnl.hidden;pnl.hidden=!was;fb.innerHTML=was?"FLAGS \u25B4":"FLAGS \u25BE"}return}
+var b=e.target.closest(".res button");if(!b)return;var wrap=b.parentNode,id=wrap.dataset.id,v=b.dataset.v;
+if(R[id]==v){delete R[id];b.classList.remove("on")}else{R[id]=v;wrap.querySelectorAll("button").forEach(function(x){x.classList.remove("on")});b.classList.add("on");
+var pr=num(wrap.dataset.price);
+if(v=="W"&&pr>=12)toast("Your shout",0);
+else if(v=="L"&&pr>0&&pr<3)toast("Don\u2019t back against me",1)}
+sv();strike()};
+$("#rst").onclick=function(){R={};sv();racing();strike()};
+[["#mR",1],["#mN",0]].forEach(function(p){$(p[0]).onclick=function(){$("#mR").setAttribute("aria-selected",!!p[1]);$("#mN").setAttribute("aria-selected",!p[1]);$("#pR").hidden=!p[1];$("#pN").hidden=!!p[1];$("#sb").hidden=!p[1];scrollTo(0,0)}});
+fetch("data.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){D=d}).catch(function(){$("#bn").hidden=false;$("#bn").textContent="data.json didn\u2019t load."}).then(function(){
+$("#stamp").innerHTML=E(D.meta.engine||"TIGER v12")+"<br>"+E(D.meta.generated||"");
+if(D.meta.sample){$("#bn").hidden=false;$("#bn").textContent=D.meta.label||"Sample card"}
+ld();chips();cond();racing();nrl();strike()});
+(function(){
+var tb=document.querySelector(".tabs");
+var b=document.createElement("button");
+b.setAttribute("data-v","top5");
+b.textContent="TOP 5";
+tb.appendChild(b);
+function top5(){
+var all=[];
+(D.racing.meetings||[]).forEach(function(m){
+(m.races||[]).forEach(function(r){all.push({r:r,m:m})})});
+all.sort(function(x,y){return y.r.gd-x.r.gd});
+$("#rb").innerHTML=all.slice(0,5).map(function(x){
+return slat(x.r,x.m,1)}).join("")||'<p style="color:#6E9C8C">No data.</p>';
+strike()}
+tb.onclick=function(e){
+var x=e.target.closest("button");if(!x)return;
+vw=x.getAttribute("data-v");
+tb.querySelectorAll("button").forEach(function(y){
+y.setAttribute("aria-selected",y===x)});
+if(vw=="top5"){top5()}else{racing()}};
+})();
+/* ---- DUFFS WAY: MOUTH v3 ---- */
+(function(){
+  const W=["🏆 FUCKIN OATH! Pay the man 💰",
+    "🐅 Like the Tigers in '05 — come from fuckin nowhere!",
+    "💸 Get in ya beauty ya bloody legend!",
+    "🔥 Filthy. Absolutely fuckin filthy.",
+    "🥇 Bang! Straight to the bank ya good thing",
+    "🍺 Beers are on Duffy. Fuckin ripper!",
+    "🚀 Bolted in! Didn't even raise a sweat",
+    "😤 Told ya! Fuckin TOLD ya!",
+    "💥 Cleaned em up. Pay up ya mugs",
+    "🐎 Ya beauty! What a fuckin horse"];
+  const L=["😡 Fucken barstered",
+    "🐕 Fuckin dog! Useless prick",
+    "🗑️ Bin the fuckin lot of em",
+    "🐌 He's STILL fuckin running",
+    "🤬 Couldn't beat a bloke on a bike",
+    "💩 Absolute rubbish. Waste of a fuckin stamp",
+    "😤 Robbed! Fuckin robbed I tell ya",
+    "🥴 Legs must've fallen off",
+    "🧨 Bastard of a thing",
+    "🙈 Never leaving the fuckin barrier again"];
+  const K=["📣 KICK IT HOME YA BEAUTY!!",
+    "🏇 GO ON! GO ON! GOOOO ON!",
+    "😱 RIDE IT! FUCKIN RIDE IT!",
+    "💨 HOLD ON! HOLD FUCKIN ON!",
+    "🔊 GET UP! GET UP YA GOOD THING!",
+    "🐅 COME ON! DO A TIGERS ON EM!",
+    "🙏 ONE MORE STRIDE! ONE MORE!",
+    "⚡ SPLIT EM! GO THROUGH EM!",
+    "🗣️ RUN YA BASTARD! RUUUUN!",
+    "🔥 KICK! KICK! FUCKIN KICK!"];
+
+  const p=document.createElement('div');
+  p.style.cssText="position:fixed;left:50%;bottom:150px;transform:translate(-50%,12px);background:#3DF5C0;color:#04120D;font:800 15px/1.3 -apple-system,sans-serif;padding:12px 20px;border-radius:4px;opacity:0;transition:.2s;pointer-events:none;z-index:9999;max-width:88vw;text-align:center";
+  document.body.appendChild(p);
+  let t;
+  function say(list,col){
+    p.textContent=list[Math.floor(Math.random()*list.length)];
+    p.style.background=col;
+    p.style.opacity=1;p.style.transform="translate(-50%,0)";
+    clearTimeout(t);t=setTimeout(function(){p.style.opacity=0;p.style.transform="translate(-50%,12px)"},2200);
+  }
+
+  const b=document.createElement('div');
+  b.id="dwBar";
+  b.style.cssText="position:fixed;left:0;right:0;bottom:0;display:flex;gap:6px;padding:10px;background:rgba(6,11,9,.96);border-top:1px solid rgba(61,245,192,.18);z-index:9998";
+  const st="flex:1;background:transparent;font:700 9.5px/1.1 ui-monospace,monospace;letter-spacing:.04em;padding:14px 2px;border-radius:2px;";
+  b.innerHTML='<button id="dwL" style="'+st+'border:1px solid rgba(255,180,61,.45);color:#FFB43D">💀 BARSTERED</button>'+
+    '<button id="dwK" style="'+st+'border:1px solid rgba(255,255,255,.35);color:#FFFFFF">📣 KICK IT HOME</button>'+
+    '<button id="dwW" style="'+st+'border:1px solid rgba(61,245,192,.45);color:#3DF5C0">🏆 YA BEAUTY</button>';
+  document.body.appendChild(b);
+  document.getElementById('dwL').onclick=function(){say(L,"#FFB43D")};
+  document.getElementById('dwK').onclick=function(){say(K,"#FFFFFF")};
+  document.getElementById('dwW').onclick=function(){say(W,"#3DF5C0")};
+
+  function lift(){
+    const h=b.offsetHeight;
+    document.body.style.paddingBottom=(h+20)+"px";
+    document.querySelectorAll('body *').forEach(function(el){
+      if(el===b||b.contains(el)||el===p)return;
+      const s=getComputedStyle(el);
+      if(s.position==='fixed'&&(s.bottom==='0px'||parseFloat(s.bottom)<8)) el.style.bottom=h+"px";
+    });
+  }
+  lift();
+  window.addEventListener('resize',lift);
+})();
