@@ -16,9 +16,9 @@ var cw=(m.direction||"clockwise")=="clockwise",o=$("#mo");o.setAttribute("keyPoi
 if(wet(m)){$("#pV").textContent="PACE LOCKED \u2014 WET";$("#pD").textContent="On-pace runners +0.30, backmarkers \u22120.30"}
 else{$("#pV").textContent="PACE LOCKED \u2014 DRY";$("#pD").textContent="Raw engine scores, no pace adjustment"}}
 function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet),c=v.c,id=m.id+"-"+r.no,cu=R[id]||"",hf=(r.flags&&r.flags.length)?1:0;
-return'<article class="card '+c+'"><div class="row"><div class="no">R'+r.no+'</div><div>'
+return'<article class="card '+c+'"><div class="row"><div class="no" style="color:#00E5FF;text-shadow:0 0 6px rgba(0,229,255,.6)">R'+r.no+'</div><div>'
 +(lbl?'<div class="meet">'+E(m.track)+'</div>':'')
-+'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span><span class="tag">TAB</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
++'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span>'+(r.time?'<span class="tag">'+E(r.time)+'</span>':'')+'<span class="tag">TAB</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
 +'<div class="sig"><span class="em">'+tier(r.fc)+fire(r.price)+'</span><span class="ct">'+(r.fc||0)+'/15</span>'
 +(hf?'<button class="flagbtn" data-t="'+id+'" style="background:rgba(61,245,192,.08);border:1px solid #3DF5C0;color:#3DF5C0;font:600 10px ui-monospace,monospace;border-radius:20px;padding:2px 8px;margin-left:6px;cursor:pointer">\uD83D\uDEA9 FLAGS \u25BE</button>':'')
 +'</div>'
@@ -169,4 +169,3 @@ if(vw=="top5"){top5()}else{racing()}};
     else if(prev){prev(e)}
   };
 })();
-
