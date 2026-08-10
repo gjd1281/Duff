@@ -1,38 +1,37 @@
 {
-  "meta": {"engine":"TIGER v12","generated":"2026-08-10","label":"Hawkesbury + Ballina 11 Aug — no live odds","sample":false},
+  "meta": {"engine":"TIGER v12","generated":"2026-08-11","label":"Hawkesbury + Ballina","sample":false},
   "racing": {
     "meetings": [
       {
         "id": "hawk-110826",
         "track": "Hawkesbury",
         "condition": "Soft 6",
-        "rail": "Unconfirmed (check raceday)",
+        "rail": "Out 5m 1100m-450m, Out 3m 450m-Post, True Remainder",
         "direction": "clockwise",
         "races": [
-          {"no":1,"horse":"Pierro Lad","price":"TBC","gd":7.65,"pace":"mid","bet":"WIN","fc":3,"flags":["🍀 luckless run last start","💪 14%+ trainer","📏 good gate"]},
-          {"no":2,"horse":"Rapid Revenue","price":"TBC","gd":7.40,"pace":"mid","bet":"PLACE","fc":2,"flags":["🍀 2 placings from 3","🎯 Baker/Berry"]},
-          {"no":3,"horse":"Farfetched","price":"TBC","gd":7.55,"pace":"mid","bet":"PLACE","fc":2,"flags":["🍀 2 placings, well-bred","💪 Waterhouse/Bott"]},
-          {"no":4,"horse":"Waerea","price":"TBC","gd":7.85,"pace":"on","bet":"WIN","fc":4,"flags":["📉 elite 1-4-0 strike","🍀 strong 1st-up","⚡ on-pace","🎯 Widdup/Schofield"]},
-          {"no":5,"horse":"Viewpoint","price":"TBC","gd":8.05,"pace":"mid","bet":"WIN","fc":5,"flags":["🌧️ track specialist","📉 good ground return","📏 inside gate","🏃 fit","💪 in-form yard"]},
-          {"no":6,"horse":"Legaselli","price":"TBC","gd":7.35,"pace":"mid","bet":"PLACE","fc":2,"flags":["💪 $65k filly","🎯 J Thompson stable"]},
-          {"no":7,"horse":"Castlejohn","price":"TBC","gd":8.15,"pace":"on","bet":"WIN","fc":5,"flags":["📉 dominant debut win","📉 class drop","⚡ on-pace","📏 good gate","🏃 fresh"]}
+          {"no":1,"horse":"Grafton Street","price":"$3.40","gd":7.60,"pace":"mid","bet":"EACH-WAY","fc":3,"flags":["elite import trainer","Top Tip signal","market unproven caution"]},
+          {"no":2,"horse":"Rapid Revenue","price":"$2.10","gd":8.30,"pace":"mid","bet":"WIN","fc":3,"flags":["clear market fav","Top Tip signal","strong recent form"]},
+          {"no":3,"horse":"Farfetched","price":"$2.15","gd":8.40,"pace":"mid","bet":"WIN","fc":3,"flags":["Best of the Day tag","on-pace versatile","short-priced fav"]},
+          {"no":4,"horse":"Waerea","price":"$1.45","gd":8.70,"pace":"mid","bet":"WIN","fc":4,"flags":["odds-on banker","Top Tip signal","on-pace leader","profiles well fresh"]},
+          {"no":5,"horse":"Inception","price":"$6.00","gd":7.65,"pace":"mid","bet":"EACH-WAY","fc":3,"flags":["model fav over market","on-pace leader","close last start"]},
+          {"no":6,"horse":"Union","price":"$4.80","gd":7.90,"pace":"mid","bet":"WIN","fc":3,"flags":["Top Tip signal","on-pace leader","stuck to guns last start"]},
+          {"no":7,"horse":"Castlejohn","price":"$2.20","gd":8.50,"pace":"mid","bet":"WIN","fc":4,"flags":["short-priced banker","Top Tip signal","dominant debut win","on-pace leader"]}
         ]
       },
       {
         "id": "blna-110826",
         "track": "Ballina",
-        "condition": "Good (unconfirmed exact rating)",
-        "rail": "Unconfirmed (check raceday)",
+        "condition": "Heavy 9",
+        "rail": "True",
         "direction": "clockwise",
         "races": [
-          {"no":1,"horse":"Gavin","price":"TBC","gd":7.60,"pace":"mid","bet":"WIN","fc":3,"flags":["🍀 placed 2nd last start","🌧️ distance specialist","🏃 in-form"]},
-          {"no":2,"horse":"Sorrenti","price":"TBC","gd":7.30,"pace":"mid","bet":"EACH-WAY","fc":2,"flags":["🍀 2 seconds from 3","🍀 consistent maiden"]},
-          {"no":3,"horse":"Funky Cold Medina","price":"TBC","gd":7.20,"pace":"mid","bet":"PLACE","fc":1,"flags":["🍀 placed twice from 5"]},
-          {"no":4,"horse":"Coccinella","price":"TBC","gd":7.90,"pace":"on","bet":"WIN","fc":4,"flags":["🏆 won last start","⚡ on-pace","🎯 N Heywood retained"]},
-          {"no":5,"horse":"She's A Dame","price":"TBC","gd":7.30,"pace":"mid","bet":"EACH-WAY","fc":2,"flags":["🍀 0-1-5, very consistent","🍀 never missed 1st-up"]},
-          {"no":6,"horse":"Do It For You","price":"TBC","gd":8.20,"pace":"on","bet":"WIN","fc":5,"flags":["🏆 elite 6-2-1 record","🌧️ won at trip here","🌧️ track specialist","🏃 career-best form"]},
-          {"no":7,"horse":"Immortal Storm","price":"TBC","gd":7.90,"pace":"mid","bet":"WIN","fc":4,"flags":["🍀 ran 3rd last start","🌧️ strong dist record","💪 21.6% trainer"]},
-          {"no":8,"horse":"Vetoed","price":"TBC","gd":7.85,"pace":"mid","bet":"WIN","fc":4,"flags":["🌧️ 11:2-4-0 at Ballina","🍀 placed narrowly last start"]}
+          {"no":1,"horse":"Herald Angel","price":"$2.60","gd":7.85,"pace":"mid","bet":"WIN","fc":3,"flags":["Top Tip signal","clear market fav","big show comment"]},
+          {"no":2,"horse":"Rum And Kirk","price":"$3.00","gd":8.10,"pace":"mid","bet":"WIN","fc":3,"flags":["Best of the Day tag","on-pace leader","major player form"]},
+          {"no":3,"horse":"Ashkirk","price":"$2.35","gd":7.55,"pace":"mid","bet":"EACH-WAY","fc":3,"flags":["Top Tip signal","clear market fav","backmarker discount"]},
+          {"no":4,"horse":"Coccinella","price":"$2.25","gd":8.60,"pace":"mid","bet":"WIN","fc":3,"flags":["dominant course winner","Top Tip signal","on-pace leader"]},
+          {"no":5,"horse":"Strenuous","price":"$6.50","gd":7.45,"pace":"mid","bet":"EACH-WAY","fc":3,"flags":["Top Tip signal","on-pace fit","tough assignment caution"]},
+          {"no":6,"horse":"Golden Copper","price":"$4.40","gd":7.85,"pace":"mid","bet":"WIN","fc":3,"flags":["Value Bet tag","on-pace leader","handles all conditions"]},
+          {"no":7,"horse":"Immortal Storm","price":"$5.00","gd":8.05,"pace":"mid","bet":"WIN","fc":3,"flags":["Top Tip signal","wet specialist form","on-pace leader"]}
         ]
       }
     ]
