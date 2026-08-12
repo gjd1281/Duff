@@ -2,7 +2,7 @@
   "meta": {
     "engine": "TIGER v12",
     "generated": "2026-08-12",
-    "label": "Rockhampton Thu — top pick per race, no market prices, rail true, zero bias",
+    "label": "Rockhampton Thu — full field, live prices, rail true, zero bias",
     "sample": false
   },
   "racing": {
@@ -14,16 +14,40 @@
         "rail": "True",
         "direction": "CW",
         "races": [
-          {"no":1,"time":"1:17pm","horse":"4. It'Sall About Mary","price":"TBA","gd":7.90,"pace":"mid","bet":"WIN","fc":0,"flags":[]},
-          {"no":2,"time":"1:57pm","horse":"5. Presszora","price":"TBA","gd":8.00,"pace":"mid","bet":"WIN","fc":1,"flags":["💪 New stable"]},
-          {"no":3,"time":"2:34pm","horse":"7. Ready As Bam","price":"TBA","gd":7.80,"pace":"mid","bet":"WIN","fc":0,"flags":[]},
-          {"no":4,"time":"3:12pm","horse":"2. Track Tale","price":"TBA","gd":7.70,"pace":"mid","bet":"WIN","fc":0,"flags":[]},
-          {"no":5,"time":"3:47pm","horse":"5. Moochi Starlight","price":"TBA","gd":8.10,"pace":"mid","bet":"WIN","fc":1,"flags":["🌧️ Wet specialist"]},
-          {"no":6,"time":"4:27pm","horse":"9. Shiny Love","price":"TBA","gd":7.90,"pace":"mid","bet":"WIN","fc":1,"flags":["💪 New stable"]},
-          {"no":7,"time":"5:02pm","horse":"4. Doubtwilly","price":"TBA","gd":8.00,"pace":"mid","bet":"WIN","fc":0,"flags":[]}
+          {"no":1,"time":"1:17pm","horse":"6. Balkan Melody","price":"5.50","gd":7.90,"pace":"on","bet":"WIN","fc":0,"flags":[]},
+          {"no":2,"time":"1:57pm","horse":"3. Warna","price":"4.60","gd":8.05,"pace":"mid","bet":"WIN","fc":1,"flags":["📉 Class drop"]},
+          {"no":3,"time":"2:34pm","horse":"8. Our Girl Snip","price":"2.80","gd":7.75,"pace":"mid","bet":"WIN","fc":0,"flags":[]},
+          {"no":4,"time":"3:12pm","horse":"3. Don Pedro","price":"1.65","gd":8.30,"pace":"mid","bet":"WIN","fc":0,"flags":[]},
+          {"no":5,"time":"3:47pm","horse":"5. Moochi Starlight","price":"5.50","gd":7.95,"pace":"on","bet":"WIN","fc":1,"flags":["🌧️ Wet specialist"]},
+          {"no":6,"time":"4:27pm","horse":"4. Remember The Boys","price":"3.50","gd":7.85,"pace":"on","bet":"WIN","fc":0,"flags":[]},
+          {"no":7,"time":"5:02pm","horse":"5. Blue Toes","price":"7.00","gd":7.70,"pace":"mid","bet":"WIN","fc":0,"flags":[]}
+        ],
+        "multis": [
+          {"label":"Early Quaddie","races":"1,2,3,4","legs":["Balkan Melody","Warna","Our Girl Snip","Don Pedro"]},
+          {"label":"Quaddie","races":"4,5,6,7","legs":["Don Pedro","Moochi Starlight","Remember The Boys","Blue Toes"]},
+          {"label":"Treble","races":"5,6,7","legs":["Moochi Starlight","Remember The Boys","Blue Toes"]},
+          {"label":"Daily Double","races":"5,7","legs":["Moochi Starlight","Blue Toes"]}
         ]
       }
     ]
   },
-  "nrl": {"games": [], "multis": []}
+  "nrl": {
+    "engine": "GD ALGO V1",
+    "round": 24,
+    "games": [
+      {"match":"Panthers v Roosters","pick":"Panthers","price":"1.67","gd":7.70,"bet":"WIN","fc":0,"flags":[]},
+      {"match":"Sea Eagles v Dolphins","pick":"Dolphins","price":"1.35","gd":8.10,"bet":"WIN","fc":0,"flags":[]},
+      {"match":"Bulldogs v Rabbitohs","pick":"Bulldogs","price":"1.57","gd":7.85,"bet":"WIN","fc":0,"flags":[]},
+      {"match":"Sharks v Raiders","pick":"Sharks","price":"1.31","gd":8.70,"bet":"WIN","fc":0,"flags":[]},
+      {"match":"Eels v Cowboys","pick":"Cowboys","price":"1.54","gd":7.90,"bet":"WIN","fc":0,"flags":[]},
+      {"match":"Broncos v Warriors","pick":"Warriors","price":"1.42","gd":8.30,"bet":"WIN","fc":0,"flags":[]},
+      {"match":"Knights v Titans","pick":"Knights","price":"1.22","gd":8.90,"bet":"WIN","fc":0,"flags":[]},
+      {"match":"Tigers v Dragons","pick":"Tigers","price":"1.93","gd":7.05,"bet":"MARGINAL","fc":0,"flags":[]}
+    ],
+    "multis": [
+      {"label":"Safe","legs":["Knights $1.22","Sharks $1.31","Warriors $1.42"]},
+      {"label":"Value","legs":["Dolphins $1.35","Cowboys $1.54","Bulldogs $1.57"]},
+      {"label":"Handicap","legs":["Sharks -10.5 @1.97","Knights -12.5 @1.89","Warriors -6.5 @1.90"]}
+    ]
+  }
 }
