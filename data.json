@@ -1,53 +1,28 @@
 {
-  "meta": {
-    "engine": "TIGER v12",
-    "generated": "2026-08-12",
-    "label": "Rockhampton Thu — full field, live prices, rail true, zero bias",
-    "sample": false
-  },
-  "racing": {
-    "meetings": [
-      {
-        "id": "rockhampton",
-        "track": "Rockhampton",
-        "condition": "Soft (5)",
-        "rail": "True",
-        "direction": "CW",
-        "races": [
-          {"no":1,"time":"1:17pm","horse":"6. Balkan Melody","price":"5.50","gd":7.90,"pace":"on","bet":"WIN","fc":0,"flags":[]},
-          {"no":2,"time":"1:57pm","horse":"3. Warna","price":"4.60","gd":8.05,"pace":"mid","bet":"WIN","fc":1,"flags":["📉 Class drop"]},
-          {"no":3,"time":"2:34pm","horse":"8. Our Girl Snip","price":"2.80","gd":7.75,"pace":"mid","bet":"WIN","fc":0,"flags":[]},
-          {"no":4,"time":"3:12pm","horse":"3. Don Pedro","price":"1.65","gd":8.30,"pace":"mid","bet":"WIN","fc":0,"flags":[]},
-          {"no":5,"time":"3:47pm","horse":"5. Moochi Starlight","price":"5.50","gd":7.95,"pace":"on","bet":"WIN","fc":1,"flags":["🌧️ Wet specialist"]},
-          {"no":6,"time":"4:27pm","horse":"4. Remember The Boys","price":"3.50","gd":7.85,"pace":"on","bet":"WIN","fc":0,"flags":[]},
-          {"no":7,"time":"5:02pm","horse":"5. Blue Toes","price":"7.00","gd":7.70,"pace":"mid","bet":"WIN","fc":0,"flags":[]}
-        ],
-        "multis": [
-          {"label":"Early Quaddie","races":"1,2,3,4","legs":["Balkan Melody","Warna","Our Girl Snip","Don Pedro"]},
-          {"label":"Quaddie","races":"4,5,6,7","legs":["Don Pedro","Moochi Starlight","Remember The Boys","Blue Toes"]},
-          {"label":"Treble","races":"5,6,7","legs":["Moochi Starlight","Remember The Boys","Blue Toes"]},
-          {"label":"Daily Double","races":"5,7","legs":["Moochi Starlight","Blue Toes"]}
-        ]
-      }
-    ]
-  },
-  "nrl": {
-    "engine": "GD ALGO V1",
-    "round": 24,
-    "games": [
-      {"match":"Panthers v Roosters","pick":"Panthers","price":"1.67","gd":7.70,"bet":"WIN","fc":0,"flags":[]},
-      {"match":"Sea Eagles v Dolphins","pick":"Dolphins","price":"1.35","gd":8.10,"bet":"WIN","fc":0,"flags":[]},
-      {"match":"Bulldogs v Rabbitohs","pick":"Bulldogs","price":"1.57","gd":7.85,"bet":"WIN","fc":0,"flags":[]},
-      {"match":"Sharks v Raiders","pick":"Sharks","price":"1.31","gd":8.70,"bet":"WIN","fc":0,"flags":[]},
-      {"match":"Eels v Cowboys","pick":"Cowboys","price":"1.54","gd":7.90,"bet":"WIN","fc":0,"flags":[]},
-      {"match":"Broncos v Warriors","pick":"Warriors","price":"1.42","gd":8.30,"bet":"WIN","fc":0,"flags":[]},
-      {"match":"Knights v Titans","pick":"Knights","price":"1.22","gd":8.90,"bet":"WIN","fc":0,"flags":[]},
-      {"match":"Tigers v Dragons","pick":"Tigers","price":"1.93","gd":7.05,"bet":"MARGINAL","fc":0,"flags":[]}
-    ],
-    "multis": [
-      {"label":"Safe","legs":["Knights $1.22","Sharks $1.31","Warriors $1.42"]},
-      {"label":"Value","legs":["Dolphins $1.35","Cowboys $1.54","Bulldogs $1.57"]},
-      {"label":"Handicap","legs":["Sharks -10.5 @1.97","Knights -12.5 @1.89","Warriors -6.5 @1.90"]}
-    ]
-  }
-}
+"meta":{"engine":"TIGER v12","generated":"2026-08-13","label":"Rockhampton Thu — Soft 5, rail +3m, B1-5 strength 1","sample":false},
+"racing":{"meetings":[
+{"id":"rock","track":"Rockhampton","condition":"Soft (5)","rail":"+3m","direction":"clockwise","races":[
+{"no":1,"time":"1:17pm","horse":"4. It'Sall About Mary","price":"1.08","gd":8.48,"pace":"mid","bet":"WIN","fc":8,"flags":["✅ Solid","🎯 Jockey flag"]},
+{"no":2,"time":"1:57pm","horse":"5. Presszora","price":"4.80","gd":8.33,"pace":"mid","bet":"WIN","fc":9,"flags":["🌧️ Wet specialist","🧠 Smart money"],"value":true},
+{"no":3,"time":"2:34pm","horse":"8. Our Girl Snip","price":"2.80","gd":7.73,"pace":"mid","bet":"WIN","fc":5,"flags":["⚡ Fast sectionals"]},
+{"no":3,"time":"2:34pm","horse":"7. Ready As Bam","price":"8.00","gd":7.48,"pace":"mid","bet":"ROUGHIE","fc":7,"flags":["🍀 Bad luck last start","📏 Bias runner"],"value":true},
+{"no":4,"time":"3:12pm","horse":"2. Track Tale","price":"3.20","gd":8.43,"pace":"mid","bet":"WIN","fc":11,"flags":["🌧️ Wet specialist","🎯 Jockey flag","🧠 Smart money"]},
+{"no":4,"time":"3:12pm","horse":"6. Resurrected","price":"23.00","gd":7.43,"pace":"mid","bet":"ROUGHIE","fc":8,"flags":["🌧️ Wet specialist","💪 New stable","📏 Bias runner"],"value":true},
+{"no":5,"time":"3:47pm","horse":"5. Moochi Starlight","price":"5.50","gd":8.03,"pace":"mid","bet":"WIN","fc":8,"flags":["🌧️ Wet specialist","📏 Bias runner"],"value":true},
+{"no":6,"time":"4:27pm","horse":"9. Shiny Love","price":"3.60","gd":7.78,"pace":"mid","bet":"WIN","fc":4,"flags":["💪 New stable"]},
+{"no":7,"time":"5:02pm","horse":"5. Blue Toes","price":"7.00","gd":7.93,"pace":"mid","bet":"WIN","fc":5,"flags":["📉 Class drop","📏 Bias runner"],"value":true}
+]}]},
+"nrl":{"engine":"GD ALGO V1","round":"Round 24","games":[
+{"home":"Knights","away":"Titans","pick":"Knights","line":"-12.5","odds":"$1.22","tryScorer":"Greg Marzhew","gd":8.90},
+{"home":"Sharks","away":"Raiders","pick":"Sharks","line":"-10.5","odds":"$1.31","tryScorer":"KL Iro","gd":8.70},
+{"home":"Broncos","away":"Warriors","pick":"Warriors","line":"+6.5","odds":"$1.42","tryScorer":"Dallin Watene-Zelezniak","gd":8.30},
+{"home":"Sea Eagles","away":"Dolphins","pick":"Dolphins","line":"+9.5","odds":"$1.35","tryScorer":"Jamayne Isaako","gd":8.10},
+{"home":"Eels","away":"Cowboys","pick":"Cowboys","line":"+5.5","odds":"$1.54","tryScorer":"Braidon Burns","gd":7.90},
+{"home":"Bulldogs","away":"Rabbitohs","pick":"Bulldogs","line":"-3.5","odds":"$1.57","tryScorer":"Alex Johnston","gd":7.85},
+{"home":"Panthers","away":"Roosters","pick":"Panthers","line":"-2.5","odds":"$1.67","tryScorer":"Thomas Jenkins","gd":7.70},
+{"home":"Wests Tigers","away":"Dragons","pick":"Wests Tigers","line":"+0.5","odds":"$1.93","tryScorer":"Setu Tu","gd":7.05}
+],"multis":[
+{"name":"Safe","legs":["Knights","Sharks","Warriors"],"odds":"$2.27"},
+{"name":"Value","legs":["Dolphins","Cowboys","Bulldogs"],"odds":"$3.26"},
+{"name":"Handicap","legs":["Sharks -10.5","Knights -12.5","Warriors -6.5"],"odds":"$7.07"}
+]}}
