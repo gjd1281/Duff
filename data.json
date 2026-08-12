@@ -12,6 +12,7 @@
         "track": "Rockhampton",
         "condition": "Soft (5)",
         "rail": "True",
+        "direction": "CW",
         "races": [
           {"no":1,"time":"1:17pm","horse":"4. It'Sall About Mary","price":"TBA","gd":7.90,"pace":"mid","bet":"WIN","fc":0,"flags":[]},
           {"no":2,"time":"1:57pm","horse":"5. Presszora","price":"TBA","gd":8.00,"pace":"mid","bet":"WIN","fc":1,"flags":["💪 New stable"]},
