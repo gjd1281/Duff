@@ -12,17 +12,23 @@
 {"no":6,"time":"4:27pm","horse":"9. Shiny Love","price":"3.60","gd":7.78,"pace":"mid","bet":"WIN","fc":4,"flags":["💪 New stable"]},
 {"no":7,"time":"5:02pm","horse":"5. Blue Toes","price":"7.00","gd":7.93,"pace":"mid","bet":"WIN","fc":5,"flags":["📉 Class drop","📏 Bias runner"],"value":true}
 ]}]},
-"nrl":{"engine":"GD ALGO V1","round":"Round 24","games":[
-{"home":"Knights","away":"Titans","pick":"Knights","line":"-12.5","odds":"$1.22","tryScorer":"Greg Marzhew","gd":8.90},
-{"home":"Sharks","away":"Raiders","pick":"Sharks","line":"-10.5","odds":"$1.31","tryScorer":"KL Iro","gd":8.70},
-{"home":"Broncos","away":"Warriors","pick":"Warriors","line":"+6.5","odds":"$1.42","tryScorer":"Dallin Watene-Zelezniak","gd":8.30},
-{"home":"Sea Eagles","away":"Dolphins","pick":"Dolphins","line":"+9.5","odds":"$1.35","tryScorer":"Jamayne Isaako","gd":8.10},
-{"home":"Eels","away":"Cowboys","pick":"Cowboys","line":"+5.5","odds":"$1.54","tryScorer":"Braidon Burns","gd":7.90},
-{"home":"Bulldogs","away":"Rabbitohs","pick":"Bulldogs","line":"-3.5","odds":"$1.57","tryScorer":"Alex Johnston","gd":7.85},
-{"home":"Panthers","away":"Roosters","pick":"Panthers","line":"-2.5","odds":"$1.67","tryScorer":"Thomas Jenkins","gd":7.70},
-{"home":"Wests Tigers","away":"Dragons","pick":"Wests Tigers","line":"+0.5","odds":"$1.93","tryScorer":"Setu Tu","gd":7.05}
-],"multis":[
+"nrl":{
+"engine":"GD ALGO V1",
+"round":"ROUND 24",
+"games":[
+{"id":"kni-gld","home":"Knights","away":"Titans","pickSide":"home","odds":"$1.22","color":"#EE3524","venue":"McDonald Jones Stadium","time":"2:00pm AEST Sun","conf":89,"badges":[["BANKER PLAY","good"]],"rundown":"Newcastle are laying -12.5 at home against a Titans side deep in the bottom four — the biggest line and the highest-rated pick of the round.","mongrel":"Greg Marzhew","tryFirst":6,"tryAny":2.2,"whyshort":"The round's top-rated pick — Knights at home, laying a big line."},
+{"id":"cro-cbr","home":"Sharks","away":"Raiders","pickSide":"home","odds":"$1.31","color":"#00A9CE","venue":"Ocean Protect Stadium","time":"3:00pm AEST Sat","conf":87,"badges":[["HEAVY FAVOURITE","good"]],"rundown":"Cronulla at home laying -10.5 against a Raiders side that's dropped its last two — a strong top-four side fancied to cover comfortably.","mongrel":"KL Iro","tryFirst":6.5,"tryAny":2.3,"whyshort":"Top-four Sharks heavily fancied at home."},
+{"id":"bri-nzw","home":"Broncos","away":"Warriors","pickSide":"away","odds":"$1.42","color":"#00447C","venue":"Suncorp Stadium","time":"7:30pm AEST Sat","conf":83,"badges":[["BRONCOS OUT OF FORM",""]],"rundown":"The Warriors travel with the handicap in their favour at +6.5, against a Broncos side that's lost three on the trot.","mongrel":"Dallin Watene-Zelezniak","tryFirst":7,"tryAny":2.4,"whyshort":"Warriors' form and the handicap both stack up on the road."},
+{"id":"man-dol","home":"Sea Eagles","away":"Dolphins","pickSide":"away","odds":"$1.35","color":"#E2231A","venue":"4 Pines Park","time":"6:00pm AEST Fri","conf":81,"badges":[["MANLY 4-LOSS SKID",""]],"rundown":"Manly have dropped four straight — the Dolphins take the +9.5 and look well placed to cover comfortably away from home.","mongrel":"Jamayne Isaako","tryFirst":7,"tryAny":2.5,"whyshort":"Dolphins fancied against a Manly side in freefall."},
+{"id":"par-nql","home":"Eels","away":"Cowboys","pickSide":"away","odds":"$1.54","color":"#FFD100","venue":"CommBank Stadium","time":"5:30pm AEST Sat","conf":79,"badges":[["EELS BOTTOM-4 FORM",""]],"rundown":"Parramatta sit 13th and out of form — the Cowboys travel with +5.5 in the bank and the better recent record.","mongrel":"Braidon Burns","tryFirst":7.5,"tryAny":2.6,"whyshort":"Cowboys' form edge plus a handicap buffer on the road."},
+{"id":"can-sou","home":"Bulldogs","away":"Rabbitohs","pickSide":"home","odds":"$1.57","color":"#00295B","venue":"Accor Stadium","time":"8:00pm AEST Fri","conf":79,"badges":[["SIX-POINTER",""]],"rundown":"Canterbury are laying -3.5 at home in a genuine six-pointer against a Souths side that's been up and down all season.","mongrel":"Alex Johnston","tryFirst":8,"tryAny":2.8,"whyshort":"Bulldogs favoured at home in a tight mid-table clash."},
+{"id":"pen-syd","home":"Panthers","away":"Roosters","pickSide":"home","odds":"$1.67","color":"#1B3B36","venue":"CommBank Stadium","time":"7:50pm AEST Thu","conf":77,"badges":[["TOP 2 CLASH",""]],"rundown":"Both sides sit level atop the ladder. Penrith lay -2.5 at home against a Roosters outfit riding a five-game winning streak — the round's premier clash.","mongrel":"Thomas Jenkins","tryFirst":8,"tryAny":2.8,"whyshort":"Ladder-leading Panthers at home in the round's biggest clash."},
+{"id":"wst-sti","home":"Wests Tigers","away":"Dragons","pickSide":"home","odds":"$1.93","color":"#F7941D","venue":"CommBank Stadium","time":"4:05pm AEST Sun","conf":71,"badges":[["WOODEN SPOON SIX-POINTER","grudge"],["LOWEST-RATED PICK","boil"]],"rundown":"Bottom-of-the-table clash between two sides fighting to avoid the spoon. The Dragons snapped a four-game skid with an upset over Cronulla last start, but the Tigers take the lean at +0.5 and the extra rest from the bye.","mongrel":"Setu Tu","tryFirst":9,"tryAny":3.2,"whyshort":"The round's tightest game — bottom-table six-pointer, lowest-rated pick."}
+],
+"roundMulti":{"legs":["Knights -12.5","Sharks -10.5","Warriors +6.5","Dolphins +9.5"],"odds":"$3.06"},
+"multis":[
 {"name":"Safe","legs":["Knights","Sharks","Warriors"],"odds":"$2.27"},
 {"name":"Value","legs":["Dolphins","Cowboys","Bulldogs"],"odds":"$3.26"},
 {"name":"Handicap","legs":["Sharks -10.5","Knights -12.5","Warriors -6.5"],"odds":"$7.07"}
-]}}
+]
+}}
