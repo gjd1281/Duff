@@ -1,116 +1,69 @@
-{
-  "meta": { "engine": "TIGER v12", "generated": "2026-08-14", "label": "Friday 14 Aug 2026", "sample": false },
-  "racing": {
-    "meetings": [
-      {
-        "id": "geel-140826",
-        "track": "Geelong",
-        "condition": "Heavy 8",
-        "rail": "Out 4m 1800m-500m, Out 7m Remainder",
-        "direction": "clockwise",
-        "races": [
-          { "no": 1, "horse": "Knights Emperor", "price": "5.50", "gd": 7.1, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 2, "horse": "Just Like Jagger", "price": "2.70", "gd": 7.6, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
-          { "no": 3, "horse": "Keen Observer", "price": "1.95", "gd": 8.4, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
-          { "no": 4, "horse": "Bjorson", "price": "4.40", "gd": 7.8, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["🌧️ Wet specialist"] },
-          { "no": 5, "horse": "Lyrics 'N' Song", "price": "2.30", "gd": 8.3, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["📏 Bias runner"] },
-          { "no": 6, "horse": "Thunderbolt Way", "price": "5.50", "gd": 7.7, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["📏 Bias runner"] },
-          { "no": 7, "horse": "Sugar Schnapps", "price": "4.60", "gd": 7.6, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["📏 Bias runner"] },
-          { "no": 8, "horse": "Omnic", "price": "4.80", "gd": 7.9, "pace": "on", "bet": "WIN", "fc": 2, "flags": ["🧠 Smart money", "📏 Bias runner"] }
-        ]
-      },
-      {
-        "id": "ipsw-140826",
-        "track": "Ipswich",
-        "condition": "Good 4",
-        "rail": "+2m Entire",
-        "direction": "anticlockwise",
-        "races": [
-          { "no": 2, "horse": "King Emperor", "price": "1.85", "gd": 8.5, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
-          { "no": 3, "horse": "Kerkorian", "price": "2.90", "gd": 8.2, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
-          { "no": 4, "horse": "Mashean", "price": "3.90", "gd": 8.3, "pace": "back", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
-          { "no": 5, "horse": "Luconi", "price": "3.80", "gd": 8.0, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
-          { "no": 6, "horse": "Don'Tcha Think", "price": "3.40", "gd": 7.8, "pace": "back", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
-          { "no": 7, "horse": "Forgotten Spirit", "price": "1.35", "gd": 8.6, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] }
-        ]
-      }
-    ]
-  },
-  "nrl": {
-    "round": "ROUND 24",
-    "roundMulti": {
-      "legs": ["Knights win","Sharks win","Dolphins win","Warriors win"],
-      "odds": "$2.45"
+[
+  {
+    "meta": {
+      "engine": "TIGER v12 Simulation",
+      "generated": "2026-08-15",
+      "label": "Saturday 15 Aug 2026"
     },
-    "ladder": [
-      {"pos":1,"team":"Roosters","w":16,"l":5,"pts":38,"diff":163},
-      {"pos":2,"team":"Panthers","w":15,"l":6,"pts":36,"diff":286},
-      {"pos":3,"team":"Warriors","w":14,"l":6,"pts":34,"diff":242},
-      {"pos":4,"team":"Sharks","w":13,"l":7,"pts":32,"diff":169},
-      {"pos":5,"team":"Dolphins","w":13,"l":7,"pts":32,"diff":98},
-      {"pos":6,"team":"Knights","w":13,"l":8,"pts":30,"diff":66},
-      {"pos":7,"team":"Rabbitohs","w":11,"l":9,"pts":28,"diff":66},
-      {"pos":8,"team":"Cowboys","w":12,"l":9,"pts":28,"diff":-76},
-      {"pos":9,"team":"Bulldogs","w":10,"l":10,"pts":26,"diff":-46},
-      {"pos":10,"team":"Sea Eagles","w":9,"l":11,"pts":24,"diff":68},
-      {"pos":11,"team":"Storm","w":9,"l":12,"pts":24,"diff":-4},
-      {"pos":12,"team":"Raiders","w":9,"l":12,"pts":22,"diff":-65},
-      {"pos":13,"team":"Eels","w":7,"l":13,"pts":20,"diff":-183},
-      {"pos":14,"team":"Wests Tigers","w":7,"l":13,"pts":20,"diff":-211},
-      {"pos":15,"team":"Titans","w":6,"l":14,"pts":18,"diff":-144},
-      {"pos":16,"team":"Broncos","w":6,"l":14,"pts":18,"diff":-164},
-      {"pos":17,"team":"Dragons","w":3,"l":17,"pts":12,"diff":-265}
-    ],
-    "games": [
-      {
-        "id":"seaeagles-dolphins","home":"Sea Eagles","away":"Dolphins","pickSide":"away",
-        "odds":"$1.35","color":"#A91E22","venue":"4 Pines Park","time":"Fri 6:00pm",
-        "badges":[["3-GAME STREAK","good"]],"conf":78,
-        "rundown":"<b>Dolphins</b> have won three straight and battled back from 24-0 down last week. Manly have lost five in a row and are missing Tom Trbojevic.",
-        "mongrel":"Hamiso Tabuai-Fidow","tryFirst":4.5,"tryAny":1.9
-      },
-      {
-        "id":"bulldogs-rabbitohs","home":"Bulldogs","away":"Rabbitohs","pickSide":"home",
-        "odds":"$1.65","color":"#1B3D6D","venue":"Accor Stadium","time":"Fri 8:00pm",
-        "badges":[["FINALS SHOWDOWN","grudge"]],"conf":58,
-        "rundown":"Both sides are scrapping for a top-8 spot. <b>Bulldogs</b> let a lead slip last week but have the better recent scoring rate.",
-        "mongrel":"Josh Curran","tryFirst":5.5,"tryAny":2.1
-      },
-      {
-        "id":"sharks-raiders","home":"Sharks","away":"Raiders","pickSide":"home",
-        "odds":"$1.14","color":"#00A9CE","venue":"Ocean Protect Stadium","time":"Sat 3:00pm",
-        "badges":[["BOUNCE-BACK","good"]],"conf":82,
-        "rundown":"<b>Sharks</b> were upset by the Dragons last week after a 9-1 run. Raiders have lost back to back and are out of finals contention.",
-        "mongrel":"KL Iro","tryFirst":4.0,"tryAny":1.8
-      },
-      {
-        "id":"eels-cowboys","home":"Eels","away":"Cowboys","pickSide":"home",
-        "odds":"$2.60","color":"#0033A0","venue":"CommBank Stadium","time":"Sat 5:30pm",
-        "badges":[["BOILOVER WATCH","boil"]],"conf":42,
-        "rundown":"<b>Eels</b> lift against finals-chasing sides. Cowboys' form has been patchy on the road this run home.",
-        "mongrel":"Dylan Brown","tryFirst":6.0,"tryAny":2.4
-      },
-      {
-        "id":"broncos-warriors","home":"Broncos","away":"Warriors","pickSide":"away",
-        "odds":"$1.45","color":"#00843D","venue":"Suncorp Stadium","time":"Sat 7:35pm",
-        "badges":[["MINOR PREM PUSH","good"]],"conf":72,
-        "rundown":"<b>Warriors</b> are chasing the minor premiership and were dominant beating Penrith last week. Broncos sit 16th.",
-        "mongrel":"Marata Niukore","tryFirst":4.8,"tryAny":2.0
-      },
-      {
-        "id":"knights-titans","home":"Knights","away":"Titans","pickSide":"home",
-        "odds":"$1.10","color":"#EE3524","venue":"McDonald Jones Stadium","time":"Sun 2:00pm",
-        "badges":[["HOME BANKER","good"]],"conf":85,
-        "rundown":"<b>Knights</b> are strong at home against bottom-8 sides. Titans have lost 14 of 20 this year.",
-        "mongrel":"Dominic Young","tryFirst":3.8,"tryAny":1.7
-      },
-      {
-        "id":"weststigers-dragons","home":"Wests Tigers","away":"Dragons","pickSide":"away",
-        "odds":"$1.94","color":"#C8102E","venue":"CommBank Stadium","time":"Sun 4:05pm",
-        "badges":[["BOILOVER WATCH","boil"]],"conf":52,
-        "rundown":"Bottom-of-the-table clash. <b>Dragons</b> are chasing back-to-back wins for the first time in a while after beating Cronulla.",
-        "mongrel":"Jayden Sullivan","tryFirst":5.2,"tryAny":2.2
-      }
-    ]
+    "racing": {
+      "meetings": [
+        {
+          "id": "caul-150826",
+          "track": "Caulfield",
+          "condition": "Heavy 8",
+          "pacing": "WET PACING ENABLED",
+          "selections": [
+            { "race_no": 1, "horse": "Fundamental Nature", "price": "5.50", "gd_rating": 7.95, "tier": "WIN, solid", "flags": ["⚡ Fast sectionals", "🌧️ Wet specialist"] },
+            { "race_no": 2, "horse": "Simurgh", "price": "3.20", "gd_rating": 8.35, "tier": "WIN, high confidence", "flags": ["👑 Banker tag", "🧠 Smart money"] },
+            { "race_no": 3, "horse": "Silent Shares", "price": "7.00", "gd_rating": 7.82, "tier": "WIN, solid", "flags": ["💪 New stable", "📉 Class drop"] },
+            { "race_no": 5, "horse": "Closer To Free", "price": "2.15", "gd_rating": 8.52, "tier": "WIN, banker", "flags": ["🏆 Banker", "⚡ Fast sectionals"] },
+            { "race_no": 7, "horse": "Cosmic Crusader", "price": "1.95", "gd_rating": 8.60, "tier": "WIN, banker", "flags": ["👑 Banker tag", "🧠 Smart money", "⚡ Fast sectionals"] }
+          ]
+        },
+        {
+          "id": "rhil-150826",
+          "track": "Rosehill Gardens",
+          "condition": "Soft 6",
+          "pacing": "RAW SCORES LOCKED",
+          "selections": [
+            { "race_no": 1, "horse": "Attractiveness", "price": "3.80", "gd_rating": 8.22, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money"] },
+            { "race_no": 3, "horse": "Xtreme", "price": "18.00", "gd_rating": 7.65, "tier": "EACH-WAY", "flags": ["🐴 Roughie", "🍀 Bad luck last start"] },
+            { "race_no": 7, "horse": "Hawker Hall", "price": "2.25", "gd_rating": 8.41, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "⚡ Fast sectionals"] },
+            { "race_no": 8, "horse": "Blue Door", "price": "3.60", "gd_rating": 8.55, "tier": "WIN, banker", "flags": ["🏆 Banker", "👑 Banker tag"] },
+            { "race_no": 9, "horse": "Attica", "price": "3.70", "gd_rating": 8.10, "tier": "WIN, solid", "flags": ["✅ Solid", "📉 Class drop"] },
+            { "race_no": 10, "horse": "Tarzing", "price": "2.80", "gd_rating": 8.44, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🎯 Jockey flag"] }
+          ]
+        },
+        {
+          "id": "doom-150826",
+          "track": "Doomben",
+          "condition": "Good / Soft",
+          "pacing": "RAW SCORES LOCKED",
+          "selections": [
+            { "race_no": 1, "horse": "Celtic Sin", "price": "4.40", "gd_rating": 8.12, "tier": "WIN, solid", "flags": ["✅ Solid", "📏 Bias runner"] },
+            { "race_no": 2, "horse": "Exceed The Sale", "price": "2.60", "gd_rating": 8.42, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money", "👑 Banker tag"] },
+            { "race_no": 3, "horse": "Fernao", "price": "3.10", "gd_rating": 8.28, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "⚡ Fast sectionals"] },
+            { "race_no": 4, "horse": "Lockyer", "price": "1.85", "gd_rating": 8.51, "tier": "WIN, banker", "flags": ["🏆 Banker", "🎯 Jockey flag"] },
+            { "race_no": 6, "horse": "Pereille", "price": "2.50", "gd_rating": 8.36, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "📉 Class drop"] },
+            { "race_no": 7, "horse": "Braveheart", "price": "2.90", "gd_rating": 8.48, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "👑 Banker tag"] }
+          ]
+        },
+        {
+          "id": "morp-150826",
+          "track": "Morphettville Parks",
+          "condition": "Heavy 9",
+          "pacing": "WET PACING ENABLED",
+          "selections": [
+            { "race_no": 1, "horse": "Harsh", "price": "2.05", "gd_rating": 8.58, "tier": "WIN, banker", "flags": ["🏆 Banker", "🌧️ Wet specialist", "👑 Banker tag"] },
+            { "race_no": 2, "horse": "Super Wonder", "price": "6.50", "gd_rating": 7.74, "tier": "WIN, solid", "flags": ["✅ Solid", "🚪 Wide gate"] },
+            { "race_no": 4, "horse": "Stand Alone", "price": "3.80", "gd_rating": 8.20, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money"] },
+            { "race_no": 5, "horse": "Maxildo", "price": "14.00", "gd_rating": 7.62, "tier": "EACH-WAY", "flags": ["🥈 EACH-WAY", "💪 New stable", "🐴 Roughie"] },
+            { "race_no": 7, "horse": "Dancing Storm", "price": "2.20", "gd_rating": 8.52, "tier": "WIN, banker", "flags": ["🏆 Banker", "⚡ Fast sectionals"] },
+            { "race_no": 8, "horse": "Gazelle", "price": "9.50", "gd_rating": 7.68, "tier": "EACH-WAY", "flags": ["🥈 EACH-WAY", "🍀 Bad luck last start"] },
+            { "race_no": 9, "horse": "Bold Secret", "price": "2.05", "gd_rating": 8.45, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money", "🌧️ Wet specialist"] }
+          ]
+        }
+      ]
+    }
   }
-}
+]
