@@ -10,20 +10,24 @@ function tier(n){n=n||0;return n>=11?"\uD83E\uDD11\uD83E\uDD11\u26A1\u26A1\uD83D
 function num(p){return parseFloat(String(p).replace(/[^0-9.]/g,""))||0}
 function rough(r){return num(r.price)>=12}
 function fire(p){var n=num(p);if(!n)return"";return n<3?"\uD83D\uDD25":"\uD83D\uDD25\uD83D\uDD25"}
+var FW={"\uD83C\uDF40":3,"\uD83D\uDEAA":3,"\uD83D\uDCAA":3,"\u2699":3,"\uD83C\uDFAF":3,"\uD83D\uDCC9":3,"\uD83C\uDF27":2,"\u26A1":2,"\uD83D\uDCCF":2,"\uD83E\uDDE0":1.5,"\uD83D\uDEA8":1.5,"\uD83D\uDC51":1,"\uD83D\uDC34":1,"\uD83C\uDFC6":1,"\uD83D\uDD25":1,"\u2705":1,"\u26A0":.5};
+function fw(f){var s=String(f).replace(/\uFE0F/g,"");for(var k in FW){if(s.indexOf(k)===0)return FW[k]}return 0}
+function fsort(a){return(a||[]).slice().sort(function(x,y){return fw(y)-fw(x)})}
 function chips(){var m=D.racing.meetings;$("#chips").innerHTML=m.map(function(x,i){return'<button class="chip" aria-pressed="'+(i==mi)+'" data-i="'+i+'">'+E(x.track)+'</button>'}).join("")||'<span style="color:#6E9C8C;font-size:13px">No meetings in data.json</span>'}
 function cond(){var m=D.racing.meetings[mi];if(!m)return;$("#cT").textContent=m.track;$("#cC").textContent=m.condition;$("#cR").textContent=m.rail;
 var cw=(m.direction||"clockwise")=="clockwise",o=$("#mo");o.setAttribute("keyPoints",cw?"0;1":"1;0");o.parentNode.replaceChild(o.cloneNode(true),o);$("#dir").textContent=cw?"CW":"ACW";
 if(wet(m)){$("#pV").textContent="PACE LOCKED \u2014 WET";$("#pD").textContent="On-pace runners +0.30, backmarkers \u22120.30"}
 else{$("#pV").textContent="PACE LOCKED \u2014 DRY";$("#pD").textContent="Raw engine scores, no pace adjustment"}}
-function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet),c=v.c,id=m.id+"-"+r.no,cu=R[id]||"",hf=(r.flags&&r.flags.length)?1:0;
+function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet),c=v.c,id=m.id+"-"+r.no,cu=R[id]||"",fl=fsort(r.flags),hf=fl.length?1:0,tp=fl.slice(0,3);
 return'<article class="card '+c+'"><div class="row"><div class="no" style="color:#00E5FF;text-shadow:0 0 6px rgba(0,229,255,.6)">R'+r.no+'</div><div>'
 +(lbl?'<div class="meet">'+E(m.track)+'</div>':'')
 +'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span>'+(r.time?'<span class="tag">'+E(r.time)+'</span>':'')+'<span class="tag">TAB</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
-+'<div class="sig"><span class="em">'+tier(r.fc)+fire(r.price)+'</span><span class="ct">'+(r.fc||0)+'/15</span>'
-+(hf?'<button class="flagbtn" data-t="'+id+'" style="background:rgba(61,245,192,.08);border:1px solid #3DF5C0;color:#3DF5C0;font:600 10px ui-monospace,monospace;border-radius:20px;padding:2px 8px;margin-left:6px;cursor:pointer">\uD83D\uDEA9 FLAGS \u25BE</button>':'')
-+'</div>'
-+(hf?'<div class="flagpanel" id="fp-'+id+'" hidden style="margin-top:6px;padding:8px 10px;font-size:12px;line-height:1.7;color:#CFE8DE;background:rgba(0,0,0,.25);border-top:1px dashed rgba(61,245,192,.18)">'+r.flags.map(E).join(" \u00B7 ")+'</div>':'')
-+'</div><div class="gd"><span style="display:block;font:700 8px \'Barlow Condensed\',sans-serif;letter-spacing:.24em;color:#6E9C8C;margin-bottom:3px">GD SCORE</span><b style="font-size:20px" class="'+(a.d>0?"up":a.d<0?"dn":"")+'">'+a.g.toFixed(2)+'</b><i class="'+c+'">'+v.e+' '+v.t+'</i></div></div>'
++'<div class="sig"><span class="em">'+tier(r.fc)+fire(r.price)+'</span><span class="ct">'+(r.fc||0)+'/15</span></div>'
++(hf?'<div class="ftop" style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">'+tp.map(function(f){return'<span style="font:600 10px/1.4 ui-monospace,monospace;color:#E8FF00;background:rgba(232,255,0,.07);border:1px solid rgba(232,255,0,.3);border-radius:20px;padding:2px 8px">'+E(f)+'</span>'}).join("")+'</div>':'')
++(hf?'<div class="flagpanel" id="fp-'+id+'" hidden style="margin-top:8px;padding:8px 10px;font-size:12px;line-height:1.7;color:#CFE8DE;background:rgba(0,0,0,.25);border-top:1px dashed rgba(232,255,0,.25)">'+fl.map(E).join(" \u00B7 ")+'</div>':'')
++'</div><div class="gd"><span style="display:block;font:700 8px \'Barlow Condensed\',sans-serif;letter-spacing:.24em;color:#6E9C8C;margin-bottom:3px">GD SCORE</span><b style="font-size:20px" class="'+(a.d>0?"up":a.d<0?"dn":"")+'">'+a.g.toFixed(2)+'</b>'
++(hf?'<button class="flagbtn" data-t="'+id+'" style="display:block;margin-top:7px;background:#E8FF00;border:0;color:#0A0F08;font:800 10px/1 ui-monospace,monospace;letter-spacing:.06em;border-radius:20px;padding:7px 11px;box-shadow:0 0 12px rgba(232,255,0,.45);cursor:pointer">\uD83D\uDEA9 FLAGS \u25BE</button>':'')
++'</div></div>'
 +'<div class="res" data-id="'+id+'" data-price="'+E(r.price)+'"><button data-v="W" class="'+(cu=="W"?"on":"")+'">W</button><button data-v="P" class="'+(cu=="P"?"on":"")+'">P</button><button data-v="L" class="'+(cu=="L"?"on":"")+'">L</button></div></article>'}
 function racing(){var b=$("#rb");
 if(vw=="rough"){var out="",any=0;D.racing.meetings.forEach(function(m){(m.races||[]).forEach(function(r){if(rough(r)){out+=slat(r,m,1);any++}})});
