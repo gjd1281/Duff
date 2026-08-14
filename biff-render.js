@@ -1,4 +1,4 @@
-/* ---- THE BIFF: NRL RENDER ENGINE (builds game cards into #nb) ---- */
+/* ---- THE BIFF: NRL RENDER ENGINE (builds game cards + W/L toggle into #nb) ---- */
 (function(){
 var BS=document.createElement('style');
 BS.textContent=
@@ -19,14 +19,19 @@ BS.textContent=
 +"#nb .nbadge.grudge{color:#fff;background:#D6272B;border-color:transparent}"
 +"#nb .nrb{height:7px;border-radius:6px;background:#2E323B;overflow:hidden;margin-bottom:4px}"
 +"#nb .nrbf{height:100%;border-radius:6px}"
-+"#nb .nconf{font:700 9.5px ui-monospace,monospace;color:#7A1518;color:#C7CBD3;margin-bottom:10px}"
++"#nb .nconf{font:700 9.5px ui-monospace,monospace;color:#C7CBD3;margin-bottom:10px}"
 +"#nb .nrundown{font:400 12.5px/1.55 sans-serif;color:#C7CBD3;border-top:1px solid rgba(255,255,255,.13);padding-top:10px;margin-bottom:10px}"
 +"#nb .nrundown b{color:#fff}"
-+"#nb .ntry{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,.13);padding-top:9px;flex-wrap:wrap;gap:6px}"
++"#nb .ntry{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,.13);padding-top:9px;flex-wrap:wrap;gap:6px;margin-bottom:10px}"
 +"#nb .nmongrel{font:600 11.5px sans-serif;color:#C7CBD3}"
 +"#nb .nmongrel b{color:#E0B354}"
 +"#nb .ntryodds{display:flex;gap:10px;font:700 10.5px ui-monospace,monospace;color:#D8D3C9}"
-+"#nb .nempty{font:600 13px sans-serif;color:#C7CBD3;padding:20px 0}";
++"#nb .nempty{font:600 13px sans-serif;color:#C7CBD3;padding:20px 0}"
++"#nb .nwl{display:flex;border:1px solid rgba(255,255,255,.13);border-radius:9px;overflow:hidden;background:#2E323B}"
++"#nb .nwlbtn{flex:1;text-align:center;padding:8px 3px;font:700 10px ui-monospace,monospace;color:#D8D3C9;cursor:pointer;border-right:1px solid rgba(255,255,255,.13)}"
++"#nb .nwlbtn:last-child{border-right:0}"
++"#nb .nwlbtn.win.on{background:#4ADE80;color:#0d2914}"
++"#nb .nwlbtn.loss.on{background:#D6272B;color:#fff}";
 document.head.appendChild(BS);
 
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]});}
@@ -37,11 +42,16 @@ function confBar(c){
   return '<div class="nrb"><div class="nrbf" style="width:'+c+'%;background:'+col+'"></div></div>';
 }
 
-function gameCard(g){
+function loadR(){try{return JSON.parse(localStorage.getItem("dw")||"{}")}catch(e){return{}}}
+function saveR(r){try{localStorage.setItem("dw",JSON.stringify(r))}catch(e){}}
+
+function gameCard(g,R){
   var pickName=g.pickSide==="home"?g.home:g.away;
   var badges=(g.badges||[]).map(function(b){
     return '<span class="nbadge '+esc(b[1]||"")+'">'+esc(b[0])+'</span>';
   }).join("");
+  var key="nrl-"+g.id;
+  var mark=R[key]||"";
   return ''
   +'<div class="nhero" style="border-left:4px solid '+(g.color||"#4ADE80")+'">'
     +'<div class="neye">'+esc(g.venue||"")+' &middot; '+esc(g.time||"")+'</div>'
@@ -58,6 +68,10 @@ function gameCard(g){
         +(g.tryAny?'<span>Any $'+g.tryAny+'</span>':'')
       +'</div>'
     +'</div>'
+    +'<div class="nwl" data-key="'+key+'">'
+      +'<div class="nwlbtn win'+(mark==="win"?" on":"")+'" data-v="win">WIN</div>'
+      +'<div class="nwlbtn loss'+(mark==="loss"?" on":"")+'" data-v="loss">LOSS</div>'
+    +'</div>'
   +'</div>';
 }
 
@@ -73,6 +87,7 @@ window.nrl=function(){
   if(!host) return;
   var n=(window.D && window.D.nrl) || {};
   var games=n.games||[];
+  var R=loadR();
   if(!games.length){
     host.innerHTML='<div class="nempty">No NRL data loaded.</div>';
     return;
@@ -80,7 +95,19 @@ window.nrl=function(){
   host.innerHTML =
     '<div class="nroundhdr">'+esc(n.round||"")+'</div>'
     + multiBlock(n.roundMulti)
-    + games.map(gameCard).join("");
+    + games.map(function(g){return gameCard(g,R);}).join("");
+
+  host.querySelectorAll(".nwl").forEach(function(el){
+    el.querySelectorAll(".nwlbtn").forEach(function(btn){
+      btn.addEventListener("click",function(){
+        var key=el.getAttribute("data-key");
+        var v=btn.getAttribute("data-v");
+        var cur=loadR();
+        cur[key]=(cur[key]===v)?"":v;
+        saveR(cur);
+        window.nrl();
+      });
+    });
+  });
 };
 })();
-
