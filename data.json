@@ -1,10 +1,5 @@
 {
-  "meta": {
-    "engine": "TIGER v12",
-    "generated": "2026-08-14",
-    "label": "Friday 14 Aug 2026",
-    "sample": false
-  },
+  "meta": { "engine": "TIGER v12", "generated": "2026-08-14", "label": "Friday 14 Aug 2026", "sample": false },
   "racing": {
     "meetings": [
       {
@@ -14,13 +9,14 @@
         "rail": "Out 4m 1800m-500m, Out 7m Remainder",
         "direction": "clockwise",
         "races": [
+          { "no": 1, "horse": "Knights Emperor", "price": "5.50", "gd": 7.1, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
           { "no": 2, "horse": "Just Like Jagger", "price": "2.70", "gd": 7.6, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
           { "no": 3, "horse": "Keen Observer", "price": "1.95", "gd": 8.4, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
-          { "no": 4, "horse": "Bjorson", "price": "4.40", "gd": 7.7, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["🌧️ Wet specialist"] },
+          { "no": 4, "horse": "Bjorson", "price": "4.40", "gd": 7.8, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["🌧️ Wet specialist"] },
           { "no": 5, "horse": "Lyrics 'N' Song", "price": "2.30", "gd": 8.3, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["📏 Bias runner"] },
-          { "no": 6, "horse": "Power Pivot", "price": "4.80", "gd": 7.6, "pace": "back", "bet": "WIN", "fc": 0, "flags": [] },
-          { "no": 7, "horse": "Fly By Light", "price": "3.60", "gd": 7.9, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["📏 Bias runner"] },
-          { "no": 8, "horse": "Omnic", "price": "4.80", "gd": 7.8, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["📏 Bias runner"] }
+          { "no": 6, "horse": "Thunderbolt Way", "price": "5.50", "gd": 7.7, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["📏 Bias runner"] },
+          { "no": 7, "horse": "Sugar Schnapps", "price": "4.60", "gd": 7.6, "pace": "on", "bet": "WIN", "fc": 1, "flags": ["📏 Bias runner"] },
+          { "no": 8, "horse": "Omnic", "price": "4.80", "gd": 7.9, "pace": "on", "bet": "WIN", "fc": 2, "flags": ["🧠 Smart money", "📏 Bias runner"] }
         ]
       },
       {
@@ -30,20 +26,15 @@
         "rail": "+2m Entire",
         "direction": "anticlockwise",
         "races": [
-          { "no": 2, "horse": "King Emperor", "price": "1.85", "gd": 8.3, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
-          { "no": 3, "horse": "Kerkorian", "price": "2.90", "gd": 8.2, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
-          { "no": 4, "horse": "Mashean", "price": "3.90", "gd": 8.4, "pace": "back", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
-          { "no": 5, "horse": "Luconi", "price": "3.80", "gd": 8.1, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
-          { "no": 6, "horse": "Don'Tcha Think", "price": "3.40", "gd": 7.8, "pace": "back", "bet": "WIN", "fc": 0, "flags": [] },
+          { "no": 2, "horse": "King Emperor", "price": "1.85", "gd": 8.5, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
+          { "no": 3, "horse": "Kerkorian", "price": "2.90", "gd": 8.2, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
+          { "no": 4, "horse": "Mashean", "price": "3.90", "gd": 8.3, "pace": "back", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
+          { "no": 5, "horse": "Luconi", "price": "3.80", "gd": 8.0, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
+          { "no": 6, "horse": "Don'Tcha Think", "price": "3.40", "gd": 7.8, "pace": "back", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] },
           { "no": 7, "horse": "Forgotten Spirit", "price": "1.35", "gd": 8.6, "pace": "mid", "bet": "WIN", "fc": 1, "flags": ["🧠 Smart money"] }
         ]
       }
     ]
   },
-  "nrl": {
-    "games": [],
-    "multis": [],
-    "engine": "GD ALGO V1",
-    "round": ""
-  }
+  "nrl": { "games": [], "multis": [], "engine": "GD ALGO V1", "round": "" }
 }
