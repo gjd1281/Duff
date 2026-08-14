@@ -36,5 +36,80 @@
       }
     ]
   },
-  "nrl": { "games": [], "multis": [], "engine": "GD ALGO V1", "round": "" }
+  "nrl": {
+  "round": "ROUND 24",
+  "roundMulti": {
+    "legs": ["Knights win","Sharks win","Dolphins win","Warriors win"],
+    "odds": "$2.45"
+  },
+  "ladder": [
+    {"pos":1,"team":"Roosters","w":16,"l":5,"pts":38,"diff":163},
+    {"pos":2,"team":"Panthers","w":15,"l":6,"pts":36,"diff":286},
+    {"pos":3,"team":"Warriors","w":14,"l":6,"pts":34,"diff":242},
+    {"pos":4,"team":"Sharks","w":13,"l":7,"pts":32,"diff":169},
+    {"pos":5,"team":"Dolphins","w":13,"l":7,"pts":32,"diff":98},
+    {"pos":6,"team":"Knights","w":13,"l":8,"pts":30,"diff":66},
+    {"pos":7,"team":"Rabbitohs","w":11,"l":9,"pts":28,"diff":66},
+    {"pos":8,"team":"Cowboys","w":12,"l":9,"pts":28,"diff":-76},
+    {"pos":9,"team":"Bulldogs","w":10,"l":10,"pts":26,"diff":-46},
+    {"pos":10,"team":"Sea Eagles","w":9,"l":11,"pts":24,"diff":68},
+    {"pos":11,"team":"Storm","w":9,"l":12,"pts":24,"diff":-4},
+    {"pos":12,"team":"Raiders","w":9,"l":12,"pts":22,"diff":-65},
+    {"pos":13,"team":"Eels","w":7,"l":13,"pts":20,"diff":-183},
+    {"pos":14,"team":"Wests Tigers","w":7,"l":13,"pts":20,"diff":-211},
+    {"pos":15,"team":"Titans","w":6,"l":14,"pts":18,"diff":-144},
+    {"pos":16,"team":"Broncos","w":6,"l":14,"pts":18,"diff":-164},
+    {"pos":17,"team":"Dragons","w":3,"l":17,"pts":12,"diff":-265}
+  ],
+  "games": [
+    {
+      "id":"seaeagles-dolphins","home":"Sea Eagles","away":"Dolphins","pickSide":"away",
+      "odds":"$1.35","color":"#A91E22","venue":"4 Pines Park","time":"Fri 6:00pm",
+      "badges":[["3-GAME STREAK","good"]],"conf":78,
+      "rundown":"<b>Dolphins</b> have won three straight and battled back from 24-0 down last week. Manly have lost five in a row and are missing Tom Trbojevic.",
+      "mongrel":"Hamiso Tabuai-Fidow","tryFirst":4.5,"tryAny":1.9
+    },
+    {
+      "id":"bulldogs-rabbitohs","home":"Bulldogs","away":"Rabbitohs","pickSide":"home",
+      "odds":"$1.65","color":"#1B3D6D","venue":"Accor Stadium","time":"Fri 8:00pm",
+      "badges":[["FINALS SHOWDOWN","grudge"]],"conf":58,
+      "rundown":"Both sides are scrapping for a top-8 spot. <b>Bulldogs</b> let a lead slip last week but have the better recent scoring rate.",
+      "mongrel":"Josh Curran","tryFirst":5.5,"tryAny":2.1
+    },
+    {
+      "id":"sharks-raiders","home":"Sharks","away":"Raiders","pickSide":"home",
+      "odds":"$1.14","color":"#00A9CE","venue":"Ocean Protect Stadium","time":"Sat 3:00pm",
+      "badges":[["BOUNCE-BACK","good"]],"conf":82,
+      "rundown":"<b>Sharks</b> were upset by the Dragons last week after a 9-1 run. Raiders have lost back to back and are out of finals contention.",
+      "mongrel":"KL Iro","tryFirst":4.0,"tryAny":1.8
+    },
+    {
+      "id":"eels-cowboys","home":"Eels","away":"Cowboys","pickSide":"home",
+      "odds":"$2.60","color":"#0033A0","venue":"CommBank Stadium","time":"Sat 5:30pm",
+      "badges":[["BOILOVER WATCH","boil"]],"conf":42,
+      "rundown":"<b>Eels</b> lift against finals-chasing sides. Cowboys' form has been patchy on the road this run home.",
+      "mongrel":"Dylan Brown","tryFirst":6.0,"tryAny":2.4
+    },
+    {
+      "id":"broncos-warriors","home":"Broncos","away":"Warriors","pickSide":"away",
+      "odds":"$1.45","color":"#00843D","venue":"Suncorp Stadium","time":"Sat 7:35pm",
+      "badges":[["MINOR PREM PUSH","good"]],"conf":72,
+      "rundown":"<b>Warriors</b> are chasing the minor premiership and were dominant beating Penrith last week. Broncos sit 16th.",
+      "mongrel":"Marata Niukore","tryFirst":4.8,"tryAny":2.0
+    },
+    {
+      "id":"knights-titans","home":"Knights","away":"Titans","pickSide":"home",
+      "odds":"$1.10","color":"#EE3524","venue":"McDonald Jones Stadium","time":"Sun 2:00pm",
+      "badges":[["HOME BANKER","good"]],"conf":85,
+      "rundown":"<b>Knights</b> are strong at home against bottom-8 sides. Titans have lost 14 of 20 this year.",
+      "mongrel":"Dominic Young","tryFirst":3.8,"tryAny":1.7
+    },
+    {
+      "id":"weststigers-dragons","home":"Wests Tigers","away":"Dragons","pickSide":"away",
+      "odds":"$1.94","color":"#C8102E","venue":"CommBank Stadium","time":"Sun 4:05pm",
+      "badges":[["BOILOVER WATCH","boil"]],"conf":52,
+      "rundown":"Bottom-of-the-table clash. <b>Dragons</b> are chasing back-to-back wins for the first time in a while after beating Cronulla.",
+      "mongrel":"Jayden Sullivan","tryFirst":5.2,"tryAny":2.2
+    }
+  ]
 }
