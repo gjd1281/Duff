@@ -1,67 +1,93 @@
 {
-"meta": {
-"engine": "TIGER v12 Simulation",
-"generated": "2026-08-15",
-"label": "Saturday 15 Aug 2026"
-},
-"racing": {
-"meetings": [
-{
-"id": "caul-150826",
-"track": "Caulfield",
-"condition": "Heavy 8",
-"pacing": "WET PACING ENABLED",
-"selections": [
-{ "race_no": 1, "horse": "Fundamental Nature", "price": "5.50", "gd_rating": 7.95, "tier": "WIN, solid", "flags": ["⚡ Fast sectionals", "🌧️ Wet specialist"] },
-{ "race_no": 2, "horse": "Simurgh", "price": "3.20", "gd_rating": 8.35, "tier": "WIN, high confidence", "flags": ["👑 Banker tag", "🧠 Smart money"] },
-{ "race_no": 3, "horse": "Silent Shares", "price": "7.00", "gd_rating": 7.82, "tier": "WIN, solid", "flags": ["💪 New stable", "📉 Class drop"] },
-{ "race_no": 5, "horse": "Closer To Free", "price": "2.15", "gd_rating": 8.52, "tier": "WIN, banker", "flags": ["🏆 Banker", "⚡ Fast sectionals"] },
-{ "race_no": 7, "horse": "Cosmic Crusader", "price": "1.95", "gd_rating": 8.60, "tier": "WIN, banker", "flags": ["👑 Banker tag", "🧠 Smart money", "⚡ Fast sectionals"] }
-]
-},
-{
-"id": "rhil-150826",
-"track": "Rosehill Gardens",
-"condition": "Soft 6",
-"pacing": "RAW SCORES LOCKED",
-"selections": [
-{ "race_no": 1, "horse": "Attractiveness", "price": "3.80", "gd_rating": 8.22, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money"] },
-{ "race_no": 3, "horse": "Xtreme", "price": "18.00", "gd_rating": 7.65, "tier": "EACH-WAY", "flags": ["🐴 Roughie", "🍀 Bad luck last start"] },
-{ "race_no": 7, "horse": "Hawker Hall", "price": "2.25", "gd_rating": 8.41, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "⚡ Fast sectionals"] },
-{ "race_no": 8, "horse": "Blue Door", "price": "3.60", "gd_rating": 8.55, "tier": "WIN, banker", "flags": ["🏆 Banker", "👑 Banker tag"] },
-{ "race_no": 9, "horse": "Attica", "price": "3.70", "gd_rating": 8.10, "tier": "WIN, solid", "flags": ["✅ Solid", "📉 Class drop"] },
-{ "race_no": 10, "horse": "Tarzing", "price": "2.80", "gd_rating": 8.44, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🎯 Jockey flag"] }
-]
-},
-{
-"id": "doom-150826",
-"track": "Doomben",
-"condition": "Good / Soft",
-"pacing": "RAW SCORES LOCKED",
-"selections": [
-{ "race_no": 1, "horse": "Celtic Sin", "price": "4.40", "gd_rating": 8.12, "tier": "WIN, solid", "flags": ["✅ Solid", "📏 Bias runner"] },
-{ "race_no": 2, "horse": "Exceed The Sale", "price": "2.60", "gd_rating": 8.42, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money", "👑 Banker tag"] },
-{ "race_no": 3, "horse": "Fernao", "price": "3.10", "gd_rating": 8.28, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "⚡ Fast sectionals"] },
-{ "race_no": 4, "horse": "Lockyer", "price": "1.85", "gd_rating": 8.51, "tier": "WIN, banker", "flags": ["🏆 Banker", "🎯 Jockey flag"] },
-{ "race_no": 6, "horse": "Pereille", "price": "2.50", "gd_rating": 8.36, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "📉 Class drop"] },
-{ "race_no": 7, "horse": "Braveheart", "price": "2.90", "gd_rating": 8.48, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "👑 Banker tag"] }
-]
-},
-{
-"id": "morp-150826",
-"track": "Morphettville Parks",
-"condition": "Heavy 9",
-"pacing": "WET PACING ENABLED",
-"selections": [
-{ "race_no": 1, "horse": "Harsh", "price": "2.05", "gd_rating": 8.58, "tier": "WIN, banker", "flags": ["🏆 Banker", "🌧️ Wet specialist", "👑 Banker tag"] },
-{ "race_no": 2, "horse": "Super Wonder", "price": "6.50", "gd_rating": 7.74, "tier": "WIN, solid", "flags": ["✅ Solid", "🚪 Wide gate"] },
-{ "race_no": 4, "horse": "Stand Alone", "price": "3.80", "gd_rating": 8.20, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money"] },
-{ "race_no": 5, "horse": "Maxildo", "price": "14.00", "gd_rating": 7.62, "tier": "EACH-WAY", "flags": ["🥈 EACH-WAY", "💪 New stable", "🐴 Roughie"] },
-{ "race_no": 7, "horse": "Dancing Storm", "price": "2.20", "gd_rating": 8.52, "tier": "WIN, banker", "flags": ["🏆 Banker", "⚡ Fast sectionals"] },
-{ "race_no": 8, "horse": "Gazelle", "price": "9.50", "gd_rating": 7.68, "tier": "EACH-WAY", "flags": ["🥈 EACH-WAY", "🍀 Bad luck last start"] },
-{ "race_no": 9, "horse": "Bold Secret", "price": "2.05", "gd_rating": 8.45, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money", "🌧️ Wet specialist"] }
-]
-}
-]
-}
+  "meta": {"engine":"TIGER v12","generated":"2026-08-15","label":"Saturday 15 August","sample":"Metro/Provincial"},
+  "racing": {
+    "meetings": [
+      {
+        "id": "doom", "track": "DOOMBEN", "condition": "Soft 5", "rail": "True", "direction": "clockwise",
+        "races": [
+          {"no":1,"horse":"4. Trafalgar Square","price":"3.20","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["🍀 Bad luck last start"],"time":"11:43am"},
+          {"no":1,"horse":"5. Lukey Blue","price":"61.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"11:43am","value":true},
+          {"no":2,"horse":"5. Exceed The Sale","price":"2.80","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"12:18pm"},
+          {"no":2,"horse":"8. Missile Shot","price":"20.00","gd":7.30,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"12:18pm","value":true},
+          {"no":3,"horse":"4. Fernao","price":"3.30","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"12:53pm"},
+          {"no":4,"horse":"12. Lockyer","price":"2.50","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:28pm"},
+          {"no":4,"horse":"1. Aldolfito","price":"12.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"1:28pm","value":true},
+          {"no":5,"horse":"2. Just Flying","price":"2.70","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"2:03pm"},
+          {"no":5,"horse":"7. Glass Of Rose","price":"12.00","gd":6.80,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"2:03pm"},
+          {"no":6,"horse":"2. Pipistrelle","price":"4.20","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"2:38pm"},
+          {"no":6,"horse":"3. Matawai","price":"20.00","gd":6.60,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"2:38pm"},
+          {"no":7,"horse":"8. Blazing Harry","price":"3.30","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["🍀 Bad luck last start"],"time":"3:17pm"},
+          {"no":7,"horse":"9. Maximum Vortex","price":"26.00","gd":6.80,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"3:17pm"},
+          {"no":8,"horse":"6. Grinzinger Champ","price":"1.60","gd":8.50,"pace":"mid","bet":"WIN","fc":7,"flags":["🏆 Banker","🧠 Smart money"],"time":"3:53pm"},
+          {"no":8,"horse":"9. Super Daisy","price":"21.00","gd":6.90,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"3:53pm"},
+          {"no":9,"horse":"7. Hell","price":"2.50","gd":7.80,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"4:28pm"},
+          {"no":9,"horse":"1. Epic Proportions","price":"12.00","gd":7.50,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie","🍀 Bad luck last start"],"time":"4:28pm","value":true}
+        ]
+      },
+      {
+        "id": "caul", "track": "CAULFIELD", "condition": "Soft 7", "rail": "True", "direction": "clockwise",
+        "races": [
+          {"no":1,"horse":"9. Educated","price":"3.20","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"12:25pm"},
+          {"no":1,"horse":"8. Princess Que","price":"20.00","gd":7.20,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"12:25pm"},
+          {"no":2,"horse":"4. Simurgh","price":"3.40","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:00pm"},
+          {"no":2,"horse":"11. Belle Savoir","price":"26.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"1:00pm"},
+          {"no":3,"horse":"14. Missapprehend","price":"3.90","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:35pm"},
+          {"no":4,"horse":"8. He'll Rip","price":"4.80","gd":8.20,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"2:10pm"},
+          {"no":4,"horse":"9. House Of Lords","price":"18.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"2:10pm"},
+          {"no":5,"horse":"2. Closer To Free","price":"2.70","gd":8.20,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"2:45pm"},
+          {"no":6,"horse":"5. Natural Fling","price":"2.60","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"3:25pm"},
+          {"no":6,"horse":"14. Portinari","price":"14.00","gd":7.60,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"3:25pm","value":true},
+          {"no":7,"horse":"7. Cosmic Crusader","price":"2.45","gd":8.30,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"4:00pm"},
+          {"no":7,"horse":"4. Desert Lightning","price":"13.00","gd":7.70,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"4:00pm","value":true},
+          {"no":8,"horse":"9. Shadhavar","price":"6.00","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"4:35pm"},
+          {"no":8,"horse":"4. Ndola","price":"12.00","gd":7.30,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"4:35pm"},
+          {"no":9,"horse":"13. Darkbonee","price":"2.60","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"5:15pm"}
+        ]
+      },
+      {
+        "id": "rhil", "track": "ROSEHILL", "condition": "Good 4", "rail": "True", "direction": "clockwise",
+        "races": [
+          {"no":1,"horse":"5. Attractiveness","price":"1.80","gd":8.30,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"11:35am"},
+          {"no":1,"horse":"16. Channelling","price":"27.00","gd":6.80,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"11:35am"},
+          {"no":2,"horse":"3. Steel Will","price":"1.60","gd":8.40,"pace":"mid","bet":"WIN","fc":7,"flags":["🏆 Banker"],"time":"12:10pm"},
+          {"no":2,"horse":"7. Savvy Diamond","price":"13.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"12:10pm"},
+          {"no":3,"horse":"9. Indi Springs","price":"7.50","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["⚡ Fast sectionals"],"time":"12:45pm"},
+          {"no":3,"horse":"2. Brooklyn Lights","price":"14.00","gd":7.60,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"12:45pm","value":true},
+          {"no":4,"horse":"11. Leovanni","price":"3.30","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:20pm"},
+          {"no":4,"horse":"5. Aroha Stone","price":"13.00","gd":7.10,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"1:20pm","value":true},
+          {"no":5,"horse":"10. Mind Ya Bizz","price":"7.00","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:55pm"},
+          {"no":5,"horse":"9. Ishikari","price":"13.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"1:55pm"},
+          {"no":6,"horse":"4. Kimberley Secrets","price":"5.00","gd":7.80,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"2:30pm"},
+          {"no":6,"horse":"9. Confess Our Dreams","price":"26.00","gd":6.80,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"2:30pm"},
+          {"no":7,"horse":"5. Hawker Hall","price":"2.30","gd":8.20,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"3:05pm"},
+          {"no":7,"horse":"9. Money Team","price":"26.00","gd":6.50,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"3:05pm"},
+          {"no":8,"horse":"3. Central Europe","price":"4.00","gd":8.30,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"3:45pm"},
+          {"no":9,"horse":"11. Althoff","price":"3.10","gd":8.20,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"4:20pm"},
+          {"no":9,"horse":"2. Piggyback","price":"21.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"4:20pm"},
+          {"no":10,"horse":"9. Steel Strike","price":"5.50","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"4:55pm"},
+          {"no":10,"horse":"11. Barbaric Lad","price":"13.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"4:55pm"}
+        ]
+      },
+      {
+        "id": "morp", "track": "MORPHETTVILLE", "condition": "Heavy 9", "rail": "Out 3m", "direction": "anticlockwise",
+        "races": [
+          {"no":2,"horse":"9. Super Wonder","price":"2.70","gd":7.75,"pace":"mid","bet":"WIN","fc":3,"flags":["✅ Solid","🧠 Smart money"],"time":"1:12pm"},
+          {"no":3,"horse":"5. Bassett Babe","price":"2.30","gd":8.00,"pace":"mid","bet":"WIN","fc":3,"flags":["🧠 Smart money"],"time":"1:47pm"},
+          {"no":3,"horse":"7. Babayka","price":"35.00","gd":6.90,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🍀 Bad luck last start"],"time":"1:47pm"},
+          {"no":4,"horse":"3. Bohemian Angel","price":"3.60","gd":7.90,"pace":"mid","bet":"WIN","fc":4,"flags":["✅ Solid","🧠 Smart money"],"time":"2:22pm"},
+          {"no":5,"horse":"5. Extinguish","price":"4.40","gd":7.90,"pace":"mid","bet":"WIN","fc":4,"flags":["✅ Solid"],"time":"2:57pm"},
+          {"no":5,"horse":"11. Full Commitment","price":"12.00","gd":7.10,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"2:57pm"},
+          {"no":6,"horse":"7. Sassy Little Miss","price":"6.00","gd":7.85,"pace":"mid","bet":"WIN","fc":3,"flags":["✅ Solid"],"time":"3:37pm"},
+          {"no":6,"horse":"10. He's A Cool Cat","price":"19.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"3:37pm"},
+          {"no":7,"horse":"2. Dancing Storm","price":"4.00","gd":7.85,"pace":"mid","bet":"WIN","fc":3,"flags":["✅ Solid"],"time":"4:10pm"},
+          {"no":7,"horse":"3. Eugenius","price":"26.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"4:10pm"},
+          {"no":8,"horse":"1. Mansiere","price":"4.20","gd":7.80,"pace":"mid","bet":"WIN","fc":3,"flags":["✅ Solid"],"time":"4:47pm"},
+          {"no":8,"horse":"5. Embellisher","price":"13.00","gd":7.05,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"4:47pm"},
+          {"no":9,"horse":"4. Bold Secret","price":"1.80","gd":8.40,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker","🧠 Smart money"],"time":"5:27pm"},
+          {"no":9,"horse":"13. Tannenburg","price":"21.00","gd":6.90,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"5:27pm"}
+        ]
+      }
+    ]
+  },
+  "nrl": {"games": [], "multis": [], "engine": "GD ALGO V1", "round": ""}
 }
