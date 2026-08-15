@@ -18,7 +18,7 @@ function cond(){var m=D.racing.meetings[mi];if(!m)return;$("#cT").textContent=m.
 var cw=(m.direction||"clockwise")=="clockwise",o=$("#mo");o.setAttribute("keyPoints",cw?"0;1":"1;0");o.parentNode.replaceChild(o.cloneNode(true),o);$("#dir").textContent=cw?"CW":"ACW";
 if(wet(m)){$("#pV").textContent="PACE LOCKED \u2014 WET";$("#pD").textContent="On-pace runners +0.30, backmarkers \u22120.30"}
 else{$("#pV").textContent="PACE LOCKED \u2014 DRY";$("#pD").textContent="Raw engine scores, no pace adjustment"}}
-function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet),c=v.c,id=m.id+"-"+r.no,cu=R[id]||"",fl=fsort(r.flags),hf=fl.length>=3?1:0,tp=fl.slice(0,3);
+function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet),c=v.c,id=m.id+"-"+r.no,cu=R[id]||"",fl=fsort(r.flags),hf=(r.fc||0)>=3?1:0,tp=fl.slice(0,3);
 return'<article class="card '+c+'"><div class="row"><div class="no" style="color:#0A0F08;background:#F5FF00;text-shadow:none;font-weight:800;box-shadow:0 0 10px rgba(245,255,0,.55);border-color:transparent">R'+r.no+'</div><div>'
 +(lbl?'<div class="meet">'+E(m.track)+'</div>':'')
 +'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span>'+(r.time?'<span class="tag">'+E(r.time)+'</span>':'')+'<span class="tag">TAB</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
