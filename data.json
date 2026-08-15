@@ -1,69 +1,67 @@
-[
-  {
-    "meta": {
-      "engine": "TIGER v12 Simulation",
-      "generated": "2026-08-15",
-      "label": "Saturday 15 Aug 2026"
-    },
-    "racing": {
-      "meetings": [
-        {
-          "id": "caul-150826",
-          "track": "Caulfield",
-          "condition": "Heavy 8",
-          "pacing": "WET PACING ENABLED",
-          "selections": [
-            { "race_no": 1, "horse": "Fundamental Nature", "price": "5.50", "gd_rating": 7.95, "tier": "WIN, solid", "flags": ["⚡ Fast sectionals", "🌧️ Wet specialist"] },
-            { "race_no": 2, "horse": "Simurgh", "price": "3.20", "gd_rating": 8.35, "tier": "WIN, high confidence", "flags": ["👑 Banker tag", "🧠 Smart money"] },
-            { "race_no": 3, "horse": "Silent Shares", "price": "7.00", "gd_rating": 7.82, "tier": "WIN, solid", "flags": ["💪 New stable", "📉 Class drop"] },
-            { "race_no": 5, "horse": "Closer To Free", "price": "2.15", "gd_rating": 8.52, "tier": "WIN, banker", "flags": ["🏆 Banker", "⚡ Fast sectionals"] },
-            { "race_no": 7, "horse": "Cosmic Crusader", "price": "1.95", "gd_rating": 8.60, "tier": "WIN, banker", "flags": ["👑 Banker tag", "🧠 Smart money", "⚡ Fast sectionals"] }
-          ]
-        },
-        {
-          "id": "rhil-150826",
-          "track": "Rosehill Gardens",
-          "condition": "Soft 6",
-          "pacing": "RAW SCORES LOCKED",
-          "selections": [
-            { "race_no": 1, "horse": "Attractiveness", "price": "3.80", "gd_rating": 8.22, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money"] },
-            { "race_no": 3, "horse": "Xtreme", "price": "18.00", "gd_rating": 7.65, "tier": "EACH-WAY", "flags": ["🐴 Roughie", "🍀 Bad luck last start"] },
-            { "race_no": 7, "horse": "Hawker Hall", "price": "2.25", "gd_rating": 8.41, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "⚡ Fast sectionals"] },
-            { "race_no": 8, "horse": "Blue Door", "price": "3.60", "gd_rating": 8.55, "tier": "WIN, banker", "flags": ["🏆 Banker", "👑 Banker tag"] },
-            { "race_no": 9, "horse": "Attica", "price": "3.70", "gd_rating": 8.10, "tier": "WIN, solid", "flags": ["✅ Solid", "📉 Class drop"] },
-            { "race_no": 10, "horse": "Tarzing", "price": "2.80", "gd_rating": 8.44, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🎯 Jockey flag"] }
-          ]
-        },
-        {
-          "id": "doom-150826",
-          "track": "Doomben",
-          "condition": "Good / Soft",
-          "pacing": "RAW SCORES LOCKED",
-          "selections": [
-            { "race_no": 1, "horse": "Celtic Sin", "price": "4.40", "gd_rating": 8.12, "tier": "WIN, solid", "flags": ["✅ Solid", "📏 Bias runner"] },
-            { "race_no": 2, "horse": "Exceed The Sale", "price": "2.60", "gd_rating": 8.42, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money", "👑 Banker tag"] },
-            { "race_no": 3, "horse": "Fernao", "price": "3.10", "gd_rating": 8.28, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "⚡ Fast sectionals"] },
-            { "race_no": 4, "horse": "Lockyer", "price": "1.85", "gd_rating": 8.51, "tier": "WIN, banker", "flags": ["🏆 Banker", "🎯 Jockey flag"] },
-            { "race_no": 6, "horse": "Pereille", "price": "2.50", "gd_rating": 8.36, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "📉 Class drop"] },
-            { "race_no": 7, "horse": "Braveheart", "price": "2.90", "gd_rating": 8.48, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "👑 Banker tag"] }
-          ]
-        },
-        {
-          "id": "morp-150826",
-          "track": "Morphettville Parks",
-          "condition": "Heavy 9",
-          "pacing": "WET PACING ENABLED",
-          "selections": [
-            { "race_no": 1, "horse": "Harsh", "price": "2.05", "gd_rating": 8.58, "tier": "WIN, banker", "flags": ["🏆 Banker", "🌧️ Wet specialist", "👑 Banker tag"] },
-            { "race_no": 2, "horse": "Super Wonder", "price": "6.50", "gd_rating": 7.74, "tier": "WIN, solid", "flags": ["✅ Solid", "🚪 Wide gate"] },
-            { "race_no": 4, "horse": "Stand Alone", "price": "3.80", "gd_rating": 8.20, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money"] },
-            { "race_no": 5, "horse": "Maxildo", "price": "14.00", "gd_rating": 7.62, "tier": "EACH-WAY", "flags": ["🥈 EACH-WAY", "💪 New stable", "🐴 Roughie"] },
-            { "race_no": 7, "horse": "Dancing Storm", "price": "2.20", "gd_rating": 8.52, "tier": "WIN, banker", "flags": ["🏆 Banker", "⚡ Fast sectionals"] },
-            { "race_no": 8, "horse": "Gazelle", "price": "9.50", "gd_rating": 7.68, "tier": "EACH-WAY", "flags": ["🥈 EACH-WAY", "🍀 Bad luck last start"] },
-            { "race_no": 9, "horse": "Bold Secret", "price": "2.05", "gd_rating": 8.45, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money", "🌧️ Wet specialist"] }
-          ]
-        }
-      ]
-    }
-  }
+{
+"meta": {
+"engine": "TIGER v12 Simulation",
+"generated": "2026-08-15",
+"label": "Saturday 15 Aug 2026"
+},
+"racing": {
+"meetings": [
+{
+"id": "caul-150826",
+"track": "Caulfield",
+"condition": "Heavy 8",
+"pacing": "WET PACING ENABLED",
+"selections": [
+{ "race_no": 1, "horse": "Fundamental Nature", "price": "5.50", "gd_rating": 7.95, "tier": "WIN, solid", "flags": ["⚡ Fast sectionals", "🌧️ Wet specialist"] },
+{ "race_no": 2, "horse": "Simurgh", "price": "3.20", "gd_rating": 8.35, "tier": "WIN, high confidence", "flags": ["👑 Banker tag", "🧠 Smart money"] },
+{ "race_no": 3, "horse": "Silent Shares", "price": "7.00", "gd_rating": 7.82, "tier": "WIN, solid", "flags": ["💪 New stable", "📉 Class drop"] },
+{ "race_no": 5, "horse": "Closer To Free", "price": "2.15", "gd_rating": 8.52, "tier": "WIN, banker", "flags": ["🏆 Banker", "⚡ Fast sectionals"] },
+{ "race_no": 7, "horse": "Cosmic Crusader", "price": "1.95", "gd_rating": 8.60, "tier": "WIN, banker", "flags": ["👑 Banker tag", "🧠 Smart money", "⚡ Fast sectionals"] }
 ]
+},
+{
+"id": "rhil-150826",
+"track": "Rosehill Gardens",
+"condition": "Soft 6",
+"pacing": "RAW SCORES LOCKED",
+"selections": [
+{ "race_no": 1, "horse": "Attractiveness", "price": "3.80", "gd_rating": 8.22, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money"] },
+{ "race_no": 3, "horse": "Xtreme", "price": "18.00", "gd_rating": 7.65, "tier": "EACH-WAY", "flags": ["🐴 Roughie", "🍀 Bad luck last start"] },
+{ "race_no": 7, "horse": "Hawker Hall", "price": "2.25", "gd_rating": 8.41, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "⚡ Fast sectionals"] },
+{ "race_no": 8, "horse": "Blue Door", "price": "3.60", "gd_rating": 8.55, "tier": "WIN, banker", "flags": ["🏆 Banker", "👑 Banker tag"] },
+{ "race_no": 9, "horse": "Attica", "price": "3.70", "gd_rating": 8.10, "tier": "WIN, solid", "flags": ["✅ Solid", "📉 Class drop"] },
+{ "race_no": 10, "horse": "Tarzing", "price": "2.80", "gd_rating": 8.44, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🎯 Jockey flag"] }
+]
+},
+{
+"id": "doom-150826",
+"track": "Doomben",
+"condition": "Good / Soft",
+"pacing": "RAW SCORES LOCKED",
+"selections": [
+{ "race_no": 1, "horse": "Celtic Sin", "price": "4.40", "gd_rating": 8.12, "tier": "WIN, solid", "flags": ["✅ Solid", "📏 Bias runner"] },
+{ "race_no": 2, "horse": "Exceed The Sale", "price": "2.60", "gd_rating": 8.42, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money", "👑 Banker tag"] },
+{ "race_no": 3, "horse": "Fernao", "price": "3.10", "gd_rating": 8.28, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "⚡ Fast sectionals"] },
+{ "race_no": 4, "horse": "Lockyer", "price": "1.85", "gd_rating": 8.51, "tier": "WIN, banker", "flags": ["🏆 Banker", "🎯 Jockey flag"] },
+{ "race_no": 6, "horse": "Pereille", "price": "2.50", "gd_rating": 8.36, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "📉 Class drop"] },
+{ "race_no": 7, "horse": "Braveheart", "price": "2.90", "gd_rating": 8.48, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "👑 Banker tag"] }
+]
+},
+{
+"id": "morp-150826",
+"track": "Morphettville Parks",
+"condition": "Heavy 9",
+"pacing": "WET PACING ENABLED",
+"selections": [
+{ "race_no": 1, "horse": "Harsh", "price": "2.05", "gd_rating": 8.58, "tier": "WIN, banker", "flags": ["🏆 Banker", "🌧️ Wet specialist", "👑 Banker tag"] },
+{ "race_no": 2, "horse": "Super Wonder", "price": "6.50", "gd_rating": 7.74, "tier": "WIN, solid", "flags": ["✅ Solid", "🚪 Wide gate"] },
+{ "race_no": 4, "horse": "Stand Alone", "price": "3.80", "gd_rating": 8.20, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money"] },
+{ "race_no": 5, "horse": "Maxildo", "price": "14.00", "gd_rating": 7.62, "tier": "EACH-WAY", "flags": ["🥈 EACH-WAY", "💪 New stable", "🐴 Roughie"] },
+{ "race_no": 7, "horse": "Dancing Storm", "price": "2.20", "gd_rating": 8.52, "tier": "WIN, banker", "flags": ["🏆 Banker", "⚡ Fast sectionals"] },
+{ "race_no": 8, "horse": "Gazelle", "price": "9.50", "gd_rating": 7.68, "tier": "EACH-WAY", "flags": ["🥈 EACH-WAY", "🍀 Bad luck last start"] },
+{ "race_no": 9, "horse": "Bold Secret", "price": "2.05", "gd_rating": 8.45, "tier": "WIN, high confidence", "flags": ["🔥 High confidence", "🧠 Smart money", "🌧️ Wet specialist"] }
+]
+}
+]
+}
+}
