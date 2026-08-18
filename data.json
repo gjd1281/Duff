@@ -1,93 +1,40 @@
 {
-  "meta": {"engine":"TIGER v12","generated":"2026-08-15","label":"Saturday 15 August","sample":"Metro/Provincial"},
-  "racing": {
-    "meetings": [
-      {
-        "id": "doom", "track": "DOOMBEN", "condition": "Soft 5", "rail": "True", "direction": "clockwise",
-        "races": [
-          {"no":1,"horse":"4. Trafalgar Square","price":"3.20","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["🍀 Bad luck last start"],"time":"11:43am"},
-          {"no":1,"horse":"5. Lukey Blue","price":"61.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"11:43am","value":true},
-          {"no":2,"horse":"5. Exceed The Sale","price":"2.80","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"12:18pm"},
-          {"no":2,"horse":"8. Missile Shot","price":"20.00","gd":7.30,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"12:18pm","value":true},
-          {"no":3,"horse":"4. Fernao","price":"3.30","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"12:53pm"},
-          {"no":4,"horse":"12. Lockyer","price":"2.50","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:28pm"},
-          {"no":4,"horse":"1. Aldolfito","price":"12.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"1:28pm","value":true},
-          {"no":5,"horse":"2. Just Flying","price":"2.70","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"2:03pm"},
-          {"no":5,"horse":"7. Glass Of Rose","price":"12.00","gd":6.80,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"2:03pm"},
-          {"no":6,"horse":"2. Pipistrelle","price":"4.20","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"2:38pm"},
-          {"no":6,"horse":"3. Matawai","price":"20.00","gd":6.60,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"2:38pm"},
-          {"no":7,"horse":"8. Blazing Harry","price":"3.30","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["🍀 Bad luck last start"],"time":"3:17pm"},
-          {"no":7,"horse":"9. Maximum Vortex","price":"26.00","gd":6.80,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"3:17pm"},
-          {"no":8,"horse":"6. Grinzinger Champ","price":"1.60","gd":8.50,"pace":"mid","bet":"WIN","fc":7,"flags":["🏆 Banker","🧠 Smart money"],"time":"3:53pm"},
-          {"no":8,"horse":"9. Super Daisy","price":"21.00","gd":6.90,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"3:53pm"},
-          {"no":9,"horse":"7. Hell","price":"2.50","gd":7.80,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"4:28pm"},
-          {"no":9,"horse":"1. Epic Proportions","price":"12.00","gd":7.50,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie","🍀 Bad luck last start"],"time":"4:28pm","value":true}
-        ]
-      },
-      {
-        "id": "caul", "track": "CAULFIELD", "condition": "Soft 7", "rail": "True", "direction": "clockwise",
-        "races": [
-          {"no":1,"horse":"9. Educated","price":"3.20","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"12:25pm"},
-          {"no":1,"horse":"8. Princess Que","price":"20.00","gd":7.20,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"12:25pm"},
-          {"no":2,"horse":"4. Simurgh","price":"3.40","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:00pm"},
-          {"no":2,"horse":"11. Belle Savoir","price":"26.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"1:00pm"},
-          {"no":3,"horse":"14. Missapprehend","price":"3.90","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:35pm"},
-          {"no":4,"horse":"8. He'll Rip","price":"4.80","gd":8.20,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"2:10pm"},
-          {"no":4,"horse":"9. House Of Lords","price":"18.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"2:10pm"},
-          {"no":5,"horse":"2. Closer To Free","price":"2.70","gd":8.20,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"2:45pm"},
-          {"no":6,"horse":"5. Natural Fling","price":"2.60","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"3:25pm"},
-          {"no":6,"horse":"14. Portinari","price":"14.00","gd":7.60,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"3:25pm","value":true},
-          {"no":7,"horse":"7. Cosmic Crusader","price":"2.45","gd":8.30,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"4:00pm"},
-          {"no":7,"horse":"4. Desert Lightning","price":"13.00","gd":7.70,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"4:00pm","value":true},
-          {"no":8,"horse":"9. Shadhavar","price":"6.00","gd":7.90,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"4:35pm"},
-          {"no":8,"horse":"4. Ndola","price":"12.00","gd":7.30,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"4:35pm"},
-          {"no":9,"horse":"13. Darkbonee","price":"2.60","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"5:15pm"}
-        ]
-      },
-      {
-        "id": "rhil", "track": "ROSEHILL", "condition": "Good 4", "rail": "True", "direction": "clockwise",
-        "races": [
-          {"no":1,"horse":"5. Attractiveness","price":"1.80","gd":8.30,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"11:35am"},
-          {"no":1,"horse":"16. Channelling","price":"27.00","gd":6.80,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"11:35am"},
-          {"no":2,"horse":"3. Steel Will","price":"1.60","gd":8.40,"pace":"mid","bet":"WIN","fc":7,"flags":["🏆 Banker"],"time":"12:10pm"},
-          {"no":2,"horse":"7. Savvy Diamond","price":"13.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"12:10pm"},
-          {"no":3,"horse":"9. Indi Springs","price":"7.50","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["⚡ Fast sectionals"],"time":"12:45pm"},
-          {"no":3,"horse":"2. Brooklyn Lights","price":"14.00","gd":7.60,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"12:45pm","value":true},
-          {"no":4,"horse":"11. Leovanni","price":"3.30","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:20pm"},
-          {"no":4,"horse":"5. Aroha Stone","price":"13.00","gd":7.10,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":["🐴 Roughie"],"time":"1:20pm","value":true},
-          {"no":5,"horse":"10. Mind Ya Bizz","price":"7.00","gd":8.10,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"1:55pm"},
-          {"no":5,"horse":"9. Ishikari","price":"13.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"1:55pm"},
-          {"no":6,"horse":"4. Kimberley Secrets","price":"5.00","gd":7.80,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"2:30pm"},
-          {"no":6,"horse":"9. Confess Our Dreams","price":"26.00","gd":6.80,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"2:30pm"},
-          {"no":7,"horse":"5. Hawker Hall","price":"2.30","gd":8.20,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"3:05pm"},
-          {"no":7,"horse":"9. Money Team","price":"26.00","gd":6.50,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"3:05pm"},
-          {"no":8,"horse":"3. Central Europe","price":"4.00","gd":8.30,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"3:45pm"},
-          {"no":9,"horse":"11. Althoff","price":"3.10","gd":8.20,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker"],"time":"4:20pm"},
-          {"no":9,"horse":"2. Piggyback","price":"21.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"4:20pm"},
-          {"no":10,"horse":"9. Steel Strike","price":"5.50","gd":8.00,"pace":"mid","bet":"WIN","fc":5,"flags":["✅ Solid"],"time":"4:55pm"},
-          {"no":10,"horse":"11. Barbaric Lad","price":"13.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["🐴 Roughie"],"time":"4:55pm"}
-        ]
-      },
-      {
-        "id": "morp", "track": "MORPHETTVILLE", "condition": "Heavy 9", "rail": "Out 3m", "direction": "anticlockwise",
-        "races": [
-          {"no":2,"horse":"9. Super Wonder","price":"2.70","gd":7.75,"pace":"mid","bet":"WIN","fc":3,"flags":["✅ Solid","🧠 Smart money"],"time":"1:12pm"},
-          {"no":3,"horse":"5. Bassett Babe","price":"2.30","gd":8.00,"pace":"mid","bet":"WIN","fc":3,"flags":["🧠 Smart money"],"time":"1:47pm"},
-          {"no":3,"horse":"7. Babayka","price":"35.00","gd":6.90,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🍀 Bad luck last start"],"time":"1:47pm"},
-          {"no":4,"horse":"3. Bohemian Angel","price":"3.60","gd":7.90,"pace":"mid","bet":"WIN","fc":4,"flags":["✅ Solid","🧠 Smart money"],"time":"2:22pm"},
-          {"no":5,"horse":"5. Extinguish","price":"4.40","gd":7.90,"pace":"mid","bet":"WIN","fc":4,"flags":["✅ Solid"],"time":"2:57pm"},
-          {"no":5,"horse":"11. Full Commitment","price":"12.00","gd":7.10,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"2:57pm"},
-          {"no":6,"horse":"7. Sassy Little Miss","price":"6.00","gd":7.85,"pace":"mid","bet":"WIN","fc":3,"flags":["✅ Solid"],"time":"3:37pm"},
-          {"no":6,"horse":"10. He's A Cool Cat","price":"19.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"3:37pm"},
-          {"no":7,"horse":"2. Dancing Storm","price":"4.00","gd":7.85,"pace":"mid","bet":"WIN","fc":3,"flags":["✅ Solid"],"time":"4:10pm"},
-          {"no":7,"horse":"3. Eugenius","price":"26.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"4:10pm"},
-          {"no":8,"horse":"1. Mansiere","price":"4.20","gd":7.80,"pace":"mid","bet":"WIN","fc":3,"flags":["✅ Solid"],"time":"4:47pm"},
-          {"no":8,"horse":"5. Embellisher","price":"13.00","gd":7.05,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"4:47pm"},
-          {"no":9,"horse":"4. Bold Secret","price":"1.80","gd":8.40,"pace":"mid","bet":"WIN","fc":6,"flags":["🏆 Banker","🧠 Smart money"],"time":"5:27pm"},
-          {"no":9,"horse":"13. Tannenburg","price":"21.00","gd":6.90,"pace":"mid","bet":"ROUGHIE","fc":2,"flags":["🐴 Roughie"],"time":"5:27pm"}
-        ]
-      }
-    ]
-  },
-  "nrl": {"games": [], "multis": [], "engine": "GD ALGO V1", "round": ""}
+"meta":{"engine":"TIGER v12","generated":"2026-08-19","label":"Duffs Way","sample":"Wed Metro/Prov"},
+"racing":{"meetings":[
+{"id":"sand","track":"SANDOWN LAKESIDE","condition":"Soft 7","rail":"True 400m-WP, Out 6m Rem","direction":"anticlockwise","races":[
+{"no":1,"time":"1:00pm","horse":"4. Sapphire Siren","price":"5.00","gd":7.75,"pace":"mid","bet":"WIN","fc":8,"flags":["📏 Bias runner"]},
+{"no":1,"time":"1:00pm","horse":"10. Frostration","price":"21.00","gd":7.06,"pace":"mid","bet":"ROUGHIE","fc":4,"value":true,"flags":["🌧️ Wet specialist","📏 Bias runner"]},
+{"no":2,"time":"1:35pm","horse":"9. Zambales","price":"1.80","gd":7.45,"pace":"mid","bet":"WIN","fc":6,"flags":["⚙️ Gear change","📏 Bias runner"]},
+{"no":2,"time":"1:35pm","horse":"3. Inner Gold","price":"21.00","gd":6.85,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["📏 Bias runner"]},
+{"no":3,"time":"2:10pm","horse":"11. Resolutely","price":"3.50","gd":7.75,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner"]},
+{"no":3,"time":"2:10pm","horse":"7. Jinkies","price":"12.00","gd":7.20,"pace":"mid","bet":"ROUGHIE","fc":4,"value":true,"flags":["📏 Bias runner"]},
+{"no":4,"time":"2:45pm","horse":"11. Soul Mistress","price":"14.00","gd":7.43,"pace":"mid","bet":"ROUGHIE","fc":7,"value":true,"flags":["📏 Bias runner"]},
+{"no":4,"time":"2:45pm","horse":"4. Winter Grace","price":"17.00","gd":7.39,"pace":"mid","bet":"ROUGHIE","fc":6,"value":true,"flags":["📏 Bias runner"]},
+{"no":5,"time":"3:20pm","horse":"4. Customer Service","price":"6.50","gd":7.31,"pace":"mid","bet":"WIN","fc":5,"flags":["📏 Bias runner"]},
+{"no":5,"time":"3:20pm","horse":"3. Jaykayann","price":"16.00","gd":7.04,"pace":"mid","bet":"ROUGHIE","fc":5,"value":true,"flags":["🌧️ Wet specialist","📏 Bias runner"]},
+{"no":6,"time":"3:55pm","horse":"1. One Long Day","price":"15.00","gd":7.52,"pace":"mid","bet":"WIN","fc":9,"value":true,"flags":["🌧️ Wet specialist","📏 Bias runner","⚙️ Gear change"]},
+{"no":6,"time":"3:55pm","horse":"8. Icaro","price":"19.00","gd":7.26,"pace":"mid","bet":"ROUGHIE","fc":5,"value":true,"flags":["🌧️ Wet specialist","📏 Bias runner"]},
+{"no":7,"time":"4:30pm","horse":"9. Queen Christine","price":"2.90","gd":8.18,"pace":"mid","bet":"WIN","fc":10,"flags":["🌧️ Wet specialist","📏 Bias runner"]},
+{"no":7,"time":"4:30pm","horse":"10. Cyber Link","price":"17.00","gd":7.68,"pace":"mid","bet":"ROUGHIE","fc":8,"value":true,"flags":["📏 Bias runner","🧠 Smart money"]},
+{"no":8,"time":"5:05pm","horse":"11. Celestial Zara","price":"6.50","gd":7.60,"pace":"mid","bet":"WIN","fc":8,"flags":["📏 Bias runner"]},
+{"no":8,"time":"5:05pm","horse":"17. Viva Mauricio","price":"13.00","gd":7.17,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["📏 Bias runner"]}
+]},
+{"id":"wfrm","track":"WARWICK FARM","condition":"Soft 6","rail":"True Entire Circuit","direction":"clockwise","races":[
+{"no":1,"time":"1:25pm","horse":"6. Artemex","price":"4.80","gd":7.33,"pace":"mid","bet":"WIN","fc":6,"value":true,"flags":["⚙️ Gear change"]},
+{"no":1,"time":"1:25pm","horse":"9. Darn You","price":"12.00","gd":6.75,"pace":"mid","bet":"ROUGHIE","fc":3,"flags":["⚙️ Gear change"]},
+{"no":2,"time":"2:00pm","horse":"14. Satin Serenade","price":"1.70","gd":7.51,"pace":"mid","bet":"WIN","fc":8,"flags":["⚙️ Gear change"]},
+{"no":2,"time":"2:00pm","horse":"10. Albert Palais","price":"23.00","gd":6.69,"pace":"mid","bet":"ROUGHIE","fc":3,"value":true,"flags":["⚙️ Gear change"]},
+{"no":3,"time":"2:35pm","horse":"1. Columbus","price":"2.30","gd":7.73,"pace":"mid","bet":"WIN","fc":8,"flags":["⚙️ Gear change"]},
+{"no":3,"time":"2:35pm","horse":"2. United Kingdom","price":"19.00","gd":6.83,"pace":"mid","bet":"ROUGHIE","fc":4,"flags":[]},
+{"no":4,"time":"3:10pm","horse":"13. Uncertain Glory","price":"5.50","gd":7.72,"pace":"mid","bet":"WIN","fc":9,"flags":["🌧️ Wet specialist"]},
+{"no":4,"time":"3:10pm","horse":"7. Extrio","price":"51.00","gd":6.92,"pace":"mid","bet":"ROUGHIE","fc":4,"value":true,"flags":["🌧️ Wet specialist"]},
+{"no":5,"time":"3:45pm","horse":"3. Mr Miller","price":"1.60","gd":8.11,"pace":"mid","bet":"WIN","fc":10,"value":true,"flags":["⚡ Fast sectionals","⚙️ Gear change"]},
+{"no":5,"time":"3:45pm","horse":"2. Island Dream","price":"13.00","gd":7.00,"pace":"mid","bet":"ROUGHIE","fc":5,"value":true,"flags":["🌧️ Wet specialist"]},
+{"no":6,"time":"4:20pm","horse":"4. Valilee","price":"3.10","gd":7.88,"pace":"mid","bet":"WIN","fc":8,"value":true,"flags":["🌧️ Wet specialist"]},
+{"no":6,"time":"4:20pm","horse":"13. Just Awesome","price":"16.00","gd":7.18,"pace":"mid","bet":"ROUGHIE","fc":6,"value":true,"flags":["⚙️ Gear change","🧠 Smart money"]},
+{"no":7,"time":"4:55pm","horse":"13. Olivia Twist","price":"11.00","gd":7.43,"pace":"mid","bet":"WIN","fc":6,"flags":["🌧️ Wet specialist"]},
+{"no":7,"time":"4:55pm","horse":"15. Kwirky Smile","price":"18.00","gd":7.14,"pace":"mid","bet":"ROUGHIE","fc":5,"value":true,"flags":["⚙️ Gear change"]}
+]}
+]},
+"nrl":{"games":[],"multis":[],"engine":"GD ALGO V1","round":25}
 }
