@@ -18,7 +18,7 @@ function cond(){var m=D.racing.meetings[mi];if(!m)return;$("#cT").textContent=m.
 var cw=(m.direction||"clockwise")=="clockwise",o=$("#mo");o.setAttribute("keyPoints",cw?"0;1":"1;0");o.parentNode.replaceChild(o.cloneNode(true),o);$("#dir").textContent=cw?"CW":"ACW";
 if(wet(m)){$("#pV").textContent="PACE LOCKED \u2014 WET";$("#pD").textContent="On-pace runners +0.30, backmarkers \u22120.30"}
 else{$("#pV").textContent="PACE LOCKED \u2014 DRY";$("#pD").textContent="Raw engine scores, no pace adjustment"}}
-function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet),c=v.c,id=m.id+"-"+r.no,cu=R[id]||"",fl=fsort(r.flags),hf=fl.length>=2?1:0,tp=fl.slice(0,3);
+function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet),c=v.c,id=m.id+"-"+r.no+(r.alt?"-a":""),cu=R[id]||"",fl=fsort(r.flags),hf=fl.length>=2?1:0,tp=fl.slice(0,3);
 return'<article class="card '+c+'"><div class="row"><div class="no" style="color:#0A0F08;background:#F5FF00;text-shadow:none;font-weight:800;box-shadow:0 0 10px rgba(245,255,0,.55);border-color:transparent">R'+r.no+'</div><div>'
 +(lbl?'<div class="meet">'+E(m.track)+'</div>':'')
 +'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span>'+(r.time?'<span class="tag">'+E(r.time)+'</span>':'')+'<span class="tag">TAB</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
@@ -34,7 +34,7 @@ function racing(){var b=$("#rb");
 if(vw=="rough"){var out="",any=0;D.racing.meetings.forEach(function(m){(m.races||[]).forEach(function(r){if(rough(r)){out+=slat(r,m,1);any++}})});
 b.innerHTML=any?out:'<p style="color:#6E9C8C">No runners at $12 or longer across today\u2019s meetings.</p>';strike();return}
 var m=D.racing.meetings[mi];if(!m){b.innerHTML='<p style="color:#6E9C8C">No meeting data.</p>';return}
-b.innerHTML=(m.races||[]).map(function(r){return slat(r,m,0)}).join("");strike()}
+b.innerHTML=(m.races||[]).filter(function(r){return !r.alt}).map(function(r){return slat(r,m,0)}).join("");strike()}
 function nrl(){var n=D.nrl||{},g=(n.games||[]).slice().sort(function(a,b){return b.gd-a.gd}),t3={};g.slice(0,3).forEach(function(x){t3[x.home+x.away]=1});
 $("#nb").innerHTML='<div class="sec" style="margin-top:2px">'+E(n.engine||"GD ALGO V1")+" \u00b7 "+E(n.round||"")+'</div>'+(g.map(function(x){var tp=t3[x.home+x.away],ph=x.pick==x.home;
 return'<article class="card'+(tp?" win":"")+'"><div class="row" style="grid-template-columns:1fr auto"><div><div class="hn">'+(ph?'<span style="color:#FFB43D">'+E(x.home)+'</span>':E(x.home))+" v "+(!ph?'<span style="color:#FFB43D">'+E(x.away)+'</span>':E(x.away))+'</div><div class="sub"><span class="tag">'+E(x.line)+" "+E(x.odds)+'</span><span class="tag">TRY '+E(x.tryScorer)+'</span>'+(tp?'<span class="meet">TOP 3</span>':"")+'</div></div><div class="gd"><b>'+x.gd.toFixed(2)+'</b></div></div></article>'}).join("")||'<p style="color:#6E9C8C">No games in data.json</p>')
@@ -70,7 +70,7 @@ tb.appendChild(b);
 function top5(){
 var all=[];
 (D.racing.meetings||[]).forEach(function(m){
-(m.races||[]).forEach(function(r){all.push({r:r,m:m})})});
+(m.races||[]).forEach(function(r){if(!r.alt)all.push({r:r,m:m})})});
 all.sort(function(x,y){return y.r.gd-x.r.gd});
 $("#rb").innerHTML=all.slice(0,5).map(function(x){
 return slat(x.r,x.m,1)}).join("")||'<p style="color:#6E9C8C">No data.</p>';
