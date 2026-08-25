@@ -1,30 +1,218 @@
 {
-"meta":{"engine":"TIGER v12","generated":"2026-08-25","label":"","sample":false},
-"racing":{"meetings":[
-{"id":"rock25","track":"Rockhampton","condition":"Soft 5","rail":"Out 3m","direction":"clockwise","races":[
-
-{"no":1,"horse":"3. Another Champers","price":"$4.60","gd":7.29,"pace":"mid","bet":"PLACE","fc":8,"time":"1:27pm","flags":["\uD83D\uDCC9 Class drop","\uD83D\uDCCF Bias runner","\uD83C\uDF27 Wet specialist"]},
-{"no":1,"horse":"2. La Premiere","price":"$9.00","gd":7.11,"pace":"mid","bet":"PLACE","fc":6,"time":"1:27pm","alt":true,"value":true,"flags":["\u2699 Gear change","\u26A1 Fast sectionals"]},
-
-{"no":2,"horse":"10. Red Scentsation","price":"$7.00","gd":7.35,"pace":"mid","bet":"PLACE","fc":7,"time":"2:04pm","flags":["\u2699 Gear change","\uD83D\uDCC9 Class drop","\uD83D\uDCCF Bias runner"]},
-{"no":2,"horse":"9. Rattlesnakewhiskey","price":"$12.00","gd":7.06,"pace":"mid","bet":"ROUGHIE","fc":6,"time":"2:04pm","alt":true,"value":true,"flags":["\uD83D\uDC34 Roughie","\uD83D\uDCCF Bias runner","\u26A1 Fast sectionals"]},
-
-{"no":3,"horse":"3. Wolfgang","price":"$4.60","gd":7.63,"pace":"mid","bet":"PLACE","fc":9,"time":"2:42pm","flags":["\u2705 Solid","\uD83D\uDCCF Bias runner","\u26A1 Fast sectionals","\uD83C\uDFAF Jockey flag"]},
-{"no":3,"horse":"8. Moochi Starlight","price":"$3.10","gd":7.18,"pace":"mid","bet":"PLACE","fc":6,"time":"2:42pm","alt":true,"value":true,"flags":["\u26A1 Fast sectionals","\uD83D\uDEAA Wide gate"]},
-
-{"no":4,"horse":"1. Thee Creek","price":"$2.90","gd":7.41,"pace":"mid","bet":"PLACE","fc":10,"time":"3:17pm","flags":["\uD83D\uDEAA Wide gate","\uD83C\uDFAF Jockey flag","\u26A1 Fast sectionals"]},
-{"no":4,"horse":"4. Idhana","price":"$13.00","gd":7.24,"pace":"mid","bet":"ROUGHIE","fc":7,"time":"3:17pm","alt":true,"value":true,"flags":["\uD83D\uDC34 Roughie","\uD83D\uDCCF Bias runner","\uD83C\uDF27 Wet specialist"]},
-
-{"no":5,"horse":"5. Next Stop Jupiter","price":"$2.80","gd":7.29,"pace":"mid","bet":"PLACE","fc":8,"time":"3:57pm","flags":["\uD83D\uDEAA Wide gate","\u26A1 Fast sectionals","\uD83C\uDFAF Jockey flag"]},
-{"no":5,"horse":"6. Belvedere Miss","price":"$2.70","gd":7.15,"pace":"mid","bet":"PLACE","fc":7,"time":"3:57pm","alt":true,"value":true,"flags":["\u2699 Gear change","\uD83D\uDCCF Bias runner","\uD83E\uDDE0 Smart money"]},
-
-{"no":6,"horse":"4. Track Tale","price":"$5.00","gd":7.81,"pace":"mid","bet":"WIN","fc":10,"time":"4:34pm","flags":["\u2705 Solid","\uD83C\uDF27 Wet specialist","\uD83D\uDCCF Bias runner","\uD83E\uDDE0 Smart money"]},
-{"no":6,"horse":"9. Papasito","price":"$3.50","gd":7.56,"pace":"mid","bet":"PLACE","fc":8,"time":"4:34pm","alt":true,"value":true,"flags":["\uD83D\uDCCF Bias runner","\uD83C\uDF27 Wet specialist","\uD83C\uDFAF Jockey flag"]},
-
-{"no":7,"horse":"3. Remember The Boys","price":"$2.90","gd":7.54,"pace":"mid","bet":"PLACE","fc":8,"time":"5:10pm","flags":["\uD83C\uDF27 Wet specialist","\uD83D\uDCCF Bias runner","\u26A1 Fast sectionals"]},
-{"no":7,"horse":"8. The Fruitologist","price":"$3.10","gd":7.38,"pace":"mid","bet":"PLACE","fc":7,"time":"5:10pm","alt":true,"value":true,"flags":["\uD83D\uDCCF Bias runner","\uD83C\uDFAF Jockey flag"]}
-
-]}
-]},
-"nrl":{"games":[],"multis":[],"engine":"GD ALGO V1","round":""}
+  "meta": {
+    "engine": "TIGER v12",
+    "generated": "2026-08-26",
+    "label": "Doomben",
+    "sample": "8 races - full field scored"
+  },
+  "racing": {
+    "meetings": [
+      {
+        "id": "doom-260826",
+        "track": "Doomben",
+        "condition": "Soft 5",
+        "rail": "Out 11m",
+        "direction": "clockwise",
+        "races": [
+          {
+            "no": 1,
+            "time": "12:33pm",
+            "horse": "8. Emphatique",
+            "price": "4.20",
+            "gd": 7.06,
+            "pace": "mid",
+            "bet": "Official pick",
+            "fc": 8,
+            "flags": ["🍀 Bad luck last start", "🚪 Wide gate"]
+          },
+          {
+            "no": 1,
+            "time": "12:33pm",
+            "horse": "3. Indamouse",
+            "price": "4.00",
+            "gd": 6.91,
+            "pace": "mid",
+            "bet": "Backup",
+            "fc": 5,
+            "flags": ["🎯 Jockey flag", "📏 Bias runner"],
+            "alt": true
+          },
+          {
+            "no": 2,
+            "time": "1:08pm",
+            "horse": "8. Agadoo",
+            "price": "5.00",
+            "gd": 7.24,
+            "pace": "mid",
+            "bet": "Official pick",
+            "fc": 5,
+            "flags": ["⚙️ Gear change", "📏 Bias runner", "✅ Solid"]
+          },
+          {
+            "no": 2,
+            "time": "1:08pm",
+            "horse": "4. Indigo Star",
+            "price": "3.50",
+            "gd": 7.22,
+            "pace": "mid",
+            "bet": "Backup",
+            "fc": 6,
+            "flags": ["📏 Bias runner", "🧠 Smart money"],
+            "alt": true
+          },
+          {
+            "no": 3,
+            "time": "1:43pm",
+            "horse": "2. Compel",
+            "price": "3.70",
+            "gd": 7.21,
+            "pace": "mid",
+            "bet": "Official pick",
+            "fc": 7,
+            "flags": ["⚙️ Gear change", "📏 Bias runner", "🎯 Jockey flag"]
+          },
+          {
+            "no": 3,
+            "time": "1:43pm",
+            "horse": "11. Summer Sensation",
+            "price": "6.00",
+            "gd": 7.04,
+            "pace": "mid",
+            "bet": "Backup",
+            "fc": 4,
+            "flags": ["📏 Bias runner", "✅ Solid"],
+            "alt": true,
+            "value": true
+          },
+          {
+            "no": 4,
+            "time": "2:18pm",
+            "horse": "3. Captain Blood",
+            "price": "3.80",
+            "gd": 7.09,
+            "pace": "mid",
+            "bet": "Official pick",
+            "fc": 7,
+            "flags": ["⚙️ Gear change", "📏 Bias runner"]
+          },
+          {
+            "no": 4,
+            "time": "2:18pm",
+            "horse": "11. Weownachevy",
+            "price": "4.60",
+            "gd": 6.92,
+            "pace": "mid",
+            "bet": "Backup",
+            "fc": 6,
+            "flags": ["📏 Bias runner"],
+            "alt": true
+          },
+          {
+            "no": 5,
+            "time": "2:53pm",
+            "horse": "3. Quickzou",
+            "price": "6.00",
+            "gd": 7.51,
+            "pace": "mid",
+            "bet": "Official pick",
+            "fc": 6,
+            "flags": ["📏 Bias runner", "🌧️ Wet specialist", "⚙️ Gear change"],
+            "value": true
+          },
+          {
+            "no": 5,
+            "time": "2:53pm",
+            "horse": "11. Vanessi",
+            "price": "11.00",
+            "gd": 6.89,
+            "pace": "mid",
+            "bet": "Backup",
+            "fc": 2,
+            "flags": ["📏 Bias runner", "🎯 Jockey flag"],
+            "alt": true
+          },
+          {
+            "no": 6,
+            "time": "3:28pm",
+            "horse": "9. Vixenette",
+            "price": "15.00",
+            "gd": 7.29,
+            "pace": "mid",
+            "bet": "Official pick",
+            "fc": 8,
+            "flags": ["🌧️ Wet specialist", "📏 Bias runner", "⚡ Fast sectionals", "🐴 Roughie"],
+            "value": true
+          },
+          {
+            "no": 6,
+            "time": "3:28pm",
+            "horse": "5. Bluepinot",
+            "price": "6.00",
+            "gd": 7.27,
+            "pace": "mid",
+            "bet": "Backup",
+            "fc": 5,
+            "flags": ["⚙️ Gear change", "🎯 Jockey flag", "📏 Bias runner"],
+            "alt": true,
+            "value": true
+          },
+          {
+            "no": 7,
+            "time": "4:03pm",
+            "horse": "10. Miss Funny Honey",
+            "price": "4.80",
+            "gd": 7.52,
+            "pace": "mid",
+            "bet": "Official pick",
+            "fc": 11,
+            "flags": ["📏 Bias runner", "⚡ Fast sectionals", "✅ Solid"],
+            "value": true
+          },
+          {
+            "no": 7,
+            "time": "4:03pm",
+            "horse": "2. Dark Arts",
+            "price": "3.90",
+            "gd": 7.42,
+            "pace": "mid",
+            "bet": "Backup",
+            "fc": 8,
+            "flags": ["📏 Bias runner", "🌧️ Wet specialist", "🧠 Smart money"],
+            "alt": true
+          },
+          {
+            "no": 8,
+            "time": "4:38pm",
+            "horse": "2. Rimbaud",
+            "price": "4.60",
+            "gd": 7.19,
+            "pace": "mid",
+            "bet": "Official pick",
+            "fc": 8,
+            "flags": ["📏 Bias runner", "🌧️ Wet specialist", "⚡ Fast sectionals"],
+            "value": true
+          },
+          {
+            "no": 8,
+            "time": "4:38pm",
+            "horse": "12. Chatterley",
+            "price": "11.00",
+            "gd": 7.15,
+            "pace": "mid",
+            "bet": "Backup",
+            "fc": 5,
+            "flags": ["📏 Bias runner", "🌧️ Wet specialist", "🎯 Jockey flag"],
+            "alt": true,
+            "value": true
+          }
+        ]
+      }
+    ]
+  },
+  "nrl": {
+    "engine": "GD ALGO V1",
+    "round": "",
+    "games": [],
+    "multis": []
+  }
 }
