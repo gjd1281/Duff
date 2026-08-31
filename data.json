@@ -1,1 +1,68 @@
-{"meta":{"engine":"TIGER v12","generated":"2026-08-29","label":"Saturday Metro - 5 meetings","sample":47},"racing":{"meetings":[{"id":"eaglefarm","track":"Eagle Farm","condition":"Soft 5","rail":"Out 5m entire","direction":"clockwise","races":[{"no":1,"time":"11:18am","horse":"4. Spirit Of Barty","price":"3.80","gd":7.94,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🌧️ Wet specialist","🎯 Jockey flag"],"value":true},{"no":2,"time":"11:53am","horse":"11. Sarah's Sonnets","price":"5.00","gd":8.09,"pace":"mid","bet":"WIN","fc":11,"flags":["⚙️ Gear change","📏 Bias runner","🌧️ Wet specialist"],"value":true},{"no":3,"time":"12:28pm","horse":"7. Wrigley Field","price":"3.20","gd":7.21,"pace":"mid","bet":"PLACE","fc":6,"flags":["🚪 Wide gate","🧠 Smart money"]},{"no":4,"time":"1:03pm","horse":"1. Exceed The Sale","price":"2.90","gd":7.84,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🧠 Smart money"]},{"no":5,"time":"1:38pm","horse":"7. Midnight Spirit","price":"4.80","gd":8.37,"pace":"mid","bet":"WIN","fc":9,"flags":["👑 Banker tag","📏 Bias runner","🌧️ Wet specialist"],"value":true},{"no":6,"time":"2:13pm","horse":"4. Everybody Rise","price":"4.60","gd":8.36,"pace":"mid","bet":"WIN","fc":8,"flags":["📏 Bias runner","🌧️ Wet specialist","🧠 Smart money"],"value":true},{"no":7,"time":"2:48pm","horse":"6. Grinzinger Champ","price":"2.40","gd":7.66,"pace":"mid","bet":"PLACE","fc":6,"flags":["🚪 Wide gate","🌧️ Wet specialist"]},{"no":8,"time":"3:23pm","horse":"5. Polyglot","price":"2.80","gd":7.91,"pace":"mid","bet":"WIN","fc":8,"flags":["📏 Bias runner","🌧️ Wet specialist"],"value":true},{"no":9,"time":"4:02pm","horse":"5. Livalittle","price":"2.80","gd":7.74,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🌧️ Wet specialist"]},{"no":10,"time":"4:38pm","horse":"6. Braveheart","price":"3.90","gd":8.22,"pace":"mid","bet":"WIN","fc":10,"flags":["📏 Bias runner","🌧️ Wet specialist","🎯 Jockey flag"],"value":true}]},{"id":"rosehill","track":"Rosehill Gardens","condition":"Soft 6","rail":"Out 3m","direction":"clockwise","races":[{"no":1,"time":"11:45am","horse":"10. Proxima Dea","price":"3.40","gd":7.72,"pace":"mid","bet":"WIN","fc":6,"flags":["🌧️ Wet specialist","🧠 Smart money"]},{"no":2,"time":"12:20pm","horse":"6. Xtreme","price":"5.50","gd":7.66,"pace":"mid","bet":"PLACE","fc":6,"flags":["⚙️ Gear change","📏 Bias runner"],"value":true},{"no":3,"time":"12:55pm","horse":"3. Aethelwulf","price":"1.50","gd":7.93,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🌧️ Wet specialist"]},{"no":4,"time":"1:30pm","horse":"5. Avista","price":"3.20","gd":7.89,"pace":"mid","bet":"WIN","fc":7,"flags":["🌧️ Wet specialist","🧠 Smart money"]},{"no":5,"time":"2:05pm","horse":"2. Mr Miller","price":"1.80","gd":8.22,"pace":"mid","bet":"WIN","fc":8,"flags":["👑 Banker tag","📏 Bias runner","🌧️ Wet specialist"]},{"no":6,"time":"2:40pm","horse":"1. She's An Artist","price":"4.00","gd":7.03,"pace":"mid","bet":"PLACE","fc":5,"flags":["⚙️ Gear change","📏 Bias runner"]},{"no":7,"time":"3:15pm","horse":"9. Savagram","price":"4.20","gd":7.63,"pace":"mid","bet":"PLACE","fc":6,"flags":["📏 Bias runner","🌧️ Wet specialist"]},{"no":8,"time":"3:50pm","horse":"6. Blue Door","price":"2.10","gd":8.25,"pace":"mid","bet":"WIN","fc":9,"flags":["👑 Banker tag","📏 Bias runner","🌧️ Wet specialist"],"value":true},{"no":9,"time":"4:30pm","horse":"1. Run Harry Run","price":"5.50","gd":7.83,"pace":"mid","bet":"WIN","fc":8,"flags":["📏 Bias runner","🌧️ Wet specialist","🧠 Smart money"],"value":true},{"no":10,"time":"5:05pm","horse":"11. Amazing Eagle","price":"2.50","gd":7.8,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🧠 Smart money"]}]},{"id":"caulfield","track":"Caulfield","condition":"Soft 7","rail":"Out 4m","direction":"anticlockwise","races":[{"no":1,"time":"12:05pm","horse":"4. Stage 'N' Screen","price":"13.00","gd":7.44,"pace":"mid","bet":"PLACE","fc":6,"flags":["📏 Bias runner","🌧️ Wet specialist","🚨 Drifter, model strong"],"value":true},{"no":2,"time":"12:35pm","horse":"15. Blue Willow","price":"4.80","gd":7.44,"pace":"mid","bet":"PLACE","fc":6,"flags":["📏 Bias runner","🌧️ Wet specialist"]},{"no":3,"time":"1:10pm","horse":"10. Darkbonee","price":"2.70","gd":8.01,"pace":"mid","bet":"WIN","fc":8,"flags":["📏 Bias runner","🌧️ Wet specialist"]},{"no":4,"time":"1:45pm","horse":"19. Cruiserweight","price":"2.60","gd":8.27,"pace":"mid","bet":"WIN","fc":9,"flags":["📏 Bias runner","🌧️ Wet specialist","🧠 Smart money"],"value":true},{"no":5,"time":"2:20pm","horse":"6. Shadhavar","price":"2.60","gd":8.5,"pace":"mid","bet":"WIN","fc":10,"flags":["👑 Banker tag","📏 Bias runner","🌧️ Wet specialist"],"value":true},{"no":6,"time":"2:55pm","horse":"9. Bridal Waltz","price":"4.20","gd":7.87,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🌧️ Wet specialist"]},{"no":7,"time":"3:30pm","horse":"9. American Eagle","price":"4.20","gd":7.59,"pace":"mid","bet":"PLACE","fc":6,"flags":["📏 Bias runner","🌧️ Wet specialist"]},{"no":8,"time":"4:10pm","horse":"12. Treasurethe Moment","price":"8.50","gd":7.97,"pace":"mid","bet":"WIN","fc":8,"flags":["🌧️ Wet specialist","🧠 Smart money","📉 Class drop"],"value":true},{"no":9,"time":"4:45pm","horse":"15. First Chorus","price":"5.50","gd":8.29,"pace":"mid","bet":"WIN","fc":9,"flags":["⚙️ Gear change","📏 Bias runner","🌧️ Wet specialist"],"value":true},{"no":10,"time":"5:20pm","horse":"12. Ten Commandments","price":"5.50","gd":8.14,"pace":"mid","bet":"WIN","fc":8,"flags":["📏 Bias runner","🌧️ Wet specialist"],"value":true}]},{"id":"morphettville","track":"Morphettville","condition":"Heavy 9","rail":"Out 3m 1200-600m, true remainder","direction":"anticlockwise","races":[{"no":1,"time":"12:47pm","horse":"9. Churchill Rose","price":"10.00","gd":7.31,"pace":"mid","bet":"PLACE","fc":5,"flags":["📏 Bias runner","🌧️ Wet specialist","🚨 Drifter, model strong"],"value":true},{"no":2,"time":"1:22pm","horse":"1. Chief Little Rock","price":"4.20","gd":7.88,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🌧️ Wet specialist"]},{"no":3,"time":"1:57pm","horse":"6. Regal Ripper","price":"5.50","gd":7.52,"pace":"mid","bet":"PLACE","fc":6,"flags":["🌧️ Wet specialist","📏 Bias runner"]},{"no":4,"time":"2:32pm","horse":"10. From The Block","price":"16.00","gd":7.19,"pace":"mid","bet":"PLACE","fc":5,"flags":["🌧️ Wet specialist","🚨 Drifter, model strong"],"value":true},{"no":5,"time":"3:07pm","horse":"2. Up The Den","price":"9.00","gd":6.82,"pace":"mid","bet":"PLACE","fc":4,"flags":["🚪 Wide gate","🌧️ Wet specialist"]},{"no":6,"time":"3:42pm","horse":"5. Phineas","price":"7.00","gd":7.44,"pace":"mid","bet":"PLACE","fc":6,"flags":["🌧️ Wet specialist","🚪 Wide gate"]},{"no":7,"time":"4:22pm","horse":"1. Mating Call","price":"3.20","gd":7.91,"pace":"mid","bet":"WIN","fc":8,"flags":["📏 Bias runner","🌧️ Wet specialist","🧠 Smart money"],"value":true},{"no":8,"time":"4:57pm","horse":"1. Collated","price":"13.00","gd":6.74,"pace":"mid","bet":"PLACE","fc":4,"flags":["🚪 Wide gate","🌧️ Wet specialist"]},{"no":9,"time":"5:33pm","horse":"5. Super Wonder","price":"4.00","gd":7.74,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🌧️ Wet specialist"]}]},{"id":"belmont","track":"Belmont","condition":"Soft 7","rail":"Out 4m","direction":"anticlockwise","races":[{"no":1,"time":"2:44pm","horse":"1. Dawn Dancer","price":"1.90","gd":8.7,"pace":"mid","bet":"WIN","fc":8,"flags":["👑 Banker tag","📏 Bias runner","🌧️ Wet specialist"]},{"no":2,"time":"3:19pm","horse":"6. Pin Deep","price":"2.10","gd":8.21,"pace":"mid","bet":"WIN","fc":8,"flags":["📏 Bias runner","🌧️ Wet specialist"]},{"no":3,"time":"3:56pm","horse":"4. Eternal Wine","price":"2.90","gd":7.92,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🧠 Smart money"]},{"no":4,"time":"4:34pm","horse":"5. Hurricane Harley","price":"3.70","gd":7.54,"pace":"mid","bet":"PLACE","fc":6,"flags":["🚪 Wide gate","🌧️ Wet specialist"]},{"no":5,"time":"5:10pm","horse":"1. God's Gate","price":"2.00","gd":7.9,"pace":"mid","bet":"WIN","fc":7,"flags":["📏 Bias runner","🧠 Smart money"]},{"no":6,"time":"5:45pm","horse":"5. Buderim","price":"8.00","gd":7.48,"pace":"mid","bet":"PLACE","fc":6,"flags":["📏 Bias runner","🌧️ Wet specialist"],"value":true},{"no":7,"time":"6:20pm","horse":"4. Cosmic Waltz","price":"4.80","gd":7.67,"pace":"mid","bet":"PLACE","fc":6,"flags":["📏 Bias runner","🧠 Smart money"]},{"no":8,"time":"7:00pm","horse":"11. Yes I Know","price":"3.40","gd":7.25,"pace":"mid","bet":"PLACE","fc":5,"flags":["🚪 Wide gate","🌧️ Wet specialist"]}]}]},"nrl":{"games":[],"multis":[],"engine":"GD ALGO V1","round":""}}
+{
+  "meta": {
+    "engine": "TIGER v14",
+    "generated": "2026-08-31",
+    "label": "Duffs Way",
+    "sample": "24 races"
+  },
+  "racing": {
+    "meetings": [
+      {
+        "id": "tar-310826",
+        "track": "Taree",
+        "condition": "Soft 6",
+        "rail": "True",
+        "direction": "anticlockwise",
+        "races": [
+          { "no": 1, "horse": "10. Last Metaphor", "price": "5.00", "gd": 6.91, "pace": "mid", "bet": "AVOID", "fc": 0, "flags": [] },
+          { "no": 2, "horse": "2. Bellevue", "price": "3.00", "gd": 6.78, "pace": "mid", "bet": "AVOID", "fc": 0, "flags": [] },
+          { "no": 4, "horse": "11. Sylvan", "price": "26.00", "gd": 6.89, "pace": "mid", "bet": "ROUGHIE", "fc": 0, "flags": [] },
+          { "no": 5, "horse": "6. Exorbitant Miss", "price": "4.10", "gd": 6.88, "pace": "mid", "bet": "AVOID", "fc": 0, "flags": [] },
+          { "no": 6, "horse": "1. Chestime", "price": "3.60", "gd": 7.01, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 7, "horse": "3. Purple Rose", "price": "3.70", "gd": 7.02, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 8, "horse": "4. Difensivo", "price": "3.50", "gd": 7.01, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] }
+        ]
+      },
+      {
+        "id": "cor-310826",
+        "track": "Corowa",
+        "condition": "Soft 5",
+        "rail": "True",
+        "direction": "anticlockwise",
+        "races": [
+          { "no": 1, "horse": "3. Son Of Rubick", "price": "6.00", "gd": 7.27, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 2, "horse": "11. Hold This", "price": "8.00", "gd": 7.31, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 3, "horse": "5. Wild Romeo", "price": "8.50", "gd": 7.18, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 4, "horse": "5. Winter Hail", "price": "2.60", "gd": 7.74, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
+          { "no": 5, "horse": "1. Triptolemus", "price": "2.40", "gd": 7.81, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
+          { "no": 6, "horse": "7. Bella Katelyn", "price": "3.20", "gd": 7.52, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 7, "horse": "2. Black Adam", "price": "3.40", "gd": 7.68, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] }
+        ]
+      },
+      {
+        "id": "brts-310826",
+        "track": "Ballarat Synthetic",
+        "condition": "Synthetic",
+        "rail": "True",
+        "direction": "anticlockwise",
+        "races": [
+          { "no": 1, "horse": "6. Jadzia", "price": "1.35", "gd": 7.89, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
+          { "no": 2, "horse": "7. Hello Mistress", "price": "4.80", "gd": 7.35, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 3, "horse": "12. Expensive Taste", "price": "2.40", "gd": 7.69, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 4, "horse": "7. Platinum Rush", "price": "4.00", "gd": 7.58, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 5, "horse": "3. Endless Forevers", "price": "4.60", "gd": 7.17, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
+          { "no": 6, "time": "3:30pm", "horse": "3. Isdell", "price": "", "gd": 7.49, "pace": "mid", "bet": "PLACE", "fc": 9, "value": true, "flags": [] },
+          { "no": 7, "time": "4:00pm", "horse": "8. Royal Infantry", "price": "", "gd": 7.19, "pace": "mid", "bet": "PLACE", "fc": 6, "value": false, "flags": ["🍀 Bad luck last start"] },
+          { "no": 8, "time": "4:30pm", "horse": "6. Charming Nic", "price": "", "gd": 7.64, "pace": "mid", "bet": "PLACE", "fc": 8, "value": true, "flags": [] },
+          { "no": 9, "time": "5:00pm", "horse": "7. Bonfire Jimmy", "price": "", "gd": 6.96, "pace": "mid", "bet": "AVOID", "fc": 5, "value": true, "flags": ["🍀 Bad luck last start", "📉 Class drop"] }
+        ]
+      }
+    ]
+  },
+  "nrl": {
+    "engine": "GD ALGO V1",
+    "round": "",
+    "games": [],
+    "multis": []
+  }
+}
