@@ -1,68 +1,27 @@
 {
-  "meta": {
-    "engine": "TIGER v14",
-    "generated": "2026-08-31",
-    "label": "Duffs Way",
-    "sample": "24 races"
-  },
-  "racing": {
-    "meetings": [
-      {
-        "id": "tar-310826",
-        "track": "Taree",
-        "condition": "Soft 6",
-        "rail": "True",
-        "direction": "anticlockwise",
-        "races": [
-          { "no": 1, "horse": "10. Last Metaphor", "price": "5.00", "gd": 6.91, "pace": "mid", "bet": "AVOID", "fc": 0, "flags": [] },
-          { "no": 2, "horse": "2. Bellevue", "price": "3.00", "gd": 6.78, "pace": "mid", "bet": "AVOID", "fc": 0, "flags": [] },
-          { "no": 4, "horse": "11. Sylvan", "price": "26.00", "gd": 6.89, "pace": "mid", "bet": "ROUGHIE", "fc": 0, "flags": [] },
-          { "no": 5, "horse": "6. Exorbitant Miss", "price": "4.10", "gd": 6.88, "pace": "mid", "bet": "AVOID", "fc": 0, "flags": [] },
-          { "no": 6, "horse": "1. Chestime", "price": "3.60", "gd": 7.01, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 7, "horse": "3. Purple Rose", "price": "3.70", "gd": 7.02, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 8, "horse": "4. Difensivo", "price": "3.50", "gd": 7.01, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] }
-        ]
-      },
-      {
-        "id": "cor-310826",
-        "track": "Corowa",
-        "condition": "Soft 5",
-        "rail": "True",
-        "direction": "anticlockwise",
-        "races": [
-          { "no": 1, "horse": "3. Son Of Rubick", "price": "6.00", "gd": 7.27, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 2, "horse": "11. Hold This", "price": "8.00", "gd": 7.31, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 3, "horse": "5. Wild Romeo", "price": "8.50", "gd": 7.18, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 4, "horse": "5. Winter Hail", "price": "2.60", "gd": 7.74, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
-          { "no": 5, "horse": "1. Triptolemus", "price": "2.40", "gd": 7.81, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
-          { "no": 6, "horse": "7. Bella Katelyn", "price": "3.20", "gd": 7.52, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 7, "horse": "2. Black Adam", "price": "3.40", "gd": 7.68, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] }
-        ]
-      },
-      {
-        "id": "brts-310826",
-        "track": "Ballarat Synthetic",
-        "condition": "Synthetic",
-        "rail": "True",
-        "direction": "anticlockwise",
-        "races": [
-          { "no": 1, "horse": "6. Jadzia", "price": "1.35", "gd": 7.89, "pace": "mid", "bet": "WIN", "fc": 0, "flags": [] },
-          { "no": 2, "horse": "7. Hello Mistress", "price": "4.80", "gd": 7.35, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 3, "horse": "12. Expensive Taste", "price": "2.40", "gd": 7.69, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 4, "horse": "7. Platinum Rush", "price": "4.00", "gd": 7.58, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 5, "horse": "3. Endless Forevers", "price": "4.60", "gd": 7.17, "pace": "mid", "bet": "PLACE", "fc": 0, "flags": [] },
-          { "no": 6, "time": "3:30pm", "horse": "3. Isdell", "price": "", "gd": 7.49, "pace": "mid", "bet": "PLACE", "fc": 9, "value": true, "flags": [] },
-          { "no": 7, "time": "4:00pm", "horse": "8. Royal Infantry", "price": "", "gd": 7.19, "pace": "mid", "bet": "PLACE", "fc": 6, "value": false, "flags": ["🍀 Bad luck last start"] },
-          { "no": 8, "time": "4:30pm", "horse": "6. Charming Nic", "price": "", "gd": 7.64, "pace": "mid", "bet": "PLACE", "fc": 8, "value": true, "flags": [] },
-          { "no": 9, "time": "5:00pm", "horse": "7. Bonfire Jimmy", "price": "", "gd": 6.96, "pace": "mid", "bet": "AVOID", "fc": 5, "value": true, "flags": ["🍀 Bad luck last start", "📉 Class drop"] }
-        ]
-      }
-    ]
-  },
-  "nrl": {
-    "engine": "GD ALGO V1",
-    "round": "",
-    "games": [],
-    "multis": []
-  }
+"meta":{"engine":"TIGER v14","generated":"2026-09-03","label":"Mackay + Coffs Harbour","sample":"15 races"},
+"racing":{"meetings":[
+{"id":"mkay","track":"MACKAY","condition":"Good 4","rail":"True","direction":"clockwise","races":[
+{"no":1,"time":"1:45pm","horse":"5. Check One Two","price":"3.20","gd":7.05,"pace":"mid","bet":"place","fc":6,"flags":["\u2699\ufe0f Gear change","\ud83c\udfaf Jockey flag"]},
+{"no":2,"time":"2:20pm","horse":"2. Hooroo","price":"3.60","gd":6.83,"pace":"mid","bet":"avoid","fc":5,"flags":[]},
+{"no":2,"time":"2:20pm","horse":"8. Elegant Venus","price":"31.00","gd":6.61,"pace":"mid","bet":"rough","fc":4,"alt":true,"value":true,"flags":["\ud83d\udcc9 Class drop","\ud83d\udeaa Wide gate"]},
+{"no":3,"time":"2:55pm","horse":"7. Lucky Lass","price":"5.50","gd":7.24,"pace":"mid","bet":"place","fc":7,"value":true,"flags":["\ud83c\udfc6 Banker","\ud83d\udcc9 Class drop"]},
+{"no":4,"time":"3:35pm","horse":"5. Tara I Am","price":"2.40","gd":7.47,"pace":"mid","bet":"place","fc":9,"flags":["\u26a1 Fast sectionals","\ud83c\udfaf Jockey flag"]},
+{"no":5,"time":"4:10pm","horse":"1. Red Hot Lizzie","price":"2.40","gd":8.02,"pace":"mid","bet":"win","fc":10,"flags":["\ud83d\udc51 Banker tag","\u26a1 Fast sectionals","\ud83c\udfaf Jockey flag","\ud83e\udde0 Smart money"]},
+{"no":6,"time":"4:45pm","horse":"7. Supid Date","price":"2.90","gd":7.19,"pace":"mid","bet":"place","fc":7,"flags":["\ud83d\udcc9 Class drop"]},
+{"no":7,"time":"5:20pm","horse":"1. Dalt Jaz","price":"4.40","gd":7.45,"pace":"mid","bet":"place","fc":8,"flags":["\u26a1 Fast sectionals","\ud83c\udfaf Jockey flag"]},
+{"no":7,"time":"5:20pm","horse":"5. Flying Shamus","price":"25.00","gd":6.86,"pace":"mid","bet":"rough","fc":5,"alt":true,"value":true,"flags":["\ud83c\udfc6 Banker","\ud83d\udcc9 Class drop"]}
+]},
+{"id":"coff","track":"COFFS HARBOUR","condition":"Soft 5","rail":"+2m 1600-1000, +4m 1000-350, True rem","direction":"clockwise","races":[
+{"no":1,"time":"12:50pm","horse":"5. Sorrenti","price":"2.10","gd":7.62,"pace":"mid","bet":"place","fc":7,"flags":["\ud83d\udccf Bias runner"]},
+{"no":2,"time":"1:25pm","horse":"1. Rum And Kirk","price":"2.90","gd":7.44,"pace":"mid","bet":"place","fc":6,"flags":["\ud83d\udccf Bias runner"]},
+{"no":3,"time":"2:05pm","horse":"1. Funky Cold Medina","price":"8.50","gd":7.51,"pace":"mid","bet":"place","fc":7,"value":true,"flags":["\ud83d\udccf Bias runner","\ud83e\udde0 Smart money"]},
+{"no":4,"time":"2:40pm","horse":"1. Certified Copy","price":"2.60","gd":7.88,"pace":"mid","bet":"win","fc":8,"flags":["\ud83c\udfc6 Banker","\ud83d\udccf Bias runner"]},
+{"no":5,"time":"3:15pm","horse":"2. Felis Chaus","price":"3.80","gd":7.36,"pace":"mid","bet":"place","fc":6,"flags":["\ud83d\udccf Bias runner"]},
+{"no":6,"time":"3:50pm","horse":"1. Rich Star","price":"3.10","gd":7.55,"pace":"mid","bet":"place","fc":7,"flags":["\ud83c\udfc6 Banker","\ud83d\udeaa Wide gate"]},
+{"no":7,"time":"4:25pm","horse":"1. Herald Angel","price":"2.60","gd":7.79,"pace":"mid","bet":"win","fc":8,"flags":["\ud83c\udfc6 Banker","\ud83e\udde0 Smart money"]},
+{"no":8,"time":"5:05pm","horse":"2. Cool Fizz","price":"2.60","gd":7.61,"pace":"mid","bet":"place","fc":7,"flags":["\ud83d\udccf Bias runner"]}
+]}
+]},
+"nrl":{"games":[],"multis":[],"engine":"GD ALGO V1","round":""}
 }
