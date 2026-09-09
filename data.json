@@ -1,85 +1,213 @@
 {
   "meta": {
     "engine": "TIGER v16",
-    "generated": "2026-09-05",
-    "label": "Edge-selected, not GD-selected. PACE + SECTIONALS out (divisor 0.87). COMBO unsourced at Randwick + Sandown.",
-    "sample": true
+    "generated": "2026-09-09",
+    "label": "NO BLOCKERS - floor OFF, vulnerability rule OFF. GD from newspaper inputs only, divisor 0.90 (IPS) / 0.87 (RAND). PACE + SECTIONALS dropped. COMBO unsourced - no strike rates fetched. Carded prices only.",
+    "sample": "14 races, 2 meetings"
   },
   "racing": {
     "meetings": [
       {
-        "id": "ef",
-        "track": "EAGLE FARM",
+        "id": "ips090926",
+        "track": "IPSWICH",
+        "condition": "Good 4",
+        "rail": "Out 10m entire",
+        "direction": "clockwise",
+        "races": [
+          {
+            "no": 1,
+            "time": "1:18pm",
+            "horse": "5. Lottery Link",
+            "price": "3.90",
+            "gd": 7.55,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 2,
+            "time": "1:53pm",
+            "horse": "9. Hit A Lick",
+            "price": "9.00",
+            "gd": 7.40,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 3,
+            "time": "2:28pm",
+            "horse": "4. Vegas Raider",
+            "price": "7.50",
+            "gd": 7.35,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83d\udcc9 Class drop"]
+          },
+          {
+            "no": 4,
+            "time": "3:03pm",
+            "horse": "6. Kadesky",
+            "price": "8.50",
+            "gd": 7.45,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
+            "flags": ["\ud83c\udfaf Jockey flag", "\ud83d\udcc9 Class drop"]
+          },
+          {
+            "no": 5,
+            "time": "3:38pm",
+            "horse": "1. Barrelling",
+            "price": "2.30",
+            "gd": 7.90,
+            "pace": "mid",
+            "fc": 8,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 6,
+            "time": "4:13pm",
+            "horse": "2. Meet George",
+            "price": "8.50",
+            "gd": 7.50,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
+            "flags": ["\u2699\ufe0f Gear change", "\ud83d\udccf Bias runner"]
+          },
+          {
+            "no": 7,
+            "time": "4:48pm",
+            "horse": "4. Yoweri",
+            "price": "5.50",
+            "gd": 7.65,
+            "pace": "mid",
+            "fc": 8,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 7,
+            "alt": true,
+            "time": "4:48pm",
+            "horse": "2. Cosmic Beauty",
+            "price": "14.00",
+            "gd": 7.05,
+            "pace": "mid",
+            "fc": 5,
+            "value": true,
+            "flags": ["\u2699\ufe0f Gear change", "\ud83d\udccf Bias runner"]
+          }
+        ]
+      },
+      {
+        "id": "rnk090926",
+        "track": "RANDWICK-KENSINGTON",
         "condition": "Soft 5",
-        "rail": "+0.5m",
+        "rail": "Out 2m",
         "direction": "clockwise",
         "races": [
-          {"no":3,"horse":"2. Chillaxing","price":"$6.00","gd":7.98,"pace":"mid","fc":8,"time":"12:33pm","value":true,"flags":["🌧️ Wet specialist","🧠 Smart money","🎯 Jockey flag"]},
-          {"no":3,"horse":"3. I Am The Empire","price":"$13","gd":7.35,"pace":"mid","fc":6,"time":"12:33pm","alt":true,"value":true,"flags":["🐴 Roughie","🌧️ Wet specialist"]},
-          {"no":4,"horse":"1. Prince Charge","price":"$23","gd":7.42,"pace":"mid","fc":6,"time":"1:08pm","value":true,"flags":["⚙️ Gear change","🐴 Roughie","🚨 Drifter, model strong"]},
-          {"no":5,"horse":"3. Luton Hoo","price":"$7.00","gd":7.71,"pace":"mid","fc":7,"time":"1:43pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":5,"horse":"8. Brain Wave","price":"$41","gd":7.30,"pace":"mid","fc":6,"time":"1:43pm","alt":true,"value":true,"flags":["🐴 Roughie","🚨 Drifter, model strong","🌧️ Wet specialist"]},
-          {"no":6,"horse":"10. Riez Souvent","price":"$8.00","gd":7.64,"pace":"mid","fc":7,"time":"2:18pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":6,"horse":"1. Detrimental","price":"$11","gd":7.40,"pace":"mid","fc":6,"time":"2:18pm","alt":true,"value":true,"flags":["🚨 Drifter, model strong","🌧️ Wet specialist"]},
-          {"no":7,"horse":"7. Bold Comic","price":"$7.00","gd":7.69,"pace":"mid","fc":7,"time":"2:53pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":10,"horse":"3. Hell","price":"$4.40","gd":8.06,"pace":"mid","fc":8,"time":"4:43pm","value":true,"flags":["🌧️ Wet specialist","🎯 Jockey flag","🧠 Smart money"]},
-          {"no":10,"horse":"14. Chamierro","price":"$19","gd":7.55,"pace":"mid","fc":7,"time":"4:43pm","alt":true,"value":true,"flags":["⚙️ Gear change","🐴 Roughie","🧠 Smart money"]}
-        ]
-      },
-      {
-        "id": "rw",
-        "track": "RANDWICK",
-        "condition": "Good 4",
-        "rail": "+3m",
-        "direction": "clockwise",
-        "races": [
-          {"no":1,"horse":"4. Long Legs","price":"$8.50","gd":7.72,"pace":"mid","fc":7,"time":"11:50am","value":true,"flags":["🧠 Smart money","🎯 Jockey flag"]},
-          {"no":1,"horse":"9. Agita","price":"$26","gd":7.18,"pace":"mid","fc":5,"time":"11:50am","alt":true,"value":true,"flags":["🐴 Roughie","🚨 Drifter, model strong"]},
-          {"no":2,"horse":"8. Zumbo","price":"$10","gd":7.55,"pace":"mid","fc":6,"time":"12:25pm","value":true,"flags":["🧠 Smart money","🚨 Drifter, model strong"]},
-          {"no":2,"horse":"20. Empress Tsarina","price":"$26","gd":7.12,"pace":"mid","fc":5,"time":"12:25pm","alt":true,"value":true,"flags":["🐴 Roughie","🚨 Drifter, model strong"]},
-          {"no":3,"horse":"1. Kimberley Secrets","price":"$9.00","gd":7.80,"pace":"mid","fc":7,"time":"1:00pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":3,"horse":"11. Written Scandal","price":"$34","gd":7.44,"pace":"mid","fc":6,"time":"1:00pm","alt":true,"value":true,"flags":["⚙️ Gear change","🐴 Roughie","🚨 Drifter, model strong"]},
-          {"no":4,"horse":"2. So You Are","price":"$3.40","gd":7.95,"pace":"mid","fc":8,"time":"1:35pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":5,"horse":"10. Call Me Gorgeous","price":"$8.50","gd":7.78,"pace":"mid","fc":7,"time":"2:10pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":5,"horse":"1. Clear Proof","price":"$17","gd":7.60,"pace":"mid","fc":7,"time":"2:10pm","alt":true,"value":true,"flags":["⚙️ Gear change","🐴 Roughie","🧠 Smart money"]},
-          {"no":7,"horse":"5. Private Eye","price":"$4.00","gd":7.92,"pace":"mid","fc":8,"time":"3:20pm","value":true,"flags":["🧠 Smart money","🎯 Jockey flag"]},
-          {"no":7,"horse":"9. Soothsayer","price":"$12","gd":7.58,"pace":"mid","fc":7,"time":"3:20pm","alt":true,"value":true,"flags":["🐴 Roughie","🧠 Smart money"]},
-          {"no":8,"horse":"1. Headwall","price":"$4.60","gd":7.90,"pace":"mid","fc":8,"time":"3:55pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":8,"horse":"10. Steady Ready","price":"$31","gd":7.50,"pace":"mid","fc":6,"time":"3:55pm","alt":true,"value":true,"flags":["⚙️ Gear change","🐴 Roughie","🚨 Drifter, model strong"]},
-          {"no":10,"horse":"13. Watson","price":"$4.00","gd":7.96,"pace":"mid","fc":8,"time":"5:10pm","value":true,"flags":["🧠 Smart money","🎯 Jockey flag"]},
-          {"no":10,"horse":"6. Franz Josef","price":"$19","gd":7.32,"pace":"mid","fc":6,"time":"5:10pm","alt":true,"value":true,"flags":["🐴 Roughie","🚨 Drifter, model strong"]}
-        ]
-      },
-      {
-        "id": "sd",
-        "track": "SANDOWN HILLSIDE",
-        "condition": "Good 4",
-        "rail": "True",
-        "direction": "anticlockwise",
-        "races": [
-          {"no":1,"horse":"1. Ko Phangan","price":"$5.50","gd":7.86,"pace":"mid","fc":7,"time":"12:10pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":2,"horse":"2. Celestial Zara","price":"$4.00","gd":7.88,"pace":"mid","fc":8,"time":"12:40pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":2,"horse":"9. Tel Aviv","price":"$23","gd":7.10,"pace":"mid","fc":5,"time":"12:40pm","alt":true,"value":true,"flags":["🐴 Roughie","🚨 Drifter, model strong"]},
-          {"no":3,"horse":"1. Beast Mode","price":"$8.50","gd":7.84,"pace":"mid","fc":7,"time":"1:15pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":3,"horse":"7. Saluted","price":"$13","gd":7.48,"pace":"mid","fc":6,"time":"1:15pm","alt":true,"value":true,"flags":["🐴 Roughie","🧠 Smart money"]},
-          {"no":4,"horse":"1. Romantic Encounter","price":"$15","gd":7.38,"pace":"mid","fc":6,"time":"1:50pm","value":true,"flags":["🐴 Roughie","🚨 Drifter, model strong","🌧️ Wet specialist"]},
-          {"no":5,"horse":"2. Rubi's Choice","price":"$11","gd":7.74,"pace":"mid","fc":7,"time":"2:25pm","value":true,"flags":["🧠 Smart money","🚨 Drifter, model strong"]},
-          {"no":5,"horse":"1. Grinzinger Heart","price":"$31","gd":7.20,"pace":"mid","fc":5,"time":"2:25pm","alt":true,"value":true,"flags":["🐴 Roughie","🚨 Drifter, model strong"]},
-          {"no":7,"horse":"5. Regal Zeus","price":"$26","gd":7.26,"pace":"mid","fc":5,"time":"3:35pm","value":true,"flags":["🐴 Roughie","🚨 Drifter, model strong"]},
-          {"no":8,"horse":"1. Giga Kick","price":"$4.80","gd":7.94,"pace":"mid","fc":8,"time":"4:15pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":8,"horse":"2. Rothfire","price":"$26","gd":7.34,"pace":"mid","fc":6,"time":"4:15pm","alt":true,"value":true,"flags":["🐴 Roughie","🚨 Drifter, model strong"]},
-          {"no":9,"horse":"2. Here To Shock","price":"$18","gd":7.62,"pace":"mid","fc":7,"time":"4:50pm","value":true,"flags":["🐴 Roughie","🧠 Smart money","🚨 Drifter, model strong"]},
-          {"no":9,"horse":"7. Recon","price":"$7.00","gd":7.52,"pace":"mid","fc":6,"time":"4:50pm","alt":true,"value":true,"flags":["🧠 Smart money","🚨 Drifter, model strong"]},
-          {"no":10,"horse":"13. Mr Verse","price":"$5.50","gd":7.82,"pace":"mid","fc":7,"time":"5:25pm","value":true,"flags":["🧠 Smart money","🌧️ Wet specialist"]},
-          {"no":10,"horse":"12. Flying Valley","price":"$26","gd":7.08,"pace":"mid","fc":5,"time":"5:25pm","alt":true,"value":true,"flags":["🐴 Roughie","🌧️ Wet specialist"]}
+          {
+            "no": 1,
+            "time": "1:35pm",
+            "horse": "1. Gentle Giant",
+            "price": "4.00",
+            "gd": 7.50,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 2,
+            "time": "2:10pm",
+            "horse": "2. Unhinged",
+            "price": "4.20",
+            "gd": 7.70,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 3,
+            "time": "2:45pm",
+            "horse": "3. Threads",
+            "price": "7.50",
+            "gd": 7.25,
+            "pace": "mid",
+            "fc": 5,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 3,
+            "alt": true,
+            "time": "2:45pm",
+            "horse": "8. Movie Star",
+            "price": "14.00",
+            "gd": 7.00,
+            "pace": "mid",
+            "fc": 4,
+            "value": true,
+            "flags": ["\ud83c\udfaf Jockey flag", "\ud83d\udeaa Wide gate"]
+          },
+          {
+            "no": 4,
+            "time": "3:20pm",
+            "horse": "1. Funchal",
+            "price": "10.00",
+            "gd": 7.30,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 5,
+            "time": "3:55pm",
+            "horse": "6. Pierata's Gem",
+            "price": "5.00",
+            "gd": 7.35,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 6,
+            "time": "4:30pm",
+            "horse": "8. Varuni",
+            "price": "9.50",
+            "gd": 7.55,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          },
+          {
+            "no": 7,
+            "time": "5:05pm",
+            "horse": "3. Tough Guy",
+            "price": "8.50",
+            "gd": 7.60,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
+            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+          }
         ]
       }
     ]
   },
   "nrl": {
-    "engine": "GD ALGO V1",
-    "round": "",
     "games": [],
-    "multis": []
+    "multis": [],
+    "engine": "GD ALGO V1",
+    "round": ""
   }
 }
