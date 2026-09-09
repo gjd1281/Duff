@@ -13,6 +13,26 @@ function fire(p){var n=num(p);if(!n)return"";return n<3?"\uD83D\uDD25":"\uD83D\u
 var FW={"\uD83C\uDF40":3,"\uD83D\uDEAA":3,"\uD83D\uDCAA":3,"\u2699":3,"\uD83C\uDFAF":3,"\uD83D\uDCC9":3,"\uD83C\uDF27":2,"\u26A1":2,"\uD83D\uDCCF":2,"\uD83E\uDDE0":1.5,"\uD83D\uDEA8":1.5,"\uD83D\uDC51":1,"\uD83D\uDC34":1,"\uD83C\uDFC6":1,"\uD83D\uDD25":1,"\u2705":1,"\u26A0":.5};
 function fw(f){var s=String(f).replace(/\uFE0F/g,"");for(var k in FW){if(s.indexOf(k)===0)return FW[k]}return 0}
 function fsort(a){return(a||[]).slice().sort(function(x,y){return fw(y)-fw(x)})}
+/* ---- FLAG EXPLANATIONS ---- keyed on the emoji, same match rule as fw(). Written once here, every future card gets it free. */
+var FX={
+"\uD83C\uDF40":"Interfered with, blocked, or lost a plate last start. The form line lies about that run.",
+"\uD83D\uDEAA":"Drawn outside the rail sweet spot. Has to work early or go back and hope.",
+"\uD83D\uDCAA":"First run for a new trainer. Fresh eyes on an old problem.",
+"\u2699":"Blinkers, tongue tie or winkers on for the first time. Cheap fix that sometimes works.",
+"\uD83C\uDFAF":"A rider above the stable's usual booking. Stables don't hand out rides for nothing.",
+"\uD83D\uDCC9":"Dropping in grade off a spell or a hiding. Easier race than the form line reads.",
+"\uD83C\uDF27":"Two or more wins on Soft or Heavy. Handles the wet, doesn't just cope with it.",
+"\u26A1":"Quickest late splits in the race last start. Finished hard and still didn't win.",
+"\uD83D\uDCCF":"Drawn inside the rail bias zone. Track shape is with it, not against it.",
+"\uD83E\uDDE0":"Firming without being the obvious favourite. Someone knows something.",
+"\uD83D\uDEA8":"Money is walking away, the numbers aren't. One of them is wrong.",
+"\uD83D\uDC51":"The model's standout in its own race.",
+"\uD83D\uDC34":"$12 or longer with a real profile behind it, not just a long price.",
+"\uD83C\uDFC6":"Top of the whole card. 8.50 and above only. Rare, and it should be.",
+"\uD83D\uDD25":"High confidence band, 8.20 to 8.49. Strong on the numbers, still not a lock.",
+"\u2705":"Clears the bar on form and profile. No fireworks.",
+"\u26A0":"Got here on one or two things. Place money, not win money."};
+function fx(f){var s=String(f).replace(/\uFE0F/g,"");for(var k in FX){if(s.indexOf(k)===0)return FX[k]}return"No note on this flag yet."}
 function chips(){var m=D.racing.meetings;$("#chips").innerHTML=m.map(function(x,i){return'<button class="chip" aria-pressed="'+(i==mi)+'" data-i="'+i+'">'+E(x.track)+'</button>'}).join("")||'<span style="color:#6E9C8C;font-size:13px">No meetings in data.json</span>'}
 function cond(){var m=D.racing.meetings[mi];if(!m)return;$("#cT").textContent=m.track;$("#cC").textContent=m.condition;$("#cR").textContent=m.rail;
 var cw=(m.direction||"clockwise")=="clockwise",o=$("#mo");o.setAttribute("keyPoints",cw?"0;1":"1;0");o.parentNode.replaceChild(o.cloneNode(true),o);$("#dir").textContent=cw?"CW":"ACW";
@@ -24,7 +44,7 @@ return'<article class="card '+c+'"><div class="row"><div class="no" style="color
 +'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span>'+(r.time?'<span class="tag">'+E(r.time)+'</span>':'')+'<span class="tag">TAB</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
 +'<div class="sig"><span class="em">'+tier(r.fc)+fire(r.price)+'</span><span class="ct">SIG '+(r.fc||0)+'/15</span></div>'
 +(hf?'<div class="ftop" style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">'+tp.map(function(f){return'<span style="font:600 10px/1.4 ui-monospace,monospace;color:#00E5FF;background:rgba(0,229,255,.07);border:1px solid rgba(0,229,255,.3);border-radius:20px;padding:2px 8px">'+E(f)+'</span>'}).join("")+'</div>':'')
-+(hf?'<div class="flagpanel" id="fp-'+id+'" hidden style="margin-top:8px;padding:8px 10px;font-size:12px;line-height:1.7;color:#CFE8DE;background:rgba(0,0,0,.25);border-top:1px dashed rgba(0,229,255,.25)">'+fl.map(E).join(" \u00B7 ")+'</div>':'')
++(hf?'<div class="flagpanel" id="fp-'+id+'" hidden style="margin-top:8px;padding:9px 11px;font-size:12px;color:#CFE8DE;background:rgba(0,0,0,.25);border-top:1px dashed rgba(0,229,255,.25)">'+fl.map(function(f){return'<div style="margin:0 0 8px"><b style="color:#00E5FF;font:700 11px/1.5 ui-monospace,monospace">'+E(f)+'</b><br><span style="font:400 11.5px/1.55 -apple-system,sans-serif;color:#9FC4B6">'+E(fx(f))+'</span></div>'}).join("")+'<div style="margin-top:2px;padding-top:6px;border-top:1px solid rgba(255,255,255,.07);font:500 9.5px/1.45 ui-monospace,monospace;color:#6E9C8C">Flags are why the horse is on the card \u2014 not a promise it wins.</div></div>':'')
 +'</div><div class="gd"><span style="display:block;font:700 8px \'Barlow Condensed\',sans-serif;letter-spacing:.24em;color:#6E9C8C;margin-bottom:3px">GD SCORE</span><b style="font-size:20px" class="'+(a.d>0?"up":a.d<0?"dn":"")+'">'+a.g.toFixed(2)+'</b>'
 +(hf?'<button class="flagbtn" data-t="'+id+'" style="display:block;margin-top:7px;background:#00E5FF;border:0;color:#0A0F08;font:800 10px/1 ui-monospace,monospace;letter-spacing:.06em;border-radius:20px;padding:7px 11px;box-shadow:0 0 12px rgba(0,229,255,.45);cursor:pointer">\uD83D\uDEA9 FLAGS \u25BE</button>':'')
 +(hf?'<div class="rundown" style="margin-top:5px;font:500 9.5px/1.3 ui-monospace,monospace;color:#6E9C8C;text-align:right;max-width:112px">Straight from the numbers, no hype.</div>':'')
