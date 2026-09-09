@@ -2,7 +2,7 @@
   "meta": {
     "engine": "TIGER v16",
     "generated": "2026-09-09",
-    "label": "NO BLOCKERS - floor OFF, vulnerability rule OFF. GD from newspaper inputs only, divisor 0.90 (IPS) / 0.87 (RAND). PACE + SECTIONALS dropped. COMBO unsourced - no strike rates fetched. Carded prices only.",
+    "label": "REPLAY CARD - these races have run. Flags tightened: bias flag suppressed (strength 0.75 IPS / 0.25 RAND, both under 1.0) and jockey flag fires only on a genuine booking upgrade. GD from newspaper inputs, divisor 0.90 IPS / 0.87 RAND, SIG out of 13. COMBO unsourced - no strike rates fetched.",
     "sample": "14 races, 2 meetings"
   },
   "racing": {
@@ -13,94 +13,47 @@
         "condition": "Good 4",
         "rail": "Out 10m entire",
         "direction": "clockwise",
+        "sigMax": 13,
         "races": [
           {
-            "no": 1,
-            "time": "1:18pm",
-            "horse": "5. Lottery Link",
-            "price": "3.90",
-            "gd": 7.55,
-            "pace": "mid",
-            "fc": 7,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 1, "time": "1:18pm", "horse": "5. Lottery Link", "price": "3.90", "gd": 7.55, "pace": "mid", "fc": 7, "value": true,
+            "flags": [],
+            "why": "Five starts, framed in two of them, rated 94 and drawn one. The market wanted Sir Arrogance at $3.10 on a rating of 100 off a single run. We took the horse with a record over the horse with a reputation."
           },
           {
-            "no": 2,
-            "time": "1:53pm",
-            "horse": "9. Hit A Lick",
-            "price": "9.00",
-            "gd": 7.40,
-            "pace": "mid",
-            "fc": 6,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 2, "time": "1:53pm", "horse": "9. Hit A Lick", "price": "9.00", "gd": 7.40, "pace": "mid", "fc": 6, "value": true,
+            "flags": [],
+            "why": "Rated 96, second highest in the race, drawn seven. The two ahead of him in the market each had a hole - Weownachevy rates 91 and drew eleven of eleven, Win Star is $2.80. This was the only runner within four points of the top at three times the price."
           },
           {
-            "no": 3,
-            "time": "2:28pm",
-            "horse": "4. Vegas Raider",
-            "price": "7.50",
-            "gd": 7.35,
-            "pace": "mid",
-            "fc": 6,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83d\udcc9 Class drop"]
+            "no": 3, "time": "2:28pm", "horse": "4. Vegas Raider", "price": "7.50", "gd": 7.35, "pace": "mid", "fc": 6, "value": true,
+            "flags": [],
+            "why": "Four horses covered by a single rating point over 800m - Wondereach 100, Diamantina Rose 99, Runaround Sue 99, and this bloke on 99. Three of them were $3.30 to $5.00. He was $7.50. Same horse, double the money."
           },
           {
-            "no": 4,
-            "time": "3:03pm",
-            "horse": "6. Kadesky",
-            "price": "8.50",
-            "gd": 7.45,
-            "pace": "mid",
-            "fc": 7,
-            "value": true,
-            "flags": ["\ud83c\udfaf Jockey flag", "\ud83d\udcc9 Class drop"]
+            "no": 4, "time": "3:03pm", "horse": "6. Kadesky", "price": "8.50", "gd": 7.45, "pace": "mid", "fc": 7, "value": true,
+            "flags": ["\ud83d\udeaa Wide gate"],
+            "why": "Top rated in the race on 100, Waller and Maloney, second up. Lebanese was $3.80 on 97. Gate ten is the only knock and it is what put him out to $8.50 - we took the higher rating at twice the price and wore the draw."
           },
           {
-            "no": 5,
-            "time": "3:38pm",
-            "horse": "1. Barrelling",
-            "price": "2.30",
-            "gd": 7.90,
-            "pace": "mid",
-            "fc": 8,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 5, "time": "3:38pm", "horse": "1. Barrelling", "price": "2.30", "gd": 7.90, "pace": "mid", "fc": 8,
+            "flags": [],
+            "why": "Top of the whole card and no bet. Rated 100, drawn two, Gollan and Ben Thompson who are three from five together in our tables. The market knows every bit of that, which is exactly why there is nothing here to buy."
           },
           {
-            "no": 6,
-            "time": "4:13pm",
-            "horse": "2. Meet George",
-            "price": "8.50",
-            "gd": 7.50,
-            "pace": "mid",
-            "fc": 7,
-            "value": true,
-            "flags": ["\u2699\ufe0f Gear change", "\ud83d\udccf Bias runner"]
+            "no": 6, "time": "4:13pm", "horse": "2. Meet George", "price": "8.50", "gd": 7.50, "pace": "mid", "fc": 7, "value": true,
+            "flags": ["\u2699\ufe0f Gear change"],
+            "why": "Top rated in a Class 1 on 94 while the $4.00 favourite rates 90. Blinkers come off for the first time. He is $8.50 because he is humping 60kg - the weight set that price, the rating and the gear change both say otherwise."
           },
           {
-            "no": 7,
-            "time": "4:48pm",
-            "horse": "4. Yoweri",
-            "price": "5.50",
-            "gd": 7.65,
-            "pace": "mid",
-            "fc": 8,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 7, "time": "4:48pm", "horse": "4. Yoweri", "price": "5.50", "gd": 7.65, "pace": "mid", "fc": 8, "value": true,
+            "flags": ["\ud83c\udfaf Jockey flag"],
+            "why": "Gollan saddled three in this race and Youngberry stayed on this one. A stable choosing between its own runners tells you more than any rating does. Three wins from five, drawn eight, and Sequel was $2.80 for a rating we could buy here at nearly double."
           },
           {
-            "no": 7,
-            "alt": true,
-            "time": "4:48pm",
-            "horse": "2. Cosmic Beauty",
-            "price": "14.00",
-            "gd": 7.05,
-            "pace": "mid",
-            "fc": 5,
-            "value": true,
-            "flags": ["\u2699\ufe0f Gear change", "\ud83d\udccf Bias runner"]
+            "no": 7, "alt": true, "time": "4:48pm", "horse": "2. Cosmic Beauty", "price": "14.00", "gd": 7.05, "pace": "mid", "fc": 5, "value": true,
+            "flags": ["\u2699\ufe0f Gear change"],
+            "why": "Backup only, not the official pick. Rated 93 in a race where the top rates 100, drawn two, cross-over noseband on for the first time. Held loosely - $14 is the end of the card where newspaper prices have been wrong before."
           }
         ]
       },
@@ -110,104 +63,51 @@
         "condition": "Soft 5",
         "rail": "Out 2m",
         "direction": "clockwise",
+        "sigMax": 13,
         "races": [
           {
-            "no": 1,
-            "time": "1:35pm",
-            "horse": "1. Gentle Giant",
-            "price": "4.00",
-            "gd": 7.50,
-            "pace": "mid",
-            "fc": 6,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 1, "time": "1:35pm", "horse": "1. Gentle Giant", "price": "4.00", "gd": 7.50, "pace": "mid", "fc": 6, "value": true,
+            "flags": [],
+            "why": "Rated 93, gate one, Hyeronimus. Stitzer rates 100 but his line reads 6-4-spell-0 and he was beaten off the same spell. We took the cleaner recent evidence at $4.00 against $2.40. Thin race, thin case - said plainly."
           },
           {
-            "no": 2,
-            "time": "2:10pm",
-            "horse": "2. Unhinged",
-            "price": "4.20",
-            "gd": 7.70,
-            "pace": "mid",
-            "fc": 7,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 2, "time": "2:10pm", "horse": "2. Unhinged", "price": "4.20", "gd": 7.70, "pace": "mid", "fc": 7, "value": true,
+            "flags": [],
+            "why": "Top rated on 100 with McDonald aboard, drawn two - and not the favourite. Wonka was $4.00 on 97. The best-rated runner in a hundred grand maiden going out at a longer price than the horse below him is the cleanest shape this engine looks for."
           },
           {
-            "no": 3,
-            "time": "2:45pm",
-            "horse": "3. Threads",
-            "price": "7.50",
-            "gd": 7.25,
-            "pace": "mid",
-            "fc": 5,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 3, "time": "2:45pm", "horse": "3. Threads", "price": "7.50", "gd": 7.25, "pace": "mid", "fc": 5,
+            "flags": [],
+            "why": "The weak one on the card and we will own it. Low Key rates 100 at $1.90, Threads rates 81. Backing an 81 against a 100 on a draw and a rider is a guess, not an edge. Under the tightened rules this race gets no bet at all."
           },
           {
-            "no": 3,
-            "alt": true,
-            "time": "2:45pm",
-            "horse": "8. Movie Star",
-            "price": "14.00",
-            "gd": 7.00,
-            "pace": "mid",
-            "fc": 4,
-            "value": true,
-            "flags": ["\ud83c\udfaf Jockey flag", "\ud83d\udeaa Wide gate"]
+            "no": 3, "alt": true, "time": "2:45pm", "horse": "8. Movie Star", "price": "14.00", "gd": 7.00, "pace": "mid", "fc": 4,
+            "flags": ["\ud83d\udeaa Wide gate"],
+            "why": "Backup only. Form line 3-2 with Berry up, but rated 81 against a 100 and drawn wide. Same problem as the pick above it, longer price."
           },
           {
-            "no": 4,
-            "time": "3:20pm",
-            "horse": "1. Funchal",
-            "price": "10.00",
-            "gd": 7.30,
-            "pace": "mid",
-            "fc": 6,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 4, "time": "3:20pm", "horse": "1. Funchal", "price": "10.00", "gd": 7.30, "pace": "mid", "fc": 6, "value": true,
+            "flags": [],
+            "why": "Rated 94, drawn four, second up off a spell and carrying 61kg. Columbus was $2.60 on 100. Six rating points between them and nearly four times the price - the weight is doing the work in that gap, not the form."
           },
           {
-            "no": 5,
-            "time": "3:55pm",
-            "horse": "6. Pierata's Gem",
-            "price": "5.00",
-            "gd": 7.35,
-            "pace": "mid",
-            "fc": 6,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 5, "time": "3:55pm", "horse": "6. Pierata's Gem", "price": "5.00", "gd": 7.35, "pace": "mid", "fc": 6,
+            "flags": [],
+            "why": "Rated 89 with Berry, drawn three, second last start. Deep Pleasure rates 100 at $2.15 and eleven points is a lot to give away. Honest read - this one sits closer to a reach than an edge."
           },
           {
-            "no": 6,
-            "time": "4:30pm",
-            "horse": "8. Varuni",
-            "price": "9.50",
-            "gd": 7.55,
-            "pace": "mid",
-            "fc": 7,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 6, "time": "4:30pm", "horse": "8. Varuni", "price": "9.50", "gd": 7.55, "pace": "mid", "fc": 7, "value": true,
+            "flags": [],
+            "why": "Best line on the Randwick card. Won her last two since the spell, rated 95, drawn three. The market's horse rates 100 but drew seven at $4.20. A mare winning consecutively at $9.50 is the whole reason we rebuilt this thing."
           },
           {
-            "no": 7,
-            "time": "5:05pm",
-            "horse": "3. Tough Guy",
-            "price": "8.50",
-            "gd": 7.60,
-            "pace": "mid",
-            "fc": 7,
-            "value": true,
-            "flags": ["\ud83d\udccf Bias runner", "\ud83c\udfaf Jockey flag"]
+            "no": 7, "time": "5:05pm", "horse": "3. Tough Guy", "price": "8.50", "gd": 7.60, "pace": "mid", "fc": 7, "value": true,
+            "flags": [],
+            "why": "Form reads 4-3-2-1-1, improving to two straight wins, drawn two. And the claim rule finally bit - 61kg puts him top third of the handicap, Grima claims two, so he races on 59. First time that interaction has separated a runner on a live card."
           }
         ]
       }
     ]
   },
-  "nrl": {
-    "games": [],
-    "multis": [],
-    "engine": "GD ALGO V1",
-    "round": ""
-  }
+  "nrl": { "games": [], "multis": [], "engine": "GD ALGO V1", "round": "" }
 }
