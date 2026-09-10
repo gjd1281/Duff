@@ -1,113 +1,283 @@
 {
   "meta": {
     "engine": "TIGER v16",
-    "generated": "2026-09-09",
-    "label": "REPLAY CARD - these races have run. Flags tightened: bias flag suppressed (strength 0.75 IPS / 0.25 RAND, both under 1.0) and jockey flag fires only on a genuine booking upgrade. GD from newspaper inputs, divisor 0.90 IPS / 0.87 RAND, SIG out of 13. COMBO unsourced - no strike rates fetched.",
-    "sample": "14 races, 2 meetings"
+    "generated": "2026-09-10",
+    "label": "STAGE 1 ONLY - full-field scoring off newspaper inputs. PACE + SECTIONALS dropped, divisor 0.90, signals /13. COMBO unsourced at both meetings. No bias flags: Warwick rail TRUE (strength 0), Hawkesbury strength 0.5 after v13 multipliers. Carded prices - edge filter NOT run.",
+    "sample": "15 races, 2 meetings, 19 entries"
   },
   "racing": {
     "meetings": [
       {
-        "id": "ips090926",
-        "track": "IPSWICH",
-        "condition": "Good 4",
-        "rail": "Out 10m entire",
+        "id": "wwk100926",
+        "track": "WARWICK",
+        "condition": "Soft 5",
+        "rail": "True entire",
         "direction": "clockwise",
         "sigMax": 13,
         "races": [
           {
-            "no": 1, "time": "1:18pm", "horse": "5. Lottery Link", "price": "3.90", "gd": 7.55, "pace": "mid", "fc": 7, "value": true,
+            "no": 1,
+            "time": "1:07pm",
+            "horse": "11. Saluki",
+            "price": "10.00",
+            "gd": 7.35,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
             "flags": [],
-            "why": "Five starts, framed in two of them, rated 94 and drawn one. The market wanted Sir Arrogance at $3.10 on a rating of 100 off a single run. We took the horse with a record over the horse with a reputation."
+            "why": "Ran second last start and carries 54kg, 2.5kg under every other main chance in an 800m dash where weight bites hardest. RTG 93 sits second-top behind a $3.90 favourite that has raced once and is having blinkers and a tongue-tie applied for the first time."
           },
           {
-            "no": 2, "time": "1:53pm", "horse": "9. Hit A Lick", "price": "9.00", "gd": 7.40, "pace": "mid", "fc": 6, "value": true,
+            "no": 2,
+            "time": "1:42pm",
+            "horse": "10. I Am Gone",
+            "price": "11.00",
+            "gd": 7.45,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
             "flags": [],
-            "why": "Rated 96, second highest in the race, drawn seven. The two ahead of him in the market each had a hole - Weownachevy rates 91 and drew eleven of eleven, Win Star is $2.80. This was the only runner within four points of the top at three times the price."
+            "why": "Two wins in his last five, gate 2 at a tight track, and 57.5kg after a 4kg claim. The two at the head of the market are Ever So Ready off a spell and Runaround Sue humping 62kg over 800m, which the v14 weight rule penalises hard at this trip."
           },
           {
-            "no": 3, "time": "2:28pm", "horse": "4. Vegas Raider", "price": "7.50", "gd": 7.35, "pace": "mid", "fc": 6, "value": true,
+            "no": 3,
+            "time": "2:17pm",
+            "horse": "3. Old Wermatong",
+            "price": "6.00",
+            "gd": 7.45,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
             "flags": [],
-            "why": "Four horses covered by a single rating point over 800m - Wondereach 100, Diamantina Rose 99, Runaround Sue 99, and this bloke on 99. Three of them were $3.30 to $5.00. He was $7.50. Same horse, double the money."
+            "why": "RTG 95, second-highest in the race, and the rails gate in a big maiden field at a country circuit where getting a cheap run matters more than raw ability. Priced at nearly double the favourite for a rating gap of five points."
           },
           {
-            "no": 4, "time": "3:03pm", "horse": "6. Kadesky", "price": "8.50", "gd": 7.45, "pace": "mid", "fc": 7, "value": true,
-            "flags": ["\ud83d\udeaa Wide gate"],
-            "why": "Top rated in the race on 100, Waller and Maloney, second up. Lebanese was $3.80 on 97. Gate ten is the only knock and it is what put him out to $8.50 - we took the higher rating at twice the price and wore the draw."
-          },
-          {
-            "no": 5, "time": "3:38pm", "horse": "1. Barrelling", "price": "2.30", "gd": 7.90, "pace": "mid", "fc": 8,
+            "no": 4,
+            "time": "2:57pm",
+            "horse": "8. Privalova",
+            "price": "4.60",
+            "gd": 7.70,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
             "flags": [],
-            "why": "Top of the whole card and no bet. Rated 100, drawn two, Gollan and Ben Thompson who are three from five together in our tables. The market knows every bit of that, which is exactly why there is nothing here to buy."
+            "why": "Won last start, RTG 98, and meets the favourite Luconi 5kg better at the weights off a 1.5kg claim. Same price as Luconi for a horse in winning form carrying five kilos less."
           },
           {
-            "no": 6, "time": "4:13pm", "horse": "2. Meet George", "price": "8.50", "gd": 7.50, "pace": "mid", "fc": 7, "value": true,
-            "flags": ["\u2699\ufe0f Gear change"],
-            "why": "Top rated in a Class 1 on 94 while the $4.00 favourite rates 90. Blinkers come off for the first time. He is $8.50 because he is humping 60kg - the weight set that price, the rating and the gear change both say otherwise."
+            "no": 5,
+            "time": "3:34pm",
+            "horse": "12. Icymiss",
+            "price": "5.00",
+            "gd": 7.55,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
+            "flags": [],
+            "why": "RTG 98 and ran second last start, so the profile is a horse holding form rather than one coming back to it. Flitgrove heads the market on RTG 100 but has to give weight away on a Soft 5."
           },
           {
-            "no": 7, "time": "4:48pm", "horse": "4. Yoweri", "price": "5.50", "gd": 7.65, "pace": "mid", "fc": 8, "value": true,
-            "flags": ["\ud83c\udfaf Jockey flag"],
-            "why": "Gollan saddled three in this race and Youngberry stayed on this one. A stable choosing between its own runners tells you more than any rating does. Three wins from five, drawn eight, and Sequel was $2.80 for a rating we could buy here at nearly double."
+            "no": 5,
+            "alt": true,
+            "time": "3:34pm",
+            "horse": "13. Final Voyage",
+            "price": "12.00",
+            "gd": 7.15,
+            "pace": "mid",
+            "fc": 5,
+            "value": true,
+            "flags": [],
+            "why": "Won two starts back and ran second last time, which is the shape the engine keeps missing at long prices. RTG 89 is modest and the wide gate is the reason the market has left it alone."
           },
           {
-            "no": 7, "alt": true, "time": "4:48pm", "horse": "2. Cosmic Beauty", "price": "14.00", "gd": 7.05, "pace": "mid", "fc": 5, "value": true,
-            "flags": ["\u2699\ufe0f Gear change"],
-            "why": "Backup only, not the official pick. Rated 93 in a race where the top rates 100, drawn two, cross-over noseband on for the first time. Held loosely - $14 is the end of the card where newspaper prices have been wrong before."
+            "no": 6,
+            "time": "4:12pm",
+            "horse": "6. Artie Vainqueur",
+            "price": "6.60",
+            "gd": 7.55,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": [],
+            "why": "RTG 99 is a point off top and it ran third first-up, so second-up improvement is the live angle. A 2kg claim brings it to 58.5kg and it sits at a full point longer than the favourite for almost the same rating."
+          },
+          {
+            "no": 6,
+            "alt": true,
+            "time": "4:12pm",
+            "horse": "14. Summer Ready",
+            "price": "16.00",
+            "gd": 7.10,
+            "pace": "mid",
+            "fc": 5,
+            "value": true,
+            "flags": [],
+            "why": "Won last start and drops to 56.5kg, three kilos under the top of the handicap. RTG 91 is the reason it is friendless at $16, but winning form at a light weight is the profile the archive says gets blocked."
+          },
+          {
+            "no": 7,
+            "time": "4:47pm",
+            "horse": "14. Water Lad",
+            "price": "11.00",
+            "gd": 7.35,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": [],
+            "why": "Second last start off a consistent 35122 line, gate 4, and 57.5kg. The market has it eighth in betting on RTG 93 while three horses rated within five points of it are under $5."
+          },
+          {
+            "no": 7,
+            "alt": true,
+            "time": "4:47pm",
+            "horse": "4. Coney Island Baby",
+            "price": "4.40",
+            "gd": 7.60,
+            "pace": "mid",
+            "fc": 7,
+            "value": false,
+            "flags": [],
+            "why": "Highest-rated live runner in the race on RTG 98 with the best recent line on the card. Carries no edge at $4.40 against a $4.20 favourite, so it is here as the form horse rather than a bet."
           }
         ]
       },
       {
-        "id": "rnk090926",
-        "track": "RANDWICK-KENSINGTON",
-        "condition": "Soft 5",
-        "rail": "Out 2m",
-        "direction": "clockwise",
+        "id": "hwk100926",
+        "track": "HAWKESBURY",
+        "condition": "Good 4",
+        "rail": "Out 4m 1100m-450m, true remainder",
+        "direction": "anticlockwise",
         "sigMax": 13,
         "races": [
           {
-            "no": 1, "time": "1:35pm", "horse": "1. Gentle Giant", "price": "4.00", "gd": 7.50, "pace": "mid", "fc": 6, "value": true,
+            "no": 1,
+            "time": "1:00pm",
+            "horse": "3. Hitch",
+            "price": "3.50",
+            "gd": 7.55,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
             "flags": [],
-            "why": "Rated 93, gate one, Hyeronimus. Stitzer rates 100 but his line reads 6-4-spell-0 and he was beaten off the same spell. We took the cleaner recent evidence at $4.00 against $2.40. Thin race, thin case - said plainly."
+            "why": "Three career starts for a win last time out, and meets the RTG 100 favourite Philatelic two kilos better. The gate is the one negative but a Good 4 with the rail out only 4m for part of the circuit barely punishes it."
           },
           {
-            "no": 2, "time": "2:10pm", "horse": "2. Unhinged", "price": "4.20", "gd": 7.70, "pace": "mid", "fc": 7, "value": true,
-            "flags": [],
-            "why": "Top rated on 100 with McDonald aboard, drawn two - and not the favourite. Wonka was $4.00 on 97. The best-rated runner in a hundred grand maiden going out at a longer price than the horse below him is the cleanest shape this engine looks for."
-          },
-          {
-            "no": 3, "time": "2:45pm", "horse": "3. Threads", "price": "7.50", "gd": 7.25, "pace": "mid", "fc": 5,
-            "flags": [],
-            "why": "The weak one on the card and we will own it. Low Key rates 100 at $1.90, Threads rates 81. Backing an 81 against a 100 on a draw and a rider is a guess, not an edge. Under the tightened rules this race gets no bet at all."
-          },
-          {
-            "no": 3, "alt": true, "time": "2:45pm", "horse": "8. Movie Star", "price": "14.00", "gd": 7.00, "pace": "mid", "fc": 4,
+            "no": 2,
+            "time": "1:35pm",
+            "horse": "6. Green Pineapple",
+            "price": "4.00",
+            "gd": 7.70,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
             "flags": ["\ud83d\udeaa Wide gate"],
-            "why": "Backup only. Form line 3-2 with Berry up, but rated 81 against a 100 and drawn wide. Same problem as the pick above it, longer price."
+            "why": "Top-rated in the race on RTG 100, has won its last two, and carries only 57kg over 2000m. The barrier is the whole reason it is not favourite, and over this trip a wide draw costs far less than it does sprinting."
           },
           {
-            "no": 4, "time": "3:20pm", "horse": "1. Funchal", "price": "10.00", "gd": 7.30, "pace": "mid", "fc": 6, "value": true,
+            "no": 3,
+            "time": "2:10pm",
+            "horse": "1. Comanche Chief",
+            "price": "2.30",
+            "gd": 7.80,
+            "pace": "mid",
+            "fc": 7,
+            "value": false,
             "flags": [],
-            "why": "Rated 94, drawn four, second up off a spell and carrying 61kg. Columbus was $2.60 on 100. Six rating points between them and nearly four times the price - the weight is doing the work in that gap, not the form."
+            "why": "RTG 99, two runs for a second and a fourth, and the inside gate against Power Broker drawn ten. Rated the top of the card but priced accordingly, so it fails the edge test and is not a bet under v16."
           },
           {
-            "no": 5, "time": "3:55pm", "horse": "6. Pierata's Gem", "price": "5.00", "gd": 7.35, "pace": "mid", "fc": 6,
+            "no": 4,
+            "time": "2:50pm",
+            "horse": "9. Pailleron",
+            "price": "4.00",
+            "gd": 7.60,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
             "flags": [],
-            "why": "Rated 89 with Berry, drawn three, second last start. Deep Pleasure rates 100 at $2.15 and eleven points is a lot to give away. Honest read - this one sits closer to a reach than an edge."
+            "why": "RTG 97 and the rails gate in a 1100m fillies and mares maiden, where an inside draw and early speed decide most of them. Lucsain at $1.70 is rated three points higher and pays less than half."
           },
           {
-            "no": 6, "time": "4:30pm", "horse": "8. Varuni", "price": "9.50", "gd": 7.55, "pace": "mid", "fc": 7, "value": true,
-            "flags": [],
-            "why": "Best line on the Randwick card. Won her last two since the spell, rated 95, drawn three. The market's horse rates 100 but drew seven at $4.20. A mare winning consecutively at $9.50 is the whole reason we rebuilt this thing."
+            "no": 5,
+            "time": "3:25pm",
+            "horse": "1. Camden Cove",
+            "price": "3.90",
+            "gd": 7.45,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": ["\u2699\ufe0f Gear change"],
+            "why": "Second-highest rated at RTG 93 and gets pre-race ear muffs for the first time, which is the one gear change on the card that points at a horse being managed rather than tinkered with. Not On My Watch is the obvious one at $2.00 and offers nothing."
           },
           {
-            "no": 7, "time": "5:05pm", "horse": "3. Tough Guy", "price": "8.50", "gd": 7.60, "pace": "mid", "fc": 7, "value": true,
+            "no": 6,
+            "time": "4:05pm",
+            "horse": "4. Mrs Flanders",
+            "price": "4.40",
+            "gd": 7.65,
+            "pace": "mid",
+            "fc": 7,
+            "value": true,
             "flags": [],
-            "why": "Form reads 4-3-2-1-1, improving to two straight wins, drawn two. And the claim rule finally bit - 61kg puts him top third of the handicap, Grima claims two, so he races on 59. First time that interaction has separated a runner on a live card."
+            "why": "RTG 98 with two wins in its last four and a gate inside the rail-out zone. Sprightly Affair is the $2.40 favourite off a spell and drawn nine, which is the wrong way round for a horse at that price."
+          },
+          {
+            "no": 6,
+            "alt": true,
+            "time": "4:05pm",
+            "horse": "1. Los Padres",
+            "price": "16.00",
+            "gd": 7.05,
+            "pace": "mid",
+            "fc": 5,
+            "value": true,
+            "flags": [],
+            "why": "Has already won over this course and distance and is first-up carrying 62kg after a 3kg claim. The weight is why it is $16, but a proven track-and-trip winner resuming is exactly the profile the old floor used to block."
+          },
+          {
+            "no": 7,
+            "time": "4:40pm",
+            "horse": "8. Castelique",
+            "price": "9.50",
+            "gd": 7.50,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": [],
+            "why": "Ran second on debut, drawn the rails, and carries 56kg. RTG 93 sits behind Made In Italy on 100 but the price gap is more than double, which is the divergence the engine is built to take."
+          },
+          {
+            "no": 7,
+            "alt": true,
+            "time": "4:40pm",
+            "horse": "7. Parisest Magic",
+            "price": "18.00",
+            "gd": 7.20,
+            "pace": "mid",
+            "fc": 5,
+            "value": true,
+            "flags": [],
+            "why": "RTG 97 is second-top in the race and the market has it eighth in at $18, entirely on the strength of a poor last run before a spell. First-up and unproven, so treated as an exotics line rather than a win bet."
+          },
+          {
+            "no": 8,
+            "time": "5:15pm",
+            "horse": "7. Spread The Love",
+            "price": "23.00",
+            "gd": 7.40,
+            "pace": "mid",
+            "fc": 6,
+            "value": true,
+            "flags": [],
+            "why": "Equal top-rated on RTG 100 and second-up after a quiet resuming run, yet sits at $23 while the other RTG 100 in the race is $2.90. The newspaper also has it as its own top selection, so the price is out of step with more than just this model."
           }
         ]
       }
     ]
   },
-  "nrl": { "games": [], "multis": [], "engine": "GD ALGO V1", "round": "" }
+  "nrl": {
+    "games": [],
+    "multis": [],
+    "engine": "GD ALGO V1",
+    "round": ""
+  }
 }
