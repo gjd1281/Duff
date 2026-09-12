@@ -2,148 +2,345 @@
  "meta": {
   "engine": "TIGER v16",
   "generated": "2026-09-12",
-  "stage": "Stage 2 - edge filter run",
-  "rules": {
-   "blend": "50/50 model vs market, log scale",
-   "edge_min": 1.25,
-   "price_max": 31.0,
-   "sigmax": 13
-  }
+  "label": "Stage 2 run - model blended 50/50 with market on a log scale, edge >= 1.25 and price <= $31 for VALUE, thin races carry no VALUE line. Prices read off race-morning screenshots. Doomben/Morphettville gd carries Stage 1's wet adjustment already.",
+  "sample": ""
  },
  "racing": {
   "meetings": [
    {
-    "track": "Doomben",
+    "id": "dmb120926",
+    "condition": "Soft 5",
+    "rail": "out 4m",
+    "direction": "clockwise",
     "going": "Soft 5",
+    "track": "Doomben",
+    "sigMax": 13,
     "races": [
      {
       "no": 1,
       "time": "11:23am",
+      "horse": "11. Slipsain",
+      "price": "2.90",
+      "gd": 7.26,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 31.0%, edge 1.12 against a 124% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 1,
+      "alt": true,
+      "time": "11:23am",
+      "horse": "2. Divil A Bit",
+      "price": "18.00",
+      "gd": 6.51,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.68. Still a bet down to $9.79; below that the edge drops under 1.25."
+     },
+     {
+      "no": 2,
+      "time": "11:58am",
+      "horse": "3. Livalittle",
+      "price": "2.05",
+      "gd": 7.04,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 36.7%, edge 0.93 against a 123% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 2,
+      "alt": true,
+      "time": "11:58am",
+      "horse": "1. Cavalry Man",
+      "price": "8.00",
+      "gd": 7.3,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 2.18. Still a bet down to $2.40; below that the edge drops under 1.25."
+     },
+     {
+      "no": 3,
+      "time": "12:33pm",
+      "horse": "8. Bluepinot",
+      "price": "4.20",
+      "gd": 6.9,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 23.2%, edge 1.24 against a 127% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 3,
+      "alt": true,
+      "time": "12:33pm",
+      "horse": "9. Liberty Park",
+      "price": "18.00",
+      "gd": 6.4,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.83. Still a bet down to $8.13; below that the edge drops under 1.25."
+     },
+     {
+      "no": 4,
+      "time": "1:08pm",
+      "horse": "5. Cunnamulla Fella",
+      "price": "2.35",
+      "gd": 7.2,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 33.2%, edge 0.97 against a 124% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 4,
+      "alt": true,
+      "time": "1:08pm",
+      "horse": "1. Express Payment",
+      "price": "4.40",
+      "gd": 7.31,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.43. Still a bet down to $3.24; below that the edge drops under 1.25."
+     },
+     {
+      "no": 5,
+      "time": "1:43pm",
+      "horse": "5. Gram",
+      "price": "2.50",
+      "gd": 7.31,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 31.4%, edge 0.98 against a 125% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 5,
+      "alt": true,
+      "time": "1:43pm",
+      "horse": "1. Mean Approach",
+      "price": "5.50",
+      "gd": 7.83,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 2.06. Still a bet down to $1.80; below that the edge drops under 1.25."
+     },
+     {
+      "no": 6,
+      "time": "2:23pm",
+      "horse": "11. Spiethtacular",
+      "price": "2.40",
+      "gd": 7.36,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 30.6%, edge 0.92 against a 126% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 6,
+      "alt": true,
+      "time": "2:23pm",
+      "horse": "2. Cindersea",
+      "price": "5.00",
+      "gd": 7.82,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.81. Still a bet down to $2.16; below that the edge drops under 1.25."
+     },
+     {
+      "no": 7,
+      "time": "2:58pm",
+      "horse": "15. Listen Jani",
+      "price": "4.40",
+      "gd": 8.15,
+      "value": true,
+      "flags": [],
+      "why": "Most likely winner on the blend at 38.5%, edge 2.08 against a 123% book."
+     },
+     {
+      "no": 7,
+      "alt": true,
+      "time": "2:58pm",
+      "horse": "2. Stanislaus",
+      "price": "27.00",
+      "gd": 7.2,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 2.74. Still a bet down to $5.43; below that the edge drops under 1.25."
+     },
+     {
+      "no": 8,
+      "time": "3:33pm",
+      "horse": "8. Zouper Fund",
+      "price": "2.60",
+      "gd": 7.06,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 30.0%, edge 0.97 against a 124% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 8,
+      "alt": true,
+      "time": "3:33pm",
+      "horse": "7. Blazing Harry",
+      "price": "6.00",
+      "gd": 7.3,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.73. Still a bet down to $2.93; below that the edge drops under 1.25."
+     },
+     {
+      "no": 9,
+      "time": "4:12pm",
+      "horse": "6. Compel",
+      "price": "5.50",
+      "gd": 7.22,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 18.9%, edge 1.31 against a 126% book. Thin race - no VALUE bet taken here."
+     },
+     {
+      "no": 10,
+      "time": "4:48pm",
+      "horse": "1. Band Of Brothers",
+      "price": "3.40",
+      "gd": 7.24,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 23.6%, edge 1.00 against a 124% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 10,
+      "alt": true,
+      "time": "4:48pm",
+      "horse": "2. Epic Proportions",
+      "price": "6.50",
+      "gd": 7.68,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.87. Still a bet down to $2.69; below that the edge drops under 1.25."
+     }
+    ],
+    "fullfield": [
+     {
+      "no": 1,
+      "time": "11:23am",
       "thin": false,
-      "starters": 12,
-      "book": 124.2,
-      "top": {
-       "tab": 11,
-       "horse": "Slipsain",
-       "price": 2.9,
-       "blend": 0.3098,
-       "edge": 1.12
-      },
-      "value": {
-       "tab": 2,
-       "horse": "Divil A Bit",
-       "price": 18,
-       "edge": 1.68,
-       "min_price": 9.79
-      },
       "runners": [
        {
         "tab": 11,
         "horse": "Slipsain",
         "price": 2.9,
-        "market": 0.2777,
-        "blend": 0.3098,
+        "gd": 7.26,
+        "p": 0.3098,
         "edge": 1.12,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Flaxlands",
         "price": 3.1,
-        "market": 0.2597,
-        "blend": 0.179,
+        "gd": 6.49,
+        "p": 0.179,
         "edge": 0.69,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Always A Rainbow",
         "price": 7.5,
-        "market": 0.1074,
-        "blend": 0.1737,
+        "gd": 7.11,
+        "p": 0.1737,
         "edge": 1.62,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Divil A Bit",
         "price": 18,
-        "market": 0.0447,
-        "blend": 0.075,
+        "gd": 6.51,
+        "p": 0.075,
         "edge": 1.68,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Almanzas",
         "price": 23,
-        "market": 0.035,
-        "blend": 0.0483,
+        "gd": 6.04,
+        "p": 0.0483,
         "edge": 1.38,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 16,
         "horse": "Pass The Peak",
         "price": 16,
-        "market": 0.0503,
-        "blend": 0.0458,
+        "gd": 5.69,
+        "p": 0.0458,
         "edge": 0.91,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Bad Boss",
         "price": 14,
-        "market": 0.0575,
-        "blend": 0.0446,
+        "gd": 5.55,
+        "p": 0.0446,
         "edge": 0.78,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Alfa Dundee",
         "price": 17,
-        "market": 0.0474,
-        "blend": 0.0397,
+        "gd": 5.52,
+        "p": 0.0397,
         "edge": 0.84,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 15,
         "horse": "Down Under Stunnah",
         "price": 27,
-        "market": 0.0298,
-        "blend": 0.0336,
+        "gd": 5.61,
+        "p": 0.0336,
         "edge": 1.13,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Data Leak",
         "price": 20,
-        "market": 0.0403,
-        "blend": 0.0218,
+        "gd": 4.75,
+        "p": 0.0218,
         "edge": 0.54,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Zaher",
         "price": 20,
-        "market": 0.0403,
-        "blend": 0.0215,
+        "gd": 4.73,
+        "p": 0.0215,
         "edge": 0.53,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 17,
         "horse": "Maple Door",
         "price": 81,
-        "market": 0.0099,
-        "blend": 0.0072,
+        "gd": 4.14,
+        "p": 0.0072,
         "edge": 0.72,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -151,94 +348,86 @@
       "no": 2,
       "time": "11:58am",
       "thin": false,
-      "starters": 8,
-      "book": 123.3,
-      "top": {
-       "tab": 3,
-       "horse": "Livalittle",
-       "price": 2.05,
-       "blend": 0.3672,
-       "edge": 0.93
-      },
-      "value": {
-       "tab": 1,
-       "horse": "Cavalry Man",
-       "price": 8.0,
-       "edge": 2.18,
-       "min_price": 2.4
-      },
       "runners": [
        {
         "tab": 3,
         "horse": "Livalittle",
         "price": 2.05,
-        "market": 0.3958,
-        "blend": 0.3672,
+        "gd": 7.04,
+        "p": 0.3672,
         "edge": 0.93,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Cavalry Man",
         "price": 8.0,
-        "market": 0.1014,
-        "blend": 0.2212,
+        "gd": 7.3,
+        "p": 0.2212,
         "edge": 2.18,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Diamond Show",
         "price": 4.5,
-        "market": 0.1803,
-        "blend": 0.1428,
+        "gd": 6.22,
+        "p": 0.1428,
         "edge": 0.79,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Felix The Scat",
         "price": 8.5,
-        "market": 0.0954,
-        "blend": 0.0824,
+        "gd": 5.87,
+        "p": 0.0824,
         "edge": 0.86,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Divine Purpose",
         "price": 7.0,
-        "market": 0.1159,
-        "blend": 0.0746,
+        "gd": 5.58,
+        "p": 0.0746,
         "edge": 0.64,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Barazin",
         "price": 20,
-        "market": 0.0406,
-        "blend": 0.0479,
+        "gd": 5.7,
+        "p": 0.0479,
         "edge": 1.18,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "The Right Way",
         "price": 20,
-        "market": 0.0406,
-        "blend": 0.0374,
+        "gd": 5.34,
+        "p": 0.0374,
         "edge": 0.92,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Battleton",
         "price": 27,
-        "market": 0.03,
-        "blend": 0.0265,
+        "gd": 5.05,
+        "p": 0.0265,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -246,94 +435,86 @@
       "no": 3,
       "time": "12:33pm",
       "thin": false,
-      "starters": 8,
-      "book": 126.9,
-      "top": {
-       "tab": 8,
-       "horse": "Bluepinot",
-       "price": 4.2,
-       "blend": 0.232,
-       "edge": 1.24
-      },
-      "value": {
-       "tab": 9,
-       "horse": "Liberty Park",
-       "price": 18,
-       "edge": 1.83,
-       "min_price": 8.13
-      },
       "runners": [
        {
         "tab": 8,
         "horse": "Bluepinot",
         "price": 4.2,
-        "market": 0.1876,
-        "blend": 0.232,
+        "gd": 6.9,
+        "p": 0.232,
         "edge": 1.24,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Perfect Play",
         "price": 4.0,
-        "market": 0.197,
-        "blend": 0.1728,
+        "gd": 6.42,
+        "p": 0.1728,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Moonshine Run",
         "price": 7.0,
-        "market": 0.1126,
-        "blend": 0.1576,
+        "gd": 6.7,
+        "p": 0.1576,
         "edge": 1.4,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Barbray",
         "price": 4.2,
-        "market": 0.1876,
-        "blend": 0.1392,
+        "gd": 6.14,
+        "p": 0.1392,
         "edge": 0.74,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Last Command",
         "price": 7.0,
-        "market": 0.1126,
-        "blend": 0.1186,
+        "gd": 6.28,
+        "p": 0.1186,
         "edge": 1.05,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Liberty Park",
         "price": 18,
-        "market": 0.0438,
-        "blend": 0.0803,
+        "gd": 6.4,
+        "p": 0.0803,
         "edge": 1.83,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Aratiri",
         "price": 7.0,
-        "market": 0.1126,
-        "blend": 0.0609,
+        "gd": 5.29,
+        "p": 0.0609,
         "edge": 0.54,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Galano",
         "price": 17,
-        "market": 0.0463,
-        "blend": 0.0386,
+        "gd": 5.27,
+        "p": 0.0386,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -341,94 +522,86 @@
       "no": 4,
       "time": "1:08pm",
       "thin": false,
-      "starters": 8,
-      "book": 124.0,
-      "top": {
-       "tab": 5,
-       "horse": "Cunnamulla Fella",
-       "price": 2.35,
-       "blend": 0.3323,
-       "edge": 0.97
-      },
-      "value": {
-       "tab": 1,
-       "horse": "Express Payment",
-       "price": 4.4,
-       "edge": 1.43,
-       "min_price": 3.24
-      },
       "runners": [
        {
         "tab": 5,
         "horse": "Cunnamulla Fella",
         "price": 2.35,
-        "market": 0.3432,
-        "blend": 0.3323,
+        "gd": 7.2,
+        "p": 0.3323,
         "edge": 0.97,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Express Payment",
         "price": 4.4,
-        "market": 0.1833,
-        "blend": 0.2613,
+        "gd": 7.31,
+        "p": 0.2613,
         "edge": 1.43,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Nails Murphy",
         "price": 4.4,
-        "market": 0.1833,
-        "blend": 0.1929,
+        "gd": 6.85,
+        "p": 0.1929,
         "edge": 1.05,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Noble Conqueror",
         "price": 10,
-        "market": 0.0807,
-        "blend": 0.0566,
+        "gd": 5.64,
+        "p": 0.0566,
         "edge": 0.7,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Prince Levi",
         "price": 13,
-        "market": 0.062,
-        "blend": 0.0482,
+        "gd": 5.59,
+        "p": 0.0482,
         "edge": 0.78,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Sun Worshipper",
         "price": 19,
-        "market": 0.0424,
-        "blend": 0.038,
+        "gd": 5.52,
+        "p": 0.038,
         "edge": 0.89,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Capital Asset",
         "price": 17,
-        "market": 0.0474,
-        "blend": 0.0357,
+        "gd": 5.35,
+        "p": 0.0357,
         "edge": 0.75,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Yet He Moves",
         "price": 14,
-        "market": 0.0576,
-        "blend": 0.0349,
+        "gd": 5.17,
+        "p": 0.0349,
         "edge": 0.61,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -436,103 +609,96 @@
       "no": 5,
       "time": "1:43pm",
       "thin": false,
-      "starters": 9,
-      "book": 125.3,
-      "top": {
-       "tab": 5,
-       "horse": "Gram",
-       "price": 2.5,
-       "blend": 0.3138,
-       "edge": 0.98
-      },
-      "value": {
-       "tab": 1,
-       "horse": "Mean Approach",
-       "price": 5.5,
-       "edge": 2.06,
-       "min_price": 1.8
-      },
       "runners": [
        {
         "tab": 5,
         "horse": "Gram",
         "price": 2.5,
-        "market": 0.3192,
-        "blend": 0.3138,
+        "gd": 7.31,
+        "p": 0.3138,
         "edge": 0.98,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Mean Approach",
         "price": 5.5,
-        "market": 0.1451,
-        "blend": 0.2991,
+        "gd": 7.83,
+        "p": 0.2991,
         "edge": 2.06,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Facundo",
         "price": 3.2,
-        "market": 0.2494,
-        "blend": 0.173,
+        "gd": 6.61,
+        "p": 0.173,
         "edge": 0.69,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "The Fixer",
         "price": 9.5,
-        "market": 0.084,
-        "blend": 0.0613,
+        "gd": 5.87,
+        "p": 0.0613,
         "edge": 0.73,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Abender",
         "price": 9.5,
-        "market": 0.084,
-        "blend": 0.0446,
+        "gd": 5.4,
+        "p": 0.0446,
         "edge": 0.53,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 15,
         "horse": "Silent Call",
         "price": 35,
-        "market": 0.0228,
-        "blend": 0.0333,
+        "gd": 5.94,
+        "p": 0.0333,
         "edge": 1.46,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "Provance",
         "price": 21,
-        "market": 0.038,
-        "blend": 0.0302,
+        "gd": 5.41,
+        "p": 0.0302,
         "edge": 0.79,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Streak Of Winning",
         "price": 23,
-        "market": 0.0347,
-        "blend": 0.0268,
+        "gd": 5.3,
+        "p": 0.0268,
         "edge": 0.77,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "This Is One",
         "price": 35,
-        "market": 0.0228,
-        "blend": 0.0179,
+        "gd": 5.01,
+        "p": 0.0179,
         "edge": 0.78,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -540,94 +706,86 @@
       "no": 6,
       "time": "2:23pm",
       "thin": false,
-      "starters": 8,
-      "book": 125.8,
-      "top": {
-       "tab": 11,
-       "horse": "Spiethtacular",
-       "price": 2.4,
-       "blend": 0.3056,
-       "edge": 0.92
-      },
-      "value": {
-       "tab": 2,
-       "horse": "Cindersea",
-       "price": 5.0,
-       "edge": 1.81,
-       "min_price": 2.16
-      },
       "runners": [
        {
         "tab": 11,
         "horse": "Spiethtacular",
         "price": 2.4,
-        "market": 0.3313,
-        "blend": 0.3056,
+        "gd": 7.36,
+        "p": 0.3056,
         "edge": 0.92,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Cindersea",
         "price": 5.0,
-        "market": 0.159,
-        "blend": 0.2879,
+        "gd": 7.82,
+        "p": 0.2879,
         "edge": 1.81,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Dominant Darcy",
         "price": 3.7,
-        "market": 0.2149,
-        "blend": 0.208,
+        "gd": 7.11,
+        "p": 0.208,
         "edge": 0.97,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Bonfire Spark",
         "price": 6.0,
-        "market": 0.1325,
-        "blend": 0.1074,
+        "gd": 6.48,
+        "p": 0.1074,
         "edge": 0.81,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Just Precious",
         "price": 8.0,
-        "market": 0.0994,
-        "blend": 0.0477,
+        "gd": 5.49,
+        "p": 0.0477,
         "edge": 0.48,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Corrupted",
         "price": 21,
-        "market": 0.0379,
-        "blend": 0.0274,
+        "gd": 5.38,
+        "p": 0.0274,
         "edge": 0.72,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Outweighed",
         "price": 61,
-        "market": 0.013,
-        "blend": 0.0084,
+        "gd": 4.41,
+        "p": 0.0084,
         "edge": 0.64,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Cinque Terre",
         "price": 67,
-        "market": 0.0119,
-        "blend": 0.0076,
+        "gd": 4.34,
+        "p": 0.0076,
         "edge": 0.64,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -635,148 +793,146 @@
       "no": 7,
       "time": "2:58pm",
       "thin": false,
-      "starters": 14,
-      "book": 123.1,
-      "top": {
-       "tab": 15,
-       "horse": "Listen Jani",
-       "price": 4.4,
-       "blend": 0.385,
-       "edge": 2.08
-      },
-      "value": {
-       "tab": 2,
-       "horse": "Stanislaus",
-       "price": 27,
-       "edge": 2.74,
-       "min_price": 5.43
-      },
       "runners": [
        {
         "tab": 15,
         "horse": "Listen Jani",
         "price": 4.4,
-        "market": 0.1847,
-        "blend": 0.385,
+        "gd": 8.15,
+        "p": 0.385,
         "edge": 2.08,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Meldubious",
         "price": 3.4,
-        "market": 0.239,
-        "blend": 0.1329,
+        "gd": 6.37,
+        "p": 0.1329,
         "edge": 0.56,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Stanislaus",
         "price": 27,
-        "market": 0.0301,
-        "blend": 0.0825,
+        "gd": 7.2,
+        "p": 0.0825,
         "edge": 2.74,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Rimbaud",
         "price": 11,
-        "market": 0.0739,
-        "blend": 0.0747,
+        "gd": 6.39,
+        "p": 0.0747,
         "edge": 1.01,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Galway Flyer",
         "price": 18,
-        "market": 0.0451,
-        "blend": 0.0578,
+        "gd": 6.37,
+        "p": 0.0578,
         "edge": 1.28,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "Starman",
         "price": 13,
-        "market": 0.0625,
-        "blend": 0.0457,
+        "gd": 5.78,
+        "p": 0.0457,
         "edge": 0.73,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "She Moves Too",
         "price": 13,
-        "market": 0.0625,
-        "blend": 0.0442,
+        "gd": 5.73,
+        "p": 0.0442,
         "edge": 0.71,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Italian Dancer",
         "price": 23,
-        "market": 0.0353,
-        "blend": 0.0348,
+        "gd": 5.8,
+        "p": 0.0348,
         "edge": 0.98,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 18,
         "horse": "Headhunter",
         "price": 9.5,
-        "market": 0.0855,
-        "blend": 0.033,
+        "gd": 5.06,
+        "p": 0.033,
         "edge": 0.39,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 16,
         "horse": "Miss De Medici",
         "price": 21,
-        "market": 0.0387,
-        "blend": 0.0302,
+        "gd": 5.52,
+        "p": 0.0302,
         "edge": 0.78,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Duke Of Camden",
         "price": 15,
-        "market": 0.0542,
-        "blend": 0.03,
+        "gd": 5.26,
+        "p": 0.03,
         "edge": 0.55,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Ready For The Trip",
         "price": 34,
-        "market": 0.0239,
-        "blend": 0.0197,
+        "gd": 5.24,
+        "p": 0.0197,
         "edge": 0.82,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Galpin",
         "price": 34,
-        "market": 0.0239,
-        "blend": 0.0151,
+        "gd": 4.85,
+        "p": 0.0151,
         "edge": 0.63,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Superalloy",
         "price": 20,
-        "market": 0.0406,
-        "blend": 0.0145,
+        "gd": 4.4,
+        "p": 0.0145,
         "edge": 0.36,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -784,112 +940,106 @@
       "no": 8,
       "time": "3:33pm",
       "thin": false,
-      "starters": 10,
-      "book": 124.3,
-      "top": {
-       "tab": 8,
-       "horse": "Zouper Fund",
-       "price": 2.6,
-       "blend": 0.3002,
-       "edge": 0.97
-      },
-      "value": {
-       "tab": 7,
-       "horse": "Blazing Harry",
-       "price": 6.0,
-       "edge": 1.73,
-       "min_price": 2.93
-      },
       "runners": [
        {
         "tab": 8,
         "horse": "Zouper Fund",
         "price": 2.6,
-        "market": 0.3095,
-        "blend": 0.3002,
+        "gd": 7.06,
+        "p": 0.3002,
         "edge": 0.97,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Blazing Harry",
         "price": 6.0,
-        "market": 0.1341,
-        "blend": 0.2314,
+        "gd": 7.3,
+        "p": 0.2314,
         "edge": 1.73,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Tornado Express",
         "price": 6.0,
-        "market": 0.1341,
-        "blend": 0.1061,
+        "gd": 6.14,
+        "p": 0.1061,
         "edge": 0.79,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Blazen Boots",
         "price": 15,
-        "market": 0.0537,
-        "blend": 0.0889,
+        "gd": 6.56,
+        "p": 0.0889,
         "edge": 1.66,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Hopper",
         "price": 7.5,
-        "market": 0.1073,
-        "blend": 0.0599,
+        "gd": 5.45,
+        "p": 0.0599,
         "edge": 0.56,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Castillian",
         "price": 15,
-        "market": 0.0537,
-        "blend": 0.0579,
+        "gd": 5.92,
+        "p": 0.0579,
         "edge": 1.08,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Sir Artie",
         "price": 9.5,
-        "market": 0.0847,
-        "blend": 0.0527,
+        "gd": 5.44,
+        "p": 0.0527,
         "edge": 0.62,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Boys Night Out",
         "price": 19,
-        "market": 0.0424,
-        "blend": 0.0506,
+        "gd": 5.89,
+        "p": 0.0506,
         "edge": 1.2,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Hell To Pay",
         "price": 14,
-        "market": 0.0575,
-        "blend": 0.0407,
+        "gd": 5.34,
+        "p": 0.0407,
         "edge": 0.71,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Boom Torque",
         "price": 35,
-        "market": 0.023,
-        "blend": 0.0114,
+        "gd": 4.13,
+        "p": 0.0114,
         "edge": 0.5,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -897,115 +1047,116 @@
       "no": 9,
       "time": "4:12pm",
       "thin": true,
-      "starters": 11,
-      "book": 126.2,
-      "top": {
-       "tab": 6,
-       "horse": "Compel",
-       "price": 5.5,
-       "blend": 0.1891,
-       "edge": 1.31
-      },
-      "value": null,
       "runners": [
        {
         "tab": 6,
         "horse": "Compel",
         "price": 5.5,
-        "market": 0.1441,
-        "blend": 0.1891,
+        "gd": 7.22,
+        "p": 0.1891,
         "edge": 1.31,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Swift Dragon",
         "price": 7.0,
-        "market": 0.1132,
-        "blend": 0.1883,
+        "gd": 7.39,
+        "p": 0.1883,
         "edge": 1.66,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Apostle",
         "price": 8.5,
-        "market": 0.0933,
-        "blend": 0.1411,
+        "gd": 7.11,
+        "p": 0.1411,
         "edge": 1.51,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Unloading",
         "price": 5.0,
-        "market": 0.1585,
-        "blend": 0.1096,
+        "gd": 6.34,
+        "p": 0.1096,
         "edge": 0.69,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Huggie",
         "price": 6.5,
-        "market": 0.122,
-        "blend": 0.0988,
+        "gd": 6.38,
+        "p": 0.0988,
         "edge": 0.81,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Erimar",
         "price": 6.5,
-        "market": 0.122,
-        "blend": 0.0792,
+        "gd": 6.05,
+        "p": 0.0792,
         "edge": 0.65,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "High Prophet",
         "price": 9.5,
-        "market": 0.0834,
-        "blend": 0.0549,
+        "gd": 5.79,
+        "p": 0.0549,
         "edge": 0.66,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Why Wait",
         "price": 20,
-        "market": 0.0396,
-        "blend": 0.0499,
+        "gd": 6.2,
+        "p": 0.0499,
         "edge": 1.26,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Run Like A Girl",
         "price": 12,
-        "market": 0.0661,
-        "blend": 0.0398,
+        "gd": 5.48,
+        "p": 0.0398,
         "edge": 0.6,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Iransofar",
         "price": 23,
-        "market": 0.0345,
-        "blend": 0.0289,
+        "gd": 5.49,
+        "p": 0.0289,
         "edge": 0.84,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Hot Image",
         "price": 34,
-        "market": 0.0233,
-        "blend": 0.0205,
+        "gd": 5.27,
+        "p": 0.0205,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -1013,249 +1164,369 @@
       "no": 10,
       "time": "4:48pm",
       "thin": false,
-      "starters": 10,
-      "book": 124.3,
-      "top": {
-       "tab": 1,
-       "horse": "Band Of Brothers",
-       "price": 3.4,
-       "blend": 0.2361,
-       "edge": 1.0
-      },
-      "value": {
-       "tab": 2,
-       "horse": "Epic Proportions",
-       "price": 6.5,
-       "edge": 1.87,
-       "min_price": 2.69
-      },
       "runners": [
        {
         "tab": 1,
         "horse": "Band Of Brothers",
         "price": 3.4,
-        "market": 0.2366,
-        "blend": 0.2361,
+        "gd": 7.24,
+        "p": 0.2361,
         "edge": 1.0,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Epic Proportions",
         "price": 6.5,
-        "market": 0.1237,
-        "blend": 0.2308,
+        "gd": 7.68,
+        "p": 0.2308,
         "edge": 1.87,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Polyglot",
         "price": 4.2,
-        "market": 0.1915,
-        "blend": 0.1587,
+        "gd": 6.8,
+        "p": 0.1587,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Cherry Rose",
         "price": 11,
-        "market": 0.0731,
-        "blend": 0.1294,
+        "gd": 7.21,
+        "p": 0.1294,
         "edge": 1.77,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Fleetwood",
         "price": 6.0,
-        "market": 0.134,
-        "blend": 0.078,
+        "gd": 6.01,
+        "p": 0.078,
         "edge": 0.58,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Considered",
         "price": 7.0,
-        "market": 0.1149,
-        "blend": 0.0764,
+        "gd": 6.09,
+        "p": 0.0764,
         "edge": 0.66,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Power Of The Brave",
         "price": 18,
-        "market": 0.0447,
-        "blend": 0.0341,
+        "gd": 5.6,
+        "p": 0.0341,
         "edge": 0.76,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Master Showman",
         "price": 26,
-        "market": 0.0309,
-        "blend": 0.0223,
+        "gd": 5.24,
+        "p": 0.0223,
         "edge": 0.72,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "He's Heaven",
         "price": 41,
-        "market": 0.0196,
-        "blend": 0.0196,
+        "gd": 5.38,
+        "p": 0.0196,
         "edge": 1.0,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Thelwell",
         "price": 26,
-        "market": 0.0309,
-        "blend": 0.0146,
+        "gd": 4.61,
+        "p": 0.0146,
         "edge": 0.47,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      }
     ]
    },
    {
-    "track": "Rosehill",
+    "id": "rhl120926",
+    "condition": "Good 4",
+    "rail": "out 5m",
+    "direction": "clockwise",
     "going": "Good 4",
+    "track": "Rosehill",
+    "sigMax": 13,
     "races": [
      {
       "no": 2,
       "time": "12:25pm",
+      "horse": "4. Heroic Deed",
+      "price": "3.70",
+      "gd": 6.79,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 21.6%, edge 0.99 against a 123% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 2,
+      "alt": true,
+      "time": "12:25pm",
+      "horse": "3. Zaragoza",
+      "price": "23.00",
+      "gd": 6.39,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.87. Still a bet down to $10.04; below that the edge drops under 1.25."
+     },
+     {
+      "no": 3,
+      "time": "1:00pm",
+      "horse": "3. Appeared",
+      "price": "2.20",
+      "gd": 7.07,
+      "value": true,
+      "flags": [],
+      "why": "Most likely winner on the blend at 52.7%, edge 1.37 against a 118% book."
+     },
+     {
+      "no": 4,
+      "time": "1:35pm",
+      "horse": "7. Mukhtalif",
+      "price": "2.15",
+      "gd": 7.01,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 43.2%, edge 1.14 against a 123% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 4,
+      "alt": true,
+      "time": "1:35pm",
+      "horse": "4. Medatsu",
+      "price": "27.00",
+      "gd": 5.75,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.73. Still a bet down to $13.86; below that the edge drops under 1.25."
+     },
+     {
+      "no": 5,
+      "time": "2:15pm",
+      "horse": "8. Transcend",
+      "price": "4.60",
+      "gd": 7.26,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 21.6%, edge 1.23 against a 124% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 5,
+      "alt": true,
+      "time": "2:15pm",
+      "horse": "7. Chispa",
+      "price": "8.50",
+      "gd": 7.06,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.46. Still a bet down to $6.08; below that the edge drops under 1.25."
+     },
+     {
+      "no": 6,
+      "time": "2:50pm",
+      "horse": "11. Savagram",
+      "price": "7.00",
+      "gd": 6.96,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 25.7%, edge 1.77 against a 99% book. Thin race - no VALUE bet taken here."
+     },
+     {
+      "no": 7,
+      "time": "3:25pm",
+      "horse": "2. Lazzura",
+      "price": "3.20",
+      "gd": 8.19,
+      "value": true,
+      "flags": [],
+      "why": "Most likely winner on the blend at 38.2%, edge 1.50 against a 123% book."
+     },
+     {
+      "no": 8,
+      "time": "4:00pm",
+      "horse": "7. St Gotthard",
+      "price": "2.70",
+      "gd": 7.29,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 28.1%, edge 0.93 against a 123% book. Thin race - no VALUE bet taken here."
+     },
+     {
+      "no": 9,
+      "time": "4:40pm",
+      "horse": "6. Skyhook",
+      "price": "2.90",
+      "gd": 6.51,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 18.3%, edge 0.65 against a 123% book. Thin race - no VALUE bet taken here."
+     },
+     {
+      "no": 10,
+      "time": "5:15pm",
+      "horse": "6. Eagle Express",
+      "price": "4.40",
+      "gd": 7.38,
+      "value": true,
+      "flags": [],
+      "why": "Most likely winner on the blend at 28.1%, edge 1.50 against a 121% book."
+     }
+    ],
+    "fullfield": [
+     {
+      "no": 2,
+      "time": "12:25pm",
       "thin": false,
-      "starters": 12,
-      "book": 123.0,
-      "top": {
-       "tab": 4,
-       "horse": "Heroic Deed",
-       "price": 3.7,
-       "blend": 0.2165,
-       "edge": 0.99
-      },
-      "value": {
-       "tab": 3,
-       "horse": "Zaragoza",
-       "price": 23,
-       "edge": 1.87,
-       "min_price": 10.04
-      },
       "runners": [
        {
         "tab": 4,
         "horse": "Heroic Deed",
         "price": 3.7,
-        "market": 0.2197,
-        "blend": 0.2165,
+        "gd": 6.79,
+        "p": 0.2165,
         "edge": 0.99,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Better Late",
         "price": 4.5,
-        "market": 0.1807,
-        "blend": 0.1512,
+        "gd": 6.41,
+        "p": 0.1512,
         "edge": 0.84,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Formal",
         "price": 6.0,
-        "market": 0.1355,
-        "blend": 0.1203,
+        "gd": 6.28,
+        "p": 0.1203,
         "edge": 0.89,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 15,
         "horse": "Call Me Sassy",
         "price": 6.0,
-        "market": 0.1355,
-        "blend": 0.0917,
+        "gd": 5.88,
+        "p": 0.0917,
         "edge": 0.68,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Heuristic",
         "price": 14,
-        "market": 0.0581,
-        "blend": 0.0763,
+        "gd": 6.23,
+        "p": 0.0763,
         "edge": 1.31,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Let's Go Again",
         "price": 18,
-        "market": 0.0452,
-        "blend": 0.0674,
+        "gd": 6.23,
+        "p": 0.0674,
         "edge": 1.49,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Zaragoza",
         "price": 23,
-        "market": 0.0353,
-        "blend": 0.0661,
+        "gd": 6.39,
+        "p": 0.0661,
         "edge": 1.87,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Stakeholder",
         "price": 20,
-        "market": 0.0406,
-        "blend": 0.0556,
+        "gd": 6.03,
+        "p": 0.0556,
         "edge": 1.37,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "Twinkling Star",
         "price": 20,
-        "market": 0.0406,
-        "blend": 0.0521,
+        "gd": 5.93,
+        "p": 0.0521,
         "edge": 1.28,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Vetwelve",
         "price": 19,
-        "market": 0.0428,
-        "blend": 0.0484,
+        "gd": 5.78,
+        "p": 0.0484,
         "edge": 1.13,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Queen Of Clubs",
         "price": 19,
-        "market": 0.0428,
-        "blend": 0.032,
+        "gd": 5.17,
+        "p": 0.032,
         "edge": 0.75,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Huon",
         "price": 35,
-        "market": 0.0232,
-        "blend": 0.0223,
+        "gd": 5.08,
+        "p": 0.0223,
         "edge": 0.96,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -1263,67 +1534,56 @@
       "no": 3,
       "time": "1:00pm",
       "thin": false,
-      "starters": 5,
-      "book": 118.3,
-      "top": {
-       "tab": 3,
-       "horse": "Appeared",
-       "price": 2.2,
-       "blend": 0.5274,
-       "edge": 1.37
-      },
-      "value": {
-       "tab": 3,
-       "horse": "Appeared",
-       "price": 2.2,
-       "edge": 1.37,
-       "min_price": 1.69
-      },
       "runners": [
        {
         "tab": 3,
         "horse": "Appeared",
         "price": 2.2,
-        "market": 0.3843,
-        "blend": 0.5274,
+        "gd": 7.07,
+        "p": 0.5274,
         "edge": 1.37,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Kenmare Bay",
         "price": 2.7,
-        "market": 0.3132,
-        "blend": 0.2132,
+        "gd": 5.87,
+        "p": 0.2132,
         "edge": 0.68,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Golden Century",
         "price": 5.0,
-        "market": 0.1691,
-        "blend": 0.1686,
+        "gd": 5.98,
+        "p": 0.1686,
         "edge": 1.0,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Seo Linn",
         "price": 7.0,
-        "market": 0.1208,
-        "blend": 0.0775,
+        "gd": 5.07,
+        "p": 0.0775,
         "edge": 0.64,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Spacetime Legend",
         "price": 67.0,
-        "market": 0.0126,
-        "blend": 0.0133,
+        "gd": 4.13,
+        "p": 0.0133,
         "edge": 1.06,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -1331,112 +1591,106 @@
       "no": 4,
       "time": "1:35pm",
       "thin": false,
-      "starters": 10,
-      "book": 122.8,
-      "top": {
-       "tab": 7,
-       "horse": "Mukhtalif",
-       "price": 2.15,
-       "blend": 0.4317,
-       "edge": 1.14
-      },
-      "value": {
-       "tab": 4,
-       "horse": "Medatsu",
-       "price": 27,
-       "edge": 1.73,
-       "min_price": 13.86
-      },
       "runners": [
        {
         "tab": 7,
         "horse": "Mukhtalif",
         "price": 2.15,
-        "market": 0.3787,
-        "blend": 0.4317,
+        "gd": 7.01,
+        "p": 0.4317,
         "edge": 1.14,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Anthracite",
         "price": 2.9,
-        "market": 0.2808,
-        "blend": 0.1954,
+        "gd": 6.06,
+        "p": 0.1954,
         "edge": 0.7,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Savisanta",
         "price": 11,
-        "market": 0.074,
-        "blend": 0.0931,
+        "gd": 5.95,
+        "p": 0.0931,
         "edge": 1.26,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Aethelflaed",
         "price": 15,
-        "market": 0.0543,
-        "blend": 0.0525,
+        "gd": 5.32,
+        "p": 0.0525,
         "edge": 0.97,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Medatsu",
         "price": 27,
-        "market": 0.0302,
-        "blend": 0.0522,
+        "gd": 5.75,
+        "p": 0.0522,
         "edge": 1.73,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Star Vega",
         "price": 23,
-        "market": 0.0354,
-        "blend": 0.0489,
+        "gd": 5.54,
+        "p": 0.0489,
         "edge": 1.38,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Les Vampires",
         "price": 12,
-        "market": 0.0678,
-        "blend": 0.042,
+        "gd": 4.83,
+        "p": 0.042,
         "edge": 0.62,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Furious",
         "price": 23,
-        "market": 0.0354,
-        "blend": 0.0381,
+        "gd": 5.17,
+        "p": 0.0381,
         "edge": 1.08,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Bold Mac",
         "price": 26,
-        "market": 0.0313,
-        "blend": 0.0309,
+        "gd": 4.94,
+        "p": 0.0309,
         "edge": 0.99,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Hutchence",
         "price": 67,
-        "market": 0.0122,
-        "blend": 0.0151,
+        "gd": 4.58,
+        "p": 0.0151,
         "edge": 1.24,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -1444,112 +1698,106 @@
       "no": 5,
       "time": "2:15pm",
       "thin": false,
-      "starters": 10,
-      "book": 123.9,
-      "top": {
-       "tab": 8,
-       "horse": "Transcend",
-       "price": 4.6,
-       "blend": 0.2159,
-       "edge": 1.23
-      },
-      "value": {
-       "tab": 7,
-       "horse": "Chispa",
-       "price": 8.5,
-       "edge": 1.46,
-       "min_price": 6.08
-      },
       "runners": [
        {
         "tab": 8,
         "horse": "Transcend",
         "price": 4.6,
-        "market": 0.1754,
-        "blend": 0.2159,
+        "gd": 7.26,
+        "p": 0.2159,
         "edge": 1.23,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Scripted",
         "price": 4.8,
-        "market": 0.1681,
-        "blend": 0.2062,
+        "gd": 7.23,
+        "p": 0.2062,
         "edge": 1.23,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Chispa",
         "price": 8.5,
-        "market": 0.0949,
-        "blend": 0.1386,
+        "gd": 7.06,
+        "p": 0.1386,
         "edge": 1.46,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Mr Verse",
         "price": 5.0,
-        "market": 0.1614,
-        "blend": 0.111,
+        "gd": 6.33,
+        "p": 0.111,
         "edge": 0.69,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Beside The Ocean",
         "price": 7.0,
-        "market": 0.1153,
-        "blend": 0.0901,
+        "gd": 6.28,
+        "p": 0.0901,
         "edge": 0.78,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Puntin",
         "price": 8.0,
-        "market": 0.1009,
-        "blend": 0.0765,
+        "gd": 6.13,
+        "p": 0.0765,
         "edge": 0.76,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Itazura",
         "price": 11,
-        "market": 0.0734,
-        "blend": 0.0657,
+        "gd": 6.14,
+        "p": 0.0657,
         "edge": 0.9,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Silvanito",
         "price": 11,
-        "market": 0.0734,
-        "blend": 0.0634,
+        "gd": 6.09,
+        "p": 0.0634,
         "edge": 0.86,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Jamberoo",
         "price": 41,
-        "market": 0.0197,
-        "blend": 0.0181,
+        "gd": 5.2,
+        "p": 0.0181,
         "edge": 0.92,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Wrathful",
         "price": 46,
-        "market": 0.0175,
-        "blend": 0.0145,
+        "gd": 4.96,
+        "p": 0.0145,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -1557,88 +1805,86 @@
       "no": 6,
       "time": "2:50pm",
       "thin": true,
-      "starters": 8,
-      "book": 98.6,
-      "top": {
-       "tab": 11,
-       "horse": "Savagram",
-       "price": 7.0,
-       "blend": 0.2567,
-       "edge": 1.77
-      },
-      "value": null,
       "runners": [
        {
         "tab": 11,
         "horse": "Savagram",
         "price": 7.0,
-        "market": 0.1449,
-        "blend": 0.2567,
+        "gd": 6.96,
+        "p": 0.2567,
         "edge": 1.77,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Genesis Runner",
         "price": 4.2,
-        "market": 0.2415,
-        "blend": 0.2177,
+        "gd": 6.33,
+        "p": 0.2177,
         "edge": 0.9,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Tenenbaum",
         "price": 5.5,
-        "market": 0.1844,
-        "blend": 0.1524,
+        "gd": 6.0,
+        "p": 0.1524,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "I'm Ya Huckleberry",
         "price": 4.5,
-        "market": 0.2254,
-        "blend": 0.128,
+        "gd": 5.59,
+        "p": 0.128,
         "edge": 0.57,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Persian Wonder",
         "price": 14,
-        "market": 0.0724,
-        "blend": 0.0831,
+        "gd": 5.79,
+        "p": 0.0831,
         "edge": 1.15,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Piedmont",
         "price": 14,
-        "market": 0.0724,
-        "blend": 0.0669,
+        "gd": 5.47,
+        "p": 0.0669,
         "edge": 0.92,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Hostwin King",
         "price": 26,
-        "market": 0.039,
-        "blend": 0.0563,
+        "gd": 5.67,
+        "p": 0.0563,
         "edge": 1.44,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Crown Of Fire",
         "price": 51,
-        "market": 0.0199,
-        "blend": 0.0389,
+        "gd": 5.63,
+        "p": 0.0389,
         "edge": 1.96,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -1646,112 +1892,106 @@
       "no": 7,
       "time": "3:25pm",
       "thin": false,
-      "starters": 10,
-      "book": 123.0,
-      "top": {
-       "tab": 2,
-       "horse": "Lazzura",
-       "price": 3.2,
-       "blend": 0.3817,
-       "edge": 1.5
-      },
-      "value": {
-       "tab": 2,
-       "horse": "Lazzura",
-       "price": 3.2,
-       "edge": 1.5,
-       "min_price": 2.03
-      },
       "runners": [
        {
         "tab": 2,
         "horse": "Lazzura",
         "price": 3.2,
-        "market": 0.2541,
-        "blend": 0.3817,
+        "gd": 8.19,
+        "p": 0.3817,
         "edge": 1.5,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Weeping Woman",
         "price": 4.0,
-        "market": 0.2033,
-        "blend": 0.1658,
+        "gd": 7.11,
+        "p": 0.1658,
         "edge": 0.82,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Apocalyptic",
         "price": 6.0,
-        "market": 0.1355,
-        "blend": 0.1076,
+        "gd": 6.77,
+        "p": 0.1076,
         "edge": 0.79,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Plaintiff",
         "price": 10,
-        "market": 0.0813,
-        "blend": 0.0902,
+        "gd": 6.89,
+        "p": 0.0902,
         "edge": 1.11,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Lady Shenandoah",
         "price": 5.0,
-        "market": 0.1626,
-        "blend": 0.0839,
+        "gd": 6.26,
+        "p": 0.0839,
         "edge": 0.52,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Gangsta Granny",
         "price": 9.5,
-        "market": 0.0856,
-        "blend": 0.0767,
+        "gd": 6.61,
+        "p": 0.0767,
         "edge": 0.9,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Savvy Hallie",
         "price": 19,
-        "market": 0.0428,
-        "blend": 0.049,
+        "gd": 6.46,
+        "p": 0.049,
         "edge": 1.15,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Catch The Glory",
         "price": 61,
-        "market": 0.0133,
-        "blend": 0.0193,
+        "gd": 5.94,
+        "p": 0.0193,
         "edge": 1.45,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Stardom",
         "price": 61,
-        "market": 0.0133,
-        "blend": 0.0174,
+        "gd": 5.78,
+        "p": 0.0174,
         "edge": 1.3,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Dark Glitter",
         "price": 101,
-        "market": 0.0081,
-        "blend": 0.0085,
+        "gd": 5.09,
+        "p": 0.0085,
         "edge": 1.05,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -1759,115 +1999,116 @@
       "no": 8,
       "time": "4:00pm",
       "thin": true,
-      "starters": 11,
-      "book": 122.8,
-      "top": {
-       "tab": 7,
-       "horse": "St Gotthard",
-       "price": 2.7,
-       "blend": 0.2809,
-       "edge": 0.93
-      },
-      "value": null,
       "runners": [
        {
         "tab": 7,
         "horse": "St Gotthard",
         "price": 2.7,
-        "market": 0.3015,
-        "blend": 0.2809,
+        "gd": 7.29,
+        "p": 0.2809,
         "edge": 0.93,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Central Europe",
         "price": 6.0,
-        "market": 0.1357,
-        "blend": 0.1226,
+        "gd": 6.65,
+        "p": 0.1226,
         "edge": 0.9,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Warwoven",
         "price": 8.0,
-        "market": 0.1018,
-        "blend": 0.0891,
+        "gd": 6.39,
+        "p": 0.0891,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Cormier",
         "price": 12,
-        "market": 0.0678,
-        "blend": 0.0767,
+        "gd": 6.47,
+        "p": 0.0767,
         "edge": 1.13,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Revengeance",
         "price": 23,
-        "market": 0.0354,
-        "blend": 0.0724,
+        "gd": 6.86,
+        "p": 0.0724,
         "edge": 2.04,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Under Focus",
         "price": 6.5,
-        "market": 0.1252,
-        "blend": 0.0723,
+        "gd": 5.92,
+        "p": 0.0723,
         "edge": 0.58,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Fireball",
         "price": 27,
-        "market": 0.0301,
-        "blend": 0.0717,
+        "gd": 6.97,
+        "p": 0.0717,
         "edge": 2.38,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Castillo King",
         "price": 10,
-        "market": 0.0814,
-        "blend": 0.0643,
+        "gd": 6.07,
+        "p": 0.0643,
         "edge": 0.79,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Plagiarism",
         "price": 19,
-        "market": 0.0428,
-        "blend": 0.0575,
+        "gd": 6.38,
+        "p": 0.0575,
         "edge": 1.34,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Tron Bolt",
         "price": 15,
-        "market": 0.0543,
-        "blend": 0.0479,
+        "gd": 5.93,
+        "p": 0.0479,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Berzelius",
         "price": 34,
-        "market": 0.0239,
-        "blend": 0.0447,
+        "gd": 6.44,
+        "p": 0.0447,
         "edge": 1.87,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -1875,133 +2116,136 @@
       "no": 9,
       "time": "4:40pm",
       "thin": true,
-      "starters": 13,
-      "book": 123.2,
-      "top": {
-       "tab": 6,
-       "horse": "Skyhook",
-       "price": 2.9,
-       "blend": 0.1827,
-       "edge": 0.65
-      },
-      "value": null,
       "runners": [
        {
         "tab": 6,
         "horse": "Skyhook",
         "price": 2.9,
-        "market": 0.28,
-        "blend": 0.1827,
+        "gd": 6.51,
+        "p": 0.1827,
         "edge": 0.65,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Midnight In Tokyo",
         "price": 7.5,
-        "market": 0.1083,
-        "blend": 0.1555,
+        "gd": 6.98,
+        "p": 0.1555,
         "edge": 1.44,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Verona Rose",
         "price": 7.5,
-        "market": 0.1083,
-        "blend": 0.115,
+        "gd": 6.53,
+        "p": 0.115,
         "edge": 1.06,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Sandpaper",
         "price": 11,
-        "market": 0.0738,
-        "blend": 0.0954,
+        "gd": 6.53,
+        "p": 0.0954,
         "edge": 1.29,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Magnatear",
         "price": 15,
-        "market": 0.0541,
-        "blend": 0.0893,
+        "gd": 6.67,
+        "p": 0.0893,
         "edge": 1.65,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Lord Of Biscay",
         "price": 11,
-        "market": 0.0738,
-        "blend": 0.0781,
+        "gd": 6.24,
+        "p": 0.0781,
         "edge": 1.06,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Militarize",
         "price": 13,
-        "market": 0.0625,
-        "blend": 0.0774,
+        "gd": 6.35,
+        "p": 0.0774,
         "edge": 1.24,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Encap",
         "price": 10,
-        "market": 0.0812,
-        "blend": 0.0587,
+        "gd": 5.74,
+        "p": 0.0587,
         "edge": 0.72,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Firestorm",
         "price": 20,
-        "market": 0.0406,
-        "blend": 0.0403,
+        "gd": 5.7,
+        "p": 0.0403,
         "edge": 0.99,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Estadio Mestalla",
         "price": 20,
-        "market": 0.0406,
-        "blend": 0.0361,
+        "gd": 5.53,
+        "p": 0.0361,
         "edge": 0.89,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "God's Window",
         "price": 20,
-        "market": 0.0406,
-        "blend": 0.0341,
+        "gd": 5.45,
+        "p": 0.0341,
         "edge": 0.84,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Ahha Ahha",
         "price": 31,
-        "market": 0.0262,
-        "blend": 0.0266,
+        "gd": 5.41,
+        "p": 0.0266,
         "edge": 1.02,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Kovalica",
         "price": 81,
-        "market": 0.01,
-        "blend": 0.0107,
+        "gd": 4.76,
+        "p": 0.0107,
         "edge": 1.07,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -2009,189 +2253,352 @@
       "no": 10,
       "time": "5:15pm",
       "thin": false,
-      "starters": 10,
-      "book": 121.3,
-      "top": {
-       "tab": 6,
-       "horse": "Eagle Express",
-       "price": 4.4,
-       "blend": 0.281,
-       "edge": 1.5
-      },
-      "value": {
-       "tab": 6,
-       "horse": "Eagle Express",
-       "price": 4.4,
-       "edge": 1.5,
-       "min_price": 2.88
-      },
       "runners": [
        {
         "tab": 6,
         "horse": "Eagle Express",
         "price": 4.4,
-        "market": 0.1874,
-        "blend": 0.281,
+        "gd": 7.38,
+        "p": 0.281,
         "edge": 1.5,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Ruination",
         "price": 3.0,
-        "market": 0.2748,
-        "blend": 0.207,
+        "gd": 6.64,
+        "p": 0.207,
         "edge": 0.75,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Sovereign Hill",
         "price": 6.5,
-        "market": 0.1268,
-        "blend": 0.1433,
+        "gd": 6.67,
+        "p": 0.1433,
         "edge": 1.13,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Theblade",
         "price": 8.0,
-        "market": 0.1031,
-        "blend": 0.114,
+        "gd": 6.49,
+        "p": 0.114,
         "edge": 1.11,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Pillow Fight",
         "price": 9.0,
-        "market": 0.0916,
-        "blend": 0.0771,
+        "gd": 5.99,
+        "p": 0.0771,
         "edge": 0.84,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Karinska",
         "price": 9.5,
-        "market": 0.0868,
-        "blend": 0.0451,
+        "gd": 5.23,
+        "p": 0.0451,
         "edge": 0.52,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Navy Pilot",
         "price": 18,
-        "market": 0.0458,
-        "blend": 0.0429,
+        "gd": 5.63,
+        "p": 0.0429,
         "edge": 0.94,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Exit Fee",
         "price": 27,
-        "market": 0.0305,
-        "blend": 0.0338,
+        "gd": 5.58,
+        "p": 0.0338,
         "edge": 1.11,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Getafix",
         "price": 31,
-        "market": 0.0266,
-        "blend": 0.0288,
+        "gd": 5.44,
+        "p": 0.0288,
         "edge": 1.08,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "World Alliance",
         "price": 31,
-        "market": 0.0266,
-        "blend": 0.0272,
+        "gd": 5.36,
+        "p": 0.0272,
         "edge": 1.02,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      }
     ]
    },
    {
-    "track": "Flemington",
+    "id": "flm120926",
+    "condition": "Good 4",
+    "rail": "true",
+    "direction": "anticlockwise",
     "going": "Good 4",
+    "track": "Flemington",
+    "sigMax": 13,
     "races": [
      {
       "no": 1,
       "time": "12:10pm",
+      "horse": "5. Naval Academy",
+      "price": "2.60",
+      "gd": 7.15,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 29.3%, edge 0.93 against a 122% book. Thin race - no VALUE bet taken here."
+     },
+     {
+      "no": 2,
+      "time": "12:40pm",
+      "horse": "3. Unit Five",
+      "price": "3.80",
+      "gd": 7.14,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 22.5%, edge 1.03 against a 121% book. Thin race - no VALUE bet taken here."
+     },
+     {
+      "no": 3,
+      "time": "1:15pm",
+      "horse": "9. Lucky Brook",
+      "price": "6.50",
+      "gd": 6.97,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 14.5%, edge 1.17 against a 124% book. Thin race - no VALUE bet taken here."
+     },
+     {
+      "no": 4,
+      "time": "1:50pm",
+      "horse": "6. Mbube",
+      "price": "3.40",
+      "gd": 7.45,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 26.2%, edge 1.10 against a 124% book. Thin race - no VALUE bet taken here."
+     },
+     {
+      "no": 5,
+      "time": "2:30pm",
+      "horse": "3. Nearco Frod",
+      "price": "3.70",
+      "gd": 7.27,
+      "value": true,
+      "flags": [],
+      "why": "Most likely winner on the blend at 28.3%, edge 1.29 against a 123% book."
+     },
+     {
+      "no": 5,
+      "alt": true,
+      "time": "2:30pm",
+      "horse": "7. Tajanis",
+      "price": "31.00",
+      "gd": 5.77,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.37. Still a bet down to $25.83; below that the edge drops under 1.25."
+     },
+     {
+      "no": 6,
+      "time": "3:05pm",
+      "horse": "8. Sass Appeal",
+      "price": "2.80",
+      "gd": 6.85,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 21.7%, edge 0.76 against a 125% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 6,
+      "alt": true,
+      "time": "3:05pm",
+      "horse": "4. Run Harry Run",
+      "price": "13.00",
+      "gd": 7.1,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.95. Still a bet down to $5.13; below that the edge drops under 1.25."
+     },
+     {
+      "no": 7,
+      "time": "3:40pm",
+      "horse": "5. Oliveanotherday",
+      "price": "1.65",
+      "gd": 7.07,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 34.7%, edge 0.70 against a 122% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 7,
+      "alt": true,
+      "time": "3:40pm",
+      "horse": "3. Hedged",
+      "price": "15.00",
+      "gd": 7.06,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 2.09. Still a bet down to $5.12; below that the edge drops under 1.25."
+     },
+     {
+      "no": 8,
+      "time": "4:20pm",
+      "horse": "12. Sheza Alibi",
+      "price": "1.60",
+      "gd": 7.41,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 33.7%, edge 0.65 against a 121% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 8,
+      "alt": true,
+      "time": "4:20pm",
+      "horse": "10. Treasurethe Moment",
+      "price": "13.00",
+      "gd": 7.26,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.69. Still a bet down to $6.94; below that the edge drops under 1.25."
+     },
+     {
+      "no": 9,
+      "time": "4:55pm",
+      "horse": "4. Gold Coast Belle",
+      "price": "2.25",
+      "gd": 6.92,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 27.1%, edge 0.76 against a 124% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 9,
+      "alt": true,
+      "time": "4:55pm",
+      "horse": "6. Sea What I See",
+      "price": "11.00",
+      "gd": 7.03,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.80. Still a bet down to $5.06; below that the edge drops under 1.25."
+     },
+     {
+      "no": 10,
+      "time": "5:25pm",
+      "horse": "13. Storm Leopard",
+      "price": "3.00",
+      "gd": 6.95,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 25.6%, edge 0.94 against a 123% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 10,
+      "alt": true,
+      "time": "5:25pm",
+      "horse": "10. Asva",
+      "price": "27.00",
+      "gd": 6.31,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.85. Still a bet down to $12.17; below that the edge drops under 1.25."
+     }
+    ],
+    "fullfield": [
+     {
+      "no": 1,
+      "time": "12:10pm",
       "thin": true,
-      "starters": 6,
-      "book": 122.0,
-      "top": {
-       "tab": 5,
-       "horse": "Naval Academy",
-       "price": 2.6,
-       "blend": 0.2931,
-       "edge": 0.93
-      },
-      "value": null,
       "runners": [
        {
         "tab": 5,
         "horse": "Naval Academy",
         "price": 2.6,
-        "market": 0.3153,
-        "blend": 0.2931,
+        "gd": 7.15,
+        "p": 0.2931,
         "edge": 0.93,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Jett Smash",
         "price": 5.0,
-        "market": 0.164,
-        "blend": 0.2005,
+        "gd": 7.07,
+        "p": 0.2005,
         "edge": 1.22,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Markdel",
         "price": 6.5,
-        "market": 0.1261,
-        "blend": 0.1747,
+        "gd": 7.06,
+        "p": 0.1747,
         "edge": 1.38,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Ruska Roma",
         "price": 5.5,
-        "market": 0.1491,
-        "blend": 0.1418,
+        "gd": 6.63,
+        "p": 0.1418,
         "edge": 0.95,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Space Rider",
         "price": 5.5,
-        "market": 0.1491,
-        "blend": 0.1251,
+        "gd": 6.44,
+        "p": 0.1251,
         "edge": 0.84,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Moby Dick",
         "price": 8.5,
-        "market": 0.0965,
-        "blend": 0.0648,
+        "gd": 5.79,
+        "p": 0.0648,
         "edge": 0.67,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -2199,142 +2606,146 @@
       "no": 2,
       "time": "12:40pm",
       "thin": true,
-      "starters": 14,
-      "book": 121.2,
-      "top": {
-       "tab": 3,
-       "horse": "Unit Five",
-       "price": 3.8,
-       "blend": 0.2247,
-       "edge": 1.03
-      },
-      "value": null,
       "runners": [
        {
         "tab": 3,
         "horse": "Unit Five",
         "price": 3.8,
-        "market": 0.2171,
-        "blend": 0.2247,
+        "gd": 7.14,
+        "p": 0.2247,
         "edge": 1.03,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Big Wigs",
         "price": 5.5,
-        "market": 0.15,
-        "blend": 0.1821,
+        "gd": 7.1,
+        "p": 0.1821,
         "edge": 1.21,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Lara Antipova",
         "price": 8.0,
-        "market": 0.1031,
-        "blend": 0.1283,
+        "gd": 6.86,
+        "p": 0.1283,
         "edge": 1.24,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Harry Lime",
         "price": 11,
-        "market": 0.075,
-        "blend": 0.0968,
+        "gd": 6.68,
+        "p": 0.0968,
         "edge": 1.29,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Diameter",
         "price": 13,
-        "market": 0.0635,
-        "blend": 0.0807,
+        "gd": 6.53,
+        "p": 0.0807,
         "edge": 1.27,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Somethings Burnin'",
         "price": 4.2,
-        "market": 0.1964,
-        "blend": 0.067,
+        "gd": 5.41,
+        "p": 0.067,
         "edge": 0.34,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Judas Tree",
         "price": 12,
-        "market": 0.0688,
-        "blend": 0.0577,
+        "gd": 5.97,
+        "p": 0.0577,
         "edge": 0.84,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Obambulate",
         "price": 35,
-        "market": 0.0236,
-        "blend": 0.0439,
+        "gd": 6.36,
+        "p": 0.0439,
         "edge": 1.86,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Milsons Point",
         "price": 23,
-        "market": 0.0359,
-        "blend": 0.0407,
+        "gd": 5.94,
+        "p": 0.0407,
         "edge": 1.14,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Rich On Bubbles",
         "price": 41,
-        "market": 0.0201,
-        "blend": 0.0256,
+        "gd": 5.68,
+        "p": 0.0256,
         "edge": 1.27,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Hydrobomb",
         "price": 61,
-        "market": 0.0135,
-        "blend": 0.0176,
+        "gd": 5.41,
+        "p": 0.0176,
         "edge": 1.3,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "Aragog",
         "price": 71,
-        "market": 0.0116,
-        "blend": 0.0143,
+        "gd": 5.22,
+        "p": 0.0143,
         "edge": 1.23,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 16,
         "horse": "Autumn Lover",
         "price": 67,
-        "market": 0.0123,
-        "blend": 0.0135,
+        "gd": 5.09,
+        "p": 0.0135,
         "edge": 1.1,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Cliff Runner",
         "price": 91,
-        "market": 0.0091,
-        "blend": 0.007,
+        "gd": 4.34,
+        "p": 0.007,
         "edge": 0.77,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -2342,133 +2753,136 @@
       "no": 3,
       "time": "1:15pm",
       "thin": true,
-      "starters": 13,
-      "book": 124.5,
-      "top": {
-       "tab": 9,
-       "horse": "Lucky Brook",
-       "price": 6.5,
-       "blend": 0.1448,
-       "edge": 1.17
-      },
-      "value": null,
       "runners": [
        {
         "tab": 9,
         "horse": "Lucky Brook",
         "price": 6.5,
-        "market": 0.1236,
-        "blend": 0.1448,
+        "gd": 6.97,
+        "p": 0.1448,
         "edge": 1.17,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Streisand",
         "price": 5.0,
-        "market": 0.1607,
-        "blend": 0.1373,
+        "gd": 6.7,
+        "p": 0.1373,
         "edge": 0.85,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Satono Glow",
         "price": 4.8,
-        "market": 0.1674,
-        "blend": 0.1318,
+        "gd": 6.61,
+        "p": 0.1318,
         "edge": 0.79,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Calamari Ring",
         "price": 10,
-        "market": 0.0804,
-        "blend": 0.1232,
+        "gd": 7.05,
+        "p": 0.1232,
         "edge": 1.53,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "Over Excited",
         "price": 4.2,
-        "market": 0.1913,
-        "blend": 0.1089,
+        "gd": 6.22,
+        "p": 0.1089,
         "edge": 0.57,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Verzain",
         "price": 13,
-        "market": 0.0618,
-        "blend": 0.0887,
+        "gd": 6.76,
+        "p": 0.0887,
         "edge": 1.44,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Gin Twist",
         "price": 12,
-        "market": 0.067,
-        "blend": 0.0832,
+        "gd": 6.61,
+        "p": 0.0832,
         "edge": 1.24,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Scintillation",
         "price": 13,
-        "market": 0.0618,
-        "blend": 0.0703,
+        "gd": 6.41,
+        "p": 0.0703,
         "edge": 1.14,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "I Am Aria",
         "price": 26,
-        "market": 0.0309,
-        "blend": 0.041,
+        "gd": 6.13,
+        "p": 0.041,
         "edge": 1.33,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Lady Catalina",
         "price": 31,
-        "market": 0.0259,
-        "blend": 0.0208,
+        "gd": 5.25,
+        "p": 0.0208,
         "edge": 0.8,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Queen Regent",
         "price": 71,
-        "market": 0.0113,
-        "blend": 0.0172,
+        "gd": 5.58,
+        "p": 0.0172,
         "edge": 1.52,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Chapados",
         "price": 101,
-        "market": 0.008,
-        "blend": 0.0167,
+        "gd": 5.8,
+        "p": 0.0167,
         "edge": 2.1,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Tag The Bride",
         "price": 81,
-        "market": 0.0099,
-        "blend": 0.016,
+        "gd": 5.57,
+        "p": 0.016,
         "edge": 1.61,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -2476,106 +2890,106 @@
       "no": 4,
       "time": "1:50pm",
       "thin": true,
-      "starters": 10,
-      "book": 123.7,
-      "top": {
-       "tab": 6,
-       "horse": "Mbube",
-       "price": 3.4,
-       "blend": 0.2616,
-       "edge": 1.1
-      },
-      "value": null,
       "runners": [
        {
         "tab": 6,
         "horse": "Mbube",
         "price": 3.4,
-        "market": 0.2377,
-        "blend": 0.2616,
+        "gd": 7.45,
+        "p": 0.2616,
         "edge": 1.1,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Big Sky",
         "price": 5.0,
-        "market": 0.1616,
-        "blend": 0.2263,
+        "gd": 7.53,
+        "p": 0.2263,
         "edge": 1.4,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Hard Kick",
         "price": 8.5,
-        "market": 0.0951,
-        "blend": 0.1344,
+        "gd": 7.15,
+        "p": 0.1344,
         "edge": 1.41,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Paradoxium",
         "price": 3.1,
-        "market": 0.2607,
-        "blend": 0.1103,
+        "gd": 6.1,
+        "p": 0.1103,
         "edge": 0.42,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Steel Will",
         "price": 8.5,
-        "market": 0.0951,
-        "blend": 0.0823,
+        "gd": 6.41,
+        "p": 0.0823,
         "edge": 0.87,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Buggsy",
         "price": 11.0,
-        "market": 0.0735,
-        "blend": 0.0788,
+        "gd": 6.54,
+        "p": 0.0788,
         "edge": 1.07,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Organised Crime",
         "price": 21.0,
-        "market": 0.0385,
-        "blend": 0.0586,
+        "gd": 6.58,
+        "p": 0.0586,
         "edge": 1.52,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Honour The Bassett",
         "price": 34.0,
-        "market": 0.0238,
-        "blend": 0.0252,
+        "gd": 5.69,
+        "p": 0.0252,
         "edge": 1.06,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Salamanca Six",
         "price": 81.0,
-        "market": 0.01,
-        "blend": 0.0165,
+        "gd": 5.7,
+        "p": 0.0165,
         "edge": 1.66,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Knurl",
         "price": 201.0,
-        "market": 0.004,
-        "blend": 0.006,
+        "gd": 4.87,
+        "p": 0.006,
         "edge": 1.49,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -2583,121 +2997,116 @@
       "no": 5,
       "time": "2:30pm",
       "thin": false,
-      "starters": 11,
-      "book": 123.2,
-      "top": {
-       "tab": 3,
-       "horse": "Nearco Frod",
-       "price": 3.7,
-       "blend": 0.2826,
-       "edge": 1.29
-      },
-      "value": {
-       "tab": 7,
-       "horse": "Tajanis",
-       "price": 31,
-       "edge": 1.37,
-       "min_price": 25.83
-      },
       "runners": [
        {
         "tab": 3,
         "horse": "Nearco Frod",
         "price": 3.7,
-        "market": 0.2194,
-        "blend": 0.2826,
+        "gd": 7.27,
+        "p": 0.2826,
         "edge": 1.29,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Litzdeel",
         "price": 3.9,
-        "market": 0.2081,
-        "blend": 0.2052,
+        "gd": 6.83,
+        "p": 0.2052,
         "edge": 0.99,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Shockletz",
         "price": 4.6,
-        "market": 0.1765,
-        "blend": 0.1758,
+        "gd": 6.72,
+        "p": 0.1758,
         "edge": 1.0,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Jennivamoose",
         "price": 6.0,
-        "market": 0.1353,
-        "blend": 0.1021,
+        "gd": 6.11,
+        "p": 0.1021,
         "edge": 0.75,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Think Giant",
         "price": 6.5,
-        "market": 0.1249,
-        "blend": 0.0929,
+        "gd": 6.03,
+        "p": 0.0929,
         "edge": 0.74,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Suffolk Star",
         "price": 26,
-        "market": 0.0312,
-        "blend": 0.0405,
+        "gd": 5.83,
+        "p": 0.0405,
         "edge": 1.3,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Tajanis",
         "price": 31,
-        "market": 0.0262,
-        "blend": 0.0358,
+        "gd": 5.77,
+        "p": 0.0358,
         "edge": 1.37,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Beach Pad",
         "price": 46,
-        "market": 0.0176,
-        "blend": 0.0165,
+        "gd": 4.92,
+        "p": 0.0165,
         "edge": 0.94,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Chief Little Rock",
         "price": 71,
-        "market": 0.0114,
-        "blend": 0.0163,
+        "gd": 5.22,
+        "p": 0.0163,
         "edge": 1.43,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Grand Pierro",
         "price": 31,
-        "market": 0.0262,
-        "blend": 0.0161,
+        "gd": 4.59,
+        "p": 0.0161,
         "edge": 0.62,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Taramansour",
         "price": 35,
-        "market": 0.0232,
-        "blend": 0.016,
+        "gd": 4.67,
+        "p": 0.016,
         "edge": 0.69,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -2705,139 +3114,136 @@
       "no": 6,
       "time": "3:05pm",
       "thin": false,
-      "starters": 13,
-      "book": 124.8,
-      "top": {
-       "tab": 8,
-       "horse": "Sass Appeal",
-       "price": 2.8,
-       "blend": 0.2174,
-       "edge": 0.76
-      },
-      "value": {
-       "tab": 4,
-       "horse": "Run Harry Run",
-       "price": 13,
-       "edge": 1.95,
-       "min_price": 5.13
-      },
       "runners": [
        {
         "tab": 8,
         "horse": "Sass Appeal",
         "price": 2.8,
-        "market": 0.2863,
-        "blend": 0.2174,
+        "gd": 6.85,
+        "p": 0.2174,
         "edge": 0.76,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Just Party",
         "price": 4.5,
-        "market": 0.1781,
-        "blend": 0.1613,
+        "gd": 6.75,
+        "p": 0.1613,
         "edge": 0.91,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Run Harry Run",
         "price": 13,
-        "market": 0.0617,
-        "blend": 0.12,
+        "gd": 7.1,
+        "p": 0.12,
         "edge": 1.95,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Lim's Saltoro",
         "price": 10,
-        "market": 0.0802,
-        "blend": 0.1155,
+        "gd": 6.85,
+        "p": 0.1155,
         "edge": 1.44,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Fancify",
         "price": 8.0,
-        "market": 0.1002,
-        "blend": 0.0884,
+        "gd": 6.29,
+        "p": 0.0884,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Welcometotheshow",
         "price": 11,
-        "market": 0.0729,
-        "blend": 0.0818,
+        "gd": 6.41,
+        "p": 0.0818,
         "edge": 1.12,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Cafe Millenium",
         "price": 7.5,
-        "market": 0.1069,
-        "blend": 0.0665,
+        "gd": 5.82,
+        "p": 0.0665,
         "edge": 0.62,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Plymouth",
         "price": 41,
-        "market": 0.0195,
-        "blend": 0.0374,
+        "gd": 6.22,
+        "p": 0.0374,
         "edge": 1.92,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Immediacy",
         "price": 51,
-        "market": 0.0157,
-        "blend": 0.0359,
+        "gd": 6.32,
+        "p": 0.0359,
         "edge": 2.28,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Cote Atlantique",
         "price": 23,
-        "market": 0.0348,
-        "blend": 0.034,
+        "gd": 5.65,
+        "p": 0.034,
         "edge": 0.97,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Aztec Ruler",
         "price": 27,
-        "market": 0.0297,
-        "blend": 0.0261,
+        "gd": 5.37,
+        "p": 0.0261,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Russian Meteor",
         "price": 91,
-        "market": 0.0088,
-        "blend": 0.0114,
+        "gd": 5.04,
+        "p": 0.0114,
         "edge": 1.29,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Dark Journey",
         "price": 151,
-        "market": 0.0053,
-        "blend": 0.0043,
+        "gd": 3.98,
+        "p": 0.0043,
         "edge": 0.81,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -2845,148 +3251,146 @@
       "no": 7,
       "time": "3:40pm",
       "thin": false,
-      "starters": 14,
-      "book": 122.2,
-      "top": {
-       "tab": 5,
-       "horse": "Oliveanotherday",
-       "price": 1.65,
-       "blend": 0.3467,
-       "edge": 0.7
-      },
-      "value": {
-       "tab": 3,
-       "horse": "Hedged",
-       "price": 15,
-       "edge": 2.09,
-       "min_price": 5.12
-      },
       "runners": [
        {
         "tab": 5,
         "horse": "Oliveanotherday",
         "price": 1.65,
-        "market": 0.4959,
-        "blend": 0.3467,
+        "gd": 7.07,
+        "p": 0.3467,
         "edge": 0.7,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Hedged",
         "price": 15,
-        "market": 0.0546,
-        "blend": 0.1142,
+        "gd": 7.06,
+        "p": 0.1142,
         "edge": 2.09,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Losesomewinmore",
         "price": 12,
-        "market": 0.0682,
-        "blend": 0.1104,
+        "gd": 6.85,
+        "p": 0.1104,
         "edge": 1.62,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Enriched",
         "price": 17,
-        "market": 0.0481,
-        "blend": 0.0588,
+        "gd": 6.17,
+        "p": 0.0588,
         "edge": 1.22,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Recon",
         "price": 15,
-        "market": 0.0546,
-        "blend": 0.0572,
+        "gd": 6.04,
+        "p": 0.0572,
         "edge": 1.05,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Abounding",
         "price": 26,
-        "market": 0.0315,
-        "blend": 0.0562,
+        "gd": 6.42,
+        "p": 0.0562,
         "edge": 1.79,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "King Of Roseau",
         "price": 13,
-        "market": 0.0629,
-        "blend": 0.0474,
+        "gd": 5.65,
+        "p": 0.0474,
         "edge": 0.75,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Arkansaw Kid",
         "price": 17,
-        "market": 0.0481,
-        "blend": 0.0464,
+        "gd": 5.82,
+        "p": 0.0464,
         "edge": 0.96,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 15,
         "horse": "Royal Insignia",
         "price": 26,
-        "market": 0.0315,
-        "blend": 0.0342,
+        "gd": 5.68,
+        "p": 0.0342,
         "edge": 1.09,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Desert Lightning",
         "price": 35,
-        "market": 0.0234,
-        "blend": 0.0331,
+        "gd": 5.85,
+        "p": 0.0331,
         "edge": 1.42,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Disneck",
         "price": 34,
-        "market": 0.0241,
-        "blend": 0.0283,
+        "gd": 5.6,
+        "p": 0.0283,
         "edge": 1.18,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Wonder Boy",
         "price": 61,
-        "market": 0.0134,
-        "blend": 0.0264,
+        "gd": 5.93,
+        "p": 0.0264,
         "edge": 1.96,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "De Bergerac",
         "price": 27,
-        "market": 0.0303,
-        "blend": 0.0249,
+        "gd": 5.23,
+        "p": 0.0249,
         "edge": 0.82,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Enxuto",
         "price": 61,
-        "market": 0.0134,
-        "blend": 0.0158,
+        "gd": 5.17,
+        "p": 0.0158,
         "edge": 1.18,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -2994,112 +3398,106 @@
       "no": 8,
       "time": "4:20pm",
       "thin": false,
-      "starters": 10,
-      "book": 120.8,
-      "top": {
-       "tab": 12,
-       "horse": "Sheza Alibi",
-       "price": 1.6,
-       "blend": 0.3368,
-       "edge": 0.65
-      },
-      "value": {
-       "tab": 10,
-       "horse": "Treasurethe Moment",
-       "price": 13,
-       "edge": 1.69,
-       "min_price": 6.94
-      },
       "runners": [
        {
         "tab": 12,
         "horse": "Sheza Alibi",
         "price": 1.6,
-        "market": 0.5176,
-        "blend": 0.3368,
+        "gd": 7.41,
+        "p": 0.3368,
         "edge": 0.65,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Sir Delius",
         "price": 4.2,
-        "market": 0.1972,
-        "blend": 0.2272,
+        "gd": 7.54,
+        "p": 0.2272,
         "edge": 1.15,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Mr Brightside",
         "price": 8.5,
-        "market": 0.0974,
-        "blend": 0.1635,
+        "gd": 7.57,
+        "p": 0.1635,
         "edge": 1.68,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Treasurethe Moment",
         "price": 13,
-        "market": 0.0637,
-        "blend": 0.1073,
+        "gd": 7.26,
+        "p": 0.1073,
         "edge": 1.69,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Autumn Boy",
         "price": 18,
-        "market": 0.046,
-        "blend": 0.0456,
+        "gd": 6.23,
+        "p": 0.0456,
         "edge": 0.99,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Light Infantry Man",
         "price": 46,
-        "market": 0.018,
-        "blend": 0.0399,
+        "gd": 6.73,
+        "p": 0.0399,
         "edge": 2.21,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Half Yours",
         "price": 31,
-        "market": 0.0267,
-        "blend": 0.0266,
+        "gd": 5.83,
+        "p": 0.0266,
         "edge": 1.0,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "She's A Hustler",
         "price": 71,
-        "market": 0.0117,
-        "blend": 0.0228,
+        "gd": 6.22,
+        "p": 0.0228,
         "edge": 1.95,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Another Wil",
         "price": 61,
-        "market": 0.0136,
-        "blend": 0.0199,
+        "gd": 5.9,
+        "p": 0.0199,
         "edge": 1.46,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Ohope Wins",
         "price": 101,
-        "market": 0.0082,
-        "blend": 0.0104,
+        "gd": 5.32,
+        "p": 0.0104,
         "edge": 1.27,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -3107,130 +3505,126 @@
       "no": 9,
       "time": "4:55pm",
       "thin": false,
-      "starters": 12,
-      "book": 123.8,
-      "top": {
-       "tab": 4,
-       "horse": "Gold Coast Belle",
-       "price": 2.25,
-       "blend": 0.2713,
-       "edge": 0.76
-      },
-      "value": {
-       "tab": 6,
-       "horse": "Sea What I See",
-       "price": 11,
-       "edge": 1.8,
-       "min_price": 5.06
-      },
       "runners": [
        {
         "tab": 4,
         "horse": "Gold Coast Belle",
         "price": 2.25,
-        "market": 0.3589,
-        "blend": 0.2713,
+        "gd": 6.92,
+        "p": 0.2713,
         "edge": 0.76,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Sea What I See",
         "price": 11,
-        "market": 0.0734,
-        "blend": 0.1324,
+        "gd": 7.03,
+        "p": 0.1324,
         "edge": 1.8,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "On Display",
         "price": 8.0,
-        "market": 0.1009,
-        "blend": 0.113,
+        "gd": 6.56,
+        "p": 0.113,
         "edge": 1.12,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Coeur Volante",
         "price": 9.0,
-        "market": 0.0897,
-        "blend": 0.1115,
+        "gd": 6.63,
+        "p": 0.1115,
         "edge": 1.24,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Salty Pearl",
         "price": 6.0,
-        "market": 0.1346,
-        "blend": 0.105,
+        "gd": 6.23,
+        "p": 0.105,
         "edge": 0.78,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Gold Medallist",
         "price": 12,
-        "market": 0.0673,
-        "blend": 0.0738,
+        "gd": 6.22,
+        "p": 0.0738,
         "edge": 1.1,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Merrigold",
         "price": 18,
-        "market": 0.0449,
-        "blend": 0.0628,
+        "gd": 6.29,
+        "p": 0.0628,
         "edge": 1.4,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Butternut Princess",
         "price": 16,
-        "market": 0.0505,
-        "blend": 0.0453,
+        "gd": 5.71,
+        "p": 0.0453,
         "edge": 0.9,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Too Darn Discreet",
         "price": 26,
-        "market": 0.0311,
-        "blend": 0.0375,
+        "gd": 5.79,
+        "p": 0.0375,
         "edge": 1.21,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Pondalowie",
         "price": 27,
-        "market": 0.0299,
-        "blend": 0.0249,
+        "gd": 5.21,
+        "p": 0.0249,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Mystery 'N' Drama",
         "price": 81,
-        "market": 0.01,
-        "blend": 0.0113,
+        "gd": 4.86,
+        "p": 0.0113,
         "edge": 1.14,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Charisse",
         "price": 91,
-        "market": 0.0089,
-        "blend": 0.0112,
+        "gd": 4.92,
+        "p": 0.0112,
         "edge": 1.26,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -3238,267 +3632,401 @@
       "no": 10,
       "time": "5:25pm",
       "thin": false,
-      "starters": 15,
-      "book": 122.6,
-      "top": {
-       "tab": 13,
-       "horse": "Storm Leopard",
-       "price": 3.0,
-       "blend": 0.2557,
-       "edge": 0.94
-      },
-      "value": {
-       "tab": 10,
-       "horse": "Asva",
-       "price": 27,
-       "edge": 1.85,
-       "min_price": 12.17
-      },
       "runners": [
        {
         "tab": 13,
         "horse": "Storm Leopard",
         "price": 3.0,
-        "market": 0.2718,
-        "blend": 0.2557,
+        "gd": 6.95,
+        "p": 0.2557,
         "edge": 0.94,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Justadeel",
         "price": 4.8,
-        "market": 0.1699,
-        "blend": 0.1406,
+        "gd": 6.41,
+        "p": 0.1406,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Detonator Jack",
         "price": 11,
-        "market": 0.0741,
-        "blend": 0.0953,
+        "gd": 6.44,
+        "p": 0.0953,
         "edge": 1.29,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Ambassadorial",
         "price": 9.0,
-        "market": 0.0906,
-        "blend": 0.0865,
+        "gd": 6.15,
+        "p": 0.0865,
         "edge": 0.96,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 15,
         "horse": "Ziryab",
         "price": 9.5,
-        "market": 0.0858,
-        "blend": 0.0752,
+        "gd": 5.98,
+        "p": 0.0752,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Suntora",
         "price": 9.0,
-        "market": 0.0906,
-        "blend": 0.0594,
+        "gd": 5.59,
+        "p": 0.0594,
         "edge": 0.66,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Asva",
         "price": 27,
-        "market": 0.0302,
-        "blend": 0.0557,
+        "gd": 6.31,
+        "p": 0.0557,
         "edge": 1.85,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Future History",
         "price": 46,
-        "market": 0.0177,
-        "blend": 0.0387,
+        "gd": 6.17,
+        "p": 0.0387,
         "edge": 2.18,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "St Lawrence",
         "price": 19,
-        "market": 0.0429,
-        "blend": 0.0378,
+        "gd": 5.47,
+        "p": 0.0378,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "Vegas Jack",
         "price": 35,
-        "market": 0.0233,
-        "blend": 0.0341,
+        "gd": 5.78,
+        "p": 0.0341,
         "edge": 1.47,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Land Legend",
         "price": 23,
-        "market": 0.0355,
-        "blend": 0.0305,
+        "gd": 5.3,
+        "p": 0.0305,
         "edge": 0.86,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Highland Bling",
         "price": 46,
-        "market": 0.0177,
-        "blend": 0.0297,
+        "gd": 5.77,
+        "p": 0.0297,
         "edge": 1.67,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 16,
         "horse": "Blonde Star",
         "price": 41,
-        "market": 0.0199,
-        "blend": 0.026,
+        "gd": 5.49,
+        "p": 0.026,
         "edge": 1.31,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Autumn Mystery",
         "price": 41,
-        "market": 0.0199,
-        "blend": 0.0233,
+        "gd": 5.32,
+        "p": 0.0233,
         "edge": 1.17,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Zarir",
         "price": 81,
-        "market": 0.0101,
-        "blend": 0.0115,
+        "gd": 4.79,
+        "p": 0.0115,
         "edge": 1.15,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      }
     ]
    },
    {
+    "id": "mph120926",
+    "condition": "Soft 5",
+    "rail": "out 4m",
+    "direction": "anticlockwise",
+    "going": "Soft 5",
     "track": "Morphettville",
-    "going": "Soft 6",
+    "sigMax": 13,
     "races": [
      {
       "no": 1,
       "time": "12:54pm",
+      "horse": "1. Ramasis",
+      "price": "3.80",
+      "gd": 6.58,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 26.2%, edge 1.23 against a 123% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 1,
+      "alt": true,
+      "time": "12:54pm",
+      "horse": "5. Loseyatoetoe",
+      "price": "7.00",
+      "gd": 6.46,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.54. Still a bet down to $4.41; below that the edge drops under 1.25."
+     },
+     {
+      "no": 3,
+      "time": "2:05pm",
+      "horse": "1. Like A Tiger",
+      "price": "2.50",
+      "gd": 5.93,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 32.4%, edge 0.98 against a 121% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 3,
+      "alt": true,
+      "time": "2:05pm",
+      "horse": "8. Retourne",
+      "price": "19.00",
+      "gd": 5.69,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 2.29. Still a bet down to $5.42; below that the edge drops under 1.25."
+     },
+     {
+      "no": 4,
+      "time": "2:42pm",
+      "horse": "13. Harmonic Dancer",
+      "price": "1.65",
+      "gd": 7.01,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 42.6%, edge 0.88 against a 125% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 5,
+      "time": "3:17pm",
+      "horse": "1. Navy Rok",
+      "price": "2.00",
+      "gd": 6.6,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 33.1%, edge 0.83 against a 126% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 5,
+      "alt": true,
+      "time": "3:17pm",
+      "horse": "14. Mahaler",
+      "price": "26.00",
+      "gd": 5.78,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.72. Still a bet down to $13.45; below that the edge drops under 1.25."
+     },
+     {
+      "no": 6,
+      "time": "3:52pm",
+      "horse": "7. You Sexy Thing",
+      "price": "2.50",
+      "gd": 6.49,
+      "value": false,
+      "flags": [],
+      "why": "Most likely winner on the blend at 26.9%, edge 0.84 against a 125% book. Doesn't clear edge 1.25, so it's the form horse, not a bet."
+     },
+     {
+      "no": 6,
+      "alt": true,
+      "time": "3:52pm",
+      "horse": "11. Hard Leaf",
+      "price": "17.00",
+      "gd": 5.81,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.38. Still a bet down to $13.75; below that the edge drops under 1.25."
+     },
+     {
+      "no": 7,
+      "time": "4:32pm",
+      "horse": "1. Smooth Chino",
+      "price": "4.20",
+      "gd": 7.03,
+      "value": true,
+      "flags": [],
+      "why": "Most likely winner on the blend at 24.7%, edge 1.27 against a 123% book."
+     },
+     {
+      "no": 7,
+      "alt": true,
+      "time": "4:32pm",
+      "horse": "2. Sir Now",
+      "price": "6.00",
+      "gd": 7.2,
+      "value": true,
+      "flags": [],
+      "why": "Best edge in the race at 1.71. Still a bet down to $2.97; below that the edge drops under 1.25."
+     },
+     {
+      "no": 8,
+      "time": "5:07pm",
+      "horse": "1. Mr Trafficanti",
+      "price": "7.00",
+      "gd": 6.73,
+      "value": true,
+      "flags": [],
+      "why": "Most likely winner on the blend at 16.0%, edge 1.62 against a 144% book."
+     },
+     {
+      "no": 9,
+      "time": "5:42pm",
+      "horse": "10. Leading Impact",
+      "price": "7.50",
+      "gd": 7.26,
+      "value": true,
+      "flags": [],
+      "why": "Most likely winner on the blend at 22.6%, edge 2.13 against a 126% book."
+     }
+    ],
+    "fullfield": [
+     {
+      "no": 1,
+      "time": "12:54pm",
       "thin": false,
-      "starters": 9,
-      "book": 123.4,
-      "top": {
-       "tab": 1,
-       "horse": "Ramasis",
-       "price": 3.8,
-       "blend": 0.2619,
-       "edge": 1.23
-      },
-      "value": {
-       "tab": 5,
-       "horse": "Loseyatoetoe",
-       "price": 7.0,
-       "edge": 1.54,
-       "min_price": 4.41
-      },
       "runners": [
        {
         "tab": 1,
         "horse": "Ramasis",
         "price": 3.8,
-        "market": 0.2133,
-        "blend": 0.2619,
+        "gd": 6.58,
+        "p": 0.2619,
         "edge": 1.23,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Loseyatoetoe",
         "price": 7.0,
-        "market": 0.1158,
-        "blend": 0.1786,
+        "gd": 6.46,
+        "p": 0.1786,
         "edge": 1.54,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Boyd",
         "price": 3.2,
-        "market": 0.2533,
-        "blend": 0.1684,
+        "gd": 5.79,
+        "p": 0.1684,
         "edge": 0.66,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Purfect Line",
         "price": 5.5,
-        "market": 0.1474,
-        "blend": 0.0955,
+        "gd": 5.35,
+        "p": 0.0955,
         "edge": 0.65,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Les Garcons",
         "price": 10.0,
-        "market": 0.0811,
-        "blend": 0.067,
+        "gd": 5.27,
+        "p": 0.067,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Madam Jeanette",
         "price": 10.0,
-        "market": 0.0811,
-        "blend": 0.0652,
+        "gd": 5.23,
+        "p": 0.0652,
         "edge": 0.8,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Whoops A Daisy",
         "price": 19.0,
-        "market": 0.0427,
-        "blend": 0.0611,
+        "gd": 5.61,
+        "p": 0.0611,
         "edge": 1.43,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Track Patcher",
         "price": 46.0,
-        "market": 0.0176,
-        "blend": 0.0519,
+        "gd": 6.02,
+        "p": 0.0519,
         "edge": 2.94,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Wally West",
         "price": 17.0,
-        "market": 0.0477,
-        "blend": 0.0504,
+        "gd": 5.24,
+        "p": 0.0504,
         "edge": 1.06,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -3506,112 +4034,106 @@
       "no": 3,
       "time": "2:05pm",
       "thin": false,
-      "starters": 10,
-      "book": 120.6,
-      "top": {
-       "tab": 1,
-       "horse": "Like A Tiger",
-       "price": 2.5,
-       "blend": 0.3242,
-       "edge": 0.98
-      },
-      "value": {
-       "tab": 8,
-       "horse": "Retourne",
-       "price": 19.0,
-       "edge": 2.29,
-       "min_price": 5.42
-      },
       "runners": [
        {
         "tab": 1,
         "horse": "Like A Tiger",
         "price": 2.5,
-        "market": 0.3315,
-        "blend": 0.3242,
+        "gd": 5.93,
+        "p": 0.3242,
         "edge": 0.98,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "High Society Girl",
         "price": 5.5,
-        "market": 0.1507,
-        "blend": 0.156,
+        "gd": 5.43,
+        "p": 0.156,
         "edge": 1.03,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Haaland",
         "price": 5.0,
-        "market": 0.1658,
-        "blend": 0.1131,
+        "gd": 4.88,
+        "p": 0.1131,
         "edge": 0.68,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Retourne",
         "price": 19.0,
-        "market": 0.0436,
-        "blend": 0.1,
+        "gd": 5.69,
+        "p": 0.1,
         "edge": 2.29,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Harley'N'Rose",
         "price": 14.0,
-        "market": 0.0592,
-        "blend": 0.0717,
+        "gd": 4.97,
+        "p": 0.0717,
         "edge": 1.21,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Eight On The Dot",
         "price": 11.0,
-        "market": 0.0754,
-        "blend": 0.0661,
+        "gd": 4.67,
+        "p": 0.0661,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Royal Mile",
         "price": 7.5,
-        "market": 0.1105,
-        "blend": 0.0659,
+        "gd": 4.38,
+        "p": 0.0659,
         "edge": 0.6,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Mister Popcorn",
         "price": 27.0,
-        "market": 0.0307,
-        "blend": 0.0505,
+        "gd": 4.93,
+        "p": 0.0505,
         "edge": 1.65,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "I Love This Song",
         "price": 41.0,
-        "market": 0.0202,
-        "blend": 0.0277,
+        "gd": 4.35,
+        "p": 0.0277,
         "edge": 1.37,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Jackson Run",
         "price": 67.0,
-        "market": 0.0124,
-        "blend": 0.0248,
+        "gd": 4.55,
+        "p": 0.0248,
         "edge": 2.01,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -3619,151 +4141,156 @@
       "no": 4,
       "time": "2:42pm",
       "thin": false,
-      "starters": 15,
-      "book": 125.4,
-      "top": {
-       "tab": 13,
-       "horse": "Harmonic Dancer",
-       "price": 1.65,
-       "blend": 0.4261,
-       "edge": 0.88
-      },
-      "value": null,
       "runners": [
        {
         "tab": 13,
         "horse": "Harmonic Dancer",
         "price": 1.65,
-        "market": 0.4832,
-        "blend": 0.4261,
+        "gd": 7.01,
+        "p": 0.4261,
         "edge": 0.88,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Golden Cloud",
         "price": 9.0,
-        "market": 0.0886,
-        "blend": 0.1073,
+        "gd": 6.22,
+        "p": 0.1073,
         "edge": 1.21,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Brimarvi Rosemarie",
         "price": 10.0,
-        "market": 0.0797,
-        "blend": 0.0928,
+        "gd": 6.08,
+        "p": 0.0928,
         "edge": 1.16,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 17,
         "horse": "Sundogg",
         "price": 16.0,
-        "market": 0.0498,
-        "blend": 0.0511,
+        "gd": 5.54,
+        "p": 0.0511,
         "edge": 1.03,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Shadow Eagle",
         "price": 15.0,
-        "market": 0.0532,
-        "blend": 0.0442,
+        "gd": 5.28,
+        "p": 0.0442,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "Smashing Action",
         "price": 35.0,
-        "market": 0.0228,
-        "blend": 0.0405,
+        "gd": 5.78,
+        "p": 0.0405,
         "edge": 1.78,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 15,
         "horse": "One Whim",
         "price": 41.0,
-        "market": 0.0194,
-        "blend": 0.04,
+        "gd": 5.88,
+        "p": 0.04,
         "edge": 2.06,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Steel Tsunami",
         "price": 26.0,
-        "market": 0.0307,
-        "blend": 0.0361,
+        "gd": 5.39,
+        "p": 0.0361,
         "edge": 1.18,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Starnova",
         "price": 46.0,
-        "market": 0.0173,
-        "blend": 0.0301,
+        "gd": 5.54,
+        "p": 0.0301,
         "edge": 1.74,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Over Yonder",
         "price": 18.0,
-        "market": 0.0443,
-        "blend": 0.0294,
+        "gd": 4.8,
+        "p": 0.0294,
         "edge": 0.66,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Fill A Promise",
         "price": 26.0,
-        "market": 0.0307,
-        "blend": 0.0293,
+        "gd": 5.08,
+        "p": 0.0293,
         "edge": 0.96,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Attain",
         "price": 16.0,
-        "market": 0.0498,
-        "blend": 0.0248,
+        "gd": 4.46,
+        "p": 0.0248,
         "edge": 0.5,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Sioux Warrior",
         "price": 91.0,
-        "market": 0.0088,
-        "blend": 0.0183,
+        "gd": 5.3,
+        "p": 0.0183,
         "edge": 2.08,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Squad",
         "price": 81.0,
-        "market": 0.0098,
-        "blend": 0.0163,
+        "gd": 5.05,
+        "p": 0.0163,
         "edge": 1.66,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Cork Harbour",
         "price": 67.0,
-        "market": 0.0119,
-        "blend": 0.0138,
+        "gd": 4.66,
+        "p": 0.0138,
         "edge": 1.16,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -3771,148 +4298,146 @@
       "no": 5,
       "time": "3:17pm",
       "thin": false,
-      "starters": 14,
-      "book": 126.1,
-      "top": {
-       "tab": 1,
-       "horse": "Navy Rok",
-       "price": 2.0,
-       "blend": 0.3307,
-       "edge": 0.83
-      },
-      "value": {
-       "tab": 14,
-       "horse": "Mahaler",
-       "price": 26.0,
-       "edge": 1.72,
-       "min_price": 13.45
-      },
       "runners": [
        {
         "tab": 1,
         "horse": "Navy Rok",
         "price": 2.0,
-        "market": 0.3966,
-        "blend": 0.3307,
+        "gd": 6.6,
+        "p": 0.3307,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Dirty Deal",
         "price": 10.0,
-        "market": 0.0793,
-        "blend": 0.0982,
+        "gd": 6.0,
+        "p": 0.0982,
         "edge": 1.24,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Blackjack",
         "price": 12.0,
-        "market": 0.0661,
-        "blend": 0.0944,
+        "gd": 6.07,
+        "p": 0.0944,
         "edge": 1.43,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Hysterical Lady",
         "price": 7.5,
-        "market": 0.1058,
-        "blend": 0.0751,
+        "gd": 5.38,
+        "p": 0.0751,
         "edge": 0.71,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Yarrawizardharry",
         "price": 19.0,
-        "market": 0.0418,
-        "blend": 0.0691,
+        "gd": 5.95,
+        "p": 0.0691,
         "edge": 1.66,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Gazelle",
         "price": 11.0,
-        "market": 0.0721,
-        "blend": 0.0581,
+        "gd": 5.28,
+        "p": 0.0581,
         "edge": 0.81,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 16,
         "horse": "Loca Bella",
         "price": 23.0,
-        "market": 0.0345,
-        "blend": 0.053,
+        "gd": 5.7,
+        "p": 0.053,
         "edge": 1.54,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "Mahaler",
         "price": 26.0,
-        "market": 0.0305,
-        "blend": 0.0526,
+        "gd": 5.78,
+        "p": 0.0526,
         "edge": 1.72,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Mrs Penny Cracker",
         "price": 14.0,
-        "market": 0.0567,
-        "blend": 0.0492,
+        "gd": 5.22,
+        "p": 0.0492,
         "edge": 0.87,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Territorian",
         "price": 13.0,
-        "market": 0.061,
-        "blend": 0.0452,
+        "gd": 5.03,
+        "p": 0.0452,
         "edge": 0.74,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Robert The Puss",
         "price": 46.0,
-        "market": 0.0172,
-        "blend": 0.0203,
+        "gd": 4.79,
+        "p": 0.0203,
         "edge": 1.18,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 15,
         "horse": "Blakmax",
         "price": 61.0,
-        "market": 0.013,
-        "blend": 0.0192,
+        "gd": 4.91,
+        "p": 0.0192,
         "edge": 1.48,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Lucas The Younger",
         "price": 51.0,
-        "market": 0.0156,
-        "blend": 0.0187,
+        "gd": 4.74,
+        "p": 0.0187,
         "edge": 1.2,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Scootathewoota",
         "price": 81.0,
-        "market": 0.0098,
-        "blend": 0.0163,
+        "gd": 4.88,
+        "p": 0.0163,
         "edge": 1.66,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -3920,112 +4445,106 @@
       "no": 6,
       "time": "3:52pm",
       "thin": false,
-      "starters": 10,
-      "book": 124.5,
-      "top": {
-       "tab": 7,
-       "horse": "You Sexy Thing",
-       "price": 2.5,
-       "blend": 0.2694,
-       "edge": 0.84
-      },
-      "value": {
-       "tab": 11,
-       "horse": "Hard Leaf",
-       "price": 17.0,
-       "edge": 1.38,
-       "min_price": 13.75
-      },
       "runners": [
        {
         "tab": 7,
         "horse": "You Sexy Thing",
         "price": 2.5,
-        "market": 0.3212,
-        "blend": 0.2694,
+        "gd": 6.49,
+        "p": 0.2694,
         "edge": 0.84,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Thermodynamic",
         "price": 6.5,
-        "market": 0.1235,
-        "blend": 0.1546,
+        "gd": 6.38,
+        "p": 0.1546,
         "edge": 1.25,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Brave Star",
         "price": 9.0,
-        "market": 0.0892,
-        "blend": 0.1231,
+        "gd": 6.28,
+        "p": 0.1231,
         "edge": 1.38,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "All Too Mysti",
         "price": 8.0,
-        "market": 0.1004,
-        "blend": 0.1138,
+        "gd": 6.08,
+        "p": 0.1138,
         "edge": 1.13,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Mellifluent",
         "price": 12.0,
-        "market": 0.0669,
-        "blend": 0.0727,
+        "gd": 5.71,
+        "p": 0.0727,
         "edge": 1.09,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Australia Forever",
         "price": 7.0,
-        "market": 0.1147,
-        "blend": 0.0701,
+        "gd": 5.26,
+        "p": 0.0701,
         "edge": 0.61,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Freedom Flame",
         "price": 11.0,
-        "market": 0.073,
-        "blend": 0.0698,
+        "gd": 5.59,
+        "p": 0.0698,
         "edge": 0.96,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Hard Leaf",
         "price": 17.0,
-        "market": 0.0472,
-        "blend": 0.0654,
+        "gd": 5.81,
+        "p": 0.0654,
         "edge": 1.38,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Chipson",
         "price": 20.0,
-        "market": 0.0402,
-        "blend": 0.035,
+        "gd": 5.0,
+        "p": 0.035,
         "edge": 0.87,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Platinum Wolf",
         "price": 34.0,
-        "market": 0.0236,
-        "blend": 0.0262,
+        "gd": 4.97,
+        "p": 0.0262,
         "edge": 1.11,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -4033,94 +4552,86 @@
       "no": 7,
       "time": "4:32pm",
       "thin": false,
-      "starters": 8,
-      "book": 123.0,
-      "top": {
-       "tab": 1,
-       "horse": "Smooth Chino",
-       "price": 4.2,
-       "blend": 0.2468,
-       "edge": 1.27
-      },
-      "value": {
-       "tab": 2,
-       "horse": "Sir Now",
-       "price": 6.0,
-       "edge": 1.71,
-       "min_price": 2.97
-      },
       "runners": [
        {
         "tab": 1,
         "horse": "Smooth Chino",
         "price": 4.2,
-        "market": 0.1936,
-        "blend": 0.2468,
+        "gd": 7.03,
+        "p": 0.2468,
         "edge": 1.27,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Sir Now",
         "price": 6.0,
-        "market": 0.1355,
-        "blend": 0.2323,
+        "gd": 7.2,
+        "p": 0.2323,
         "edge": 1.71,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Bassett Babe",
         "price": 4.8,
-        "market": 0.1694,
-        "blend": 0.1301,
+        "gd": 6.17,
+        "p": 0.1301,
         "edge": 0.77,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Watchme Win",
         "price": 5.0,
-        "market": 0.1626,
-        "blend": 0.1202,
+        "gd": 6.09,
+        "p": 0.1202,
         "edge": 0.74,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Signature Scent",
         "price": 8.5,
-        "market": 0.0957,
-        "blend": 0.1019,
+        "gd": 6.23,
+        "p": 0.1019,
         "edge": 1.07,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 7,
         "horse": "Real Deluxe",
         "price": 13.0,
-        "market": 0.0625,
-        "blend": 0.0711,
+        "gd": 6.02,
+        "p": 0.0711,
         "edge": 1.14,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Recommendation",
         "price": 6.0,
-        "market": 0.1355,
-        "blend": 0.0569,
+        "gd": 5.11,
+        "p": 0.0569,
         "edge": 0.42,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Omaha Dawn",
         "price": 18.0,
-        "market": 0.0452,
-        "blend": 0.0407,
+        "gd": 5.43,
+        "p": 0.0407,
         "edge": 0.9,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -4128,193 +4639,196 @@
       "no": 8,
       "time": "5:07pm",
       "thin": false,
-      "starters": 19,
-      "book": 144.5,
-      "top": {
-       "tab": 1,
-       "horse": "Mr Trafficanti",
-       "price": 7.0,
-       "blend": 0.1598,
-       "edge": 1.62
-      },
-      "value": {
-       "tab": 1,
-       "horse": "Mr Trafficanti",
-       "price": 7.0,
-       "edge": 1.62,
-       "min_price": 4.02
-      },
       "runners": [
        {
         "tab": 1,
         "horse": "Mr Trafficanti",
         "price": 7.0,
-        "market": 0.0989,
-        "blend": 0.1598,
+        "gd": 6.73,
+        "p": 0.1598,
         "edge": 1.62,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Weather Delay",
         "price": 7.5,
-        "market": 0.0923,
-        "blend": 0.1466,
+        "gd": 6.65,
+        "p": 0.1466,
         "edge": 1.59,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Regal Ripper",
         "price": 7.5,
-        "market": 0.0923,
-        "blend": 0.1003,
+        "gd": 6.08,
+        "p": 0.1003,
         "edge": 1.09,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Tottori",
         "price": 7.5,
-        "market": 0.0923,
-        "blend": 0.0931,
+        "gd": 5.97,
+        "p": 0.0931,
         "edge": 1.01,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 16,
         "horse": "Talisay",
         "price": 5.0,
-        "market": 0.1384,
-        "blend": 0.0891,
+        "gd": 5.61,
+        "p": 0.0891,
         "edge": 0.64,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Longer Route",
         "price": 13.0,
-        "market": 0.0532,
-        "blend": 0.0527,
+        "gd": 5.53,
+        "p": 0.0527,
         "edge": 0.99,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Kikorangi",
         "price": 17.0,
-        "market": 0.0407,
-        "blend": 0.0513,
+        "gd": 5.7,
+        "p": 0.0513,
         "edge": 1.26,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 19,
         "horse": "Tower Of Tuscany",
         "price": 21.0,
-        "market": 0.033,
-        "blend": 0.0473,
+        "gd": 5.73,
+        "p": 0.0473,
         "edge": 1.44,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 17,
         "horse": "Extra Chill",
         "price": 14.0,
-        "market": 0.0494,
-        "blend": 0.0343,
+        "gd": 4.95,
+        "p": 0.0343,
         "edge": 0.69,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "Just A Brother",
         "price": 20.0,
-        "market": 0.0346,
-        "blend": 0.0299,
+        "gd": 5.01,
+        "p": 0.0299,
         "edge": 0.86,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 20,
         "horse": "Lafont",
         "price": 12.0,
-        "market": 0.0577,
-        "blend": 0.0291,
+        "gd": 4.59,
+        "p": 0.0291,
         "edge": 0.5,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 11,
         "horse": "Glouf",
         "price": 20.0,
-        "market": 0.0346,
-        "blend": 0.027,
+        "gd": 4.86,
+        "p": 0.027,
         "edge": 0.78,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 4,
         "horse": "Overloaded",
         "price": 41.0,
-        "market": 0.0169,
-        "blend": 0.0259,
+        "gd": 5.33,
+        "p": 0.0259,
         "edge": 1.54,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 10,
         "horse": "Capulet",
         "price": 19.0,
-        "market": 0.0364,
-        "blend": 0.0244,
+        "gd": 4.67,
+        "p": 0.0244,
         "edge": 0.67,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 15,
         "horse": "Rikki Rikkardo",
         "price": 23.0,
-        "market": 0.0301,
-        "blend": 0.0208,
+        "gd": 4.57,
+        "p": 0.0208,
         "edge": 0.69,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 18,
         "horse": "Spangled Sipper",
         "price": 19.0,
-        "market": 0.0364,
-        "blend": 0.0188,
+        "gd": 4.28,
+        "p": 0.0188,
         "edge": 0.52,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 14,
         "horse": "Everlasting Kiss",
         "price": 34.0,
-        "market": 0.0204,
-        "blend": 0.0168,
+        "gd": 4.55,
+        "p": 0.0168,
         "edge": 0.82,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Shakespeare",
         "price": 27.0,
-        "market": 0.0256,
-        "blend": 0.0166,
+        "gd": 4.36,
+        "p": 0.0166,
         "edge": 0.65,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Moussaka",
         "price": 41.0,
-        "market": 0.0169,
-        "blend": 0.0161,
+        "gd": 4.62,
+        "p": 0.0161,
         "edge": 0.95,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      },
@@ -4322,117 +4836,117 @@
       "no": 9,
       "time": "5:42pm",
       "thin": false,
-      "starters": 10,
-      "book": 125.6,
-      "top": {
-       "tab": 10,
-       "horse": "Leading Impact",
-       "price": 7.5,
-       "blend": 0.2261,
-       "edge": 2.13
-      },
-      "value": {
-       "tab": 10,
-       "horse": "Leading Impact",
-       "price": 7.5,
-       "edge": 2.13,
-       "min_price": 2.36
-      },
       "runners": [
        {
         "tab": 10,
         "horse": "Leading Impact",
         "price": 7.5,
-        "market": 0.1062,
-        "blend": 0.2261,
+        "gd": 7.26,
+        "p": 0.2261,
         "edge": 2.13,
-        "bet": true
+        "value": true,
+        "sigmax": 13
        },
        {
         "tab": 2,
         "horse": "From The Block",
         "price": 4.8,
-        "market": 0.1659,
-        "blend": 0.196,
+        "gd": 6.71,
+        "p": 0.196,
         "edge": 1.18,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 5,
         "horse": "Daisydoo",
         "price": 4.6,
-        "market": 0.1731,
-        "blend": 0.1583,
+        "gd": 6.36,
+        "p": 0.1583,
         "edge": 0.91,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 8,
         "horse": "Vexatious Dancer",
         "price": 5.5,
-        "market": 0.1448,
-        "blend": 0.1207,
+        "gd": 6.09,
+        "p": 0.1207,
         "edge": 0.83,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 13,
         "horse": "Alaa Plenty",
         "price": 10.0,
-        "market": 0.0796,
-        "blend": 0.0786,
+        "gd": 5.9,
+        "p": 0.0786,
         "edge": 0.99,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 9,
         "horse": "Bouncing Beyond",
         "price": 15.0,
-        "market": 0.0531,
-        "blend": 0.0586,
+        "gd": 5.76,
+        "p": 0.0586,
         "edge": 1.1,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 3,
         "horse": "Sir Myka",
         "price": 10.0,
-        "market": 0.0796,
-        "blend": 0.0535,
+        "gd": 5.32,
+        "p": 0.0535,
         "edge": 0.67,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 6,
         "horse": "Riche D'amour",
         "price": 7.0,
-        "market": 0.1137,
-        "blend": 0.0452,
+        "gd": 4.81,
+        "p": 0.0452,
         "edge": 0.4,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 12,
         "horse": "Three Rings",
         "price": 20.0,
-        "market": 0.0398,
-        "blend": 0.0376,
+        "gd": 5.32,
+        "p": 0.0376,
         "edge": 0.95,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        },
        {
         "tab": 1,
         "horse": "Raikoke",
         "price": 18.0,
-        "market": 0.0442,
-        "blend": 0.0254,
+        "gd": 4.66,
+        "p": 0.0254,
         "edge": 0.58,
-        "bet": false
+        "value": false,
+        "sigmax": 13
        }
       ]
      }
     ]
    }
   ]
+ },
+ "nrl": {
+  "games": [],
+  "multis": [],
+  "engine": "GD ALGO V1",
+  "round": ""
  }
 }
