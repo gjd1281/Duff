@@ -1,7 +1,7 @@
 {
  "meta": {
   "engine": "TIGER v17",
-  "generated": "2026-09-19 08:24 AEST",
+  "generated": "2026-09-19 08:32 AEST",
   "label": "Duffs Way",
   "sample": "30 races, full field"
  },
@@ -23,9 +23,7 @@
       "gd": 7.0,
       "pace": "mid",
       "fc": 3,
-      "flags": [
-       "\ud83c\udfaf Jockey flag"
-      ],
+      "flags": [],
       "value": false,
       "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count."
      },
@@ -51,33 +49,14 @@
      {
       "no": 2,
       "time": "12:25pm",
-      "horse": "2. Barrengarry",
-      "price": "1.70",
-      "gd": 7.98,
+      "horse": "11. All Star",
+      "price": "6.00",
+      "gd": 5.83,
       "pace": "mid",
-      "fc": 8,
-      "flags": [
-       "\u2705 Solid",
-       "\ud83c\udfaf Jockey flag"
-      ],
+      "fc": 2,
+      "flags": [],
       "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; it ran a fast closing sectional when beaten last start; its record on today's surface is genuine, not just a raw count; it wins at this track."
-     },
-     {
-      "no": 2,
-      "time": "12:25pm",
-      "horse": "5. Just In Time",
-      "price": "15.00",
-      "gd": 6.27,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [
-       "\ud83d\udc34 Roughie",
-       "\u26a1 Fast sectionals"
-      ],
-      "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $15.00 and the blend makes it 6.8%. Reason: it ran a fast closing sectional when beaten last start.",
-      "alt": true
+      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: no single variable stands out; it rates here on the spread of the whole profile."
      },
      {
       "no": 3,
@@ -114,7 +93,6 @@
       "fc": 6,
       "flags": [
        "\u26a0\ufe0f Marginal",
-       "\ud83c\udfaf Jockey flag",
        "\ud83d\udeaa Wide gate"
       ],
       "value": false,
@@ -213,16 +191,18 @@
      {
       "no": 8,
       "time": "03:55pm",
-      "horse": "4. Autumn Glow",
-      "price": "1.16",
-      "gd": 7.98,
+      "horse": "6. Idle Flyer",
+      "price": "19.00",
+      "gd": 8.13,
       "pace": "mid",
-      "fc": 9,
+      "fc": 6,
       "flags": [
-       "\u2705 Solid"
+       "\u2705 Solid",
+       "\ud83d\udc34 Roughie",
+       "\u2699\ufe0f Gear change"
       ],
       "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track; the spacing between runs is where this horse peaks."
+      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track."
      },
      {
       "no": 8,
@@ -249,7 +229,6 @@
       "fc": 7,
       "flags": [
        "\u26a0\ufe0f Marginal",
-       "\ud83c\udfaf Jockey flag",
        "\ud83c\udf40 Bad luck last start"
       ],
       "value": false,
@@ -264,8 +243,7 @@
       "pace": "mid",
       "fc": 8,
       "flags": [
-       "\u2705 Solid",
-       "\ud83c\udfaf Jockey flag"
+       "\u2705 Solid"
       ],
       "value": false,
       "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count."
@@ -375,17 +353,14 @@
      {
       "no": 5,
       "time": "02:53pm",
-      "horse": "6. Precise Star",
-      "price": "1.55",
-      "gd": 7.8,
+      "horse": "1. North Pole",
+      "price": "4.40",
+      "gd": 6.76,
       "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\u2705 Solid",
-       "\ud83c\udfaf Jockey flag"
-      ],
+      "fc": 5,
+      "flags": [],
       "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count."
+      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: it ran a fast closing sectional when beaten last start; its record on today's surface is genuine, not just a raw count."
      },
      {
       "no": 5,
@@ -464,20 +439,6 @@
      {
       "no": 9,
       "time": "05:30pm",
-      "horse": "8. Hurricane Lu",
-      "price": "2.05",
-      "gd": 6.13,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [
-       "\ud83c\udf40 Bad luck last start"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the spacing between runs is where this horse peaks."
-     },
-     {
-      "no": 9,
-      "time": "05:30pm",
       "horse": "9. La Rosetta",
       "price": "14.00",
       "gd": 7.25,
@@ -489,8 +450,7 @@
        "\ud83c\udfaf Jockey flag"
       ],
       "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $14.00 and the blend makes it 13.9%. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track; the spacing between runs is where this horse peaks.",
-      "alt": true
+      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track; the spacing between runs is where this horse peaks."
      },
      {
       "no": 10,
@@ -599,8 +559,7 @@
       "pace": "mid",
       "fc": 7,
       "flags": [
-       "\u2705 Solid",
-       "\ud83c\udfaf Jockey flag"
+       "\u2705 Solid"
       ],
       "value": false,
       "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count."
@@ -614,8 +573,7 @@
       "pace": "mid",
       "fc": 8,
       "flags": [
-       "\u2705 Solid",
-       "\ud83c\udfaf Jockey flag"
+       "\u2705 Solid"
       ],
       "value": false,
       "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; it wins at this track."
@@ -645,7 +603,6 @@
       "fc": 8,
       "flags": [
        "\u2705 Solid",
-       "\ud83c\udfaf Jockey flag",
        "\ud83d\udeaa Wide gate",
        "\u26a1 Fast sectionals"
       ],
