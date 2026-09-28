@@ -1,660 +1,598 @@
 {
  "meta": {
   "engine": "TIGER v17",
-  "generated": "2026-09-19 08:32 AEST",
-  "label": "Duffs Way",
-  "sample": "30 races, full field"
+  "generated": "2026-09-28",
+  "label": "Mon 28 Sep · Wagga · Kilmore · Tamworth · Bunbury",
+  "sample": "paper-grade Stage 1, carded prices, divisor 0.68, K calibrated to market"
  },
  "racing": {
   "meetings": [
    {
-    "id": "rand",
-    "track": "Randwick",
-    "condition": "Good (4)",
-    "rail": "Out 6m",
-    "direction": "clockwise",
-    "sigMax": 15,
+    "id": "wag",
+    "track": "Wagga",
+    "condition": "Good 4",
+    "rail": "Out 7m 1400m-WP, true rest",
+    "direction": "anticlockwise",
+    "sigMax": 10,
     "races": [
      {
       "no": 1,
-      "time": "11:50am",
-      "horse": "10. Cruizingthestars",
-      "price": "3.50",
+      "time": "1:20pm",
+      "horse": "6. Colorado Sun",
+      "price": "3.20",
+      "gd": 6.66,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [
+       "⚙️ Gear change"
+      ],
+      "value": false,
+      "why": "Model 18% v market 24% (carded book 129%). Strongest on top of the ratings and the gear change. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 1,
+      "time": "1:20pm",
+      "horse": "4. Ultrasonic",
+      "price": "6.50",
+      "gd": 7.14,
+      "pace": "mid",
+      "fc": 1,
+      "flags": [
+       "⚙️ Gear change"
+      ],
+      "value": true,
+      "why": "Model 28% v market 12% (carded book 129%). Strongest on top of the ratings and the draw. Edge 1.60 on the carded price; only bet at $3.96 or better in the app.",
+      "alt": true
+     },
+     {
+      "no": 2,
+      "time": "1:55pm",
+      "horse": "8. Malinga Missile",
+      "price": "4.00",
       "gd": 7.0,
       "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": true,
+      "why": "Model 31% v market 19% (carded book 128%). Strongest on top of the ratings and the draw. Edge 1.29 on the carded price; only bet at $3.78 or better in the app."
+     },
+     {
+      "no": 3,
+      "time": "2:35pm",
+      "horse": "8. Chief Of War",
+      "price": "2.70",
+      "gd": 7.61,
+      "pace": "mid",
       "fc": 3,
-      "flags": [],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count."
-     },
-     {
-      "no": 1,
-      "time": "11:50am",
-      "horse": "5. Brave Xena",
-      "price": "6.50",
-      "gd": 7.05,
-      "pace": "mid",
-      "fc": 5,
       "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83d\udeaa Wide gate",
-       "\u2699\ufe0f Gear change",
-       "\ud83c\udf40 Bad luck last start",
-       "\u26a1 Fast sectionals"
+       "⚙️ Gear change"
       ],
-      "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $6.50 and the blend makes it 15.8%. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track.",
-      "alt": true
-     },
-     {
-      "no": 2,
-      "time": "12:25pm",
-      "horse": "11. All Star",
-      "price": "6.00",
-      "gd": 5.83,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
       "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: no single variable stands out; it rates here on the spread of the whole profile."
+      "why": "Model 36% v market 29% (carded book 128%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
      },
      {
       "no": 3,
-      "time": "01:00pm",
-      "horse": "7. Watson",
-      "price": "3.90",
-      "gd": 6.5,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: its record on today's surface is genuine, not just a raw count."
-     },
-     {
-      "no": 3,
-      "time": "01:00pm",
-      "horse": "2. Rock Empire",
+      "time": "2:35pm",
+      "horse": "6. Midnight Affair",
       "price": "7.50",
-      "gd": 6.8,
+      "gd": 7.18,
       "pace": "mid",
-      "fc": 5,
+      "fc": 4,
       "flags": [],
       "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $7.50 and the blend makes it 15.0%. Reason: its record on today's surface is genuine, not just a raw count; the spacing between runs is where this horse peaks.",
+      "why": "Model 23% v market 10% (carded book 128%). Strongest on top of the ratings and the draw. Edge 1.59 on the carded price; only bet at $4.63 or better in the app.",
       "alt": true
      },
      {
       "no": 4,
-      "time": "01:35pm",
-      "horse": "4. Castlejohn",
-      "price": "4.00",
-      "gd": 7.59,
-      "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83d\udeaa Wide gate"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; the spacing between runs is where this horse peaks."
-     },
-     {
-      "no": 5,
-      "time": "02:10pm",
-      "horse": "1. Headley Grange",
-      "price": "2.90",
-      "gd": 7.97,
-      "pace": "mid",
-      "fc": 8,
-      "flags": [
-       "\u2705 Solid",
-       "\ud83c\udfaf Jockey flag",
-       "\ud83c\udf40 Bad luck last start"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: its record on today's surface is genuine, not just a raw count; it wins at this track."
-     },
-     {
-      "no": 5,
-      "time": "02:10pm",
-      "horse": "8. Sixties",
-      "price": "5.50",
-      "gd": 8.02,
-      "pace": "mid",
-      "fc": 7,
-      "flags": [
-       "\u2705 Solid",
-       "\u26a1 Fast sectionals"
-      ],
-      "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $5.50 and the blend makes it 19.4%. Reason: it ran a fast closing sectional when beaten last start; its record on today's surface is genuine, not just a raw count.",
-      "alt": true
-     },
-     {
-      "no": 6,
-      "time": "02:45pm",
-      "horse": "3. Soul Of Spain",
-      "price": "4.80",
-      "gd": 6.72,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count."
-     },
-     {
-      "no": 6,
-      "time": "02:45pm",
-      "horse": "8. Boniface",
-      "price": "7.50",
-      "gd": 7.16,
-      "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\u26a1 Fast sectionals"
-      ],
-      "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $7.50 and the blend makes it 14.4%. Reason: its record on today's surface is genuine, not just a raw count; the spacing between runs is where this horse peaks.",
-      "alt": true
-     },
-     {
-      "no": 7,
-      "time": "03:20pm",
-      "horse": "2. Chilly Girl",
-      "price": "3.40",
-      "gd": 7.38,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\u26a1 Fast sectionals"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: it ran a fast closing sectional when beaten last start."
-     },
-     {
-      "no": 7,
-      "time": "03:20pm",
-      "horse": "1. Bangkok Hottie",
-      "price": "4.60",
-      "gd": 7.66,
-      "pace": "mid",
-      "fc": 7,
-      "flags": [
-       "\u26a0\ufe0f Marginal"
-      ],
-      "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $4.60 and the blend makes it 23.3%. Reason: it ran a fast closing sectional when beaten last start; its record on today's surface is genuine, not just a raw count; it wins at this track.",
-      "alt": true
-     },
-     {
-      "no": 8,
-      "time": "03:55pm",
-      "horse": "6. Idle Flyer",
-      "price": "19.00",
-      "gd": 8.13,
-      "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\u2705 Solid",
-       "\ud83d\udc34 Roughie",
-       "\u2699\ufe0f Gear change"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track."
-     },
-     {
-      "no": 8,
-      "time": "03:55pm",
-      "horse": "2. Gringotts",
-      "price": "9.00",
+      "time": "3:10pm",
+      "horse": "1. Bombay Boom",
+      "price": "2.70",
       "gd": 7.32,
       "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\u26a0\ufe0f Marginal"
-      ],
-      "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $9.00 and the blend makes it 14.4%. Reason: its record on today's surface is genuine, not just a raw count; the spacing between runs is where this horse peaks.",
-      "alt": true
+      "fc": 4,
+      "flags": [],
+      "value": false,
+      "why": "Model 32% v market 29% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
      },
      {
-      "no": 9,
-      "time": "04:35pm",
-      "horse": "3. Headwall",
-      "price": "3.00",
-      "gd": 7.51,
-      "pace": "mid",
-      "fc": 7,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83c\udf40 Bad luck last start"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track."
-     },
-     {
-      "no": 10,
-      "time": "05:15pm",
-      "horse": "2. Golden Straand",
-      "price": "4.80",
-      "gd": 7.75,
-      "pace": "mid",
-      "fc": 8,
-      "flags": [
-       "\u2705 Solid"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count."
-     }
-    ]
-   },
-   {
-    "id": "gcst",
-    "track": "Gold Coast",
-    "condition": "Good (4)",
-    "rail": "True",
-    "direction": "clockwise",
-    "sigMax": 15,
-    "races": [
-     {
-      "no": 1,
-      "time": "12:33pm",
-      "horse": "5. Yes Donald Yes",
-      "price": "3.30",
-      "gd": 6.7,
+      "no": 5,
+      "time": "3:45pm",
+      "horse": "1. Akari Spirit",
+      "price": "3.20",
+      "gd": 7.36,
       "pace": "mid",
       "fc": 4,
       "flags": [],
       "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: its record on today's surface is genuine, not just a raw count."
-     },
-     {
-      "no": 2,
-      "time": "01:08pm",
-      "horse": "1. Exceed The Sale",
-      "price": "4.60",
-      "gd": 7.84,
-      "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\u2705 Solid",
-       "\ud83c\udfaf Jockey flag",
-       "\ud83d\udcaa New stable",
-       "\ud83c\udf40 Bad luck last start",
-       "\u26a1 Fast sectionals"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track."
-     },
-     {
-      "no": 3,
-      "time": "01:43pm",
-      "horse": "3. Captain Maverick",
-      "price": "3.20",
-      "gd": 6.32,
-      "pace": "mid",
-      "fc": 5,
-      "flags": [
-       "\ud83c\udfaf Jockey flag",
-       "\ud83d\udeaa Wide gate",
-       "\u2699\ufe0f Gear change"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race."
-     },
-     {
-      "no": 3,
-      "time": "01:43pm",
-      "horse": "2. Social Outcast",
-      "price": "7.50",
-      "gd": 7.07,
-      "pace": "mid",
-      "fc": 5,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83c\udfaf Jockey flag"
-      ],
-      "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $7.50 and the blend makes it 18.1%. Reason: the jockey-trainer pairing is one of the stronger ones in the race; it wins at this track.",
-      "alt": true
-     },
-     {
-      "no": 4,
-      "time": "02:18pm",
-      "horse": "10. Strada Varenna",
-      "price": "3.60",
-      "gd": 6.93,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [
-       "\ud83c\udfaf Jockey flag",
-       "\u2699\ufe0f Gear change"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; it ran a fast closing sectional when beaten last start."
-     },
-     {
-      "no": 4,
-      "time": "02:18pm",
-      "horse": "2. Lim's Shavano",
-      "price": "5.50",
-      "gd": 6.99,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [
-       "\ud83d\udeaa Wide gate"
-      ],
-      "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $5.50 and the blend makes it 18.5%. Reason: the jockey-trainer pairing is one of the stronger ones in the race.",
-      "alt": true
+      "why": "Model 23% v market 24% (carded book 131%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
      },
      {
       "no": 5,
-      "time": "02:53pm",
-      "horse": "1. North Pole",
-      "price": "4.40",
+      "time": "3:45pm",
+      "horse": "4. Masakari",
+      "price": "10.00",
       "gd": 6.76,
       "pace": "mid",
-      "fc": 5,
+      "fc": 2,
       "flags": [],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: it ran a fast closing sectional when beaten last start; its record on today's surface is genuine, not just a raw count."
-     },
-     {
-      "no": 5,
-      "time": "02:53pm",
-      "horse": "9. Think Like Paddy",
-      "price": "11.00",
-      "gd": 6.99,
-      "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\ud83c\udfaf Jockey flag"
-      ],
       "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $11.00 and the blend makes it 11.6%. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track.",
+      "why": "Model 12% v market 8% (carded book 131%). Strongest on the draw and top of the ratings. Edge 1.30 on the carded price; only bet at $9.21 or better in the app.",
       "alt": true
      },
      {
       "no": 6,
-      "time": "03:28pm",
-      "horse": "9. Greyzous",
-      "price": "4.80",
-      "gd": 7.43,
+      "time": "4:20pm",
+      "horse": "12. Snitzel Tycoon",
+      "price": "4.00",
+      "gd": 7.57,
       "pace": "mid",
-      "fc": 7,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83c\udfaf Jockey flag",
-       "\u2699\ufe0f Gear change"
-      ],
+      "fc": 4,
+      "flags": [],
       "value": true,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; it ran a fast closing sectional when beaten last start; it wins at this track."
+      "why": "Model 46% v market 19% (carded book 129%). Strongest on top of the ratings and recent form. Edge 1.68 on the carded price; only bet at $2.22 or better in the app."
      },
      {
       "no": 7,
-      "time": "04:07pm",
-      "horse": "1. Grand Impact",
-      "price": "2.30",
-      "gd": 6.88,
+      "time": "4:55pm",
+      "horse": "5. Bonnie Murringo",
+      "price": "3.00",
+      "gd": 7.2,
       "pace": "mid",
       "fc": 5,
       "flags": [],
       "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: its record on today's surface is genuine, not just a raw count."
+      "why": "Model 30% v market 26% (carded book 128%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
      },
      {
-      "no": 8,
-      "time": "04:43pm",
-      "horse": "4. Metaphorically",
-      "price": "3.10",
-      "gd": 7.13,
+      "no": 7,
+      "time": "4:55pm",
+      "horse": "7. Diamond Frost",
+      "price": "13.00",
+      "gd": 6.25,
       "pace": "mid",
-      "fc": 4,
+      "fc": 2,
       "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83d\udcaa New stable"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: its record on today's surface is genuine, not just a raw count."
-     },
-     {
-      "no": 8,
-      "time": "04:43pm",
-      "horse": "3. Chief In Charge",
-      "price": "8.50",
-      "gd": 6.81,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [
-       "\ud83d\udeaa Wide gate",
-       "\u26a1 Fast sectionals"
+       "🐴 Roughie"
       ],
       "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $8.50 and the blend makes it 12.4%. Reason: it ran a fast closing sectional when beaten last start.",
+      "why": "Model 12% v market 6% (carded book 128%). Strongest on the draw and a distance win. Edge 1.42 on the carded price; only bet at $10.06 or better in the app.",
       "alt": true
-     },
-     {
-      "no": 9,
-      "time": "05:30pm",
-      "horse": "9. La Rosetta",
-      "price": "14.00",
-      "gd": 7.25,
-      "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83d\udc34 Roughie",
-       "\ud83c\udfaf Jockey flag"
-      ],
-      "value": true,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count; it wins at this track; the spacing between runs is where this horse peaks."
-     },
-     {
-      "no": 10,
-      "time": "06:05pm",
-      "horse": "6. Surprise Honey",
-      "price": "2.40",
-      "gd": 6.5,
-      "pace": "mid",
-      "fc": 5,
-      "flags": [
-       "\u2699\ufe0f Gear change"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: it ran a fast closing sectional when beaten last start; it wins at this track."
      }
     ]
    },
    {
-    "id": "caul",
-    "track": "Caulfield",
-    "condition": "Good (4)",
-    "rail": "Out 7m",
-    "direction": "anti-clockwise",
-    "sigMax": 15,
+    "id": "kil",
+    "track": "Kilmore",
+    "condition": "Good 4",
+    "rail": "True",
+    "direction": "anticlockwise",
+    "sigMax": 10,
     "races": [
      {
       "no": 1,
-      "time": "12:10pm",
-      "horse": "3. Emperor Tzu",
-      "price": "4.50",
-      "gd": 7.31,
-      "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83c\udfaf Jockey flag"
-      ],
-      "value": true,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; the spacing between runs is where this horse peaks."
-     },
-     {
-      "no": 2,
-      "time": "12:40pm",
-      "horse": "1. Arashi Flash",
-      "price": "3.40",
-      "gd": 6.15,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [
-       "\u2699\ufe0f Gear change"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: it ran a fast closing sectional when beaten last start; the spacing between runs is where this horse peaks."
-     },
-     {
-      "no": 2,
-      "time": "12:40pm",
-      "horse": "4. Utopic Future",
-      "price": "8.00",
-      "gd": 6.51,
+      "time": "1:30pm",
+      "horse": "5. Levens Hall",
+      "price": "4.20",
+      "gd": 6.98,
       "pace": "mid",
       "fc": 3,
+      "flags": [],
+      "value": false,
+      "why": "Model 20% v market 19% (carded book 128%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 1,
+      "time": "1:30pm",
+      "horse": "1. Bloomin' Rich",
+      "price": "10.00",
+      "gd": 6.75,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": true,
+      "why": "Model 16% v market 8% (carded book 128%). Strongest on the draw and top of the ratings. Edge 1.47 on the carded price; only bet at $7.20 or better in the app.",
+      "alt": true
+     },
+     {
+      "no": 2,
+      "time": "2:00pm",
+      "horse": "9. Anglais",
+      "price": "2.40",
+      "gd": 7.17,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "Model 34% v market 32% (carded book 132%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 2,
+      "time": "2:00pm",
+      "horse": "4. Galactic Girl",
+      "price": "11.00",
+      "gd": 6.04,
+      "pace": "mid",
+      "fc": 1,
       "flags": [
-       "\ud83c\udfaf Jockey flag",
-       "\u26a1 Fast sectionals"
+       "⚙️ Gear change"
       ],
       "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $8.00 and the blend makes it 18.1%. Reason: it ran a fast closing sectional when beaten last start.",
+      "why": "Model 11% v market 7% (carded book 132%). Strongest on the draw and top of the ratings. Edge 1.27 on the carded price; only bet at $10.68 or better in the app.",
       "alt": true
      },
      {
       "no": 3,
-      "time": "01:15pm",
-      "horse": "2. Winnasedge",
-      "price": "4.20",
-      "gd": 7.1,
+      "time": "2:30pm",
+      "horse": "11. Jourama",
+      "price": "6.00",
+      "gd": 7.04,
       "pace": "mid",
-      "fc": 7,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\u2699\ufe0f Gear change"
-      ],
+      "fc": 2,
+      "flags": [],
       "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: its record on today's surface is genuine, not just a raw count; it wins at this track."
+      "why": "Model 28% v market 12% (carded book 136%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
      },
      {
-      "no": 4,
-      "time": "01:50pm",
-      "horse": "8. Tolaga Bay",
-      "price": "5.50",
-      "gd": 6.91,
+      "no": 3,
+      "time": "2:30pm",
+      "horse": "7. She's Loaded",
+      "price": "13.00",
+      "gd": 6.31,
       "pace": "mid",
-      "fc": 5,
+      "fc": 3,
       "flags": [
-       "\ud83d\udeaa Wide gate"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: no single variable stands out; it rates here on the spread of the whole profile."
-     },
-     {
-      "no": 5,
-      "time": "02:25pm",
-      "horse": "3. Blind Raise",
-      "price": "2.50",
-      "gd": 7.74,
-      "pace": "mid",
-      "fc": 7,
-      "flags": [
-       "\u2705 Solid"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; its record on today's surface is genuine, not just a raw count."
-     },
-     {
-      "no": 6,
-      "time": "03:00pm",
-      "horse": "10. Bridal Waltz",
-      "price": "2.25",
-      "gd": 7.86,
-      "pace": "mid",
-      "fc": 8,
-      "flags": [
-       "\u2705 Solid"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: the jockey-trainer pairing is one of the stronger ones in the race; it wins at this track."
-     },
-     {
-      "no": 7,
-      "time": "03:35pm",
-      "horse": "5. Cosmic Crusader",
-      "price": "2.70",
-      "gd": 7.03,
-      "pace": "mid",
-      "fc": 5,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83d\udcaa New stable"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: its record on today's surface is genuine, not just a raw count; it wins at this track."
-     },
-     {
-      "no": 8,
-      "time": "04:15pm",
-      "horse": "3. Saint George",
-      "price": "5.00",
-      "gd": 7.77,
-      "pace": "mid",
-      "fc": 8,
-      "flags": [
-       "\u2705 Solid",
-       "\ud83d\udeaa Wide gate",
-       "\u26a1 Fast sectionals"
-      ],
-      "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: it ran a fast closing sectional when beaten last start; its record on today's surface is genuine, not just a raw count; it wins at this track."
-     },
-     {
-      "no": 8,
-      "time": "04:15pm",
-      "horse": "20. Darkbonee",
-      "price": "11.00",
-      "gd": 7.51,
-      "pace": "mid",
-      "fc": 7,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\u26a1 Fast sectionals"
+       "🐴 Roughie"
       ],
       "value": true,
-      "why": "Backed on price, not on certainty \u2014 the market has it at $11.00 and the blend makes it 10.7%. Reason: it ran a fast closing sectional when beaten last start; its record on today's surface is genuine, not just a raw count; it wins at this track.",
+      "why": "Model 13% v market 6% (carded book 136%). Strongest on the draw and recent form. Edge 1.66 on the carded price; only bet at $7.36 or better in the app.",
       "alt": true
      },
      {
-      "no": 9,
-      "time": "04:50pm",
-      "horse": "6. Lady Shenandoah",
+      "no": 4,
+      "time": "3:00pm",
+      "horse": "6. Weasel Sea",
+      "price": "7.00",
+      "gd": 6.9,
+      "pace": "mid",
+      "fc": 3,
+      "flags": [
+       "⚙️ Gear change"
+      ],
+      "value": true,
+      "why": "Model 24% v market 11% (carded book 130%). Strongest on top of the ratings and recent form. Edge 1.57 on the carded price; only bet at $4.44 or better in the app."
+     },
+     {
+      "no": 5,
+      "time": "3:30pm",
+      "horse": "2. Royal Rendezvous",
+      "price": "4.00",
+      "gd": 6.81,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "Model 16% v market 19% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 6,
+      "time": "4:00pm",
+      "horse": "10. Just Swift",
+      "price": "6.50",
+      "gd": 7.07,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": true,
+      "why": "Model 26% v market 12% (carded book 130%). Strongest on top of the ratings and recent form. Edge 1.53 on the carded price; only bet at $4.33 or better in the app."
+     },
+     {
+      "no": 7,
+      "time": "4:30pm",
+      "horse": "4. Switch Hit",
       "price": "5.00",
       "gd": 7.21,
       "pace": "mid",
-      "fc": 6,
-      "flags": [
-       "\u26a0\ufe0f Marginal",
-       "\ud83c\udf40 Bad luck last start"
-      ],
+      "fc": 4,
+      "flags": [],
       "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: its record on today's surface is genuine, not just a raw count; the spacing between runs is where this horse peaks."
+      "why": "Model 12% v market 15% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
      },
      {
-      "no": 10,
-      "time": "05:25pm",
-      "horse": "17. Cruiserweight",
-      "price": "2.30",
-      "gd": 7.89,
+      "no": 7,
+      "time": "4:30pm",
+      "horse": "5. Determinato",
+      "price": "13.00",
+      "gd": 7.45,
       "pace": "mid",
-      "fc": 8,
+      "fc": 3,
       "flags": [
-       "\u2705 Solid",
-       "\ud83c\udfaf Jockey flag",
-       "\u2699\ufe0f Gear change"
+       "🐴 Roughie"
+      ],
+      "value": true,
+      "why": "Model 15% v market 6% (carded book 130%). Strongest on top of the ratings and recent form. Edge 1.62 on the carded price; only bet at $7.74 or better in the app.",
+      "alt": true
+     },
+     {
+      "no": 8,
+      "time": "5:00pm",
+      "horse": "12. Hell's Diamond",
+      "price": "4.40",
+      "gd": 8.05,
+      "pace": "mid",
+      "fc": 6,
+      "flags": [],
+      "value": true,
+      "why": "Model 37% v market 18% (carded book 128%). Strongest on top of the ratings and the draw. Edge 1.50 on the carded price; only bet at $3.05 or better in the app."
+     }
+    ]
+   },
+   {
+    "id": "tam",
+    "track": "Tamworth",
+    "condition": "Good 4",
+    "rail": "True",
+    "direction": "anticlockwise",
+    "sigMax": 10,
+    "races": [
+     {
+      "no": 1,
+      "time": "1:35pm",
+      "horse": "5. Immortal Rose",
+      "price": "5.00",
+      "gd": 6.99,
+      "pace": "mid",
+      "fc": 5,
+      "flags": [],
+      "value": false,
+      "why": "Model 20% v market 16% (carded book 121%). Strongest on recent form and a distance win. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 1,
+      "time": "1:35pm",
+      "horse": "6. Fabs Cuz",
+      "price": "9.50",
+      "gd": 6.72,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": true,
+      "why": "Model 16% v market 9% (carded book 121%). Strongest on top of the ratings and recent form. Edge 1.38 on the carded price; only bet at $7.79 or better in the app.",
+      "alt": true
+     },
+     {
+      "no": 2,
+      "time": "2:10pm",
+      "horse": "8. Syllable",
+      "price": "2.30",
+      "gd": 7.01,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "Model 25% v market 34% (carded book 129%). Strongest on top of the ratings and campaign timing. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 3,
+      "time": "2:50pm",
+      "horse": "6. Usain Boss",
+      "price": "4.40",
+      "gd": 6.82,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "Model 19% v market 17% (carded book 131%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 3,
+      "time": "2:50pm",
+      "horse": "5. Thirty Degrees",
+      "price": "14.00",
+      "gd": 6.42,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [
+       "🐴 Roughie"
+      ],
+      "value": true,
+      "why": "Model 13% v market 5% (carded book 131%). Strongest on the draw and recent form. Edge 1.60 on the carded price; only bet at $8.50 or better in the app.",
+      "alt": true
+     },
+     {
+      "no": 4,
+      "time": "3:25pm",
+      "horse": "6. Nugget Smart",
+      "price": "4.00",
+      "gd": 7.18,
+      "pace": "mid",
+      "fc": 6,
+      "flags": [],
+      "value": true,
+      "why": "Model 30% v market 19% (carded book 134%). Strongest on a distance win and track form. Edge 1.33 on the carded price; only bet at $3.56 or better in the app."
+     },
+     {
+      "no": 5,
+      "time": "4:05pm",
+      "horse": "8. May The Force",
+      "price": "4.60",
+      "gd": 7.53,
+      "pace": "mid",
+      "fc": 4,
+      "flags": [],
+      "value": false,
+      "why": "Model 25% v market 17% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 6,
+      "time": "4:40pm",
+      "horse": "7. Concoction",
+      "price": "4.60",
+      "gd": 6.62,
+      "pace": "mid",
+      "fc": 3,
+      "flags": [],
+      "value": false,
+      "why": "Model 16% v market 16% (carded book 133%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 7,
+      "time": "5:15pm",
+      "horse": "5. Haney",
+      "price": "4.80",
+      "gd": 7.56,
+      "pace": "mid",
+      "fc": 5,
+      "flags": [],
+      "value": false,
+      "why": "Model 28% v market 16% (carded book 130%). Strongest on the draw and recent form. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 7,
+      "time": "5:15pm",
+      "horse": "7. Miss Mercy",
+      "price": "9.00",
+      "gd": 7.49,
+      "pace": "mid",
+      "fc": 4,
+      "flags": [],
+      "value": true,
+      "why": "Model 26% v market 9% (carded book 130%). Strongest on top of the ratings and the draw. Edge 1.91 on the carded price; only bet at $3.86 or better in the app.",
+      "alt": true
+     }
+    ]
+   },
+   {
+    "id": "bun",
+    "track": "Bunbury",
+    "condition": "Soft 5",
+    "rail": "Out 4m",
+    "direction": "anticlockwise",
+    "sigMax": 10,
+    "races": [
+     {
+      "no": 1,
+      "time": "3:17pm",
+      "horse": "5. Aura Magna",
+      "price": "6.50",
+      "gd": 7.07,
+      "pace": "mid",
+      "fc": 4,
+      "flags": [
+       "📏 Bias runner"
+      ],
+      "value": true,
+      "why": "Model 32% v market 12% (carded book 129%). Strongest on the draw and top of the ratings. Edge 1.88 on the carded price; only bet at $2.86 or better in the app."
+     },
+     {
+      "no": 2,
+      "time": "3:52pm",
+      "horse": "8. Cartier Glow",
+      "price": "4.20",
+      "gd": 7.01,
+      "pace": "mid",
+      "fc": 3,
+      "flags": [
+       "⚙️ Gear change"
+      ],
+      "value": true,
+      "why": "Model 36% v market 19% (carded book 128%). Strongest on top of the ratings and recent form. Edge 1.65 on the carded price; only bet at $2.42 or better in the app."
+     },
+     {
+      "no": 3,
+      "time": "4:27pm",
+      "horse": "12. Ze Deel",
+      "price": "5.50",
+      "gd": 7.3,
+      "pace": "mid",
+      "fc": 3,
+      "flags": [
+       "📏 Bias runner"
+      ],
+      "value": true,
+      "why": "Model 38% v market 14% (carded book 130%). Strongest on top of the ratings and the draw. Edge 1.74 on the carded price; only bet at $2.83 or better in the app."
+     },
+     {
+      "no": 4,
+      "time": "5:04pm",
+      "horse": "10. Boutique Belle",
+      "price": "3.00",
+      "gd": 6.7,
+      "pace": "mid",
+      "fc": 3,
+      "flags": [],
+      "value": false,
+      "why": "Model 16% v market 25% (carded book 132%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 4,
+      "time": "5:04pm",
+      "horse": "5. Mystacheeno",
+      "price": "9.50",
+      "gd": 6.71,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [
+       "📏 Bias runner"
+      ],
+      "value": true,
+      "why": "Model 16% v market 8% (carded book 132%). Strongest on the draw and top of the ratings. Edge 1.45 on the carded price; only bet at $7.08 or better in the app.",
+      "alt": true
+     },
+     {
+      "no": 5,
+      "time": "5:42pm",
+      "horse": "2. Nailed'Em",
+      "price": "5.00",
+      "gd": 6.89,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [
+       "📏 Bias runner"
+      ],
+      "value": true,
+      "why": "Model 39% v market 15% (carded book 132%). Strongest on top of the ratings and the draw. Edge 1.72 on the carded price; only bet at $2.63 or better in the app."
+     },
+     {
+      "no": 6,
+      "time": "6:18pm",
+      "horse": "13. Dynastic Lass",
+      "price": "9.00",
+      "gd": 6.96,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [
+       "📏 Bias runner"
+      ],
+      "value": true,
+      "why": "Model 19% v market 8% (carded book 131%). Strongest on the draw and top of the ratings. Edge 1.56 on the carded price; only bet at $5.76 or better in the app."
+     },
+     {
+      "no": 7,
+      "time": "6:54pm",
+      "horse": "6. Back In The Fold",
+      "price": "11.00",
+      "gd": 6.9,
+      "pace": "mid",
+      "fc": 5,
+      "flags": [],
+      "value": true,
+      "why": "Model 16% v market 7% (carded book 130%). Strongest on recent form and top of the ratings. Edge 1.56 on the carded price; only bet at $7.09 or better in the app."
+     },
+     {
+      "no": 8,
+      "time": "7:30pm",
+      "horse": "7. Surround Me",
+      "price": "3.30",
+      "gd": 7.6,
+      "pace": "mid",
+      "fc": 5,
+      "flags": [
+       "🌧️ Wet winner",
+       "📏 Bias runner"
       ],
       "value": false,
-      "why": "Most likely winner of this race on the numbers. This is the card line, not a bet instruction \u2014 only a VALUE line is staked. Reason: its record on today's surface is genuine, not just a raw count; it wins at this track."
+      "why": "Model 28% v market 23% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
      }
     ]
    }
