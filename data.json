@@ -1,598 +1,179 @@
 {
  "meta": {
   "engine": "TIGER v17",
-  "generated": "2026-09-28",
-  "label": "Mon 28 Sep · Wagga · Kilmore · Tamworth · Bunbury",
-  "sample": "paper-grade Stage 1, carded prices, divisor 0.68, K calibrated to market"
+  "generated": "2026-09-30",
+  "label": "Wed 30 Sep · Doomben",
+  "sample": "Feature Form + paper Stage 1, carded prices, divisor 0.90, K calibrated to market"
  },
  "racing": {
   "meetings": [
    {
-    "id": "wag",
-    "track": "Wagga",
-    "condition": "Good 4",
-    "rail": "Out 7m 1400m-WP, true rest",
-    "direction": "anticlockwise",
-    "sigMax": 10,
+    "id": "doom",
+    "track": "Doomben",
+    "condition": "Soft 5",
+    "rail": "+8m entire",
+    "direction": "clockwise",
+    "sigMax": 12,
     "races": [
      {
       "no": 1,
-      "time": "1:20pm",
-      "horse": "6. Colorado Sun",
-      "price": "3.20",
-      "gd": 6.66,
+      "time": "1:33pm",
+      "horse": "1. Imminent Appeal",
+      "price": "2.50",
+      "gd": 7.1,
       "pace": "mid",
-      "fc": 2,
+      "fc": 4,
       "flags": [
-       "⚙️ Gear change"
+       "📏 Bias runner"
       ],
       "value": false,
-      "why": "Model 18% v market 24% (carded book 129%). Strongest on top of the ratings and the gear change. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 1,
-      "time": "1:20pm",
-      "horse": "4. Ultrasonic",
-      "price": "6.50",
-      "gd": 7.14,
-      "pace": "mid",
-      "fc": 1,
-      "flags": [
-       "⚙️ Gear change"
-      ],
-      "value": true,
-      "why": "Model 28% v market 12% (carded book 129%). Strongest on top of the ratings and the draw. Edge 1.60 on the carded price; only bet at $3.96 or better in the app.",
-      "alt": true
+      "why": "Model 34% v market 32% (carded book 126%). Strongest on top of the ratings and the draw on a +8m rail. Most likely winner after the blend; no edge claimed."
      },
      {
       "no": 2,
-      "time": "1:55pm",
-      "horse": "8. Malinga Missile",
-      "price": "4.00",
-      "gd": 7.0,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": true,
-      "why": "Model 31% v market 19% (carded book 128%). Strongest on top of the ratings and the draw. Edge 1.29 on the carded price; only bet at $3.78 or better in the app."
-     },
-     {
-      "no": 3,
-      "time": "2:35pm",
-      "horse": "8. Chief Of War",
+      "time": "2:08pm",
+      "horse": "1. Super Fair",
       "price": "2.70",
-      "gd": 7.61,
-      "pace": "mid",
-      "fc": 3,
+      "gd": 7.36,
+      "pace": "back",
+      "fc": 5,
       "flags": [
-       "⚙️ Gear change"
+       "📏 Bias runner"
       ],
       "value": false,
-      "why": "Model 36% v market 29% (carded book 128%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
+      "why": "Model 32% v market 29% (carded book 127%). Strongest on top of the ratings and the draw on a +8m rail. Most likely winner after the blend; no edge claimed."
      },
      {
-      "no": 3,
-      "time": "2:35pm",
-      "horse": "6. Midnight Affair",
-      "price": "7.50",
-      "gd": 7.18,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [],
-      "value": true,
-      "why": "Model 23% v market 10% (carded book 128%). Strongest on top of the ratings and the draw. Edge 1.59 on the carded price; only bet at $4.63 or better in the app.",
-      "alt": true
-     },
-     {
-      "no": 4,
-      "time": "3:10pm",
-      "horse": "1. Bombay Boom",
-      "price": "2.70",
-      "gd": 7.32,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [],
-      "value": false,
-      "why": "Model 32% v market 29% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 5,
-      "time": "3:45pm",
-      "horse": "1. Akari Spirit",
-      "price": "3.20",
-      "gd": 7.36,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [],
-      "value": false,
-      "why": "Model 23% v market 24% (carded book 131%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 5,
-      "time": "3:45pm",
-      "horse": "4. Masakari",
-      "price": "10.00",
-      "gd": 6.76,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": true,
-      "why": "Model 12% v market 8% (carded book 131%). Strongest on the draw and top of the ratings. Edge 1.30 on the carded price; only bet at $9.21 or better in the app.",
-      "alt": true
-     },
-     {
-      "no": 6,
-      "time": "4:20pm",
-      "horse": "12. Snitzel Tycoon",
+      "no": 2,
+      "time": "2:08pm",
+      "horse": "5. Power Of Success",
       "price": "4.00",
       "gd": 7.57,
       "pace": "mid",
       "fc": 4,
-      "flags": [],
-      "value": true,
-      "why": "Model 46% v market 19% (carded book 129%). Strongest on top of the ratings and recent form. Edge 1.68 on the carded price; only bet at $2.22 or better in the app."
-     },
-     {
-      "no": 7,
-      "time": "4:55pm",
-      "horse": "5. Bonnie Murringo",
-      "price": "3.00",
-      "gd": 7.2,
-      "pace": "mid",
-      "fc": 5,
-      "flags": [],
-      "value": false,
-      "why": "Model 30% v market 26% (carded book 128%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 7,
-      "time": "4:55pm",
-      "horse": "7. Diamond Frost",
-      "price": "13.00",
-      "gd": 6.25,
-      "pace": "mid",
-      "fc": 2,
       "flags": [
-       "🐴 Roughie"
+       "📏 Bias runner"
       ],
       "value": true,
-      "why": "Model 12% v market 6% (carded book 128%). Strongest on the draw and a distance win. Edge 1.42 on the carded price; only bet at $10.06 or better in the app.",
+      "why": "Model 40% v market 20% (carded book 127%). Strongest on the draw on a +8m rail and top of the ratings. Edge 1.49 on the carded price; only bet at $2.81 or better in the app.",
       "alt": true
-     }
-    ]
-   },
-   {
-    "id": "kil",
-    "track": "Kilmore",
-    "condition": "Good 4",
-    "rail": "True",
-    "direction": "anticlockwise",
-    "sigMax": 10,
-    "races": [
-     {
-      "no": 1,
-      "time": "1:30pm",
-      "horse": "5. Levens Hall",
-      "price": "4.20",
-      "gd": 6.98,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [],
-      "value": false,
-      "why": "Model 20% v market 19% (carded book 128%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
      },
      {
-      "no": 1,
-      "time": "1:30pm",
-      "horse": "1. Bloomin' Rich",
+      "no": 3,
+      "time": "2:43pm",
+      "horse": "4. Headhunter",
+      "price": "2.50",
+      "gd": 7.09,
+      "pace": "back",
+      "fc": 3,
+      "flags": [
+       "📏 Bias runner"
+      ],
+      "value": false,
+      "why": "Model 30% v market 32% (carded book 125%). Strongest on top of the ratings and the draw on a +8m rail. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 4,
+      "time": "3:18pm",
+      "horse": "14. Cavalluna",
+      "price": "6.00",
+      "gd": 6.93,
+      "pace": "mid",
+      "fc": 4,
+      "flags": [
+       "📏 Bias runner"
+      ],
+      "value": false,
+      "why": "Model 23% v market 13% (carded book 125%). Strongest on top of the ratings and the draw on a +8m rail. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 4,
+      "time": "3:18pm",
+      "horse": "6. Ready Set Tergo",
       "price": "10.00",
       "gd": 6.75,
       "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": true,
-      "why": "Model 16% v market 8% (carded book 128%). Strongest on the draw and top of the ratings. Edge 1.47 on the carded price; only bet at $7.20 or better in the app.",
-      "alt": true
-     },
-     {
-      "no": 2,
-      "time": "2:00pm",
-      "horse": "9. Anglais",
-      "price": "2.40",
-      "gd": 7.17,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": false,
-      "why": "Model 34% v market 32% (carded book 132%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 2,
-      "time": "2:00pm",
-      "horse": "4. Galactic Girl",
-      "price": "11.00",
-      "gd": 6.04,
-      "pace": "mid",
-      "fc": 1,
-      "flags": [
-       "⚙️ Gear change"
-      ],
-      "value": true,
-      "why": "Model 11% v market 7% (carded book 132%). Strongest on the draw and top of the ratings. Edge 1.27 on the carded price; only bet at $10.68 or better in the app.",
-      "alt": true
-     },
-     {
-      "no": 3,
-      "time": "2:30pm",
-      "horse": "11. Jourama",
-      "price": "6.00",
-      "gd": 7.04,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": false,
-      "why": "Model 28% v market 12% (carded book 136%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 3,
-      "time": "2:30pm",
-      "horse": "7. She's Loaded",
-      "price": "13.00",
-      "gd": 6.31,
-      "pace": "mid",
       "fc": 3,
       "flags": [
-       "🐴 Roughie"
+       "📏 Bias runner"
       ],
       "value": true,
-      "why": "Model 13% v market 6% (carded book 136%). Strongest on the draw and recent form. Edge 1.66 on the carded price; only bet at $7.36 or better in the app.",
+      "why": "Model 19% v market 8% (carded book 125%). Strongest on top of the ratings and the draw on a +8m rail. Edge 1.70 on the carded price; only bet at $5.41 or better in the app.",
       "alt": true
-     },
-     {
-      "no": 4,
-      "time": "3:00pm",
-      "horse": "6. Weasel Sea",
-      "price": "7.00",
-      "gd": 6.9,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [
-       "⚙️ Gear change"
-      ],
-      "value": true,
-      "why": "Model 24% v market 11% (carded book 130%). Strongest on top of the ratings and recent form. Edge 1.57 on the carded price; only bet at $4.44 or better in the app."
      },
      {
       "no": 5,
-      "time": "3:30pm",
-      "horse": "2. Royal Rendezvous",
+      "time": "3:53pm",
+      "horse": "10. Southern Heiress",
       "price": "4.00",
-      "gd": 6.81,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": false,
-      "why": "Model 16% v market 19% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 6,
-      "time": "4:00pm",
-      "horse": "10. Just Swift",
-      "price": "6.50",
-      "gd": 7.07,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": true,
-      "why": "Model 26% v market 12% (carded book 130%). Strongest on top of the ratings and recent form. Edge 1.53 on the carded price; only bet at $4.33 or better in the app."
-     },
-     {
-      "no": 7,
-      "time": "4:30pm",
-      "horse": "4. Switch Hit",
-      "price": "5.00",
-      "gd": 7.21,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [],
-      "value": false,
-      "why": "Model 12% v market 15% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 7,
-      "time": "4:30pm",
-      "horse": "5. Determinato",
-      "price": "13.00",
       "gd": 7.45,
       "pace": "mid",
-      "fc": 3,
-      "flags": [
-       "🐴 Roughie"
-      ],
-      "value": true,
-      "why": "Model 15% v market 6% (carded book 130%). Strongest on top of the ratings and recent form. Edge 1.62 on the carded price; only bet at $7.74 or better in the app.",
-      "alt": true
-     },
-     {
-      "no": 8,
-      "time": "5:00pm",
-      "horse": "12. Hell's Diamond",
-      "price": "4.40",
-      "gd": 8.05,
-      "pace": "mid",
-      "fc": 6,
-      "flags": [],
-      "value": true,
-      "why": "Model 37% v market 18% (carded book 128%). Strongest on top of the ratings and the draw. Edge 1.50 on the carded price; only bet at $3.05 or better in the app."
-     }
-    ]
-   },
-   {
-    "id": "tam",
-    "track": "Tamworth",
-    "condition": "Good 4",
-    "rail": "True",
-    "direction": "anticlockwise",
-    "sigMax": 10,
-    "races": [
-     {
-      "no": 1,
-      "time": "1:35pm",
-      "horse": "5. Immortal Rose",
-      "price": "5.00",
-      "gd": 6.99,
-      "pace": "mid",
       "fc": 5,
-      "flags": [],
-      "value": false,
-      "why": "Model 20% v market 16% (carded book 121%). Strongest on recent form and a distance win. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 1,
-      "time": "1:35pm",
-      "horse": "6. Fabs Cuz",
-      "price": "9.50",
-      "gd": 6.72,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": true,
-      "why": "Model 16% v market 9% (carded book 121%). Strongest on top of the ratings and recent form. Edge 1.38 on the carded price; only bet at $7.79 or better in the app.",
-      "alt": true
-     },
-     {
-      "no": 2,
-      "time": "2:10pm",
-      "horse": "8. Syllable",
-      "price": "2.30",
-      "gd": 7.01,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": false,
-      "why": "Model 25% v market 34% (carded book 129%). Strongest on top of the ratings and campaign timing. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 3,
-      "time": "2:50pm",
-      "horse": "6. Usain Boss",
-      "price": "4.40",
-      "gd": 6.82,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": false,
-      "why": "Model 19% v market 17% (carded book 131%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 3,
-      "time": "2:50pm",
-      "horse": "5. Thirty Degrees",
-      "price": "14.00",
-      "gd": 6.42,
-      "pace": "mid",
-      "fc": 2,
       "flags": [
-       "🐴 Roughie"
+       "📏 Bias runner"
       ],
       "value": true,
-      "why": "Model 13% v market 5% (carded book 131%). Strongest on the draw and recent form. Edge 1.60 on the carded price; only bet at $8.50 or better in the app.",
-      "alt": true
-     },
-     {
-      "no": 4,
-      "time": "3:25pm",
-      "horse": "6. Nugget Smart",
-      "price": "4.00",
-      "gd": 7.18,
-      "pace": "mid",
-      "fc": 6,
-      "flags": [],
-      "value": true,
-      "why": "Model 30% v market 19% (carded book 134%). Strongest on a distance win and track form. Edge 1.33 on the carded price; only bet at $3.56 or better in the app."
-     },
-     {
-      "no": 5,
-      "time": "4:05pm",
-      "horse": "8. May The Force",
-      "price": "4.60",
-      "gd": 7.53,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [],
-      "value": false,
-      "why": "Model 25% v market 17% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
+      "why": "Model 30% v market 20% (carded book 125%). Strongest on jockey/trainer strike rate and the draw on a +8m rail. Edge 1.25 on the carded price; only bet at $3.98 or better in the app."
      },
      {
       "no": 6,
-      "time": "4:40pm",
-      "horse": "7. Concoction",
-      "price": "4.60",
-      "gd": 6.62,
+      "time": "4:28pm",
+      "horse": "1. Zouper Fund",
+      "price": "3.50",
+      "gd": 7.52,
       "pace": "mid",
-      "fc": 3,
-      "flags": [],
+      "fc": 6,
+      "flags": [
+       "🌧️ Wet specialist",
+       "📏 Bias runner"
+      ],
       "value": false,
-      "why": "Model 16% v market 16% (carded book 133%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
+      "why": "Model 27% v market 23% (carded book 126%). Strongest on jockey/trainer strike rate and the draw on a +8m rail. Most likely winner after the blend; no edge claimed."
+     },
+     {
+      "no": 6,
+      "time": "4:28pm",
+      "horse": "6. Celestial Blaze",
+      "price": "10.00",
+      "gd": 7.54,
+      "pace": "on",
+      "fc": 6,
+      "flags": [
+       "🌧️ Wet specialist",
+       "📏 Bias runner"
+      ],
+      "value": true,
+      "why": "Model 28% v market 8% (carded book 126%). Strongest on top of the ratings and the draw on a +8m rail. Edge 1.98 on the carded price; only bet at $3.99 or better in the app.",
+      "alt": true
      },
      {
       "no": 7,
-      "time": "5:15pm",
-      "horse": "5. Haney",
-      "price": "4.80",
-      "gd": 7.56,
-      "pace": "mid",
-      "fc": 5,
-      "flags": [],
-      "value": false,
-      "why": "Model 28% v market 16% (carded book 130%). Strongest on the draw and recent form. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 7,
-      "time": "5:15pm",
-      "horse": "7. Miss Mercy",
-      "price": "9.00",
-      "gd": 7.49,
+      "time": "5:03pm",
+      "horse": "12. Savage Sequel",
+      "price": "3.50",
+      "gd": 7.31,
       "pace": "mid",
       "fc": 4,
-      "flags": [],
-      "value": true,
-      "why": "Model 26% v market 9% (carded book 130%). Strongest on top of the ratings and the draw. Edge 1.91 on the carded price; only bet at $3.86 or better in the app.",
-      "alt": true
-     }
-    ]
-   },
-   {
-    "id": "bun",
-    "track": "Bunbury",
-    "condition": "Soft 5",
-    "rail": "Out 4m",
-    "direction": "anticlockwise",
-    "sigMax": 10,
-    "races": [
+      "flags": [
+       "📏 Bias runner"
+      ],
+      "value": false,
+      "why": "Model 27% v market 23% (carded book 125%). Strongest on recent form and the draw on a +8m rail. Most likely winner after the blend; no edge claimed."
+     },
      {
-      "no": 1,
-      "time": "3:17pm",
-      "horse": "5. Aura Magna",
+      "no": 7,
+      "time": "5:03pm",
+      "horse": "6. Drinkwater",
       "price": "6.50",
-      "gd": 7.07,
-      "pace": "mid",
-      "fc": 4,
+      "gd": 7.27,
+      "pace": "on",
+      "fc": 6,
       "flags": [
        "📏 Bias runner"
       ],
       "value": true,
-      "why": "Model 32% v market 12% (carded book 129%). Strongest on the draw and top of the ratings. Edge 1.88 on the carded price; only bet at $2.86 or better in the app."
-     },
-     {
-      "no": 2,
-      "time": "3:52pm",
-      "horse": "8. Cartier Glow",
-      "price": "4.20",
-      "gd": 7.01,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [
-       "⚙️ Gear change"
-      ],
-      "value": true,
-      "why": "Model 36% v market 19% (carded book 128%). Strongest on top of the ratings and recent form. Edge 1.65 on the carded price; only bet at $2.42 or better in the app."
-     },
-     {
-      "no": 3,
-      "time": "4:27pm",
-      "horse": "12. Ze Deel",
-      "price": "5.50",
-      "gd": 7.3,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [
-       "📏 Bias runner"
-      ],
-      "value": true,
-      "why": "Model 38% v market 14% (carded book 130%). Strongest on top of the ratings and the draw. Edge 1.74 on the carded price; only bet at $2.83 or better in the app."
-     },
-     {
-      "no": 4,
-      "time": "5:04pm",
-      "horse": "10. Boutique Belle",
-      "price": "3.00",
-      "gd": 6.7,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [],
-      "value": false,
-      "why": "Model 16% v market 25% (carded book 132%). Strongest on top of the ratings and recent form. Most likely winner after the blend; no edge claimed."
-     },
-     {
-      "no": 4,
-      "time": "5:04pm",
-      "horse": "5. Mystacheeno",
-      "price": "9.50",
-      "gd": 6.71,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [
-       "📏 Bias runner"
-      ],
-      "value": true,
-      "why": "Model 16% v market 8% (carded book 132%). Strongest on the draw and top of the ratings. Edge 1.45 on the carded price; only bet at $7.08 or better in the app.",
+      "why": "Model 26% v market 12% (carded book 125%). Strongest on top of the ratings and the draw on a +8m rail. Edge 1.51 on the carded price; only bet at $4.47 or better in the app.",
       "alt": true
-     },
-     {
-      "no": 5,
-      "time": "5:42pm",
-      "horse": "2. Nailed'Em",
-      "price": "5.00",
-      "gd": 6.89,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [
-       "📏 Bias runner"
-      ],
-      "value": true,
-      "why": "Model 39% v market 15% (carded book 132%). Strongest on top of the ratings and the draw. Edge 1.72 on the carded price; only bet at $2.63 or better in the app."
-     },
-     {
-      "no": 6,
-      "time": "6:18pm",
-      "horse": "13. Dynastic Lass",
-      "price": "9.00",
-      "gd": 6.96,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [
-       "📏 Bias runner"
-      ],
-      "value": true,
-      "why": "Model 19% v market 8% (carded book 131%). Strongest on the draw and top of the ratings. Edge 1.56 on the carded price; only bet at $5.76 or better in the app."
-     },
-     {
-      "no": 7,
-      "time": "6:54pm",
-      "horse": "6. Back In The Fold",
-      "price": "11.00",
-      "gd": 6.9,
-      "pace": "mid",
-      "fc": 5,
-      "flags": [],
-      "value": true,
-      "why": "Model 16% v market 7% (carded book 130%). Strongest on recent form and top of the ratings. Edge 1.56 on the carded price; only bet at $7.09 or better in the app."
-     },
-     {
-      "no": 8,
-      "time": "7:30pm",
-      "horse": "7. Surround Me",
-      "price": "3.30",
-      "gd": 7.6,
-      "pace": "mid",
-      "fc": 5,
-      "flags": [
-       "🌧️ Wet winner",
-       "📏 Bias runner"
-      ],
-      "value": false,
-      "why": "Model 28% v market 23% (carded book 130%). Strongest on top of the ratings and the draw. Most likely winner after the blend; no edge claimed."
      }
     ]
    }
