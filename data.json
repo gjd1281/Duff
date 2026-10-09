@@ -56,4 +56,9 @@
     {"no":6,"time":"3:02pm","horse":"5. Darci Lane","price":"4.20","gd":6.35,"pace":"mid","fc":4,"flags":[],"value":false,"why":"Jacob Opperman with Michael Hickmott 3 wins from 20."},
     {"no":7,"time":"3:42pm","horse":"7. Bohemian Angel","price":"4.60","gd":6.7,"pace":"back","fc":3,"flags":["🎯 pairing 6/26"],"value":false,"why":"Noel Callow with Phillip & Tommy Stokes 6 wins from 26."},
     {"no":8,"time":"4:21pm","horse":"9. Maldini","price":"4.80","gd":6.37,"pace":"mid","fc":5,"flags":[],"value":false,"why":"Last start 4 of 10."},
-    {"no":9,"time":"4:58pm","horse":"2. Bred
+    {"no":9,"time":"4:58pm","horse":"2. Bred 'Em All","price":"2.10","gd":6.99,"pace":"mid","fc":8,"flags":[],"value":false,"why":"Last start 9 of 10."}
+   ]}
+  ]
+ },
+ "nrl": {"games":[],"multis":[],"engine":"","round":""}
+}
