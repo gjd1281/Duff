@@ -1,64 +1,60 @@
-{
- "meta": {"engine":"TIGER v17","generated":"2026-10-10","label":"Sat 10 Oct · EF, Rosehill, Caulfield, Morphettville","sample":"Feature Form + paper Stage 1, carded prices"},
- "racing": {
-  "meetings": [
-   {"id":"efm","track":"Eagle Farm","condition":"Soft 5","rail":"True","direction":"anticlockwise","sigMax":13,"races":[
-    {"no":1,"time":"11:43am","horse":"2. Venus Invicta","price":"1.50","gd":5.56,"pace":"mid","fc":2,"flags":["🏃 won trial first-up"],"value":false,"why":"RTG 97."},
-    {"no":2,"time":"12:18pm","horse":"1. Metaphorically","price":"4.40","gd":7.34,"pace":"on","fc":7,"flags":["🌧️ wet specialist"],"value":true,"why":"VALUE edge 1.72, take $2.09+."},
-    {"no":3,"time":"12:53pm","horse":"5. Dr Farthing","price":"4.00","gd":6.83,"pace":"mid","fc":6,"flags":[],"value":false,"why":"Ben Thompson with Pat Webster 0 wins from 2."},
-    {"no":4,"time":"1:28pm","horse":"1. Ashkirk","price":"4.00","gd":7.19,"pace":"back","fc":5,"flags":[],"value":false,"why":"Jett Newman with Matthew Dunn 65 wins from 274."},
-    {"no":4,"time":"1:28pm","horse":"11. I'm Not Here","price":"5.00","gd":7.12,"pace":"mid","fc":4,"flags":[],"value":true,"why":"VALUE edge 1.27, take $4.81+.","alt":true},
-    {"no":5,"time":"2:05pm","horse":"8. Samarelle","price":"2.50","gd":6.77,"pace":"back","fc":6,"flags":["🌧️ wet specialist"],"value":false,"why":"Anna Roper with John O'shea & Tom Charlton 4 wins from 23."},
-    {"no":6,"time":"2:43pm","horse":"8. Get Ready Lass","price":"3.30","gd":7.05,"pace":"mid","fc":7,"flags":["🌧️ wet specialist","🎯 pairing 9/44"],"value":false,"why":"Mark Du Plessis with Chris Anderson 9 wins from 44."},
-    {"no":7,"time":"3:20pm","horse":"1. Lucky Pat","price":"4.80","gd":7.23,"pace":"mid","fc":7,"flags":["🎯 pairing 5/14","🏃 won trial first-up"],"value":false,"why":"Jace Mcmurray with Pat Webster 5 wins from 14."},
-    {"no":8,"time":"4:00pm","horse":"9. Sir Winnie","price":"3.30","gd":6.83,"pace":"on","fc":5,"flags":[],"value":false,"why":"Last start 2 of 7."},
-    {"no":8,"time":"4:00pm","horse":"1. Golden Cross","price":"7.50","gd":7.07,"pace":"back","fc":6,"flags":["🌧️ wet specialist","🎯 pairing 4/11"],"value":true,"why":"VALUE edge 1.74, take $3.67+.","alt":true},
-    {"no":9,"time":"4:37pm","horse":"3. Amplify","price":"3.00","gd":6.63,"pace":"back","fc":6,"flags":[],"value":false,"why":"Last start 2 of 6."},
-    {"no":10,"time":"5:15pm","horse":"2. Fukubana","price":"3.60","gd":7.37,"pace":"back","fc":7,"flags":["🌧️ wet specialist"],"value":false,"why":"Andrew Mallyon with Matthew Dunn 106 wins from 497."},
-    {"no":10,"time":"5:15pm","horse":"1. Esjay","price":"5.50","gd":7.26,"pace":"mid","fc":5,"flags":["🌧️ wet specialist","🎯 pairing 5/14"],"value":true,"why":"VALUE edge 1.26, take $5.39+.","alt":true}
-   ]},
-   {"id":"rose","track":"Rosehill","condition":"Good 4","rail":"+2m entire","direction":"clockwise","sigMax":13,"races":[
-    {"no":1,"time":"11:35am","horse":"2. Miss Spacegirl","price":"4.80","gd":6.53,"pace":"mid","fc":3,"flags":[],"value":false,"why":"Last start 2 of 10."},
-    {"no":2,"time":"12:10pm","horse":"5. Ocean Tsunami","price":"5.50","gd":6.93,"pace":"mid","fc":5,"flags":["🎯 pairing 11/43"],"value":false,"why":"Izzy Neale with Scott Singleton 11 wins from 43."},
-    {"no":2,"time":"12:10pm","horse":"13. Costalivin","price":"6.50","gd":7.01,"pace":"on","fc":6,"flags":[],"value":true,"why":"VALUE edge 1.35, take $5.47+.","alt":true},
-    {"no":3,"time":"12:45pm","horse":"9. Barrengarry","price":"3.00","gd":7.67,"pace":"mid","fc":8,"flags":[],"value":false,"why":"Zac Lloyd with Joseph Ible 7 wins from 20."},
-    {"no":4,"time":"1:20pm","horse":"11. Proxima Dea","price":"4.20","gd":7.56,"pace":"mid","fc":9,"flags":[],"value":true,"why":"VALUE edge 1.55, take $2.53+."},
-    {"no":5,"time":"1:55pm","horse":"11. Chuchichaschtli","price":"3.30","gd":6.71,"pace":"mid","fc":3,"flags":[],"value":false,"why":"Last start 1 of 9."},
-    {"no":6,"time":"2:35pm","horse":"1. Paradoxium","price":"2.30","gd":7.24,"pace":"on","fc":8,"flags":[],"value":false,"why":"Jason Collett with Bjorn Baker 132 wins from 639."},
-    {"no":7,"time":"3:10pm","horse":"1. Lindermann","price":"1.85","gd":6.51,"pace":"mid","fc":7,"flags":[],"value":false,"why":"Nash Rawiller / Chris Waller strike rates."},
-    {"no":7,"time":"3:10pm","horse":"2. Eliyass","price":"8.00","gd":6.73,"pace":"on","fc":6,"flags":[],"value":true,"why":"VALUE edge 1.90, take $3.24+.","alt":true},
-    {"no":8,"time":"3:50pm","horse":"2. Headley Grange","price":"5.50","gd":7.49,"pace":"mid","fc":9,"flags":[],"value":true,"why":"VALUE edge 1.41, take $4.20+."},
-    {"no":9,"time":"4:25pm","horse":"8. Gerringong","price":"5.00","gd":6.93,"pace":"mid","fc":4,"flags":["🏃 won trial first-up"],"value":false,"why":"Tyler Schiller with Chris & Corey Munce 1 win from 1."},
-    {"no":10,"time":"5:05pm","horse":"9. Fierce","price":"2.50","gd":6.71,"pace":"mid","fc":5,"flags":[],"value":false,"why":"Tyler Schiller with M, W & J Hawkes."},
-    {"no":10,"time":"5:05pm","horse":"13. Ellipsis","price":"7.00","gd":6.78,"pace":"on","fc":6,"flags":[],"value":true,"why":"VALUE edge 1.28, take $6.61+.","alt":true}
-   ]},
-   {"id":"caul","track":"Caulfield","condition":"Good 4","rail":"True","direction":"anticlockwise","sigMax":13,"races":[
-    {"no":1,"time":"11:15am","horse":"6. Veyepee","price":"2.80","gd":7.09,"pace":"mid","fc":4,"flags":[],"value":false,"why":"Blake Shinn with Anthony & Sam Freedman 17 wins from 69."},
-    {"no":2,"time":"11:50am","horse":"5. Sequinned","price":"3.20","gd":6.5,"pace":"mid","fc":4,"flags":[],"value":false,"why":"Last start 5 of 9."},
-    {"no":2,"time":"11:50am","horse":"2. Moana Spirit","price":"8.00","gd":7.08,"pace":"back","fc":8,"flags":["⚙️ blinkers first time","🏃 won trial first-up"],"value":true,"why":"VALUE edge 1.91, take $3.21+.","alt":true},
-    {"no":3,"time":"12:25pm","horse":"1. Surfin' Bird","price":"3.50","gd":7.71,"pace":"on","fc":9,"flags":[],"value":true,"why":"VALUE edge 1.39, take $2.71+."},
-    {"no":4,"time":"1:00pm","horse":"12. Pinhole","price":"3.60","gd":6.42,"pace":"back","fc":4,"flags":[],"value":false,"why":"James McDonald / Chris Waller strike rates."},
-    {"no":4,"time":"1:00pm","horse":"3. Future History","price":"6.50","gd":6.66,"pace":"on","fc":5,"flags":["🎯 pairing 3/10"],"value":true,"why":"VALUE edge 1.27, take $6.27+.","alt":true},
-    {"no":5,"time":"1:35pm","horse":"7. Bridal Waltz","price":"2.70","gd":7.46,"pace":"on","fc":9,"flags":[],"value":false,"why":"Last start 2 of 10."},
-    {"no":6,"time":"2:15pm","horse":"1. Jigsaw","price":"2.30","gd":7.75,"pace":"on","fc":11,"flags":["🏃 won trial first-up"],"value":false,"why":"Last start 1 of 13."},
-    {"no":6,"time":"2:15pm","horse":"2. Rey Magnerio","price":"4.40","gd":7.63,"pace":"mid","fc":6,"flags":[],"value":true,"why":"VALUE edge 1.34, take $3.75+.","alt":true},
-    {"no":7,"time":"2:50pm","horse":"6. Sheza Alibi","price":"1.35","gd":7.33,"pace":"mid","fc":8,"flags":[],"value":false,"why":"Last start 1 of 10."},
-    {"no":8,"time":"3:30pm","horse":"2. Warwoven","price":"2.20","gd":6.96,"pace":"mid","fc":4,"flags":[],"value":false,"why":"RTG 100."},
-    {"no":9,"time":"4:10pm","horse":"13. Changing Colours","price":"7.50","gd":7.3,"pace":"mid","fc":7,"flags":[],"value":true,"why":"VALUE edge 1.36, take $6.21+."},
-    {"no":10,"time":"4:45pm","horse":"12. Harry's Yacht","price":"5.50","gd":6.87,"pace":"back","fc":5,"flags":[],"value":false,"why":"Ben Allen with L & T Corstens & W Larkin 34 wins from 176."}
-   ]},
-   {"id":"mor","track":"Morphettville","condition":"Good 4","rail":"+6m entire","direction":"anticlockwise","sigMax":13,"races":[
-    {"no":1,"time":"12:02pm","horse":"1. Ole Go","price":"1.85","gd":6.88,"pace":"on","fc":7,"flags":["🏃 won trial first-up"],"value":false,"why":"Todd Pannell with Michael Hickmott 76 wins from 368."},
-    {"no":2,"time":"12:37pm","horse":"12. Gift Of Silence","price":"5.00","gd":6.75,"pace":"back","fc":5,"flags":[],"value":true,"why":"VALUE edge 1.59, take $2.87+."},
-    {"no":3,"time":"1:12pm","horse":"2. Golden Cloud","price":"4.20","gd":6.8,"pace":"back","fc":6,"flags":["🎯 pairing 7/24"],"value":false,"why":"Jake Toeroek with David Jolly & Justin Potter 7 wins from 24."},
-    {"no":4,"time":"1:47pm","horse":"2. Dirty Deal","price":"6.50","gd":6.41,"pace":"mid","fc":3,"flags":["🎯 pairing 4/16"],"value":true,"why":"VALUE edge 1.49, take $4.44+."},
-    {"no":5,"time":"2:27pm","horse":"8. Uptown Monk","price":"2.90","gd":6.19,"pace":"back","fc":2,"flags":[],"value":false,"why":"Last start 2 of 15."},
-    {"no":6,"time":"3:02pm","horse":"5. Darci Lane","price":"4.20","gd":6.35,"pace":"mid","fc":4,"flags":[],"value":false,"why":"Jacob Opperman with Michael Hickmott 3 wins from 20."},
-    {"no":7,"time":"3:42pm","horse":"7. Bohemian Angel","price":"4.60","gd":6.7,"pace":"back","fc":3,"flags":["🎯 pairing 6/26"],"value":false,"why":"Noel Callow with Phillip & Tommy Stokes 6 wins from 26."},
-    {"no":8,"time":"4:21pm","horse":"9. Maldini","price":"4.80","gd":6.37,"pace":"mid","fc":5,"flags":[],"value":false,"why":"Last start 4 of 10."},
-    {"no":9,"time":"4:58pm","horse":"2. Bred 'Em All","price":"2.10","gd":6.99,"pace":"mid","fc":8,"flags":[],"value":false,"why":"Last start 9 of 10."}
-   ]}
-  ]
- },
- "nrl": {"games":[],"multis":[],"engine":"","round":""}
-}
+{"meta":{"engine":"TIGER v17","generated":"2026-10-10","label":"Sat 10 Oct · live prices 10:24","sample":"Sportsbet live, all 4 meetings"},"racing":{"meetings":[
+{"id":"efm","track":"Eagle Farm","condition":"Soft 5","rail":"True","direction":"anticlockwise","sigMax":13,"races":[
+{"no":1,"time":"11:43am","horse":"2. Venus Invicta","price":"1.35","gd":5.56,"pace":"mid","fc":2,"flags":["🏃 won trial first-up"],"value":false},
+{"no":1,"time":"11:43am","horse":"1. Highwire Queen","price":"3.50","gd":5.96,"pace":"mid","fc":2,"flags":["🏃 won trial first-up"],"value":true,"why":"Edge 1.32, take $3.09+.","alt":true},
+{"no":2,"time":"12:18pm","horse":"1. Metaphorically","price":"3.80","gd":7.34,"pace":"on","fc":7,"flags":["🌧️ wet specialist"],"value":true,"why":"Edge 1.60, take $2.13+."},
+{"no":3,"time":"12:53pm","horse":"5. Dr Farthing","price":"3.30","gd":6.8,"pace":"mid","fc":6,"flags":[],"value":false},
+{"no":3,"time":"12:53pm","horse":"1. Puff 'N' Harry","price":"7.50","gd":6.53,"pace":"mid","fc":3,"flags":[],"value":true,"why":"Edge 1.29, take $7.04+.","alt":true},
+{"no":4,"time":"1:28pm","horse":"1. Ashkirk","price":"4.00","gd":7.16,"pace":"back","fc":5,"flags":[],"value":false},
+{"no":4,"time":"1:28pm","horse":"11. I'm Not Here","price":"5.00","gd":7.09,"pace":"mid","fc":4,"flags":[],"value":true,"why":"Edge 1.30, take $4.55+.","alt":true},
+{"no":5,"time":"2:05pm","horse":"8. Samarelle","price":"2.00","gd":6.72,"pace":"back","fc":6,"flags":["🌧️ wet specialist"],"value":false},
+{"no":6,"time":"2:43pm","horse":"8. Get Ready Lass","price":"2.70","gd":7.02,"pace":"mid","fc":7,"flags":["🌧️ wet specialist","🎯 pairing 9/44"],"value":false},
+{"no":7,"time":"3:20pm","horse":"1. Lucky Pat","price":"4.00","gd":7.22,"pace":"mid","fc":7,"flags":["🎯 pairing 5/14","🏃 won trial first-up"],"value":false},
+{"no":8,"time":"4:00pm","horse":"9. Sir Winnie","price":"3.00","gd":6.83,"pace":"on","fc":5,"flags":[],"value":false},
+{"no":8,"time":"4:00pm","horse":"1. Golden Cross","price":"7.00","gd":7.07,"pace":"back","fc":6,"flags":["🌧️ wet specialist","🎯 pairing 4/11"],"value":true,"why":"Edge 1.75, take $3.37+.","alt":true},
+{"no":9,"time":"4:37pm","horse":"3. Amplify","price":"3.30","gd":6.63,"pace":"back","fc":6,"flags":[],"value":false},
+{"no":10,"time":"5:15pm","horse":"2. Fukubana","price":"3.60","gd":7.37,"pace":"back","fc":7,"flags":["🌧️ wet specialist"],"value":false},
+{"no":10,"time":"5:15pm","horse":"1. Esjay","price":"5.50","gd":7.26,"pace":"mid","fc":5,"flags":["🌧️ wet specialist","🎯 pairing 5/14"],"value":true,"why":"Edge 1.28, take $5.25+.","alt":true}
+]},
+{"id":"rose","track":"Rosehill","condition":"Good 4","rail":"+2m entire","direction":"clockwise","sigMax":13,"races":[
+{"no":1,"time":"11:35am","horse":"1. Felix Majestic","price":"3.50","gd":6.56,"pace":"on","fc":5,"flags":[],"value":false},
+{"no":1,"time":"11:35am","horse":"7. Magical Moments","price":"8.00","gd":6.83,"pace":"on","fc":5,"flags":["🎯 pairing 6/30"],"value":true,"why":"Edge 1.52, take $5.26+.","alt":true},
+{"no":2,"time":"12:10pm","horse":"13. Costalivin","price":"4.80","gd":7.03,"pace":"on","fc":6,"flags":[],"value":false},
+{"no":3,"time":"12:45pm","horse":"9. Barrengarry","price":"2.90","gd":7.61,"pace":"mid","fc":7,"flags":[],"value":true,"why":"Edge 1.27, take $2.76+."},
+{"no":4,"time":"1:20pm","horse":"11. Proxima Dea","price":"3.80","gd":7.55,"pace":"mid","fc":9,"flags":[],"value":true,"why":"Edge 1.52, take $2.37+."},
+{"no":5,"time":"1:55pm","horse":"11. Chuchichaschtli","price":"3.00","gd":6.69,"pace":"mid","fc":3,"flags":[],"value":false},
+{"no":6,"time":"2:35pm","horse":"1. Paradoxium","price":"2.35","gd":7.24,"pace":"on","fc":8,"flags":[],"value":false},
+{"no":7,"time":"3:10pm","horse":"1. Lindermann","price":"1.80","gd":6.51,"pace":"mid","fc":7,"flags":[],"value":false},
+{"no":8,"time":"3:50pm","horse":"2. Headley Grange","price":"5.00","gd":7.48,"pace":"mid","fc":9,"flags":[],"value":true,"why":"Edge 1.38, take $3.99+."},
+{"no":9,"time":"4:25pm","horse":"8. Gerringong","price":"4.00","gd":6.93,"pace":"mid","fc":4,"flags":["🏃 won trial first-up"],"value":false},
+{"no":10,"time":"5:05pm","horse":"9. Fierce","price":"2.40","gd":6.69,"pace":"mid","fc":5,"flags":[],"value":false}
+]},
+{"id":"caul","track":"Caulfield","condition":"Good 4","rail":"True","direction":"anticlockwise","sigMax":13,"races":[
+{"no":1,"time":"11:15am","horse":"6. Veyepee","price":"2.50","gd":7.1,"pace":"mid","fc":4,"flags":[],"value":false},
+{"no":1,"time":"11:15am","horse":"11. Ichnusa","price":"7.50","gd":6.93,"pace":"back","fc":5,"flags":["⚙️ winkers first time"],"value":true,"why":"Edge 1.30, take $6.94+.","alt":true},
+{"no":2,"time":"11:50am","horse":"5. Sequinned","price":"3.10","gd":6.5,"pace":"mid","fc":4,"flags":[],"value":false},
+{"no":2,"time":"11:50am","horse":"2. Moana Spirit","price":"8.00","gd":7.08,"pace":"back","fc":8,"flags":["⚙️ blinkers first time","🏃 won trial first-up"],"value":true,"why":"Edge 1.91, take $3.18+.","alt":true},
+{"no":3,"time":"12:25pm","horse":"1. Surfin' Bird","price":"3.80","gd":7.71,"pace":"on","fc":9,"flags":[],"value":true,"why":"Edge 1.47, take $2.60+."},
+{"no":4,"time":"1:00pm","horse":"12. Pinhole","price":"3.60","gd":6.41,"pace":"back","fc":4,"flags":[],"value":false},
+{"no":4,"time":"1:00pm","horse":"3. Future History","price":"8.00","gd":6.64,"pace":"on","fc":5,"flags":["🎯 pairing 3/10"],"value":true,"why":"Edge 1.48, take $5.58+.","alt":true},
+{"no":5,"time":"1:35pm","horse":"7. Bridal Waltz","price":"2.35","gd":7.44,"pace":"on","fc":9,"flags":[],"value":false},
+{"no":6,"time":"2:15pm","horse":"1. Jigsaw","price":"2.20","gd":7.75,"pace":"on","fc":11,"flags":["🏃 won trial first-up"],"value":false},
+{"no":6,"time":"2:15pm","horse":"2. Rey Magnerio","price":"4.60","gd":7.63,"pace":"mid","fc":6,"flags":[],"value":true,"why":"Edge 1.35, take $3.84+.","alt":true},
+{"no":7,"time":"2:50pm","horse":"6. Sheza Alibi","price":"1.35","gd":7.33,"pace":"mid","fc":8,"flags":[],"value":false},
+{"no":8,"time":"3:30pm","horse":"2. Warwoven","price":"2.30","gd":6.96,"pace":"mid","fc":4,"flags":[],"value":false},
+{"no":9,"time":"4:10pm","horse":"2. Lady Shenandoah","price":"5.50","gd":6.91,"pace":"mid","fc":6,"flags":[],"value":false},
+{"no":9,"time":"4:10pm","horse":"13. Changing Colours","price":"8.00","gd":7.3,"pace":"mid","fc":7,"flags":[],"value":true,"why":"Edge 1.43, take $5.94+.","alt":true},
+{"no":10,"time":"4:45pm","horse":"12. Harry's Yacht","price":"6.00","gd":6.87,"pace":"back","fc":5,"flags":[],"value":false}
+]},
+{"id":"mor","track":"Morphettville","condition":"Good 4","rail":"+6m entire","direction":"anticlockwise","sigMax":13,"races":[
+{"no":1,"time":"12:02pm","horse":"1. Ole Go","price":"1.65","gd":6.88,"pace":"on","fc":7,"flags":["🏃 won trial first-up"],"value":false},
+{"no":2,"time":"12:37pm","horse":"12. Gift Of Silence","price":"5.00","gd":6.74,"pace":"back","fc":5,"flags":[],"value":true,"why":"Edge 1.75, take $2.34+."},
+{"no":3,"time":"1:12pm","horse":"2. Golden Cloud","price":"3.50","gd":6.82,"pace":"back","fc":6,"flags":["🎯 pairing 7/24"],"value":false},
+{"no":4,"time":"1:47pm","horse":"2. Dirty Deal","price":"3.60","gd":6.41,"pace":"mid","fc":3,"flags":["🎯 pairing 4/16"],"value":false},
+{"no":4,"time":"1:47pm","horse":"4. Winning All Round","price":"6.50","gd":6.33,"pace":"on","fc":2,"flags":[],"value":true,"why":"Edge 1.49, take $4.45+.","alt":true},
+{"no":5,"time":"2:27pm","horse":"8. Uptown Monk","price":"2.90","gd":6.19,"pace":"back","fc":2,"flags":[],"value":false},
+{"no":6,"time":"3:02pm","horse":"5. Darci Lane","price":"4.20","gd":6.35,"pace":"mid","fc":4,"flags":[],"value":false},
+{"no":7,"time":"3:42pm","horse":"7. Bohemian Angel","price":"4.40","gd":6.7,"pace":"back","fc":3,"flags":["🎯 pairing 6/26"],"value":false},
+{"no":8,"time":"4:21pm","horse":"10. Shady Thinker","price":"3.60","gd":6.07,"pace":"mid","fc":2,"flags":[],"value":false},
+{"no":9,"time":"4:58pm","horse":"2. Bred 'Em All","price":"1.90","gd":6.98,"pace":"mid","fc":8,"flags":[],"value":false}
+]}
