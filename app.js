@@ -1,3 +1,21 @@
+/* =====================================================================
+   DUFFS WAY — app.js  (TIGER V21 card layout, 22 Nov 2026)
+   WHAT: renders data.json into the racing card (and the NRL view).
+   WHY THIS VERSION:
+     - ONE CARD PER RACE: the TOP pick and the GEM pick sit on the same card,
+       each with its own W/P/L buttons. Multis sit at the foot of each meeting.
+     - VALUE IS OFF THE CARD: no VALUE tab, no VALUE lines. When the TOP pick
+       also clears the 1.25 edge test it carries a small "EDGE" tag instead.
+     - DAY / NIGHT toggle (top right), remembered on this phone.
+     - BACKWARD COMPATIBLE: an old-format data.json (separate "<id>-gem",
+       "<id>-multi", "all-multi" blocks and alt VALUE lines) is folded into
+       the new layout on load, so nothing breaks before the new data.json ships.
+   NEW data.json KEYS (all optional):
+     race.gem  = {horse, price, why, fc}      GEM pick for that race
+     race.stake = true                        TOP also cleared the edge test
+     meeting.multi = {legs:[{no,horse,price}], odds}
+     racing.combined = {legs:[{track,no,horse,price}], odds}
+   ===================================================================== */
 var D={meta:{engine:"TIGER v12",generated:"",label:"data.json not loaded",sample:true},racing:{meetings:[]},nrl:{games:[],multis:[]}},mi=0,vw="card",R={};
 var $=function(s){return document.querySelector(s)};
 var E=function(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
@@ -46,20 +64,36 @@ else{$("#pV").textContent="PACE LOCKED \u2014 DRY";$("#pD").textContent="Raw eng
 function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet,r),c=v.c,id=m.id+"-"+r.no+(r.alt?"-a":""),cu=R[id]||"",fl=fsort(r.flags),hf=(r.why||fl.length>=2)?1:0,tp=fl.slice(0,3),sx=m.sigMax||15;
 return'<article class="card '+c+'"><div class="row"><div class="no" style="color:#0A0F08;background:#F5FF00;text-shadow:none;font-weight:800;box-shadow:0 0 10px rgba(245,255,0,.55);border-color:transparent">R'+r.no+'</div><div>'
 +(lbl?'<div class="meet">'+E(m.track)+'</div>':'')
-+'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span>'+(r.time?'<span class="tag">'+E(r.time)+'</span>':'')+'<span class="tag">TAB</span><span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
++'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span>'+(r.time?'<span class="tag">'+E(r.time)+'</span>':'')+'<span class="tag">TAB</span>'+((r.stake||r.value)?'<span class="tag" data-emo style="color:#FFB43D;border-color:rgba(255,180,61,.5)">\uD83E\uDDE0 EDGE</span>':'')+'<span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
 +'<div class="sig"><span class="em">'+tier(r.fc)+fire(r.price)+'</span><span class="ct">SIG '+(r.fc||0)+'/'+sx+'</span></div>'
-+(hf?'<div class="ftop" style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">'+tp.map(function(f){return'<span style="font:600 10px/1.4 ui-monospace,monospace;color:#00E5FF;background:rgba(0,229,255,.07);border:1px solid rgba(0,229,255,.3);border-radius:20px;padding:2px 8px">'+E(f)+'</span>'}).join("")+'</div>':'')
++(hf?'<div class="ftop" style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">'+tp.map(function(f){return'<span data-emo style="font:600 10px/1.4 ui-monospace,monospace;color:#00E5FF;background:rgba(0,229,255,.07);border:1px solid rgba(0,229,255,.3);border-radius:20px;padding:2px 8px">'+E(f)+'</span>'}).join("")+'</div>':'')
 +(hf?'<div class="flagpanel" id="fp-'+id+'" hidden style="margin-top:8px;padding:9px 11px;font-size:12px;color:#CFE8DE;background:rgba(0,0,0,.25);border-top:1px dashed rgba(0,229,255,.25)">'+(r.why?'<div style="font:400 12.5px/1.65 -apple-system,sans-serif;color:#CFE8DE">'+E(r.why)+'</div>':fl.map(function(f){return'<div style="margin:0 0 8px"><b style="color:#00E5FF;font:700 11px/1.5 ui-monospace,monospace">'+E(f)+'</b><br><span style="font:400 11.5px/1.55 -apple-system,sans-serif;color:#9FC4B6">'+E(fx(f,r))+'</span></div>'}).join(""))+'<div style="margin-top:2px;padding-top:6px;border-top:1px solid rgba(255,255,255,.07);font:500 9.5px/1.45 ui-monospace,monospace;color:#6E9C8C">Why this one, in our words \u2014 not a promise it wins.</div></div>':'')
 +'</div><div class="gd"><span style="display:block;font:700 8px \'Barlow Condensed\',sans-serif;letter-spacing:.24em;color:#6E9C8C;margin-bottom:3px">GD SCORE</span><b style="font-size:20px" class="'+(a.d>0?"up":a.d<0?"dn":"")+'">'+a.g.toFixed(2)+'</b>'
 +(hf?'<button class="flagbtn" data-t="'+id+'" style="display:block;margin-top:7px;background:#00E5FF;border:0;color:#0A0F08;font:800 10px/1 ui-monospace,monospace;letter-spacing:.06em;border-radius:20px;padding:7px 11px;box-shadow:0 0 12px rgba(0,229,255,.45);cursor:pointer">\uD83D\uDEA9 FLAGS \u25BE</button>':'')
 +(hf?'<div class="rundown" style="margin-top:5px;font:500 9.5px/1.3 ui-monospace,monospace;color:#6E9C8C;text-align:right;max-width:112px">Straight from the numbers, no hype.</div>':'')
 +'</div></div>'
-+'<div class="res" data-id="'+id+'" data-price="'+E(r.price)+'"><button data-v="W" class="'+(cu=="W"?"on":"")+'">W</button><button data-v="P" class="'+(cu=="P"?"on":"")+'">P</button><button data-v="L" class="'+(cu=="L"?"on":"")+'">L</button></div></article>'}
++'<div class="res" data-id="'+id+'" data-price="'+E(r.price)+'"><button data-v="W" class="'+(cu=="W"?"on":"")+'">W</button><button data-v="P" class="'+(cu=="P"?"on":"")+'">P</button><button data-v="L" class="'+(cu=="L"?"on":"")+'">L</button></div>'
++gemrow(r,m)+'</article>'}
+/* ---- GEM ROW ----
+   The race's GEM pick, shown inside the same card as the TOP pick.
+   Own W/P/L id (<meeting>-<race>-g) so GEM results are tracked separately. */
+function gemrow(r,m){var g=r.gem;if(!g)return"";var id=m.id+"-"+r.no+"-g",cu=R[id]||"";
+return'<div style="margin-top:10px;padding:9px 11px;border-top:1px dashed rgba(201,162,255,.35);background:rgba(201,162,255,.06)">'
++'<div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px"><div><span data-emo style="font:800 10px/1 ui-monospace,monospace;letter-spacing:.08em;color:#C9A2FF">\uD83D\uDC8E GEM</span> '
++'<b style="font-size:15px">'+E(g.horse)+'</b></div><span class="pr">'+E(g.price)+'</span></div>'
++(g.why?'<div style="margin-top:4px;font:400 11.5px/1.5 -apple-system,sans-serif;color:#9FC4B6">'+E(g.why)+'</div>':'')
++'<div class="res" data-id="'+id+'" data-price="'+E(g.price)+'" style="margin-top:6px"><button data-v="W" class="'+(cu=="W"?"on":"")+'">W</button><button data-v="P" class="'+(cu=="P"?"on":"")+'">P</button><button data-v="L" class="'+(cu=="L"?"on":"")+'">L</button></div></div>'}
+/* ---- MULTI CARD ----
+   One block at the foot of a meeting: its 3-leg multi, then the day's combined multi. */
+function multicard(title,mu,showTrack){if(!mu||!mu.legs||!mu.legs.length)return"";
+return'<article class="card"><div class="meet">'+E(title)+(mu.odds?' \u00b7 \u2248 '+E(mu.odds):'')+'</div>'
++mu.legs.map(function(l){return'<div class="sub" style="margin-top:4px"><span class="tag">'+(showTrack&&l.track?E(l.track)+' ':'')+'R'+E(l.no)+'</span> '+E(l.horse)+' <span class="pr">'+E(l.price)+'</span></div>'}).join("")+'</article>'}
 function racing(){var b=$("#rb");
-if(vw=="rough"){var out="",any=0;D.racing.meetings.forEach(function(m){(m.races||[]).forEach(function(r){if(rough(r)){out+=slat(r,m,1);any++}})});
+if(vw=="rough"){var out="",any=0;D.racing.meetings.forEach(function(m){(m.races||[]).forEach(function(r){if(!r.alt&&rough(r)){out+=slat(r,m,1);any++}})});
 b.innerHTML=any?out:'<p style="color:#6E9C8C">No runners at $12 or longer across today\u2019s meetings.</p>';strike();return}
 var m=D.racing.meetings[mi];if(!m){b.innerHTML='<p style="color:#6E9C8C">No meeting data.</p>';return}
-b.innerHTML=(m.races||[]).filter(function(r){return !r.alt}).map(function(r){return slat(r,m,0)}).join("");strike()}
+b.innerHTML=(m.races||[]).filter(function(r){return !r.alt}).map(function(r){return slat(r,m,0)}).join("")
++multicard(m.track+" \uD83D\uDCB0 MULTI",m.multi,0)+multicard("\uD83D\uDCB0 COMBINED MULTI",D.racing.combined,1);strike()}
 function nrl(){var n=D.nrl||{},g=(n.games||[]).slice().sort(function(a,b){return b.gd-a.gd}),t3={};g.slice(0,3).forEach(function(x){t3[x.home+x.away]=1});
 $("#nb").innerHTML='<div class="sec" style="margin-top:2px">'+E(n.engine||"GD ALGO V1")+" \u00b7 "+E(n.round||"")+'</div>'+(g.map(function(x){var tp=t3[x.home+x.away],ph=x.pick==x.home;
 return'<article class="card'+(tp?" win":"")+'"><div class="row" style="grid-template-columns:1fr auto"><div><div class="hn">'+(ph?'<span style="color:#FFB43D">'+E(x.home)+'</span>':E(x.home))+" v "+(!ph?'<span style="color:#FFB43D">'+E(x.away)+'</span>':E(x.away))+'</div><div class="sub"><span class="tag">'+E(x.line)+" "+E(x.odds)+'</span><span class="tag">TRY '+E(x.tryScorer)+'</span>'+(tp?'<span class="meet">TOP 3</span>':"")+'</div></div><div class="gd"><b>'+x.gd.toFixed(2)+'</b></div></div></article>'}).join("")||'<p style="color:#6E9C8C">No games in data.json</p>')
@@ -85,7 +119,25 @@ $("#rst").onclick=function(){R={};sv();racing();strike()};
 fetch("data.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){D=d}).catch(function(){$("#bn").hidden=false;$("#bn").textContent="data.json didn\u2019t load."}).then(function(){
 $("#stamp").innerHTML=E(D.meta.engine||"TIGER v12")+"<br>"+E(D.meta.generated||"");
 if(D.meta.sample){$("#bn").hidden=false;$("#bn").textContent=D.meta.label||"Sample card"}
-ld();chips();cond();racing();nrl();strike()});
+fold();ld();chips();cond();racing();nrl();strike()});
+/* ---- FOLD ----
+   Turns an old-format data.json (14-21 Nov style) into the one-card layout:
+   "<id>-gem" blocks -> race.gem on the matching race; "<id>-multi" -> meeting.multi;
+   "all-multi" -> racing.combined; alt lines whose why starts "VALUE" are dropped
+   (VALUE is off the card); a TOP whose why starts "STAKE" gets race.stake. */
+function fold(){var ms=D.racing.meetings||[],keep=[],by={};
+ms.forEach(function(m){if(!/-gem$|-multi$|^all-multi$/.test(m.id))by[m.id]=m});
+ms.forEach(function(m){var id=m.id||"";
+ if(id=="all-multi"){if(!D.racing.combined)D.racing.combined={legs:(m.races||[]).map(function(x){return{track:(String(x.why).match(/\u2014 ([^(]+) \(/)||[])[1],no:x.no,horse:x.horse,price:x.price}}),odds:mo(m.races)};return}
+ if(/-gem$/.test(id)){var t=by[id.replace(/-gem$/,"")];if(t)(m.races||[]).forEach(function(g){var r=(t.races||[]).filter(function(x){return x.no==g.no&&!x.alt})[0];
+   if(r&&!r.gem)r.gem={horse:g.horse,price:g.price,why:String(g.why||"").replace(/^GEM:\s*/,""),fc:g.fc}});return}
+ if(/-multi$/.test(id)){var t2=by[id.replace(/-multi$/,"")];if(t2&&!t2.multi)t2.multi={legs:(m.races||[]).map(function(x){return{no:x.no,horse:x.horse,price:x.price}}),odds:mo(m.races)};return}
+ m.races=(m.races||[]).filter(function(r){return !(r.alt&&/^VALUE/.test(r.why||""))});
+ m.races.forEach(function(r){if(/^STAKE/.test(r.why||""))r.stake=true});
+ keep.push(m)});
+D.racing.meetings=keep}
+/* multi odds = product of the legs' prices, shown as "$x.xx" */
+function mo(legs){var p=1;(legs||[]).forEach(function(x){p*=num(x.price)||1});return"$"+p.toFixed(2)}
 (function(){
 var tb=document.querySelector(".tabs");
 var b=document.createElement("button");
@@ -175,27 +227,24 @@ if(vw=="top5"){top5()}else{racing()}};
   lift();
   window.addEventListener('resize',lift);
 })();
-/* ---- DUFFS WAY: VALUE TAB ---- */
+/* ---- DAY / NIGHT MODE ----
+   Day mode flips the whole page to light by inverting colours (then turning the
+   hues back), so it works on every element without touching style.css.
+   Emoji would come out wrong-coloured, so anything holding emoji is flipped back.
+   Choice is remembered on this phone (localStorage); first visit follows the
+   phone's own light/dark setting. */
 (function(){
-  var tb=document.querySelector(".tabs");
-  var b=document.createElement("button");
-  b.setAttribute("data-v","value");
-  b.textContent="VALUE";
-  tb.appendChild(b);
-  function valueTab(){
-    var out="",any=0;
-    (D.racing.meetings||[]).forEach(function(m){
-      (m.races||[]).forEach(function(r){if(r.value){out+=slat(r,m,1);any++}})
-    });
-    $("#rb").innerHTML=any?out:'<p style="color:#6E9C8C">No value plays flagged today.</p>';
-    strike()
-  }
-  var prev=tb.onclick;
-  tb.onclick=function(e){
-    var x=e.target.closest("button");if(!x)return;
-    vw=x.getAttribute("data-v");
-    tb.querySelectorAll("button").forEach(function(y){y.setAttribute("aria-selected",y===x)});
-    if(vw=="value"){valueTab()}
-    else if(prev){prev(e)}
-  };
+  var css=document.createElement("style");
+  css.textContent="html.day{filter:invert(1) hue-rotate(180deg);background:#fff}"
+    +"html.day .em,html.day #dwBar,html.day #dnBtn,html.day [data-emo]{filter:invert(1) hue-rotate(180deg)}";
+  document.head.appendChild(css);
+  var btn=document.createElement("button");
+  btn.id="dnBtn";
+  btn.style.cssText="position:fixed;top:10px;right:10px;z-index:9997;width:40px;height:40px;border-radius:20px;border:1px solid rgba(61,245,192,.45);background:rgba(6,11,9,.9);font-size:18px;line-height:1;cursor:pointer";
+  document.body.appendChild(btn);
+  function set(day){document.documentElement.classList.toggle("day",day);btn.textContent=day?"\uD83C\uDF19":"\u2600\uFE0F";
+    try{localStorage.setItem("dwMode",day?"day":"night")}catch(e){}}
+  var saved=null;try{saved=localStorage.getItem("dwMode")}catch(e){}
+  set(saved?saved=="day":!!(window.matchMedia&&matchMedia("(prefers-color-scheme: light)").matches));
+  btn.onclick=function(){set(!document.documentElement.classList.contains("day"))};
 })();
