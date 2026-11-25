@@ -30,6 +30,30 @@ function rate(g,o,r){if(o=="ROUGHIE")return{t:"EACH-WAY",e:"\uD83D\uDC34",c:"rou
 function tier(n){n=n||0;return n>=11?"\uD83E\uDD11\uD83E\uDD11\u26A1\u26A1\uD83D\uDCB0":n>=8?"\u26A1\uD83E\uDD11\u26A1":n>=5?"\u26A1\u26A1":n>=1?"\u26A1":""}
 function num(p){return parseFloat(String(p).replace(/[^0-9.]/g,""))||0}
 function rough(r){return num(r.price)>=12}
+/* ---- STRIKE TIERS (25 Nov 2026 backtest) ----
+   Every TOP pick from 14 Aug to 24 Nov checked against official results
+   (567 priced TOPs; backtest/backtest.py re-runs it). Split in two to check
+   the rule held both times: Aug-Sep / Oct-Nov.
+     LOCK    TOP $2.20 or shorter   won 58% / 65%   (+4% / +17% at card price)
+     STRONG  TOP $2.21 to $2.80     won 33% / 33%
+     PASS    TOP longer than $2.80  won 16% / 26%
+   All TOPs: 28%. LOCK + STRONG together: 41% / 48%.
+   Optional data.json keys from the engine, used when present:
+     race.fav   = {horse, price}  market favourite at the 10-minute re-pull.
+                  TOP is not the favourite -> PASS. In the backtest, TOPs that
+                  went against the favourite won 15%.
+     race.drift = true            TOP drifted 5%+ from card to re-pull -> drop
+                  one tier. Drifters won 22%, firmers 32%. */
+function hnorm(h){return String(h||"").replace(/^\s*\d+[a-z]?\.\s*/i,"").replace(/\(.*?\)/g,"").replace(/[^A-Z]/gi,"").toUpperCase()}
+function stier(r){var p=num(r.price),t;if(!p||r.alt)return"";
+if(r.fav&&r.fav.horse&&hnorm(r.fav.horse)!=hnorm(r.horse))return"";
+t=p<=2.2?"LOCK":p<=2.8?"STRONG":"";
+if(r.drift===true)t=t=="LOCK"?"STRONG":"";
+return t}
+var ST={LOCK:{e:"🔒",c:"#3DF5C0",n:"won 62% in backtest"},STRONG:{e:"✅",c:"#FFB43D",n:"won 33% in backtest"}};
+function stag(t){if(!t)return'<span class="tag" style="color:#6E9C8C">PASS</span>';var s=ST[t];return'<span class="tag" data-emo style="color:'+s.c+';border-color:'+s.c+'">'+s.e+' '+t+'</span>'}
+var RT={};function ldT(){try{RT=JSON.parse(localStorage.getItem("dwT")||"{}")}catch(e){RT={}}}
+function svT(){try{localStorage.setItem("dwT",JSON.stringify(RT))}catch(e){}}
 function fire(p){var n=num(p);if(!n)return"";return n<3?"\uD83D\uDD25":"\uD83D\uDD25\uD83D\uDD25"}
 var FW={"\uD83C\uDF40":3,"\uD83D\uDEAA":3,"\uD83D\uDCAA":3,"\u2699":3,"\uD83C\uDFAF":3,"\uD83D\uDCC9":3,"\uD83C\uDF27":2,"\u26A1":2,"\uD83D\uDCCF":2,"\uD83E\uDDE0":1.5,"\uD83D\uDEA8":1.5,"\uD83D\uDC51":1,"\uD83D\uDC34":1,"\uD83C\uDFC6":1,"\uD83D\uDD25":1,"\u2705":1,"\u26A0":.5};
 function fw(f){var s=String(f).replace(/\uFE0F/g,"");for(var k in FW){if(s.indexOf(k)===0)return FW[k]}return 0}
@@ -61,10 +85,10 @@ function cond(){var m=D.racing.meetings[mi];if(!m)return;$("#cT").textContent=m.
 var cw=(m.direction||"clockwise")=="clockwise",o=$("#mo");o.setAttribute("keyPoints",cw?"0;1":"1;0");o.parentNode.replaceChild(o.cloneNode(true),o);$("#dir").textContent=cw?"CW":"ACW";
 if(wet(m)){$("#pV").textContent="PACE LOCKED \u2014 WET";$("#pD").textContent="On-pace runners +0.30, backmarkers \u22120.30"}
 else{$("#pV").textContent="PACE LOCKED \u2014 DRY";$("#pD").textContent="Raw engine scores, no pace adjustment"}}
-function slat(r,m,lbl){var a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet,r),c=v.c,id=m.id+"-"+r.no+(r.alt?"-a":""),cu=R[id]||"",fl=fsort(r.flags),hf=(r.why||fl.length>=2)?1:0,tp=fl.slice(0,3),sx=m.sigMax||15;
+function slat(r,m,lbl){var st=stier(r),a=adj(r,m),v=rate(a.g,rough(r)?"ROUGHIE":r.bet,r),c=v.c,id=m.id+"-"+r.no+(r.alt?"-a":""),cu=R[id]||"",fl=fsort(r.flags),hf=(r.why||fl.length>=2)?1:0,tp=fl.slice(0,3),sx=m.sigMax||15;
 return'<article class="card '+c+'"><div class="row"><div class="no" style="color:#0A0F08;background:#F5FF00;text-shadow:none;font-weight:800;box-shadow:0 0 10px rgba(245,255,0,.55);border-color:transparent">R'+r.no+'</div><div>'
 +(lbl?'<div class="meet">'+E(m.track)+'</div>':'')
-+'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span>'+(r.time?'<span class="tag">'+E(r.time)+'</span>':'')+'<span class="tag">TAB</span>'+((r.stake||r.value)?'<span class="tag" data-emo style="color:#FFB43D;border-color:rgba(255,180,61,.5)">\uD83E\uDDE0 EDGE</span>':'')+'<span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
++'<div class="hn">'+E(r.horse)+'</div><div class="sub"><span class="pr">'+E(r.price)+'</span>'+stag(st)+(r.time?'<span class="tag">'+E(r.time)+'</span>':'')+'<span class="tag">TAB</span>'+((r.stake||r.value)?'<span class="tag" data-emo style="color:#FFB43D;border-color:rgba(255,180,61,.5)">\uD83E\uDDE0 EDGE</span>':'')+'<span class="tag">'+E((r.pace||"mid").toUpperCase())+'-PACE</span></div>'
 +'<div class="sig"><span class="em">'+tier(r.fc)+fire(r.price)+'</span><span class="ct">SIG '+(r.fc||0)+'/'+sx+'</span></div>'
 +(hf?'<div class="ftop" style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">'+tp.map(function(f){return'<span data-emo style="font:600 10px/1.4 ui-monospace,monospace;color:#00E5FF;background:rgba(0,229,255,.07);border:1px solid rgba(0,229,255,.3);border-radius:20px;padding:2px 8px">'+E(f)+'</span>'}).join("")+'</div>':'')
 +(hf?'<div class="flagpanel" id="fp-'+id+'" hidden style="margin-top:8px;padding:9px 11px;font-size:12px;color:#CFE8DE;background:rgba(0,0,0,.25);border-top:1px dashed rgba(0,229,255,.25)">'+(r.why?'<div style="font:400 12.5px/1.65 -apple-system,sans-serif;color:#CFE8DE">'+E(r.why)+'</div>':fl.map(function(f){return'<div style="margin:0 0 8px"><b style="color:#00E5FF;font:700 11px/1.5 ui-monospace,monospace">'+E(f)+'</b><br><span style="font:400 11.5px/1.55 -apple-system,sans-serif;color:#9FC4B6">'+E(fx(f,r))+'</span></div>'}).join(""))+'<div style="margin-top:2px;padding-top:6px;border-top:1px solid rgba(255,255,255,.07);font:500 9.5px/1.45 ui-monospace,monospace;color:#6E9C8C">Why this one, in our words \u2014 not a promise it wins.</div></div>':'')
@@ -72,7 +96,7 @@ return'<article class="card '+c+'"><div class="row"><div class="no" style="color
 +(hf?'<button class="flagbtn" data-t="'+id+'" style="display:block;margin-top:7px;background:#00E5FF;border:0;color:#0A0F08;font:800 10px/1 ui-monospace,monospace;letter-spacing:.06em;border-radius:20px;padding:7px 11px;box-shadow:0 0 12px rgba(0,229,255,.45);cursor:pointer">\uD83D\uDEA9 FLAGS \u25BE</button>':'')
 +(hf?'<div class="rundown" style="margin-top:5px;font:500 9.5px/1.3 ui-monospace,monospace;color:#6E9C8C;text-align:right;max-width:112px">Straight from the numbers, no hype.</div>':'')
 +'</div></div>'
-+'<div class="res" data-id="'+id+'" data-price="'+E(r.price)+'"><button data-v="W" class="'+(cu=="W"?"on":"")+'">W</button><button data-v="P" class="'+(cu=="P"?"on":"")+'">P</button><button data-v="L" class="'+(cu=="L"?"on":"")+'">L</button></div>'
++'<div class="res" data-id="'+id+'" data-price="'+E(r.price)+'" data-tier="'+st+'"><button data-v="W" class="'+(cu=="W"?"on":"")+'">W</button><button data-v="P" class="'+(cu=="P"?"on":"")+'">P</button><button data-v="L" class="'+(cu=="L"?"on":"")+'">L</button></div>'
 +gemrow(r,m)+'</article>'}
 /* ---- GEM ROW ----
    The race's GEM pick, shown inside the same card as the TOP pick.
@@ -89,6 +113,10 @@ function multicard(title,mu,showTrack){if(!mu||!mu.legs||!mu.legs.length)return"
 return'<article class="card"><div class="meet">'+E(title)+(mu.odds?' \u00b7 \u2248 '+E(mu.odds):'')+'</div>'
 +mu.legs.map(function(l){return'<div class="sub" style="margin-top:4px"><span class="tag">'+(showTrack&&l.track?E(l.track)+' ':'')+'R'+E(l.no)+'</span> '+E(l.horse)+' <span class="pr">'+E(l.price)+'</span></div>'}).join("")+'</article>'}
 function racing(){var b=$("#rb");
+if(vw=="strike"){var L=[];D.racing.meetings.forEach(function(m){(m.races||[]).forEach(function(r){var t=stier(r);if(t)L.push({r:r,m:m,t:t})})});
+L.sort(function(x,y){return(x.t=="LOCK"?0:1)-(y.t=="LOCK"?0:1)||num(x.r.price)-num(y.r.price)});
+b.innerHTML='<p style="color:#6E9C8C;font-size:12.5px;margin:0 0 10px">The only TOPs worth a win bet. 🔒 LOCK = $2.20 or shorter (won 62% in the backtest). ✅ STRONG = $2.21–$2.80 (won 33%). Everything longer is a PASS. Check the price 10 minutes before the jump: a drifter drops a tier.</p>'
++(L.length?L.map(function(x){return slat(x.r,x.m,1)}).join(""):'<p style="color:#6E9C8C">No TOP at $2.80 or shorter today. No strike bets.</p>');strike();return}
 if(vw=="rough"){var out="",any=0;D.racing.meetings.forEach(function(m){(m.races||[]).forEach(function(r){if(!r.alt&&rough(r)){out+=slat(r,m,1);any++}})});
 b.innerHTML=any?out:'<p style="color:#6E9C8C">No runners at $12 or longer across today\u2019s meetings.</p>';strike();return}
 var m=D.racing.meetings[mi];if(!m){b.innerHTML='<p style="color:#6E9C8C">No meeting data.</p>';return}
@@ -99,9 +127,11 @@ $("#nb").innerHTML='<div class="sec" style="margin-top:2px">'+E(n.engine||"GD AL
 return'<article class="card'+(tp?" win":"")+'"><div class="row" style="grid-template-columns:1fr auto"><div><div class="hn">'+(ph?'<span style="color:#FFB43D">'+E(x.home)+'</span>':E(x.home))+" v "+(!ph?'<span style="color:#FFB43D">'+E(x.away)+'</span>':E(x.away))+'</div><div class="sub"><span class="tag">'+E(x.line)+" "+E(x.odds)+'</span><span class="tag">TRY '+E(x.tryScorer)+'</span>'+(tp?'<span class="meet">TOP 3</span>':"")+'</div></div><div class="gd"><b>'+x.gd.toFixed(2)+'</b></div></div></article>'}).join("")||'<p style="color:#6E9C8C">No games in data.json</p>')
 +'<div class="sec">Multis</div>'+(n.multis||[]).map(function(m){return'<article class="card"><div class="row" style="grid-template-columns:1fr auto"><div><div class="hn">'+E(m.name)+'</div><div class="sub"><span class="tag">'+m.legs.map(E).join(" \u00b7 ")+'</span></div></div><div class="gd"><b>'+E(m.odds)+'</b></div></div></article>'}).join("")
 +'<p style="color:#6E9C8C;font-size:12px">Suggested only \u2014 you finalise the multis.</p>'}
-function strike(){var v=[],k;for(k in R)v.push(R[k]);var n=v.length,h=0,w=0;v.forEach(function(x){if(x!="L")h++;if(x=="W")w++});
+/* strike(): counts racing marks only (W/P/L). NRL marks share the "dw" store as
+   "win"/"loss"/"" and used to be counted as racing places. */
+function strike(){var v=[],k,sn=0,sw=0;for(k in R)if(R[k]=="W"||R[k]=="P"||R[k]=="L"){v.push(R[k]);if(RT[k]){sn++;if(R[k]=="W")sw++}}var n=v.length,h=0,w=0;v.forEach(function(x){if(x!="L")h++;if(x=="W")w++});
 if(!n){$("#sr").textContent="\u2014";$("#sc").textContent="No races marked";return}
-$("#sr").textContent=Math.round(h/n*100)+"%";$("#sc").textContent=w+" win \u00b7 "+(h-w)+" place \u00b7 "+(n-h)+" loss of "+n}
+$("#sr").textContent=Math.round(h/n*100)+"%";$("#sc").innerHTML=E(w+" win \u00b7 "+(h-w)+" place \u00b7 "+(n-h)+" loss of "+n)+(sn?"<br>"+E("STRIKE bets: "+sw+" won of "+sn+" ("+Math.round(sw/sn*100)+"%)"):"")}
 function toast(msg,bad){var t=$("#toast");$("#toastText").textContent=msg;t.className=(bad?"bad ":"")+"show";clearTimeout(window._tt);window._tt=setTimeout(function(){t.className=""},2600)}
 $("#chips").onclick=function(e){var b=e.target.closest(".chip");if(b){mi=+b.dataset.i;chips();cond();racing()}};
 document.querySelector(".tabs").onclick=function(e){var b=e.target.closest("button");if(b){vw=b.dataset.v;document.querySelectorAll(".tabs button").forEach(function(x){x.setAttribute("aria-selected",x==b)});racing()}};
@@ -109,17 +139,17 @@ $("#rb").onclick=function(e){
 var fb=e.target.closest(".flagbtn");
 if(fb){var pnl=document.getElementById("fp-"+fb.getAttribute("data-t"));if(pnl){var was=pnl.hidden;pnl.hidden=!was;fb.innerHTML=was?"\uD83D\uDEA9 FLAGS \u25B4":"\uD83D\uDEA9 FLAGS \u25BE"}return}
 var b=e.target.closest(".res button");if(!b)return;var wrap=b.parentNode,id=wrap.dataset.id,v=b.dataset.v;
-if(R[id]==v){delete R[id];b.classList.remove("on")}else{R[id]=v;wrap.querySelectorAll("button").forEach(function(x){x.classList.remove("on")});b.classList.add("on");
+if(R[id]==v){delete R[id];delete RT[id];b.classList.remove("on")}else{R[id]=v;if(wrap.dataset.tier)RT[id]=wrap.dataset.tier;else delete RT[id];wrap.querySelectorAll("button").forEach(function(x){x.classList.remove("on")});b.classList.add("on");
 var pr=num(wrap.dataset.price);
 if(v=="W"&&pr>=12)toast("Your shout",0);
 else if(v=="L"&&pr>0&&pr<3)toast("Don\u2019t back against me",1)}
-sv();strike()};
-$("#rst").onclick=function(){R={};sv();racing();strike()};
+sv();svT();strike()};
+$("#rst").onclick=function(){R={};RT={};sv();svT();racing();strike()};
 [["#mR",1],["#mN",0]].forEach(function(p){$(p[0]).onclick=function(){$("#mR").setAttribute("aria-selected",!!p[1]);$("#mN").setAttribute("aria-selected",!p[1]);$("#pR").hidden=!p[1];$("#pN").hidden=!!p[1];$("#sb").hidden=!p[1];scrollTo(0,0)}});
 fetch("data.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){D=d}).catch(function(){$("#bn").hidden=false;$("#bn").textContent="data.json didn\u2019t load."}).then(function(){
 $("#stamp").innerHTML=E(D.meta.engine||"TIGER v12")+"<br>"+E(D.meta.generated||"");
 if(D.meta.sample){$("#bn").hidden=false;$("#bn").textContent=D.meta.label||"Sample card"}
-fold();ld();chips();cond();racing();nrl();strike()});
+fold();ld();ldT();chips();cond();racing();nrl();strike()});
 /* ---- FOLD ----
    Turns an old-format data.json (14-21 Nov style) into the one-card layout:
    "<id>-gem" blocks -> race.gem on the matching race; "<id>-multi" -> meeting.multi;

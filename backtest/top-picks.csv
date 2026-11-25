@@ -1,0 +1,572 @@
+date,track,race,horse,card_price,sp,fav_sp,top_was_fav,field,finish,gd,fc,pace
+2026-08-14,Geelong,1,Knights Emperor,5.5,,,,9,5,7.1,0,mid
+2026-08-14,Geelong,2,Just Like Jagger,2.7,,,,8,5,7.6,0,mid
+2026-08-14,Geelong,3,Keen Observer,1.95,,,,9,2,8.4,1,mid
+2026-08-14,Geelong,4,Bjorson,4.4,,,,10,5,7.8,1,on
+2026-08-14,Geelong,5,Lyrics 'N' Song,2.3,,,,6,6,8.3,1,on
+2026-08-14,Geelong,6,Thunderbolt Way,5.5,,,,11,1,7.7,1,on
+2026-08-14,Geelong,7,Sugar Schnapps,4.6,,,,10,9,7.6,1,on
+2026-08-14,Geelong,8,Omnic,4.8,,,,14,2,7.9,2,on
+2026-08-14,Ipswich,2,King Emperor,1.85,1.75,1.75,1,10,1,8.5,1,mid
+2026-08-14,Ipswich,3,Kerkorian,2.9,3.3,2.8,0,8,3,8.2,1,mid
+2026-08-14,Ipswich,4,Mashean,3.9,4.8,4.4,0,11,5,8.3,1,back
+2026-08-14,Ipswich,5,Luconi,3.8,3.6,3.6,1,10,3,8.0,1,mid
+2026-08-14,Ipswich,6,Don'Tcha Think,3.4,3.9,3.9,1,12,1,7.8,1,back
+2026-08-14,Ipswich,7,Forgotten Spirit,1.35,1.5,1.5,1,8,3,8.6,1,mid
+2026-08-15,CAULFIELD,1,9. Educated,3.2,3.1,3.1,1,12,2,8.1,5,mid
+2026-08-15,CAULFIELD,2,4. Simurgh,3.4,3.7,3.7,1,15,10,7.9,5,mid
+2026-08-15,CAULFIELD,3,14. Missapprehend,3.9,3.8,3.8,1,12,10,7.9,5,mid
+2026-08-15,CAULFIELD,4,8. He'll Rip,4.8,5.5,3.6,0,10,7,8.2,6,mid
+2026-08-15,CAULFIELD,5,2. Closer To Free,2.7,2.35,2.35,1,9,5,8.2,6,mid
+2026-08-15,CAULFIELD,6,5. Natural Fling,2.6,2.4,2.4,1,16,1,8.1,5,mid
+2026-08-15,CAULFIELD,7,7. Cosmic Crusader,2.45,2.5,2.5,1,11,1,8.3,6,mid
+2026-08-15,CAULFIELD,8,9. Shadhavar,6.0,5.0,5.0,1,11,1,7.9,5,mid
+2026-08-15,CAULFIELD,9,13. Darkbonee,2.6,2.7,2.7,1,8,1,8.1,5,mid
+2026-08-15,DOOMBEN,1,4. Trafalgar Square,3.2,2.8,2.8,1,8,3,7.9,5,mid
+2026-08-15,DOOMBEN,2,5. Exceed The Sale,2.8,3.5,3.5,1,9,1,8.1,5,mid
+2026-08-15,DOOMBEN,3,4. Fernao,3.3,2.7,2.7,1,7,2,7.9,5,mid
+2026-08-15,DOOMBEN,4,12. Lockyer,2.5,3.5,2.6,0,8,1,8.0,5,mid
+2026-08-15,DOOMBEN,5,2. Just Flying,2.7,2.0,2.0,1,8,5,8.0,5,mid
+2026-08-15,DOOMBEN,6,2. Pipistrelle,4.2,6.0,2.8,0,11,6,7.9,5,mid
+2026-08-15,DOOMBEN,7,8. Blazing Harry,3.3,2.7,2.7,0,9,2,7.9,5,mid
+2026-08-15,DOOMBEN,8,6. Grinzinger Champ,1.6,1.8,1.8,1,7,1,8.5,7,mid
+2026-08-15,DOOMBEN,9,7. Hell,2.5,2.9,2.9,1,12,4,7.8,5,mid
+2026-08-15,ROSEHILL,1,5. Attractiveness,1.8,1.8,1.8,1,9,1,8.3,6,mid
+2026-08-15,ROSEHILL,2,3. Steel Will,1.6,1.65,1.65,1,7,1,8.4,7,mid
+2026-08-15,ROSEHILL,3,9. Indi Springs,7.5,8.5,4.4,0,16,9,8.0,5,mid
+2026-08-15,ROSEHILL,4,11. Leovanni,3.3,5.0,3.8,0,7,3,8.0,5,mid
+2026-08-15,ROSEHILL,5,10. Mind Ya Bizz,7.0,5.0,3.6,0,9,1,8.1,5,mid
+2026-08-15,ROSEHILL,6,4. Kimberley Secrets,5.0,5.0,3.7,0,11,5,7.8,5,mid
+2026-08-15,ROSEHILL,7,5. Hawker Hall,2.3,2.05,2.05,1,8,4,8.2,6,mid
+2026-08-15,ROSEHILL,8,3. Central Europe,4.0,5.5,3.6,0,13,3,8.3,6,mid
+2026-08-15,ROSEHILL,9,11. Althoff,3.1,3.6,3.1,0,10,1,8.2,6,mid
+2026-08-15,ROSEHILL,10,9. Steel Strike,5.5,4.6,2.9,0,13,6,8.0,5,mid
+2026-08-19,SANDOWN LAKESIDE,1,4. Sapphire Siren,5.0,,,,9,1,7.75,8,mid
+2026-08-19,SANDOWN LAKESIDE,2,9. Zambales,1.8,,,,8,2,7.45,6,mid
+2026-08-19,SANDOWN LAKESIDE,3,11. Resolutely,3.5,,,,10,6,7.75,7,mid
+2026-08-19,SANDOWN LAKESIDE,4,11. Soul Mistress,14.0,,,,11,9,7.43,7,mid
+2026-08-19,SANDOWN LAKESIDE,5,4. Customer Service,6.5,,,,10,3,7.31,5,mid
+2026-08-19,SANDOWN LAKESIDE,6,1. One Long Day,15.0,,,,13,7,7.52,9,mid
+2026-08-19,SANDOWN LAKESIDE,7,9. Queen Christine,2.9,,,,9,1,8.18,10,mid
+2026-08-19,SANDOWN LAKESIDE,8,11. Celestial Zara,6.5,,,,14,1,7.6,8,mid
+2026-08-19,WARWICK FARM,1,6. Artemex,4.8,7.5,3.1,0,9,7,7.33,6,mid
+2026-08-19,WARWICK FARM,2,14. Satin Serenade,1.7,1.35,1.35,1,9,2,7.51,8,mid
+2026-08-19,WARWICK FARM,3,1. Columbus,2.3,2.9,2.9,1,8,2,7.73,8,mid
+2026-08-19,WARWICK FARM,4,13. Uncertain Glory,5.5,3.2,2.4,0,10,4,7.72,9,mid
+2026-08-19,WARWICK FARM,5,3. Mr Miller,1.6,1.28,1.28,1,9,1,8.11,10,mid
+2026-08-19,WARWICK FARM,6,4. Valilee,3.1,3.7,2.8,0,12,11,7.88,8,mid
+2026-08-19,WARWICK FARM,7,13. Olivia Twist,11.0,9.5,2.6,0,10,7,7.43,6,mid
+2026-08-22,DOOMBEN,4,7. Captain Maverick,5.0,5.5,3.8,0,9,3,7.88,10,mid
+2026-08-22,DOOMBEN,5,6. Manpower,4.4,2.9,2.9,1,11,1,7.62,9,mid
+2026-08-22,DOOMBEN,6,6. Let'sfacethemusic,2.4,1.95,1.95,1,8,1,7.87,10,mid
+2026-08-22,DOOMBEN,7,14. Land Bank,3.9,3.0,3.0,1,13,13,7.74,11,mid
+2026-08-22,DOOMBEN,8,1. Star Of Jamaica,2.5,3.5,3.5,1,11,10,8.02,10,mid
+2026-08-22,DOOMBEN,9,6. Ser Joh,4.2,2.6,2.6,1,8,2,7.63,12,mid
+2026-08-22,DOOMBEN,10,7. Express Payment,4.8,2.8,2.8,1,9,1,8.14,13,mid
+2026-08-22,RANDWICK,3,3. Le Troisir,2.6,2.3,2.3,1,15,2,8.42,13,mid
+2026-08-22,RANDWICK,5,2. Thebudgiesmugla,4.8,6.0,2.45,0,8,4,7.97,13,mid
+2026-08-22,RANDWICK,6,9. Gatwick,7.5,10.0,2.5,0,7,6,8.11,13,mid
+2026-08-22,RANDWICK,7,2. Pembrey,5.5,4.4,3.8,0,10,1,7.84,10,mid
+2026-08-22,RANDWICK,8,9. Soothsayer,5.5,3.4,3.4,1,8,2,8.29,14,mid
+2026-08-22,RANDWICK,9,8. Autumn Glow,1.9,1.7,1.7,1,11,1,8.6,13,mid
+2026-08-22,RANDWICK,10,1. Columbia Blue,4.0,3.8,3.8,1,13,9,7.92,11,mid
+2026-08-22,SANDOWN HILLSIDE,3,9. Think Giant,3.5,,,,10,4,8.13,12,mid
+2026-08-22,SANDOWN HILLSIDE,4,6. Justadeel,4.4,,,,6,4,8.22,13,mid
+2026-08-22,SANDOWN HILLSIDE,5,12. Buggsy,3.9,,,,9,1,8.1,12,mid
+2026-08-22,SANDOWN HILLSIDE,6,1. Saluted,6.0,,,,11,2,8.06,12,mid
+2026-08-22,SANDOWN HILLSIDE,7,7. Cavalry Girl,3.3,,,,8,1,8.64,14,mid
+2026-08-22,SANDOWN HILLSIDE,8,2. Tennessee Bound,2.6,,,,7,2,8.56,14,mid
+2026-08-22,SANDOWN HILLSIDE,9,5. Makdane,5.0,,,,12,4,7.66,11,mid
+2026-08-25,Rockhampton,1,3. Another Champers,4.6,1.6,1.6,1,3,1,7.29,8,mid
+2026-08-25,Rockhampton,2,10. Red Scentsation,7.0,1.65,1.65,1,10,1,7.35,7,mid
+2026-08-25,Rockhampton,3,3. Wolfgang,4.6,4.8,2.1,0,7,3,7.63,9,mid
+2026-08-25,Rockhampton,4,1. Thee Creek,2.9,3.9,2.8,0,8,4,7.41,10,mid
+2026-08-25,Rockhampton,5,5. Next Stop Jupiter,2.8,3.0,2.8,0,10,1,7.29,8,mid
+2026-08-25,Rockhampton,6,4. Track Tale,5.0,3.4,3.4,0,8,3,7.81,10,mid
+2026-08-25,Rockhampton,7,3. Remember The Boys,2.9,3.0,2.8,0,11,1,7.54,8,mid
+2026-08-26,Doomben,1,8. Emphatique,4.2,5.0,4.0,0,12,4,7.06,8,mid
+2026-08-26,Doomben,3,2. Compel,3.7,8.0,2.5,0,10,1,7.21,7,mid
+2026-08-26,Doomben,4,3. Captain Blood,3.8,13.0,1.8,0,10,7,7.09,7,mid
+2026-08-26,Doomben,5,3. Quickzou,6.0,4.4,3.5,0,10,4,7.51,6,mid
+2026-08-26,Doomben,6,9. Vixenette,15.0,21.0,2.6,0,9,9,7.29,8,mid
+2026-08-26,Doomben,7,10. Miss Funny Honey,4.8,14.0,2.35,0,11,6,7.52,11,mid
+2026-08-26,Doomben,8,2. Rimbaud,4.6,4.4,2.9,0,11,2,7.19,8,mid
+2026-08-27,IPSWICH,1,2. Rosso Levanto,2.4,2.3,2.3,1,9,1,7.37,8,mid
+2026-08-27,IPSWICH,2,5. Runaround Sue,3.5,4.2,3.8,0,10,2,7.86,9,mid
+2026-08-27,IPSWICH,3,2. I Am Louie,3.4,2.8,2.8,1,9,6,7.26,6,mid
+2026-08-27,IPSWICH,4,8. Shes A Belle,12.0,16.0,3.2,0,10,7,6.54,4,mid
+2026-08-27,IPSWICH,5,14. Bay Of The South,4.2,10.0,3.4,0,8,6,7.08,5,mid
+2026-08-27,IPSWICH,6,13. Nine Mill,3.6,2.4,2.4,1,7,6,7.71,10,mid
+2026-08-27,IPSWICH,7,5. Magic Moz,4.0,4.4,3.8,0,9,6,7.23,7,mid
+2026-08-27,IPSWICH,8,2. Tsunuki,3.7,5.5,3.3,0,11,7,7.27,7,mid
+2026-08-28,Cairns,1,1. Nicco Nota Fighter,4.6,,,,10,2,7.28,5,mid
+2026-08-28,Cairns,2,2. Unifies,2.2,,,,9,1,7.53,7,mid
+2026-08-28,Cairns,3,2. Hartshorn,2.3,,,,7,6,7.57,8,mid
+2026-08-28,Cairns,4,2. All Banged Up,3.5,,,,12,6,7.79,8,mid
+2026-08-28,Cairns,5,3. Indefinite,3.1,,,,7,2,7.79,9,mid
+2026-08-28,Cairns,6,3. Better Breakout,2.5,,,,9,6,7.87,10,mid
+2026-08-28,Cairns,7,5. Tambo's Justice,2.7,,,,14,6,8.26,12,mid
+2026-08-28,Cairns,8,8. Fancy Garter,4.6,,,,9,1,7.58,8,mid
+2026-08-28,Geelong,1,4. Hemi Two Barrell,3.3,,,,10,1,7.62,8,mid
+2026-08-28,Geelong,2,7. Rockzino,4.0,,,,11,3,7.59,7,mid
+2026-08-28,Geelong,3,4. Icelady,4.8,,,,11,2,7.76,8,mid
+2026-08-28,Geelong,4,8. Hydrothermal,3.3,,,,11,1,7.79,7,mid
+2026-08-28,Geelong,5,3. Think I'm Divine,4.4,,,,9,9,7.79,9,mid
+2026-08-28,Geelong,7,5. In'kantosstar,2.5,,,,9,1,7.77,7,mid
+2026-08-28,Geelong,8,7. Alien Angel,3.9,,,,9,4,8.19,10,mid
+2026-08-28,Geelong,9,2. Omnic,2.5,,,,8,2,8.14,9,mid
+2026-08-28,Gosford,2,9. Peyton,2.8,2.5,2.5,1,4,1,7.82,8,mid
+2026-08-28,Gosford,3,10. Temptation,1.85,1.5,1.5,1,8,1,7.83,10,mid
+2026-08-28,Gosford,5,3. Serpico,5.0,4.8,2.8,0,7,4,7.69,8,mid
+2026-08-28,Gosford,6,3. Tacitly,2.2,3.1,3.0,0,10,8,7.92,9,mid
+2026-08-28,Gosford,7,7. Wanda's Spark,2.25,2.15,2.15,1,9,2,8.18,10,mid
+2026-08-28,Gosford,8,7. Tannin,2.4,2.3,2.3,1,11,8,8.01,10,mid
+2026-08-28,Moruya,1,2. Time For Snow,1.95,2.5,2.5,1,11,1,7.13,5,mid
+2026-08-28,Moruya,2,10. Heliconia,7.0,3.4,3.0,0,12,4,7.29,5,mid
+2026-08-28,Moruya,3,2. Mrs Flanders,3.2,2.5,2.5,1,9,1,7.29,6,mid
+2026-08-28,Moruya,5,6. Hardazhell,7.5,3.7,3.7,1,11,3,7.37,6,mid
+2026-08-28,Moruya,6,7. Bosco,4.0,2.7,2.7,1,11,11,8.03,9,mid
+2026-08-28,Moruya,7,12. Snowy,8.0,11.0,3.3,0,11,5,7.41,5,mid
+2026-08-28,Moruya,8,4. Casino Shaw,3.5,9.5,4.2,0,12,9,7.44,7,mid
+2026-08-29,Belmont,1,1. Dawn Dancer,1.9,1.7,1.7,1,7,2,8.7,8,mid
+2026-08-29,Belmont,2,6. Pin Deep,2.1,3.3,2.9,0,6,4,8.21,8,mid
+2026-08-29,Belmont,3,4. Eternal Wine,2.9,2.8,2.8,1,10,3,7.92,7,mid
+2026-08-29,Belmont,4,5. Hurricane Harley,3.7,3.2,3.2,1,8,3,7.54,6,mid
+2026-08-29,Belmont,5,1. God's Gate,2.0,2.1,2.1,1,11,3,7.9,7,mid
+2026-08-29,Belmont,7,4. Cosmic Waltz,4.8,3.2,2.45,0,9,2,7.67,6,mid
+2026-08-29,Belmont,8,11. Yes I Know,3.4,4.2,1.95,0,10,2,7.25,5,mid
+2026-08-29,Caulfield,1,4. Stage 'N' Screen,13.0,15.0,3.5,0,12,9,7.44,6,mid
+2026-08-29,Caulfield,2,15. Blue Willow,4.8,5.0,3.4,0,14,7,7.44,6,mid
+2026-08-29,Caulfield,3,10. Darkbonee,2.7,2.45,2.45,1,15,13,8.01,8,mid
+2026-08-29,Caulfield,5,6. Shadhavar,2.6,2.25,2.25,1,12,4,8.5,10,mid
+2026-08-29,Caulfield,6,9. Bridal Waltz,4.2,3.7,2.3,0,8,2,7.87,7,mid
+2026-08-29,Caulfield,7,9. American Eagle,4.2,3.2,3.2,1,10,1,7.59,6,mid
+2026-08-29,Caulfield,8,12. Treasurethe Moment,8.5,10.0,3.3,0,12,4,7.97,8,mid
+2026-08-29,Caulfield,9,15. First Chorus,5.5,5.0,2.15,0,16,5,8.29,9,mid
+2026-08-29,Caulfield,10,12. Ten Commandments,5.5,5.5,2.15,0,12,3,8.14,8,mid
+2026-08-29,Eagle Farm,1,4. Spirit Of Barty,3.8,2.45,2.45,1,7,2,7.94,7,mid
+2026-08-29,Eagle Farm,2,11. Sarah's Sonnets,5.0,3.9,3.9,1,12,3,8.09,11,mid
+2026-08-29,Eagle Farm,3,7. Wrigley Field,3.2,2.9,2.9,1,9,4,7.21,6,mid
+2026-08-29,Eagle Farm,4,1. Exceed The Sale,2.9,2.8,2.8,1,8,2,7.84,7,mid
+2026-08-29,Eagle Farm,5,7. Midnight Spirit,4.8,3.1,3.1,1,12,5,8.37,9,mid
+2026-08-29,Eagle Farm,6,4. Everybody Rise,4.6,4.8,2.8,0,9,4,8.36,8,mid
+2026-08-29,Eagle Farm,7,6. Grinzinger Champ,2.4,2.45,2.45,1,12,8,7.66,6,mid
+2026-08-29,Eagle Farm,8,5. Polyglot,2.8,2.45,2.45,1,11,3,7.91,8,mid
+2026-08-29,Eagle Farm,9,5. Livalittle,2.8,2.7,2.7,1,10,1,7.74,7,mid
+2026-08-29,Eagle Farm,10,6. Braveheart,3.9,3.4,3.4,1,10,5,8.22,10,mid
+2026-08-29,Morphettville,1,9. Churchill Rose,10.0,17.0,3.6,0,12,6,7.31,5,mid
+2026-08-29,Morphettville,2,1. Chief Little Rock,4.2,4.8,2.6,0,10,4,7.88,7,mid
+2026-08-29,Morphettville,3,6. Regal Ripper,5.5,4.8,3.8,0,13,5,7.52,6,mid
+2026-08-29,Morphettville,4,10. From The Block,16.0,8.5,2.6,0,12,1,7.19,5,mid
+2026-08-29,Morphettville,5,2. Up The Den,9.0,8.0,2.7,0,14,7,6.82,4,mid
+2026-08-29,Morphettville,6,5. Phineas,7.0,13.0,3.5,0,11,8,7.44,6,mid
+2026-08-29,Morphettville,8,1. Collated,13.0,14.0,4.6,0,16,16,6.74,4,mid
+2026-08-29,Morphettville,9,5. Super Wonder,4.0,4.0,3.7,0,15,4,7.74,7,mid
+2026-08-29,Rosehill Gardens,1,10. Proxima Dea,3.4,4.0,3.4,0,12,1,7.72,6,mid
+2026-08-29,Rosehill Gardens,2,6. Xtreme,5.5,5.5,4.4,0,16,3,7.66,6,mid
+2026-08-29,Rosehill Gardens,3,3. Aethelwulf,1.5,1.35,1.35,1,9,1,7.93,7,mid
+2026-08-29,Rosehill Gardens,4,5. Avista,3.2,3.7,3.6,0,9,6,7.89,7,mid
+2026-08-29,Rosehill Gardens,5,2. Mr Miller,1.8,1.9,1.9,1,11,1,8.22,8,mid
+2026-08-29,Rosehill Gardens,6,1. She's An Artist,4.0,3.1,3.1,1,11,3,7.03,5,mid
+2026-08-29,Rosehill Gardens,7,9. Savagram,4.2,2.3,2.3,1,10,4,7.63,6,mid
+2026-08-29,Rosehill Gardens,8,6. Blue Door,2.1,1.95,1.95,1,8,2,8.25,9,mid
+2026-08-29,Rosehill Gardens,9,1. Run Harry Run,5.5,5.5,1.95,0,8,5,7.83,8,mid
+2026-08-31,Ballarat Synthetic,1,6. Jadzia,1.35,1.35,1.35,1,7,1,7.89,0,mid
+2026-08-31,Ballarat Synthetic,2,7. Hello Mistress,4.8,4.8,2.0,0,8,4,7.35,0,mid
+2026-08-31,Ballarat Synthetic,3,12. Expensive Taste,2.4,2.6,1.95,0,12,4,7.69,0,mid
+2026-08-31,Ballarat Synthetic,4,7. Platinum Rush,4.0,17.0,2.4,0,12,3,7.58,0,mid
+2026-08-31,Ballarat Synthetic,5,3. Endless Forevers,4.6,1.85,1.85,1,9,8,7.17,0,mid
+2026-08-31,Ballarat Synthetic,6,3. Isdell,,7.5,3.3,0,11,3,7.49,9,mid
+2026-08-31,Ballarat Synthetic,7,8. Royal Infantry,,5.0,3.2,0,12,1,7.19,6,mid
+2026-08-31,Ballarat Synthetic,8,6. Charming Nic,,3.0,3.0,1,12,1,7.64,8,mid
+2026-08-31,Ballarat Synthetic,9,7. Bonfire Jimmy,,10.0,3.5,0,11,9,6.96,5,mid
+2026-08-31,Corowa,1,3. Son Of Rubick,6.0,8.0,3.1,0,9,9,7.27,0,mid
+2026-08-31,Corowa,2,11. Hold This,8.0,9.5,2.0,0,11,3,7.31,0,mid
+2026-08-31,Corowa,3,5. Wild Romeo,8.5,2.6,2.5,0,10,4,7.18,0,mid
+2026-08-31,Corowa,4,5. Winter Hail,2.6,3.1,1.8,0,8,2,7.74,0,mid
+2026-08-31,Corowa,5,1. Triptolemus,2.4,2.0,2.0,1,7,1,7.81,0,mid
+2026-08-31,Corowa,6,7. Bella Katelyn,3.2,7.5,3.9,0,8,6,7.52,0,mid
+2026-08-31,Corowa,7,2. Black Adam,3.4,3.6,3.6,1,10,2,7.68,0,mid
+2026-08-31,Taree,1,10. Last Metaphor,5.0,3.5,1.95,0,8,2,6.91,0,mid
+2026-08-31,Taree,2,2. Bellevue,3.0,3.4,3.4,1,9,7,6.78,0,mid
+2026-08-31,Taree,4,11. Sylvan,26.0,20.0,2.35,0,9,7,6.89,0,mid
+2026-08-31,Taree,5,6. Exorbitant Miss,4.1,2.25,2.25,1,10,1,6.88,0,mid
+2026-08-31,Taree,6,1. Chestime,3.6,2.5,2.5,1,11,1,7.01,0,mid
+2026-08-31,Taree,7,3. Purple Rose,3.7,4.2,4.2,1,11,4,7.02,0,mid
+2026-08-31,Taree,8,4. Difensivo,3.5,3.7,3.7,1,13,10,7.01,0,mid
+2026-09-03,COFFS HARBOUR,1,5. Sorrenti,2.1,2.45,2.15,0,8,1,7.62,7,mid
+2026-09-03,COFFS HARBOUR,2,1. Rum And Kirk,2.9,3.0,2.7,0,8,3,7.44,6,mid
+2026-09-03,COFFS HARBOUR,3,1. Funky Cold Medina,8.5,11.0,3.6,0,10,3,7.51,7,mid
+2026-09-03,COFFS HARBOUR,5,2. Felis Chaus,3.8,3.6,3.5,0,12,2,7.36,6,mid
+2026-09-03,COFFS HARBOUR,6,1. Rich Star,3.1,2.6,2.6,1,9,2,7.55,7,mid
+2026-09-03,COFFS HARBOUR,8,2. Cool Fizz,2.6,4.6,4.6,1,10,1,7.61,7,mid
+2026-09-03,MACKAY,1,5. Check One Two,3.2,9.0,3.7,0,10,8,7.05,6,mid
+2026-09-03,MACKAY,2,2. Hooroo,3.6,1.8,1.8,1,12,1,6.83,5,mid
+2026-09-03,MACKAY,3,7. Lucky Lass,5.5,2.8,2.8,0,7,4,7.24,7,mid
+2026-09-03,MACKAY,4,5. Tara I Am,2.4,2.9,2.8,0,9,1,7.47,9,mid
+2026-09-03,MACKAY,5,1. Red Hot Lizzie,2.4,2.3,2.3,1,8,1,8.02,10,mid
+2026-09-03,MACKAY,6,7. Supid Date,2.9,3.7,1.65,0,11,2,7.19,7,mid
+2026-09-05,EAGLE FARM,3,2. Chillaxing,6.0,10.0,4.0,0,10,3,7.98,8,mid
+2026-09-05,EAGLE FARM,4,1. Prince Charge,23.0,26.0,4.6,0,12,11,7.42,6,mid
+2026-09-05,EAGLE FARM,5,3. Luton Hoo,7.0,9.0,3.7,0,10,6,7.71,7,mid
+2026-09-05,EAGLE FARM,6,10. Riez Souvent,8.0,10.0,1.9,0,13,7,7.64,7,mid
+2026-09-05,EAGLE FARM,7,7. Bold Comic,7.0,9.5,2.8,0,6,6,7.69,7,mid
+2026-09-05,EAGLE FARM,10,3. Hell,4.4,3.0,3.0,1,11,3,8.06,8,mid
+2026-09-05,RANDWICK,1,4. Long Legs,8.5,8.5,3.0,0,9,6,7.72,7,mid
+2026-09-05,RANDWICK,2,8. Zumbo,10.0,17.0,3.6,0,16,8,7.55,6,mid
+2026-09-05,RANDWICK,3,1. Kimberley Secrets,9.0,12.0,4.2,0,13,2,7.8,7,mid
+2026-09-05,RANDWICK,4,2. So You Are,3.4,3.0,2.9,0,8,1,7.95,8,mid
+2026-09-05,RANDWICK,5,10. Call Me Gorgeous,8.5,12.0,4.4,0,16,8,7.78,7,mid
+2026-09-05,RANDWICK,7,5. Private Eye,4.0,5.0,2.45,0,8,7,7.92,8,mid
+2026-09-05,RANDWICK,8,1. Headwall,4.6,4.4,1.95,0,12,2,7.9,8,mid
+2026-09-05,RANDWICK,10,13. Watson,4.0,3.1,2.45,0,11,4,7.96,8,mid
+2026-09-05,SANDOWN HILLSIDE,1,1. Ko Phangan,5.5,,,,6,4,7.86,7,mid
+2026-09-05,SANDOWN HILLSIDE,2,2. Celestial Zara,4.0,,,,10,4,7.88,8,mid
+2026-09-05,SANDOWN HILLSIDE,3,1. Beast Mode,8.5,,,,8,7,7.84,7,mid
+2026-09-05,SANDOWN HILLSIDE,5,2. Rubi's Choice,11.0,,,,11,5,7.74,7,mid
+2026-09-05,SANDOWN HILLSIDE,7,5. Regal Zeus,26.0,,,,9,6,7.26,5,mid
+2026-09-05,SANDOWN HILLSIDE,8,1. Giga Kick,4.8,,,,13,10,7.94,8,mid
+2026-09-05,SANDOWN HILLSIDE,9,2. Here To Shock,18.0,,,,6,59,7.62,7,mid
+2026-09-09,IPSWICH,1,5. Lottery Link,3.9,6.0,1.8,0,9,3,7.55,7,mid
+2026-09-09,IPSWICH,2,9. Hit A Lick,9.0,12.0,2.05,0,10,7,7.4,6,mid
+2026-09-09,IPSWICH,3,4. Vegas Raider,7.5,7.0,2.7,0,6,4,7.35,6,mid
+2026-09-09,IPSWICH,4,6. Kadesky,8.5,11.0,2.5,0,8,3,7.45,7,mid
+2026-09-09,IPSWICH,5,1. Barrelling,2.3,1.6,1.6,1,10,6,7.9,8,mid
+2026-09-09,IPSWICH,7,4. Yoweri,5.5,4.2,3.0,0,9,1,7.65,8,mid
+2026-09-09,RANDWICK-KENSINGTON,1,1. Gentle Giant,4.0,,,,10,1,7.5,6,mid
+2026-09-09,RANDWICK-KENSINGTON,2,2. Unhinged,4.2,,,,7,2,7.7,7,mid
+2026-09-09,RANDWICK-KENSINGTON,3,3. Threads,7.5,,,,7,1,7.25,5,mid
+2026-09-09,RANDWICK-KENSINGTON,4,1. Funchal,10.0,,,,8,7,7.3,6,mid
+2026-09-09,RANDWICK-KENSINGTON,5,6. Pierata's Gem,5.0,,,,9,6,7.35,6,mid
+2026-09-09,RANDWICK-KENSINGTON,6,8. Varuni,9.5,,,,8,6,7.55,7,mid
+2026-09-09,RANDWICK-KENSINGTON,7,3. Tough Guy,8.5,,,,7,7,7.6,7,mid
+2026-09-10,HAWKESBURY,1,3. Hitch,3.5,3.0,2.25,0,7,2,7.55,6,mid
+2026-09-10,HAWKESBURY,2,6. Green Pineapple,4.0,9.5,2.6,0,7,6,7.7,7,mid
+2026-09-10,HAWKESBURY,3,1. Comanche Chief,2.3,2.3,2.2,0,10,3,7.8,7,mid
+2026-09-10,HAWKESBURY,4,9. Pailleron,4.0,2.7,2.7,1,11,1,7.6,6,mid
+2026-09-10,HAWKESBURY,5,1. Camden Cove,3.9,3.4,1.45,0,10,4,7.45,6,mid
+2026-09-10,HAWKESBURY,6,4. Mrs Flanders,4.4,4.8,3.3,0,8,5,7.65,7,mid
+2026-09-10,HAWKESBURY,7,8. Castelique,9.5,10.0,3.2,0,10,5,7.5,6,mid
+2026-09-10,WARWICK,1,11. Saluki,10.0,,,,12,4,7.35,6,mid
+2026-09-10,WARWICK,2,10. I Am Gone,11.0,,,,12,4,7.45,6,mid
+2026-09-10,WARWICK,3,3. Old Wermatong,6.0,,,,10,6,7.45,6,mid
+2026-09-10,WARWICK,4,8. Privalova,4.6,,,,14,2,7.7,7,mid
+2026-09-10,WARWICK,5,12. Icymiss,5.0,,,,11,3,7.55,7,mid
+2026-09-10,WARWICK,6,6. Artie Vainqueur,6.6,,,,14,1,7.55,6,mid
+2026-09-10,WARWICK,7,14. Water Lad,11.0,,,,13,2,7.35,6,mid
+2026-09-12,Doomben,1,11. Slipsain,2.9,2.5,2.5,1,11,7,7.26,,
+2026-09-12,Doomben,2,3. Livalittle,2.05,1.85,1.85,1,8,1,7.04,,
+2026-09-12,Doomben,3,8. Bluepinot,4.2,4.4,4.4,1,8,2,6.9,,
+2026-09-12,Doomben,4,5. Cunnamulla Fella,2.35,2.6,2.6,1,8,2,7.2,,
+2026-09-12,Doomben,5,5. Gram,2.5,2.2,2.2,1,8,1,7.31,,
+2026-09-12,Doomben,6,11. Spiethtacular,2.4,3.0,3.0,1,8,2,7.36,,
+2026-09-12,Doomben,7,15. Listen Jani,4.4,3.9,3.4,0,13,5,8.15,,
+2026-09-12,Doomben,8,8. Zouper Fund,2.6,2.05,2.05,1,10,3,7.06,,
+2026-09-12,Doomben,9,6. Compel,5.5,6.0,3.9,0,11,5,7.22,,
+2026-09-12,Doomben,10,1. Band Of Brothers,3.4,6.0,3.9,0,10,6,7.24,,
+2026-09-12,Flemington,1,5. Naval Academy,2.6,2.8,2.8,1,6,3,7.15,,
+2026-09-12,Flemington,2,3. Unit Five,3.8,3.6,3.6,1,14,7,7.14,,
+2026-09-12,Flemington,3,9. Lucky Brook,6.5,7.0,3.1,0,13,8,6.97,,
+2026-09-12,Flemington,4,6. Mbube,3.4,2.8,2.8,1,10,2,7.45,,
+2026-09-12,Flemington,5,3. Nearco Frod,3.7,5.5,2.9,0,11,11,7.27,,
+2026-09-12,Flemington,6,8. Sass Appeal,2.8,3.2,3.2,1,13,4,6.85,,
+2026-09-12,Flemington,7,5. Oliveanotherday,1.65,1.6,1.6,1,14,5,7.07,,
+2026-09-12,Flemington,8,12. Sheza Alibi,1.6,1.6,1.6,1,10,1,7.41,,
+2026-09-12,Flemington,9,4. Gold Coast Belle,2.25,2.1,2.1,1,12,7,6.92,,
+2026-09-12,Flemington,10,13. Storm Leopard,3.0,2.6,2.6,1,15,12,6.95,,
+2026-09-12,Morphettville,1,1. Ramasis,3.8,4.0,3.4,0,10,3,6.58,,
+2026-09-12,Morphettville,3,1. Like A Tiger,2.5,2.5,2.5,1,11,5,5.93,,
+2026-09-12,Morphettville,4,13. Harmonic Dancer,1.65,1.6,1.6,1,14,3,7.01,,
+2026-09-12,Morphettville,5,1. Navy Rok,2.0,2.15,2.15,1,13,1,6.6,,
+2026-09-12,Morphettville,6,7. You Sexy Thing,2.5,2.3,2.3,1,10,2,6.49,,
+2026-09-12,Morphettville,7,1. Smooth Chino,4.2,3.3,3.3,1,8,3,7.03,,
+2026-09-12,Morphettville,8,1. Mr Trafficanti,7.0,4.0,4.0,1,16,2,6.73,,
+2026-09-12,Morphettville,9,10. Leading Impact,7.5,9.5,4.0,0,10,5,7.26,,
+2026-09-12,Rosehill,2,4. Heroic Deed,3.7,3.5,3.5,1,12,7,6.79,,
+2026-09-12,Rosehill,3,3. Appeared,2.2,2.2,2.2,1,5,1,7.07,,
+2026-09-12,Rosehill,4,7. Mukhtalif,2.15,2.2,2.2,1,10,2,7.01,,
+2026-09-12,Rosehill,5,8. Transcend,4.6,4.4,4.4,1,10,3,7.26,,
+2026-09-12,Rosehill,6,11. Savagram,7.0,5.5,4.0,0,10,7,6.96,,
+2026-09-12,Rosehill,7,2. Lazzura,3.2,2.9,2.9,1,8,3,8.19,,
+2026-09-12,Rosehill,8,7. St Gotthard,2.7,2.6,2.6,1,11,2,7.29,,
+2026-09-12,Rosehill,9,6. Skyhook,2.9,2.0,2.0,1,13,1,6.51,,
+2026-09-12,Rosehill,10,6. Eagle Express,4.4,5.0,2.8,0,10,2,7.38,,
+2026-09-15,Bowen,1,5. Formal Affair,2.4,,,,6,2,7.48,5,mid
+2026-09-15,Bowen,2,2. Faraway Downs,2.5,,,,7,1,7.13,5,mid
+2026-09-15,Bowen,3,1. Bang Stick,1.5,,,,5,1,6.91,4,mid
+2026-09-15,Bowen,4,1. Hellish,1.8,,,,6,3,6.86,7,mid
+2026-09-15,Bowen,5,9. Belinda's Rubi,5.0,,,,12,9,6.78,2,mid
+2026-09-15,Bowen,6,5. Hot Torque Invegas,2.9,,,,8,6,6.55,2,mid
+2026-09-15,Bowen,7,10. Next Stop Jupiter,2.2,,,,10,2,7.45,5,mid
+2026-09-15,Moruya,1,1. Colorado Sun,3.3,3.5,3.5,1,8,4,6.78,1,mid
+2026-09-15,Moruya,2,4. Hampton Style,4.2,4.4,2.6,0,9,7,6.78,1,mid
+2026-09-15,Moruya,3,11. Yamashita,1.85,1.45,1.45,1,9,1,7.03,3,mid
+2026-09-15,Moruya,4,8. Restless Spirit,2.6,2.8,2.8,1,7,1,6.92,3,mid
+2026-09-15,Moruya,5,1. Abstruse,4.8,7.5,4.4,0,11,1,6.14,1,mid
+2026-09-15,Moruya,6,5. Peruno,8.5,8.0,4.0,0,12,5,6.35,2,mid
+2026-09-15,Moruya,7,9. Magnardo,18.0,19.0,3.3,0,9,6,6.56,1,mid
+2026-09-19,Caulfield,1,3. Emperor Tzu,4.5,4.0,4.0,1,13,1,7.31,6,mid
+2026-09-19,Caulfield,2,1. Arashi Flash,3.4,3.8,3.6,0,8,4,6.15,4,mid
+2026-09-19,Caulfield,3,2. Winnasedge,4.2,4.4,4.4,1,9,7,7.1,7,mid
+2026-09-19,Caulfield,4,8. Tolaga Bay,5.5,5.0,3.6,0,11,5,6.91,5,mid
+2026-09-19,Caulfield,5,3. Blind Raise,2.5,2.4,2.4,1,9,1,7.74,7,mid
+2026-09-19,Caulfield,6,10. Bridal Waltz,2.25,1.85,1.85,1,10,2,7.86,8,mid
+2026-09-19,Caulfield,7,5. Cosmic Crusader,2.7,2.25,2.25,1,8,2,7.03,5,mid
+2026-09-19,Caulfield,8,3. Saint George,5.0,3.6,3.2,0,16,2,7.77,8,mid
+2026-09-19,Caulfield,9,6. Lady Shenandoah,5.0,4.8,4.8,1,16,4,7.21,6,mid
+2026-09-19,Caulfield,10,17. Cruiserweight,2.3,2.6,2.6,1,12,7,7.89,8,mid
+2026-09-19,Gold Coast,1,5. Yes Donald Yes,3.3,,,,15,2,6.7,4,mid
+2026-09-19,Gold Coast,2,1. Exceed The Sale,4.6,,,,8,5,7.84,6,mid
+2026-09-19,Gold Coast,3,3. Captain Maverick,3.2,,,,10,2,6.32,5,mid
+2026-09-19,Gold Coast,4,10. Strada Varenna,3.6,,,,11,2,6.93,3,mid
+2026-09-19,Gold Coast,6,9. Greyzous,4.8,,,,10,5,7.43,7,mid
+2026-09-19,Gold Coast,7,1. Grand Impact,2.3,,,,9,5,6.88,5,mid
+2026-09-19,Gold Coast,8,4. Metaphorically,3.1,,,,11,1,7.13,4,mid
+2026-09-19,Gold Coast,9,9. La Rosetta,14.0,,,,10,10,7.25,6,mid
+2026-09-19,Gold Coast,10,6. Surprise Honey,2.4,,,,6,4,6.5,5,mid
+2026-09-19,Randwick,1,10. Cruizingthestars,3.5,3.0,3.0,1,13,1,7.0,3,mid
+2026-09-19,Randwick,2,11. All Star,6.0,7.0,1.65,0,11,2,5.83,2,mid
+2026-09-19,Randwick,3,7. Watson,3.9,3.7,2.5,0,9,4,6.5,2,mid
+2026-09-19,Randwick,4,4. Castlejohn,4.0,4.4,3.7,0,11,3,7.59,6,mid
+2026-09-19,Randwick,5,1. Headley Grange,2.9,4.0,4.0,1,10,3,7.97,8,mid
+2026-09-19,Randwick,6,3. Soul Of Spain,4.8,3.9,3.9,1,14,3,6.72,4,mid
+2026-09-19,Randwick,7,2. Chilly Girl,3.4,4.4,2.7,0,9,4,7.38,4,mid
+2026-09-19,Randwick,8,6. Idle Flyer,19.0,26.0,1.16,0,5,4,8.13,6,mid
+2026-09-19,Randwick,9,3. Headwall,3.0,3.2,3.2,1,11,5,7.51,7,mid
+2026-09-19,Randwick,10,2. Golden Straand,4.8,5.0,4.2,0,13,1,7.75,8,mid
+2026-09-28,Bunbury,1,5. Aura Magna,6.5,7.5,1.85,0,10,6,7.07,4,mid
+2026-09-28,Bunbury,2,8. Cartier Glow,4.2,3.5,2.7,0,11,3,7.01,3,mid
+2026-09-28,Bunbury,3,12. Ze Deel,5.5,4.2,4.0,0,11,3,7.3,3,mid
+2026-09-28,Bunbury,4,10. Boutique Belle,3.0,3.5,2.6,0,11,5,6.7,3,mid
+2026-09-28,Bunbury,5,2. Nailed'Em,5.0,8.0,1.85,0,8,4,6.89,2,mid
+2026-09-28,Bunbury,6,13. Dynastic Lass,9.0,11.0,4.0,0,14,4,6.96,2,mid
+2026-09-28,Bunbury,7,6. Back In The Fold,11.0,21.0,1.4,0,12,4,6.9,5,mid
+2026-09-28,Bunbury,8,7. Surround Me,3.3,5.0,5.0,1,13,11,7.6,5,mid
+2026-09-28,Kilmore,2,9. Anglais,2.4,,,,10,3,7.17,2,mid
+2026-09-28,Kilmore,3,11. Jourama,6.0,,,,11,6,7.04,2,mid
+2026-09-28,Kilmore,4,6. Weasel Sea,7.0,,,,10,2,6.9,3,mid
+2026-09-28,Kilmore,5,2. Royal Rendezvous,4.0,,,,9,2,6.81,2,mid
+2026-09-28,Kilmore,7,4. Switch Hit,5.0,,,,13,2,7.21,4,mid
+2026-09-28,Kilmore,8,12. Hell's Diamond,4.4,,,,12,11,8.05,6,mid
+2026-09-28,Tamworth,1,5. Immortal Rose,5.0,4.6,1.7,0,6,1,6.99,5,mid
+2026-09-28,Tamworth,2,8. Syllable,2.3,2.0,2.0,1,9,2,7.01,2,mid
+2026-09-28,Tamworth,3,6. Usain Boss,4.4,6.0,1.24,0,8,2,6.82,2,mid
+2026-09-28,Tamworth,4,6. Nugget Smart,4.0,4.8,2.5,0,7,1,7.18,6,mid
+2026-09-28,Tamworth,5,8. May The Force,4.6,7.5,4.4,0,8,2,7.53,4,mid
+2026-09-28,Tamworth,6,7. Concoction,4.6,4.2,2.9,0,9,8,6.62,3,mid
+2026-09-28,Tamworth,7,5. Haney,4.8,6.0,2.5,0,9,7,7.56,5,mid
+2026-09-28,Wagga,1,6. Colorado Sun,3.2,2.5,2.5,1,11,1,6.66,2,mid
+2026-09-28,Wagga,2,8. Malinga Missile,4.0,4.6,2.8,0,6,1,7.0,2,mid
+2026-09-28,Wagga,3,8. Chief Of War,2.7,2.6,2.6,1,5,1,7.61,3,mid
+2026-09-28,Wagga,4,1. Bombay Boom,2.7,2.6,2.6,1,9,5,7.32,4,mid
+2026-09-28,Wagga,5,1. Akari Spirit,3.2,2.5,2.5,1,10,3,7.36,4,mid
+2026-09-28,Wagga,7,5. Bonnie Murringo,3.0,1.65,1.65,1,8,6,7.2,5,mid
+2026-09-30,Doomben,1,1. Imminent Appeal,2.5,2.3,2.3,1,9,1,7.1,4,mid
+2026-09-30,Doomben,2,1. Super Fair,2.7,2.6,2.6,1,6,3,7.36,5,back
+2026-09-30,Doomben,4,14. Cavalluna,6.0,10.0,1.8,0,11,8,6.93,4,mid
+2026-09-30,Doomben,5,10. Southern Heiress,4.0,3.5,2.8,0,8,2,7.45,5,mid
+2026-09-30,Doomben,6,1. Zouper Fund,3.5,3.9,2.5,0,9,3,7.52,6,mid
+2026-09-30,Doomben,7,12. Savage Sequel,3.5,5.0,3.0,0,10,6,7.31,4,mid
+2026-10-10,Caulfield,1,6. Veyepee,2.5,2.8,2.8,1,10,6,7.1,4,mid
+2026-10-10,Caulfield,2,5. Sequinned,3.1,2.8,2.8,1,9,1,6.5,4,mid
+2026-10-10,Caulfield,3,1. Surfin' Bird,3.8,4.2,3.5,0,12,1,7.71,9,on
+2026-10-10,Caulfield,4,12. Pinhole,3.6,3.7,3.7,1,13,1,6.41,4,back
+2026-10-10,Caulfield,5,7. Bridal Waltz,2.35,2.2,2.2,1,11,3,7.44,9,on
+2026-10-10,Caulfield,6,1. Jigsaw,2.2,2.25,2.25,1,9,1,7.75,11,on
+2026-10-10,Caulfield,7,6. Sheza Alibi,1.35,1.4,1.4,1,6,2,7.33,8,mid
+2026-10-10,Caulfield,8,2. Warwoven,2.3,2.4,2.4,1,11,1,6.96,4,mid
+2026-10-10,Caulfield,9,2. Lady Shenandoah,5.5,5.5,5.5,1,15,1,6.91,6,mid
+2026-10-10,Caulfield,10,12. Harry's Yacht,6.0,4.8,4.8,1,14,5,6.87,5,back
+2026-10-10,Eagle Farm,1,2. Venus Invicta,1.35,1.6,1.6,1,7,1,5.56,2,mid
+2026-10-10,Eagle Farm,2,1. Metaphorically,3.8,,2.2,0,9,SB,7.34,7,on
+2026-10-10,Eagle Farm,3,5. Dr Farthing,3.3,3.0,3.0,1,9,8,6.8,6,mid
+2026-10-10,Eagle Farm,4,1. Ashkirk,4.0,4.2,3.4,0,9,2,7.16,5,back
+2026-10-10,Eagle Farm,5,8. Samarelle,2.0,1.95,1.95,1,9,1,6.72,6,back
+2026-10-10,Eagle Farm,6,8. Get Ready Lass,2.7,3.8,3.8,1,9,2,7.02,7,mid
+2026-10-10,Eagle Farm,7,1. Lucky Pat,4.0,3.2,3.2,1,11,2,7.22,7,mid
+2026-10-10,Eagle Farm,8,9. Sir Winnie,3.0,2.6,2.6,1,8,5,6.83,5,on
+2026-10-10,Eagle Farm,9,3. Amplify,3.3,3.6,3.6,1,12,3,6.63,6,back
+2026-10-10,Eagle Farm,10,2. Fukubana,3.6,5.5,5.5,1,13,2,7.37,7,back
+2026-10-10,Morphettville,1,1. Ole Go,1.65,1.7,1.7,1,7,1,6.88,7,on
+2026-10-10,Morphettville,2,12. Gift Of Silence,5.0,9.5,2.0,0,11,5,6.74,5,back
+2026-10-10,Morphettville,3,2. Golden Cloud,3.5,5.0,2.6,0,9,1,6.82,6,back
+2026-10-10,Morphettville,4,2. Dirty Deal,3.6,3.3,3.3,1,11,8,6.41,3,mid
+2026-10-10,Morphettville,7,7. Bohemian Angel,4.4,5.0,5.0,1,14,1,6.7,3,back
+2026-10-10,Morphettville,8,10. Shady Thinker,3.6,3.4,3.4,1,13,2,6.07,2,mid
+2026-10-10,Morphettville,9,2. Bred 'Em All,1.9,1.9,1.9,1,11,1,6.98,8,mid
+2026-10-10,Rosehill,1,1. Felix Majestic,3.5,3.5,3.5,1,11,3,6.56,5,on
+2026-10-10,Rosehill,2,13. Costalivin,4.8,6.5,3.8,0,13,7,7.03,6,on
+2026-10-10,Rosehill,3,9. Barrengarry,2.9,3.3,3.3,1,8,2,7.61,7,mid
+2026-10-10,Rosehill,4,11. Proxima Dea,3.8,4.0,4.0,1,10,1,7.55,9,mid
+2026-10-10,Rosehill,5,11. Chuchichaschtli,3.0,3.0,3.0,1,9,1,6.69,3,mid
+2026-10-10,Rosehill,6,1. Paradoxium,2.35,2.0,2.0,1,10,4,7.24,8,on
+2026-10-10,Rosehill,7,1. Lindermann,1.8,1.7,1.7,1,8,2,6.51,7,mid
+2026-10-10,Rosehill,8,2. Headley Grange,5.0,5.5,4.2,0,15,9,7.48,9,mid
+2026-10-10,Rosehill,9,8. Gerringong,4.0,3.7,3.7,1,14,1,6.93,4,mid
+2026-10-10,Rosehill,10,9. Fierce,2.4,2.5,2.5,1,10,1,6.69,5,mid
+2026-10-17,Caulfield,1,6. Russian Rock,3.4,2.9,2.9,1,8,4,6.51,3,back
+2026-10-17,Caulfield,2,2. Miss Waititi,2.9,3.8,2.9,0,14,11,6.97,5,back
+2026-10-17,Caulfield,3,1. Geegees Mistruth,1.95,1.9,1.9,1,9,8,7.45,9,mid
+2026-10-17,Caulfield,4,13. I Am Aria,4.4,3.5,3.5,1,14,2,6.76,4,mid
+2026-10-17,Caulfield,5,1. Private Eye,2.4,2.5,2.5,1,9,2,6.89,6,mid
+2026-10-17,Caulfield,6,2. Cavalry Girl,2.45,3.0,3.0,1,10,1,7.55,6,on
+2026-10-17,Caulfield,7,9. Regal Ambition,3.9,3.7,3.7,1,12,3,6.53,4,back
+2026-10-17,Caulfield,8,12. Over Excited,3.3,3.3,3.3,1,11,9,6.54,2,back
+2026-10-17,Caulfield,9,2. Cosmic Crusader,5.5,4.8,4.8,1,18,4,7.37,7,mid
+2026-10-17,Caulfield,10,12. Concord Connie,2.7,2.7,2.7,1,11,3,7.32,7,mid
+2026-10-17,Doomben,1,1. Apostle,1.9,2.05,2.05,1,6,6,7.2,7,mid
+2026-10-17,Doomben,2,7. Taravia,2.9,2.5,2.5,1,6,2,6.93,5,mid
+2026-10-17,Doomben,3,14. Scripted,1.95,2.15,2.15,1,9,1,7.69,9,mid
+2026-10-17,Doomben,4,3. Easy Love,3.0,3.7,3.7,1,7,6,7.19,4,mid
+2026-10-17,Doomben,5,9. Cardonette,2.8,2.6,2.6,1,8,2,6.92,6,back
+2026-10-17,Doomben,6,7. He's Tru Blue,3.0,2.6,2.6,1,10,2,6.21,3,back
+2026-10-17,Doomben,7,5. Dominant Darcy,3.3,2.8,2.8,1,8,3,8.02,10,mid
+2026-10-17,Doomben,8,12. Propaganda,1.75,1.75,1.75,1,11,1,7.37,7,mid
+2026-10-17,Doomben,9,11. Just Precious,4.2,3.9,3.9,1,12,1,7.15,6,mid
+2026-10-17,Doomben,10,4. Golden Straand,1.65,1.75,1.75,1,9,2,6.99,7,back
+2026-10-17,Morphettville,1,1. Czech Out,2.7,2.5,2.5,1,6,1,5.98,2,back
+2026-10-17,Morphettville,2,10. Sensational Secret,3.6,3.2,3.2,1,11,1,6.2,3,mid
+2026-10-17,Morphettville,3,7. Autumn Rainbow,1.95,1.6,1.6,1,8,6,6.2,3,back
+2026-10-17,Morphettville,4,14. Percidian,6.0,7.5,4.2,0,12,1,6.6,4,back
+2026-10-17,Morphettville,5,3. Cradle Of Jazz,3.6,4.6,3.8,0,13,5,6.63,8,mid
+2026-10-17,Morphettville,6,12. Harmonic Dancer,2.05,1.95,1.95,1,12,3,6.7,3,mid
+2026-10-17,Morphettville,7,13. Violet Lovebug,5.0,5.0,4.6,0,13,6,7.36,9,mid
+2026-10-17,Morphettville,8,3. Shadow Eagle,3.2,3.1,3.1,1,12,3,6.24,4,mid
+2026-10-17,Morphettville,9,2. Bacash,4.4,3.6,3.6,1,16,2,6.72,5,mid
+2026-10-17,Randwick,1,6. Matias,2.3,2.6,2.6,1,9,2,6.95,5,mid
+2026-10-17,Randwick,2,4. Saffron Veil,2.7,3.1,3.1,1,11,7,6.51,3,mid
+2026-10-17,Randwick,3,8. Unleeshing,3.5,3.3,3.2,0,10,1,6.94,5,back
+2026-10-17,Randwick,4,4. So You Are,2.45,3.3,3.3,1,10,1,6.81,5,on
+2026-10-17,Randwick,5,10. So You Pence,4.4,4.6,4.6,1,14,3,6.96,8,mid
+2026-10-17,Randwick,6,15. Marhoona,5.0,5.5,5.5,1,16,2,6.99,7,on
+2026-10-17,Randwick,7,1. Ka Ying Rising,1.5,1.35,1.35,1,12,2,7.86,9,on
+2026-10-17,Randwick,8,1. Beiwacht,2.9,2.4,2.4,1,14,3,7.46,9,on
+2026-10-17,Randwick,9,5. Autumn Glow,1.24,1.26,1.26,1,5,1,7.89,10,mid
+2026-10-17,Randwick,10,3. Cross Tasman,2.7,2.15,2.15,1,15,1,7.43,8,back
+2026-11-07,Eagle Farm,1,3. Vintage Vibes,1.85,1.75,1.75,1,10,1,7.29,8,on
+2026-11-07,Eagle Farm,2,6. Rochedale Hero,4.6,4.4,3.9,0,8,3,6.9,6,mid
+2026-11-07,Eagle Farm,3,3. Kokatahi,3.0,2.6,2.6,1,11,1,7.34,7,mid
+2026-11-07,Eagle Farm,4,3. Cunnamulla Fella,2.6,1.9,1.9,1,9,1,6.98,5,mid
+2026-11-07,Eagle Farm,5,14. Southern Heiress,1.95,1.85,1.85,1,8,1,6.53,3,back
+2026-11-07,Eagle Farm,6,9. Just Precious,2.3,2.5,2.5,1,9,7,7.3,5,mid
+2026-11-07,Eagle Farm,7,9. Military Tycoon,2.6,2.8,2.8,1,9,6,6.89,5,mid
+2026-11-07,Eagle Farm,8,9. Easy Love,2.6,2.4,2.4,1,12,7,7.43,6,mid
+2026-11-07,Eagle Farm,9,5. La Roja,4.5,3.4,3.4,1,11,3,6.6,5,mid
+2026-11-07,Eagle Farm,10,2. Zip Lock,4.4,4.0,4.0,1,12,8,7.38,8,mid
+2026-11-07,Flemington,1,4. Soldi,2.7,3.3,3.3,1,11,1,7.63,7,on
+2026-11-07,Flemington,2,13. Superfabulistic,3.4,3.6,2.6,0,12,1,7.39,8,on
+2026-11-07,Flemington,3,4. Pinhole,2.8,2.6,2.6,1,10,1,6.92,3,back
+2026-11-07,Flemington,4,6. Inkaruna,5.5,5.0,3.4,0,14,2,7.26,6,mid
+2026-11-07,Flemington,5,8. Vivy Air,3.9,4.6,3.3,0,16,15,7.36,5,back
+2026-11-07,Flemington,6,6. Tempted,1.75,1.7,1.7,1,10,5,7.41,6,back
+2026-11-07,Flemington,7,8. Autumn Glow,1.2,1.18,1.18,1,8,1,7.86,8,mid
+2026-11-07,Flemington,8,1. Cosmic Crusader,3.0,3.3,3.3,1,10,2,7.87,8,mid
+2026-11-07,Flemington,9,6. Educated,3.8,3.8,3.8,1,14,11,7.31,8,on
+2026-11-14,Doomben,1,2. La Bella Queen,2.5,2.4,2.4,1,6,2,7.45,3,mid
+2026-11-14,Doomben,2,1. The Grey One,1.7,1.6,1.6,1,8,1,7.86,2,mid
+2026-11-14,Doomben,3,4. Toro Strike,2.45,2.45,2.45,1,12,1,7.95,4,mid
+2026-11-14,Doomben,4,9. Draw Attention,1.7,1.6,1.6,1,9,2,7.87,4,mid
+2026-11-14,Doomben,5,9. Cardonette,3.3,3.5,3.5,1,9,1,7.97,4,mid
+2026-11-14,Doomben,6,1. Smoke On The Water,4.4,3.7,3.5,0,10,1,7.95,5,mid
+2026-11-14,Doomben,7,1. Ready For Aimee,3.7,3.4,3.4,1,9,4,7.99,4,mid
+2026-11-14,Doomben,8,7. Now Is The Hour,1.85,1.85,1.85,1,7,3,6.59,4,mid
+2026-11-14,Doomben,9,8. Balance The Books,2.5,2.6,2.6,1,9,7,8.0,4,mid
+2026-11-14,Doomben,10,9. All Kinds Of Folk,1.75,1.5,1.5,1,9,1,7.99,4,mid
+2026-11-14,Morphettville Parks,1,5. Our Brave Boy,2.5,2.3,2.3,1,10,1,6.96,0,mid
+2026-11-14,Morphettville Parks,2,6. Arizona Dreamer,2.8,3.2,3.2,1,9,7,6.5,1,mid
+2026-11-14,Morphettville Parks,3,8. Sicilian Princess,3.4,3.6,2.8,0,12,3,7.09,2,mid
+2026-11-14,Morphettville Parks,4,5. Mathematician,1.8,1.5,1.5,1,7,1,6.46,2,mid
+2026-11-14,Morphettville Parks,5,3. Bargain Boy,3.9,4.2,4.2,1,10,4,6.93,2,mid
+2026-11-14,Morphettville Parks,6,5. It'sanotherbattle,1.4,1.4,1.4,1,10,1,7.99,2,mid
+2026-11-14,Morphettville Parks,7,5. Somewhere Soon,4.6,5.0,3.5,0,10,6,6.74,4,mid
+2026-11-14,Morphettville Parks,8,11. Shadow Eagle,2.8,2.5,2.5,1,11,3,6.37,2,mid
+2026-11-14,Newcastle,1,11. Stellar Ami,2.25,2.45,2.45,1,11,3,7.74,0,mid
+2026-11-14,Newcastle,2,3. Agent Zero,1.7,1.6,1.6,1,6,4,7.98,3,mid
+2026-11-14,Newcastle,3,12. Costa Del Sol,3.4,3.9,3.9,1,16,7,7.99,2,mid
+2026-11-14,Newcastle,4,10. Cabbucio,3.4,3.1,3.1,1,9,3,7.99,3,mid
+2026-11-14,Newcastle,5,5. Cuban Cigar,3.0,3.6,3.6,1,10,1,7.19,2,mid
+2026-11-14,Newcastle,6,6. Regal Problem,2.45,2.0,2.0,1,10,10,7.7,3,mid
+2026-11-14,Newcastle,7,1. Kickup Rocky,2.8,2.45,2.45,1,7,2,7.22,2,mid
+2026-11-14,Newcastle,8,7. Infancy,6.0,7.5,6.0,0,16,6,6.67,1,mid
+2026-11-14,Newcastle,9,8. Savvy Spy,2.6,2.35,2.35,1,10,6,7.96,2,mid
+2026-11-14,Newcastle,10,10. Theblade,4.6,4.2,4.0,0,15,7,6.8,3,mid
+2026-11-14,Sandown Hillside,1,12. Ichnusa,2.0,,,,,NOT1,6.48,2,mid
+2026-11-14,Sandown Hillside,2,12. Karren,2.4,,,,,1,7.17,4,mid
+2026-11-14,Sandown Hillside,3,4. Fundamental Nature,2.0,,,,,1,7.01,3,mid
+2026-11-14,Sandown Hillside,4,6. Geneva,4.0,,,,,NOT1,6.94,3,mid
+2026-11-14,Sandown Hillside,5,7. Magna Sententia,4.2,,,,,NOT1,6.46,2,mid
+2026-11-14,Sandown Hillside,6,8. Bred 'Em All,2.7,,,,,NOT1,6.91,4,mid
+2026-11-14,Sandown Hillside,7,2. Natural Fling,4.5,,,,,1,7.43,1,mid
+2026-11-14,Sandown Hillside,8,5. Beiwacht,2.9,,,,,NOT1,7.11,3,mid
+2026-11-14,Sandown Hillside,9,2. Kingswood,3.9,,,,,1,7.53,4,mid
+2026-11-14,Sandown Hillside,10,4. Concord Connie,1.6,,,,,1,7.0,2,mid
+2026-11-21,Ascot,1,4. Koonya Believe It,1.9,2.15,2.15,1,4,1,7.37,0,mid
+2026-11-21,Ascot,2,5. I'm Odette,7.5,5.0,4.4,0,12,8,7.18,2,mid
+2026-11-21,Ascot,3,2. Western Lady,2.1,1.85,1.85,1,12,1,7.57,3,mid
+2026-11-21,Ascot,4,7. Territory Man,2.3,2.6,2.6,1,11,2,7.26,2,mid
+2026-11-21,Ascot,5,5. Rostislav,2.4,2.0,2.0,1,12,5,6.09,1,mid
+2026-11-21,Ascot,6,8. Western Miss,2.1,2.2,2.2,1,8,2,8.26,3,mid
+2026-11-21,Ascot,7,4. Aberdeen Flyer,3.3,3.3,2.7,0,11,3,8.19,2,mid
+2026-11-21,Ascot,8,1. Beatty,1.75,1.85,1.85,1,14,1,7.72,2,mid
+2026-11-21,Ascot,9,1. Cosmic Crusader,3.2,3.1,3.1,1,14,1,7.38,4,mid
+2026-11-21,Ascot,10,4. Prince Of Dala,1.85,2.35,2.35,1,11,1,7.58,3,mid
+2026-11-21,Cranbourne,1,2. Valaroso,2.25,,,,,NOT1,8.38,3,mid
+2026-11-21,Cranbourne,2,7. Dirty Look,1.9,,,,,1,7.23,5,mid
+2026-11-21,Cranbourne,3,4. Swift Force,2.8,,,,,NOT1,7.04,3,mid
+2026-11-21,Cranbourne,4,6. Stakes,3.4,,,,,NOT1,8.9,3,mid
+2026-11-21,Cranbourne,5,11. Ardashir,3.7,,,,,NOT1,7.45,2,mid
+2026-11-21,Cranbourne,6,11. Jenni Multabella,1.6,,,,,1,6.69,1,mid
+2026-11-21,Cranbourne,7,8. Alero,5.0,,,,,NOT1,7.28,3,mid
+2026-11-21,Cranbourne,8,2. Warnie,3.5,,,,,NOT1,6.72,2,mid
+2026-11-21,Cranbourne,9,4. Smooth Chino,2.9,,,,,NOT1,7.39,3,mid
+2026-11-21,Cranbourne,10,10. Choir Point,4.0,,,,,1,7.0,4,mid
+2026-11-21,Kembla Grange,1,2. Party Boss,6.5,5.0,5.0,1,16,3,6.42,3,mid
+2026-11-21,Kembla Grange,2,7. Magical Moments,4.6,4.0,4.0,1,15,4,6.71,3,mid
+2026-11-21,Kembla Grange,3,5. Donatello,2.4,2.35,2.35,1,8,1,7.13,1,mid
+2026-11-21,Kembla Grange,4,3. Horseshoe Hill,1.9,2.05,2.05,1,10,1,8.32,3,mid
+2026-11-21,Kembla Grange,5,8. Graffiti Tycoon,1.75,1.7,1.7,1,9,1,8.91,2,mid
+2026-11-21,Kembla Grange,6,4. Compensation,5.0,6.5,3.7,0,12,1,7.79,3,mid
+2026-11-21,Kembla Grange,7,5. Earn To Burn,2.0,2.05,2.05,1,8,1,8.63,3,mid
+2026-11-21,Kembla Grange,8,1. Gringotts,2.3,2.3,2.3,1,16,1,7.41,4,mid
+2026-11-21,Kembla Grange,9,8. Youre Not The King,2.3,2.3,2.3,1,12,4,7.96,2,mid
+2026-11-21,Kembla Grange,10,7. Nitro,2.6,3.0,3.0,1,14,3,6.58,2,mid
+2026-11-21,Morphettville,1,4. Fiorona,3.7,3.7,3.7,1,15,6,7.88,2,mid
+2026-11-21,Morphettville,2,5. Inevitable Award,2.4,2.3,2.3,1,15,2,6.64,2,mid
+2026-11-21,Morphettville,3,1. Czech Out,5.0,5.0,5.0,0,10,5,6.85,2,mid
+2026-11-21,Morphettville,4,5. Wind Rush,3.0,3.6,3.6,1,15,2,7.44,2,mid
+2026-11-21,Morphettville,5,2. Up The Den,2.6,2.8,2.8,1,14,1,7.85,2,mid
+2026-11-21,Morphettville,6,2. Bohemian Angel,4.6,4.0,3.8,0,14,2,7.11,3,mid
+2026-11-21,Morphettville,7,6. Freedom Flame,4.4,3.5,3.5,1,15,1,7.04,2,mid
+2026-11-21,Morphettville,8,7. Like A Drifter,2.25,2.15,2.15,1,16,3,6.77,3,mid
+2026-11-21,Morphettville,9,1. Anotherhouse,9.0,12.0,4.2,0,16,14,7.38,2,mid
+2026-11-21,Sunshine Coast,1,6. Astern Effort,3.2,2.9,2.9,1,14,1,7.69,2,mid
+2026-11-21,Sunshine Coast,2,7. Rochedale Hero,4.8,5.5,4.6,0,14,7,7.18,2,mid
+2026-11-21,Sunshine Coast,3,5. Dominant Darcy,2.8,2.9,2.9,1,11,2,7.81,1,mid
+2026-11-21,Sunshine Coast,4,1. Iconic Scenes,2.8,3.1,2.4,0,10,1,8.52,2,mid
+2026-11-21,Sunshine Coast,5,1. Esperanza,2.4,2.15,2.15,1,9,3,7.92,2,mid
+2026-11-21,Sunshine Coast,7,4. Brindavan,2.6,1.85,1.85,1,14,4,6.95,2,mid
+2026-11-21,Sunshine Coast,8,14. Moulin Miss,8.0,13.0,3.2,0,14,4,8.74,2,mid
+2026-11-21,Sunshine Coast,9,3. The Barber,3.8,4.8,3.7,0,10,2,6.86,1,mid
+2026-11-21,Sunshine Coast,10,8. Smoke On The Water,3.6,2.2,2.2,1,11,6,7.72,2,mid
+2026-11-23,Ballina,1,3. Bellarata,3.3,2.6,2.6,1,7,1,7.57,4,on
+2026-11-23,Ballina,2,1. Prestige Headwater,2.15,2.35,2.35,1,7,2,7.07,1,on
+2026-11-23,Ballina,3,6. Diamantina Rose,1.6,1.55,1.55,1,5,1,9.59,4,on
+2026-11-23,Ballina,4,10. Ayaka,2.5,1.95,1.95,1,8,1,6.6,0,back
+2026-11-23,Ballina,5,8. Latin Lights,2.6,3.0,2.6,0,8,4,7.8,1,mid
+2026-11-23,Ballina,6,12. Stay Spending,2.15,1.75,1.75,1,12,1,6.8,0,back
+2026-11-23,Ballina,7,2. The Minstrel Boy,2.8,3.0,2.5,0,6,6,7.5,4,back
+2026-11-23,Ballina,8,7. Azuki,3.2,3.5,3.5,0,10,3,7.97,1,on
+2026-11-23,Barcaldine,1,3. Efugi,2.1,1.7,1.7,1,5,1,7.99,0,mid
+2026-11-23,Barcaldine,2,6. Bold Smuggler,3.2,3.0,2.6,0,8,6,6.43,2,mid
+2026-11-23,Barcaldine,3,10. Holy Holy Holy,3.3,3.1,3.1,1,10,2,7.2,2,back
+2026-11-23,Barcaldine,4,8. Egyptian Lass,5.5,10.0,3.9,0,11,2,6.71,4,mid
+2026-11-23,Barcaldine,5,7. I'm Zac,3.4,3.6,2.9,0,11,4,6.9,3,mid
+2026-11-23,Barcaldine,6,8. Little Cointreau,4.0,3.9,3.9,1,9,1,6.97,3,mid
+2026-11-24,Tamworth,1,5. Quirky Princess,1.9,2.0,2.0,1,9,1,8.3,3,on
+2026-11-24,Tamworth,2,11. Bright Eyed Baby,2.25,3.4,3.4,0,10,10,6.32,0,mid
+2026-11-24,Tamworth,3,2. Dekka's Latest,3.8,4.6,2.05,0,7,3,7.79,1,on
+2026-11-24,Tamworth,4,7. Flamboyant Lad,2.9,2.7,2.7,1,8,5,7.53,3,mid
+2026-11-24,Tamworth,5,5. Escalopecan,1.8,1.7,1.7,1,10,2,6.89,1,back
+2026-11-24,Tamworth,6,1. Arctic Legend,3.9,2.8,2.8,1,9,3,6.85,3,mid
+2026-11-24,Tamworth,7,4. Eezitosort,2.7,2.5,2.0,0,7,1,8.45,5,on
+2026-11-24,Tamworth,8,3. Chamber Of Secrets,2.35,1.8,1.8,1,10,2,7.47,2,mid
