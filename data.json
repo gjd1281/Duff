@@ -1,291 +1,849 @@
 {
  "meta": {
-  "engine": "TIGER v14 restored + GEM rev 26 Nov + MULTI",
-  "generated": "2026-11-26 11:00 AEST",
-  "label": "Thu 26 Nov 2026 — Hawkesbury, Rockhampton, Mornington, Geraldton",
-  "sample": "gd = 6 + model×5 (raw). Prices: live Sportsbet win/place fixed, pull time in each why. Going: forecast-led (Hawkesbury scored Good 4 from official Soft 5; others official). Weights = locked v14; K set so top-rated averages 30%. Out of divisor today: GEAR, SPEED. SECTIONALS = last-start L600 gap rank, PACE = settle positions (derived from R&S enhanced form; speedmap not used). SIG = old GEM signals /5. GEM is a PLACE bet."
+  "engine": "TIGER v14 locked (metro) + GEM rev 26 Nov + MULTI",
+  "generated": "2026-11-28 05:55 AEST",
+  "label": "Sat 28 Nov 2026 — Sandown, Rosehill, Doomben, Morphettville, Ascot",
+  "sample": "gd = 6 + model×5 (raw). Prices: live Sportsbet win/place fixed, pull time in each why. Going: official RA race-morning rating (Sandown RA 6:12am AEDT inspection 5:30am, raining). Weights = locked v14 metro set (COMBO .15 jockey strike, FORM .15, SECTIONALS .08); K set so top-rated averages 30% (K 1.17). Out of divisor: GEAR, SPEED. SECTIONALS = R&S AFS rank, PACE = R&S AES rank (own run data where no speed map figure). SIG = old GEM signals /5. GEM is a PLACE bet."
  },
  "racing": {
   "meetings": [
    {
-    "id": "haw",
-    "track": "Hawkesbury",
-    "condition": "Good 4 (forecast-led: 28C, 4% rain, 0mm; official rating was 5)",
+    "id": "san",
+    "track": "Sandown Hillside",
+    "condition": "Good 4 (official RA 6:12am AEDT; raining, 20.6mm last 24h, more rain forecast)",
+    "rail": "Out 3m entire circuit",
+    "direction": "anticlockwise",
+    "sigMax": 5,
+    "races": [
+     {
+      "no": 1,
+      "time": "11:20am",
+      "horse": "10. Jenni You Think",
+      "price": "$2.80",
+      "gd": 7.3,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (28%). Model 26% (rank 1), Sportsbet 29%. Strongest inputs: opening market 10.0/10, weight 8.7/10. Price $2.80 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "8. Cat Noir",
+       "price": "$11.00 / pl $3.00",
+       "why": "GEM (PLACE) 📍 7/12 points: placed 2/3 at this track (+1); finishing speed AFS rank 1 (+2); early speed rank 2 — settles top 4 on the map (+1); fit: 3U (+1); won one of its last 3 starts (+2). Place $3.00 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 8. Cat Noir $11.00 (won in last 3, distance winner).",
+       "fc": 7
+      }
+     },
+     {
+      "no": 2,
+      "time": "11:50am",
+      "horse": "2. Esmahli",
+      "price": "$4.80",
+      "gd": 7.02,
+      "pace": "on",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (18%). Model 20% (rank 2), Sportsbet 17%. Strongest inputs: opening market 10.0/10, prizemoney per start 10.0/10. Price $4.80 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "8. Bacash",
+       "price": "$7.00 / pl $2.38",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 4 (+2); placed 2/2 at this track (+1); finishing speed AFS rank 5 (+1); early speed rank 4 — settles top 4 on the map (+1); fit: 14 days since run (+1); bad luck last start (+1); J/T 26% from 123 (+1). Place $2.38 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 8. Bacash $7.00 (beaten <=2L last start, distance winner).",
+       "fc": 8
+      }
+     },
+     {
+      "no": 3,
+      "time": "12:25pm",
+      "horse": "8. Billycart",
+      "price": "$1.55",
+      "gd": 9.22,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (57%). Model 64% (rank 1), Sportsbet 52%. Strongest inputs: recent form 10.0/10, distance record 10.0/10. Price $1.55 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "1. Gilgeous",
+       "price": "$10.00 / pl $1.95",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 3 of last 5 (+2); finishing speed AFS rank 3 (+2); early speed rank 2 — settles top 4 on the map (+1); fit: 8 days since run (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $1.95 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 3. Town Planner $7.50 (beaten <=2L last start, won in last 3).",
+       "fc": 9
+      }
+     },
+     {
+      "no": 4,
+      "time": "1:00pm",
+      "horse": "1. Royal Press",
+      "price": "$3.60",
+      "gd": 6.86,
+      "pace": "on",
+      "fc": 0,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (21%). Model 17% (rank 1), Sportsbet 23%. Strongest inputs: opening market 10.0/10, prizemoney per start 10.0/10. Price $3.60 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "7. Natural Emotion",
+       "price": "$11.00 / pl $3.10",
+       "why": "GEM (PLACE) 📍 6/12 points: finishing speed AFS rank 1 (+2); early speed rank 2 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 21 days since run (+1); bad luck last start (+1). Place $3.10 fixed (Sportsbet 5:33 AEST).",
+       "fc": 6
+      }
+     },
+     {
+      "no": 5,
+      "time": "1:35pm",
+      "horse": "7. Jett Smash",
+      "price": "$2.60",
+      "gd": 6.94,
+      "pace": "mid",
+      "fc": 3,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (29%). Model 19% (rank 3), Sportsbet 32%. Strongest inputs: distance record 10.0/10, opening market 10.0/10. Price $2.60 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "4. Photograph",
+       "price": "$3.90 / pl $1.50",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 3 of last 5 (+2); placed 1/1 at this track (+1); finishing speed AFS rank 1 (+2); early speed rank 4 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 21 days since run (+1); bad luck last start (+1). Place $1.50 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 10. Karren $7.50 (won in last 3, course winner, distance winner).",
+       "fc": 9
+      }
+     },
+     {
+      "no": 6,
+      "time": "2:10pm",
+      "horse": "1. Cavill Avenue",
+      "price": "$2.00",
+      "gd": 7.13,
+      "pace": "back",
+      "fc": 1,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (37%). Model 23% (rank 1), Sportsbet 41%. Strongest inputs: opening market 10.0/10, class 10.0/10. Price $2.00 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "4. Sound Byte",
+       "price": "$15.00 / pl $3.25",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 4 (+2); finishing speed AFS rank 4 (+1); early speed rank 2 — settles top 4 on the map (+1); fit: 10 days since run (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $3.25 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 9. Tale Of Genji $41.00 (won in last 3, distance winner).",
+       "fc": 8
+      }
+     },
+     {
+      "no": 7,
+      "time": "2:45pm",
+      "horse": "4. Manzor Blue",
+      "price": "$3.70",
+      "gd": 6.79,
+      "pace": "mid",
+      "fc": 1,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (21%). Model 16% (rank 2), Sportsbet 22%. Strongest inputs: opening market 10.0/10, finishing speed 9.0/10. Price $3.70 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "6. Beach Pad",
+       "price": "$11.00 / pl $3.10",
+       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 2 of last 5 (+1); finishing speed AFS rank 2 (+2); class or 2kg+ weight drop (+1); fit: 25 days since run (+1); won one of its last 3 starts (+2). Place $3.10 fixed (Sportsbet 5:33 AEST).",
+       "fc": 7
+      }
+     },
+     {
+      "no": 8,
+      "time": "3:25pm",
+      "horse": "7. King Zephyr",
+      "price": "$3.50",
+      "gd": 7.27,
+      "pace": "back",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (25%). Model 25% (rank 1), Sportsbet 23%. Strongest inputs: course record 10.0/10, record on the going 10.0/10. Price $3.50 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "3. Run Harry Run",
+       "price": "$4.20 / pl $1.53",
+       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 3 of last 5 (+2); placed 1/2 at this track (+1); early speed rank 2 — settles top 4 on the map (+1); J/T 36% from 11 (+1); won one of its last 3 starts (+2). Place $1.53 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 3. Run Harry Run $4.20 (won in last 3, distance winner).",
+       "fc": 7
+      }
+     },
+     {
+      "no": 9,
+      "time": "4:05pm",
+      "horse": "8. Nobler",
+      "price": "$3.40",
+      "gd": 7.54,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (27%). Model 31% (rank 2), Sportsbet 24%. Strongest inputs: distance record 10.0/10, record on the going 10.0/10. Clears the 1.25 edge test (model/market 1.29). Price $3.40 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "13. Sulek",
+       "price": "$4.80 / pl $1.73",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 2 of last 4 (+1); placed 1/1 at this track (+1); finishing speed AFS rank 2 (+2); class or 2kg+ weight drop (+1); fit: 23 days since run (+1); won one of its last 3 starts (+2). Place $1.73 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 11. Roulette King $8.50 (won in last 3, course winner, distance winner).",
+       "fc": 8
+      },
+      "stake": true
+     },
+     {
+      "no": 10,
+      "time": "4:40pm",
+      "horse": "4. Midnite Storm",
+      "price": "$7.50",
+      "gd": 7.47,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (18%). Model 29% (rank 1), Sportsbet 13%. Strongest inputs: recent form 10.0/10, record on the going 9.6/10. Clears the 1.25 edge test (model/market 2.20). Price $7.50 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "8. Flying Mikki",
+       "price": "$13.00 / pl $3.75",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 2 of last 5 (+1); finishing speed AFS rank 1 (+2); early speed rank 3 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 10 days since run (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $3.75 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 6. Somewhere $7.00 (beaten <=2L last start, distance winner).",
+       "fc": 9
+      },
+      "stake": true
+     }
+    ],
+    "multi": {
+     "legs": [
+      {
+       "no": 3,
+       "horse": "8. Billycart",
+       "price": "$1.55"
+      },
+      {
+       "no": 5,
+       "horse": "7. Jett Smash",
+       "price": "$2.60"
+      },
+      {
+       "no": 6,
+       "horse": "1. Cavill Avenue",
+       "price": "$2.00"
+      }
+     ],
+     "odds": "$8.06"
+    }
+   },
+   {
+    "id": "rhl",
+    "track": "Rosehill",
+    "condition": "Good 4 (official RA 6:17am AEDT; pen 5.18)",
     "rail": "True",
     "direction": "clockwise",
     "sigMax": 5,
     "races": [
      {
       "no": 1,
-      "time": "12:50pm",
-      "horse": "5. Stonecrest",
-      "price": "$2.25",
-      "gd": 9.28,
-      "pace": "on",
-      "fc": 1,
-      "flags": [
-       "🧠 EDGE"
-      ],
+      "time": "11:35am",
+      "horse": "7. River Of Rome",
+      "price": "$3.10",
+      "gd": 7.29,
+      "pace": "mid",
+      "fc": 0,
+      "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (45%). Model 66% (rank 1), Sportsbet 36%. Strongest inputs: record on the going 10.0/10, opening market 10.0/10. Clears the 1.25 edge test (model/market 1.80). Price $2.25 pulled 10:51 AEST (Sportsbet).",
-      "stake": true,
+      "why": "TOP: highest 70/30 price-weighted blend (28%). Model 26% (rank 1), Sportsbet 26%. Strongest inputs: jockey's strike rate 10.0/10, opening market 10.0/10. First starter: no race form, scored on rider, draw, weight and trials-free inputs only. Price $3.10 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "4. Baylie's Folly",
-       "price": "$2.60 / pl $1.40",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 2 of last 4 (+1); won one of its last 3 starts (+2); finishing speed rank 1 in race (+2); settles 3 on map (+1); class or 2kg+ weight drop (+1); fit: 3U (+1). Place $1.40 fixed (Sportsbet 10:51 AEST). Only 2 places paid in this field. Old-rule shadow (no stake): 4. Baylie's Folly $2.60 (Soft/Heavy win, beaten ≤2L into 2nd–4th last start, win in last 3).",
-       "fc": 8
+       "horse": "1. Proverb",
+       "price": "$6.00 / pl $1.70",
+       "why": "GEM (PLACE) 📍 5/12 points: early speed rank 1 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 3U (+1); bad luck last start (+1); J/T 21% from 47 (+1). Place $1.70 fixed (Sportsbet 5:33 AEST).",
+       "fc": 5
       }
      },
      {
       "no": 2,
-      "time": "1:25pm",
-      "horse": "5. Calippo",
-      "price": "$2.20",
-      "gd": 7.06,
-      "pace": "back",
-      "fc": 0,
+      "time": "12:10pm",
+      "horse": "5. La Morra",
+      "price": "$3.20",
+      "gd": 7.04,
+      "pace": "on",
+      "fc": 2,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (32%). Model 21% (rank 1), Sportsbet 35%. Strongest inputs: prizemoney per start 9.2/10, jockey/trainer 9.0/10. Price $2.20 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (25%). Model 21% (rank 2), Sportsbet 26%. Strongest inputs: opening market 10.0/10, jockey's strike rate 9.0/10. Price $3.20 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "2. Mister Dee Jay",
-       "price": "$5.00 / pl $1.50",
-       "why": "GEM (PLACE) 📍 4/12 points: settles 3 on map (+1); class or 2kg+ weight drop (+1); fit: FU (+1); bad luck last start (+1). Place $1.50 fixed (Sportsbet 10:51 AEST).",
-       "fc": 4
+       "horse": "4. Darn Cute",
+       "price": "$5.00 / pl $1.62",
+       "why": "GEM (PLACE) 📍 6/12 points: top 3 in 4 of last 5 (+2); early speed rank 2 — settles top 4 on the map (+1); fit: 25 days since run (+1); won one of its last 3 starts (+2). Place $1.62 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 4. Darn Cute $5.00 (beaten <=2L last start, won in last 3).",
+       "fc": 6
       }
      },
      {
       "no": 3,
-      "time": "2:00pm",
-      "horse": "4. Outta Line",
-      "price": "$2.25",
-      "gd": 6.8,
-      "pace": "on",
+      "time": "12:45pm",
+      "horse": "11. Yesspecially",
+      "price": "$3.30",
+      "gd": 6.54,
+      "pace": "mid",
       "fc": 2,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (30%). Model 16% (rank 2), Sportsbet 35%. Strongest inputs: opening market 9.7/10, prizemoney per start 8.9/10. Price $2.25 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (23%). Model 11% (rank 4), Sportsbet 25%. Strongest inputs: prizemoney per start 8.5/10, recent form 8.3/10. Price $3.30 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "7. Dance With Destiny ( NZ )",
-       "price": "$9.00 / pl $2.30",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 3 (+2); placed 1/1 at this distance (+1); won one of its last 3 starts (+2); settles 4 on map (+1); class or 2kg+ weight drop (+1); fit: 4U (+1). Place $2.30 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 3. Kirkuk $6.50 (Soft/Heavy win, beaten ≤2L into 2nd–4th last start, win in last 3, course winner).",
-       "fc": 8
+       "horse": "14. Sleek 'N' Style",
+       "price": "$67.00 / pl $10.50",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 3 of last 3 (+2); placed 1/1 at this distance (+1); early speed rank 1 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 28 days since run (+1); J/T 40% from 10 (+1); won one of its last 3 starts (+2). Place $10.50 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 14. Sleek 'N' Style $67.00 (won in last 3, distance winner).",
+       "fc": 9
       }
      },
      {
       "no": 4,
-      "time": "2:35pm",
-      "horse": "4. Perini Miss",
-      "price": "$4.40",
-      "gd": 7.32,
-      "pace": "on",
-      "fc": 2,
-      "flags": [
-       "🧠 EDGE"
-      ],
+      "time": "1:20pm",
+      "horse": "8. She Moves Too",
+      "price": "$3.10",
+      "gd": 7.3,
+      "pace": "back",
+      "fc": 3,
+      "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (22%). Model 26% (rank 2), Sportsbet 18%. Strongest inputs: opening market 10.0/10, jockey/trainer 9.0/10. Clears the 1.25 edge test (model/market 1.48). Price $4.40 pulled 10:51 AEST (Sportsbet).",
-      "stake": true,
+      "why": "TOP: highest 70/30 price-weighted blend (27%). Model 26% (rank 1), Sportsbet 26%. Strongest inputs: jockey's strike rate 10.0/10, course record 10.0/10. Price $3.10 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "5. Cool Summer Nights",
-       "price": "$5.00 / pl $1.73",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 2 of last 3 (+1); placed 2/3 at this distance (+1); won one of its last 3 starts (+2); settles 2 on map (+1); class or 2kg+ weight drop (+1); fit: 3U (+1); bad luck last start (+1). Place $1.73 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 5. Cool Summer Nights $5.00 (win in last 3, distance winner).",
-       "fc": 8
+       "horse": "3. Valorous Power",
+       "price": "$19.00 / pl $4.33",
+       "why": "GEM (PLACE) 📍 10/12 points: top 3 in 3 of last 4 (+2); placed 1/1 at this distance (+1); finishing speed AFS rank 3 (+2); early speed rank 1 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 3U (+1); won one of its last 3 starts (+2). Place $4.33 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 6. Think Itz You $12.00 (won in last 3, course winner, distance winner).",
+       "fc": 10
       }
      },
      {
       "no": 5,
-      "time": "3:10pm",
-      "horse": "5. On The Verge",
-      "price": "$2.60",
-      "gd": 7.54,
-      "pace": "mid",
-      "fc": 0,
+      "time": "1:55pm",
+      "horse": "2. Enamorada",
+      "price": "$4.20",
+      "gd": 6.48,
+      "pace": "back",
+      "fc": 2,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (31%). Model 31% (rank 1), Sportsbet 31%. Strongest inputs: jockey/trainer 10.0/10, fitness 8.0/10. First starter — no race form, scored on stable/rider/draw only. Price $2.60 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (16%). Model 10% (rank 4), Sportsbet 19%. Strongest inputs: record on the going 10.0/10, prizemoney per start 10.0/10. Price $4.20 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "9. Pearl Of Dubai",
-       "price": "$2.35 / pl $1.40",
-       "why": "GEM (PLACE) 📍 3/12 points: placed 1/1 at this track (+1); settles 1 on map (+1); fit: 3U (+1). Place $1.40 fixed (Sportsbet 10:51 AEST). Only 2 places paid in this field.",
-       "fc": 3
+       "horse": "1. Alabama Fox",
+       "price": "$6.50 / pl $2.25",
+       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 4 of last 4 (+2); placed 5/7 at this distance (+1); early speed rank 4 — settles top 4 on the map (+1); fit: 23 days since run (+1); won one of its last 3 starts (+2). Place $2.25 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 3. Probability Theory $10.00 (won in last 3, course winner, distance winner).",
+       "fc": 7
       }
      },
      {
       "no": 6,
-      "time": "3:50pm",
-      "horse": "8. Tickelova",
-      "price": "$3.80",
-      "gd": 6.66,
+      "time": "2:30pm",
+      "horse": "12. Ocean Tsunami",
+      "price": "$5.00",
+      "gd": 7.32,
+      "pace": "mid",
+      "fc": 1,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (20%). Model 26% (rank 1), Sportsbet 17%. Strongest inputs: record on the going 10.0/10, opening market 10.0/10. Clears the 1.25 edge test (model/market 1.57). Price $5.00 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "13. Godwits",
+       "price": "$67.00 / pl $12.00",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 4 of last 5 (+2); placed 1/2 at this distance (+1); early speed rank 1 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 8 days since run (+1); won one of its last 3 starts (+2). Place $12.00 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 8. Hammoon Sensation $10.00 (won in last 3, course winner).",
+       "fc": 8
+      },
+      "stake": true
+     },
+     {
+      "no": 7,
+      "time": "3:05pm",
+      "horse": "2. Roselyn's Star",
+      "price": "$1.90",
+      "gd": 6.71,
+      "pace": "on",
+      "fc": 3,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (34%). Model 14% (rank 3), Sportsbet 43%. Strongest inputs: course record 10.0/10, opening market 10.0/10. Price $1.90 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "7. Polyglot",
+       "price": "$8.50 / pl $2.25",
+       "why": "GEM (PLACE) 📍 10/12 points: top 3 in 5 of last 5 (+2); placed 9/10 at this track (+1); finishing speed AFS rank 3 (+2); early speed rank 4 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 25 days since run (+1); won one of its last 3 starts (+2). Place $2.25 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 7. Polyglot $8.50 (won in last 3, course winner, distance winner).",
+       "fc": 10
+      }
+     },
+     {
+      "no": 8,
+      "time": "3:45pm",
+      "horse": "7. Glorious Moments",
+      "price": "$2.30",
+      "gd": 6.63,
+      "pace": "mid",
+      "fc": 1,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (27%). Model 13% (rank 3), Sportsbet 35%. Strongest inputs: record on the going 10.0/10, opening market 10.0/10. Price $2.30 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "1. Estadio Mestalla",
+       "price": "$10.00 / pl $2.63",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 5 (+2); placed 9/13 at this track (+1); finishing speed AFS rank 1 (+2); class or 2kg+ weight drop (+1); fit: 7 days since run (+1); bad luck last start (+1). Place $2.63 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 2. War Eternal $23.00 (beaten <=2L last start, course winner, distance winner).",
+       "fc": 8
+      }
+     },
+     {
+      "no": 9,
+      "time": "4:20pm",
+      "horse": "10. Paltrow Miss",
+      "price": "$2.70",
+      "gd": 6.79,
       "pace": "on",
       "fc": 1,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (19%). Model 13% (rank 3), Sportsbet 20%. Strongest inputs: opening market 10.0/10, fitness 8.0/10. Price $3.80 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (26%). Model 16% (rank 1), Sportsbet 30%. Strongest inputs: opening market 10.0/10, fitness 8.0/10. Price $2.70 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "4. Got Here",
-       "price": "$8.50 / pl $2.50",
-       "why": "GEM (PLACE) 📍 3/12 points: top 3 in 2 of last 2 (+1); settles 4 on map (+1); fit: 2U (+1). Place $2.50 fixed (Sportsbet 10:51 AEST).",
-       "fc": 3
+       "horse": "12. Anythink Goes",
+       "price": "$13.00 / pl $3.50",
+       "why": "GEM (PLACE) 📍 6/12 points: top 3 in 3 of last 5 (+2); placed 4/4 at this distance (+1); finishing speed AFS rank 5 (+1); class or 2kg+ weight drop (+1); fit: 25 days since run (+1). Place $3.50 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 12. Anythink Goes $13.00 (beaten <=2L last start, course winner, distance winner).",
+       "fc": 6
       }
      },
      {
-      "no": 7,
-      "time": "4:25pm",
-      "horse": "5. Sauvitude",
-      "price": "$1.80",
-      "gd": 7.12,
-      "pace": "mid",
-      "fc": 3,
-      "flags": [],
+      "no": 10,
+      "time": "4:55pm",
+      "horse": "5. Maybe Moet",
+      "price": "$4.80",
+      "gd": 7.46,
+      "pace": "back",
+      "fc": 4,
+      "flags": [
+       "🧠 EDGE"
+      ],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (39%). Model 22% (rank 2), Sportsbet 44%. Strongest inputs: course record 10.0/10, distance record 10.0/10. Price $1.80 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (22%). Model 29% (rank 1), Sportsbet 18%. Strongest inputs: distance record 10.0/10, jockey's strike rate 9.0/10. Clears the 1.25 edge test (model/market 1.65). Price $4.80 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "4. Boom Break",
-       "price": "$46.00 / pl $8.75",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 2 of last 4 (+1); placed 3/4 at this distance (+1); won one of its last 3 starts (+2); settles 4 on map (+1); class or 2kg+ weight drop (+1); fit: 2U (+1); bad luck last start (+1). Place $8.75 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 4. Boom Break $46.00 (Soft/Heavy win, win in last 3, distance winner).",
-       "fc": 8
-      }
+       "horse": "2. Where'Stheprofit",
+       "price": "$16.00 / pl $3.75",
+       "why": "GEM (PLACE) 📍 10/12 points: top 3 in 3 of last 4 (+2); placed 4/5 at this distance (+1); finishing speed AFS rank 2 (+2); early speed rank 2 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 28 days since run (+1); won one of its last 3 starts (+2). Place $3.75 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 13. Flightcrew $12.00 (beaten <=2L last start, course winner, distance winner).",
+       "fc": 10
+      },
+      "stake": true
      }
     ],
     "multi": {
      "legs": [
       {
        "no": 1,
-       "horse": "5. Stonecrest",
-       "price": "$2.25"
-      },
-      {
-       "no": 2,
-       "horse": "5. Calippo",
-       "price": "$2.20"
+       "horse": "7. River Of Rome",
+       "price": "$3.10"
       },
       {
        "no": 7,
-       "horse": "5. Sauvitude",
-       "price": "$1.80"
+       "horse": "2. Roselyn's Star",
+       "price": "$1.90"
+      },
+      {
+       "no": 8,
+       "horse": "7. Glorious Moments",
+       "price": "$2.30"
       }
      ],
-     "odds": "$8.91"
+     "odds": "$13.55"
     }
    },
    {
-    "id": "rok",
-    "track": "Rockhampton",
-    "condition": "Soft 6 (official Soft 6; showers forecast, kept Soft)",
+    "id": "dmb",
+    "track": "Doomben",
+    "condition": "Soft 5 (official RA 5:31am AEDT; 4mm last 24h)",
     "rail": "+2m Entire",
     "direction": "clockwise",
     "sigMax": 5,
     "races": [
      {
       "no": 1,
-      "time": "1:45pm",
-      "horse": "1. Gathers No Stone",
-      "price": "$1.65",
+      "time": "11:43am",
+      "horse": "14. Say You Will",
+      "price": "$2.60",
+      "gd": 6.67,
+      "pace": "back",
+      "fc": 0,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (28%). Model 13% (rank 2), Sportsbet 34%. Strongest inputs: jockey's strike rate 10.0/10, opening market 10.0/10. Price $2.60 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "15. Spirit Falls",
+       "price": "$12.00 / pl $2.88",
+       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 2 of last 4 (+1); placed 1/1 at this distance (+1); finishing speed AFS rank 4 (+1); early speed rank 1 — settles top 4 on the map (+1); fit: 10 days since run (+1); bad luck last start (+1); J/T 38% from 26 (+1). Place $2.88 fixed (Sportsbet 5:33 AEST).",
+       "fc": 7
+      }
+     },
+     {
+      "no": 2,
+      "time": "12:18pm",
+      "horse": "7. Twisted Queen",
+      "price": "$4.40",
+      "gd": 7.46,
+      "pace": "mid",
+      "fc": 4,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (22%). Model 29% (rank 1), Sportsbet 18%. Strongest inputs: prizemoney per start 10.0/10, record on the going 9.6/10. Clears the 1.25 edge test (model/market 1.58). Price $4.40 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "6. Trevenson",
+       "price": "$9.00 / pl $2.63",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 4 (+2); placed 1/2 at this track (+1); finishing speed AFS rank 3 (+2); fit: 3U (+1); won one of its last 3 starts (+2). Place $2.63 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 11. Tuhinga $71.00 (wet winner, beaten <=2L last start, course winner, distance winner).",
+       "fc": 8
+      },
+      "stake": true
+     },
+     {
+      "no": 3,
+      "time": "12:53pm",
+      "horse": "6. Hot Majesty",
+      "price": "$5.00",
+      "gd": 7.65,
+      "pace": "on",
+      "fc": 3,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (21%). Model 33% (rank 1), Sportsbet 16%. Strongest inputs: recent form 9.1/10, early speed 9.0/10. Clears the 1.25 edge test (model/market 2.10). Price $5.00 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "9. La Rosetta",
+       "price": "$8.50 / pl $2.50",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 4 of last 5 (+2); early speed rank 1 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 16 days since run (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $2.50 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 1. Savisanta $3.70 (wet winner, won in last 3, course winner).",
+       "fc": 8
+      },
+      "stake": true
+     },
+     {
+      "no": 4,
+      "time": "1:28pm",
+      "horse": "14. Vivika",
+      "price": "$3.60",
+      "gd": 8.14,
+      "pace": "back",
+      "fc": 4,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (34%). Model 43% (rank 1), Sportsbet 29%. Strongest inputs: jockey's strike rate 10.0/10, distance record 10.0/10. Clears the 1.25 edge test (model/market 1.50). Price $3.60 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "13. American Conquest",
+       "price": "$23.00 / pl $5.00",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 2 of last 4 (+1); placed 2/4 at this distance (+1); finishing speed AFS rank 1 (+2); class or 2kg+ weight drop (+1); fit: 21 days since run (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $5.00 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 11. Boss Mode $6.50 (wet winner, won in last 3, course winner, distance winner).",
+       "fc": 9
+      },
+      "stake": true
+     },
+     {
+      "no": 5,
+      "time": "2:03pm",
+      "horse": "12. Southern Heiress",
+      "price": "$1.95",
+      "gd": 7.96,
+      "pace": "on",
+      "fc": 3,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (46%). Model 39% (rank 1), Sportsbet 48%. Strongest inputs: opening market 10.0/10, finishing speed 9.0/10. Price $1.95 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "3. Ikasara",
+       "price": "$7.00 / pl $2.00",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 4 of last 4 (+2); placed 4/5 at this distance (+1); early speed rank 1 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 3U (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $2.00 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 9. Pharoah's Prophecy $23.00 (wet winner, beaten <=2L last start, course winner, distance winner).",
+       "fc": 9
+      }
+     },
+     {
+      "no": 6,
+      "time": "2:38pm",
+      "horse": "9. Toro Strike",
+      "price": "$2.30",
+      "gd": 8.97,
+      "pace": "mid",
+      "fc": 4,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (42%). Model 59% (rank 1), Sportsbet 35%. Strongest inputs: jockey's strike rate 10.0/10, opening market 10.0/10. Clears the 1.25 edge test (model/market 1.70). Price $2.30 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "1. Atmosphere",
+       "price": "$4.80 / pl $1.67",
+       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 4 of last 5 (+2); placed 5/9 at this track (+1); early speed rank 1 — settles top 4 on the map (+1); fit: 14 days since run (+1); won one of its last 3 starts (+2). Place $1.67 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 1. Atmosphere $4.80 (wet winner, won in last 3, course winner, distance winner).",
+       "fc": 7
+      },
+      "stake": true
+     },
+     {
+      "no": 7,
+      "time": "3:17pm",
+      "horse": "6. Balance The Books",
+      "price": "$3.60",
+      "gd": 7.17,
+      "pace": "back",
+      "fc": 4,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (23%). Model 23% (rank 1), Sportsbet 22%. Strongest inputs: jockey's strike rate 10.0/10, course record 10.0/10. Price $3.60 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "9. Spiethtacular",
+       "price": "$8.00 / pl $2.60",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 5 of last 5 (+2); placed 5/6 at this track (+1); finishing speed AFS rank 5 (+1); early speed rank 2 — settles top 4 on the map (+1); fit: 14 days since run (+1); won one of its last 3 starts (+2). Place $2.60 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 11. Scheherazade $8.00 (wet winner, beaten <=2L last start, course winner, distance winner).",
+       "fc": 8
+      }
+     },
+     {
+      "no": 8,
+      "time": "3:57pm",
+      "horse": "12. Daggers",
+      "price": "$2.35",
+      "gd": 7.22,
+      "pace": "on",
+      "fc": 4,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (35%). Model 24% (rank 1), Sportsbet 38%. Strongest inputs: jockey's strike rate 10.0/10, opening market 10.0/10. Price $2.35 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "7. Lisztomania",
+       "price": "$17.00 / pl $3.75",
+       "why": "GEM (PLACE) 📍 10/12 points: top 3 in 2 of last 5 (+1); placed 1/2 at this track (+1); finishing speed AFS rank 2 (+2); early speed rank 3 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 25 days since run (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $3.75 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 6. Kaluakoi $26.00 (wet winner, beaten <=2L last start, won in last 3, course winner, distance winner).",
+       "fc": 10
+      }
+     },
+     {
+      "no": 9,
+      "time": "4:32pm",
+      "horse": "7. Street Chase",
+      "price": "$2.15",
+      "gd": 6.99,
+      "pace": "on",
+      "fc": 3,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (32%). Model 20% (rank 3), Sportsbet 37%. Strongest inputs: opening market 10.0/10, course record 9.6/10. Price $2.15 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "6. Noble Decree",
+       "price": "$4.40 / pl $2.05",
+       "why": "GEM (PLACE) 📍 10/12 points: top 3 in 4 of last 4 (+2); placed 3/4 at this track (+1); finishing speed AFS rank 2 (+2); early speed rank 3 — settles top 4 on the map (+1); fit: 2U (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $2.05 fixed (Sportsbet 5:33 AEST). Only 2 places paid in this field. Old-rule shadow (no stake): 6. Noble Decree $4.40 (wet winner, won in last 3, course winner, distance winner).",
+       "fc": 10
+      }
+     },
+     {
+      "no": 10,
+      "time": "5:10pm",
+      "horse": "13. Cardonette",
+      "price": "$4.40",
+      "gd": 8.06,
+      "pace": "mid",
+      "fc": 4,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (24%). Model 41% (rank 1), Sportsbet 18%. Strongest inputs: jockey's strike rate 10.0/10, course record 10.0/10. Clears the 1.25 edge test (model/market 2.30). Price $4.40 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "16. Desanto",
+       "price": "$8.50 / pl $2.63",
+       "why": "GEM (PLACE) 📍 10/12 points: top 3 in 3 of last 4 (+2); placed 1/2 at this track (+1); finishing speed AFS rank 3 (+2); class or 2kg+ weight drop (+1); fit: 3U (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $2.63 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 7. Point Vega $12.00 (wet winner, beaten <=2L last start, won in last 3, course winner, distance winner).",
+       "fc": 10
+      },
+      "stake": true
+     }
+    ],
+    "multi": {
+     "legs": [
+      {
+       "no": 5,
+       "horse": "12. Southern Heiress",
+       "price": "$1.95"
+      },
+      {
+       "no": 6,
+       "horse": "9. Toro Strike",
+       "price": "$2.30"
+      },
+      {
+       "no": 8,
+       "horse": "12. Daggers",
+       "price": "$2.35"
+      }
+     ],
+     "odds": "$10.54"
+    }
+   },
+   {
+    "id": "mor",
+    "track": "Morphettville",
+    "condition": "Good 4 (official RA 5:31am AEDT; pen 5.4)",
+    "rail": "+8m 1000m to WP, +6m remainder",
+    "direction": "anticlockwise",
+    "sigMax": 5,
+    "races": [
+     {
+      "no": 1,
+      "time": "12:02pm",
+      "horse": "1. Miss Parton",
+      "price": "$1.90",
+      "gd": 9.95,
+      "pace": "on",
+      "fc": 3,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (55%). Model 79% (rank 1), Sportsbet 43%. Strongest inputs: recent form 10.0/10, course record 10.0/10. Clears the 1.25 edge test (model/market 1.85). Price $1.90 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "5. Dark Ice",
+       "price": "$8.00 / pl $3.20",
+       "why": "GEM (PLACE) 📍 6/12 points: placed 1/1 at this track (+1); finishing speed AFS rank 1 (+2); early speed rank 1 — settles top 4 on the map (+1); fit: 21 days since run (+1); bad luck last start (+1). Place $3.20 fixed (Sportsbet 5:33 AEST). Only 2 places paid in this field.",
+       "fc": 6
+      },
+      "stake": true
+     },
+     {
+      "no": 2,
+      "time": "12:37pm",
+      "horse": "8. Swan Dance",
+      "price": "$5.00",
+      "gd": 7.14,
+      "pace": "on",
+      "fc": 1,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (18%). Model 23% (rank 1), Sportsbet 16%. Strongest inputs: record on the going 10.0/10, opening market 10.0/10. Clears the 1.25 edge test (model/market 1.40). Price $5.00 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "1. Durham",
+       "price": "$6.00 / pl $2.00",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 5 (+2); placed 1/1 at this track (+1); early speed rank 2 — settles top 4 on the map (+1); fit: 14 days since run (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $2.00 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 1. Durham $6.00 (won in last 3, course winner, distance winner).",
+       "fc": 8
+      },
+      "stake": true
+     },
+     {
+      "no": 3,
+      "time": "1:12pm",
+      "horse": "12. She's Iconnic",
+      "price": "$5.50",
       "gd": 7.2,
       "pace": "mid",
       "fc": 1,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (42%). Model 24% (rank 2), Sportsbet 48%. Strongest inputs: jockey/trainer 10.0/10, opening market 10.0/10. Price $1.65 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (23%). Model 24% (rank 1), Sportsbet 21%. Strongest inputs: opening market 10.0/10, prizemoney per start 10.0/10. Price $5.50 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "7. Margery",
-       "price": "$11.00 / pl $1.80",
-       "why": "GEM (PLACE) 📍 3/12 points: placed 1/1 at this track (+1); fit: FU (+1); bad luck last start (+1). Place $1.80 fixed (Sportsbet 10:51 AEST).",
-       "fc": 3
-      }
-     },
-     {
-      "no": 2,
-      "time": "2:20pm",
-      "horse": "1. Bold Blaze",
-      "price": "$2.25",
-      "gd": 7.16,
-      "pace": "back",
-      "fc": 3,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (32%). Model 23% (rank 1), Sportsbet 35%. Strongest inputs: course record 10.0/10, opening market 10.0/10. Price $2.25 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "5. Latin Love",
-       "price": "$4.40 / pl $2.10",
-       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 3 of last 5 (+2); won one of its last 3 starts (+2); settles 2 on map (+1); fit: 8U (+1); bad luck last start (+1). Place $2.10 fixed (Sportsbet 10:51 AEST). Only 2 places paid in this field. Old-rule shadow (no stake): 5. Latin Love $4.40 (Soft/Heavy win, win in last 3, course winner).",
-       "fc": 7
-      }
-     },
-     {
-      "no": 3,
-      "time": "2:55pm",
-      "horse": "2. King's Duty",
-      "price": "$2.05",
-      "gd": 8.68,
-      "pace": "back",
-      "fc": 5,
-      "flags": [
-       "🧠 EDGE"
-      ],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (43%). Model 54% (rank 1), Sportsbet 39%. Strongest inputs: jockey/trainer 10.0/10, course record 10.0/10. Clears the 1.25 edge test (model/market 1.38). Price $2.05 pulled 10:51 AEST (Sportsbet).",
-      "stake": true,
-      "gem": {
-       "horse": "5. Villandry",
-       "price": "$10.00 / pl $3.75",
-       "why": "GEM (PLACE) 📍 6/12 points: top 3 in 2 of last 5 (+1); placed 5/7 at this track (+1); settles 3 on map (+1); class or 2kg+ weight drop (+1); fit: 2U (+1); bad luck last start (+1). Place $3.75 fixed (Sportsbet 10:51 AEST). Only 2 places paid in this field. Old-rule shadow (no stake): 3. Outwitted $5.50 (Soft/Heavy win, win in last 3, course winner, distance winner).",
-       "fc": 6
+       "horse": "6. Blazing Missile",
+       "price": "$23.00 / pl $5.00",
+       "why": "GEM (PLACE) 📍 5/12 points: early speed rank 2 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 7 days since run (+1); bad luck last start (+1); J/T 21% from 14 (+1). Place $5.00 fixed (Sportsbet 5:33 AEST).",
+       "fc": 5
       }
      },
      {
       "no": 4,
-      "time": "3:35pm",
-      "horse": "2. Metalcraft",
-      "price": "$1.50",
-      "gd": 8.07,
+      "time": "1:47pm",
+      "horse": "2. Blankfield",
+      "price": "$3.00",
+      "gd": 6.76,
       "pace": "mid",
-      "fc": 4,
+      "fc": 2,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (51%). Model 41% (rank 1), Sportsbet 54%. Strongest inputs: jockey/trainer 10.0/10, course record 10.0/10. Price $1.50 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (24%). Model 15% (rank 3), Sportsbet 27%. Strongest inputs: prizemoney per start 9.6/10, jockey's strike rate 9.0/10. Price $3.00 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "7. Zedari",
-       "price": "$6.50 / pl $2.30",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 4 of last 5 (+2); placed 2/2 at this track (+1); won one of its last 3 starts (+2); settles 1 on map (+1); class or 2kg+ weight drop (+1); J/T 25% from 20 (+1). Place $2.30 fixed (Sportsbet 10:51 AEST). Only 2 places paid in this field. Old-rule shadow (no stake): 6. Been A Secret $19.00 (Soft/Heavy win, beaten ≤2L into 2nd–4th last start, win in last 3, course winner, distance winner).",
-       "fc": 8
+       "horse": "8. Musical Sunset",
+       "price": "$9.50 / pl $2.63",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 2 of last 4 (+1); placed 1/1 at this distance (+1); finishing speed AFS rank 1 (+2); early speed rank 1 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 10 days since run (+1); won one of its last 3 starts (+2). Place $2.63 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 8. Musical Sunset $9.50 (won in last 3, distance winner).",
+       "fc": 9
       }
      },
      {
       "no": 5,
-      "time": "4:10pm",
-      "horse": "3. Senzora",
-      "price": "$3.30",
-      "gd": 6.88,
+      "time": "2:22pm",
+      "horse": "8. Harmonic Dancer",
+      "price": "$2.90",
+      "gd": 7.8,
       "pace": "mid",
-      "fc": 3,
+      "fc": 0,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (23%). Model 18% (rank 3), Sportsbet 24%. Strongest inputs: jockey/trainer 10.0/10, opening market 10.0/10. Price $3.30 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (31%). Model 36% (rank 1), Sportsbet 29%. Strongest inputs: opening market 10.0/10, jockey's strike rate 9.0/10. Price $2.90 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "1. Four Leaf Wonder",
-       "price": "$3.20 / pl $1.33",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 4 of last 5 (+2); placed 2/3 at this distance (+1); won one of its last 3 starts (+2); settles 1 on map (+1); fit: 3U (+1); J/T 60% from 5 (+1). Place $1.33 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 9. Whip 'N Neighneigh $6.50 (Soft/Heavy win, win in last 3, course winner, distance winner).",
+       "horse": "11. Koratora",
+       "price": "$7.50 / pl $2.30",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 5 (+2); finishing speed AFS rank 5 (+1); early speed rank 1 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 7 days since run (+1); won one of its last 3 starts (+2). Place $2.30 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 9. I'm A Hottie $13.00 (won in last 3, distance winner).",
        "fc": 8
       }
      },
      {
       "no": 6,
-      "time": "4:50pm",
-      "horse": "11. Wasabi Barbie",
-      "price": "$2.45",
-      "gd": 7.45,
-      "pace": "mid",
-      "fc": 4,
+      "time": "2:57pm",
+      "horse": "12. Inhabit",
+      "price": "$3.90",
+      "gd": 7.9,
+      "pace": "on",
+      "fc": 1,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (26%). Model 38% (rank 1), Sportsbet 21%. Strongest inputs: opening market 10.0/10, prizemoney per start 10.0/10. Clears the 1.25 edge test (model/market 1.78). Price $3.90 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "11. Dirty Gold",
+       "price": "$6.00 / pl $2.30",
+       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 2 of last 4 (+1); placed 1/2 at this track (+1); early speed rank 4 — settles top 4 on the map (+1); fit: 2U (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $2.30 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 7. Madam Jeanette $23.00 (won in last 3, course winner, distance winner).",
+       "fc": 7
+      },
+      "stake": true
+     },
+     {
+      "no": 7,
+      "time": "3:37pm",
+      "horse": "8. Lake Forest",
+      "price": "$2.30",
+      "gd": 7.55,
+      "pace": "back",
+      "fc": 3,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (34%). Model 29% (rank 1), Sportsbet 32%. Strongest inputs: prizemoney per start 10.0/10, course record 9.4/10. Price $2.45 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (34%). Model 31% (rank 1), Sportsbet 35%. Strongest inputs: opening market 10.0/10, recent form 9.1/10. Price $2.30 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "6. Elegant Venus",
-       "price": "$31.00 / pl $6.25",
-       "why": "GEM (PLACE) 📍 10/12 points: top 3 in 4 of last 5 (+2); placed 3/4 at this distance (+1); won one of its last 3 starts (+2); settles 1 on map (+1); class or 2kg+ weight drop (+1); fit: 7U (+1); bad luck last start (+1); J/T 25% from 28 (+1). Place $6.25 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 9. Barbarian King $6.50 (Soft/Heavy win, course winner, distance winner).",
-       "fc": 10
+       "horse": "3. Vexatious Dancer",
+       "price": "$14.00 / pl $4.75",
+       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 3 of last 4 (+2); placed 5/8 at this track (+1); finishing speed AFS rank 2 (+2); won one of its last 3 starts (+2). Place $4.75 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 9. Bardigrub $6.00 (won in last 3, course winner, distance winner).",
+       "fc": 7
+      }
+     },
+     {
+      "no": 8,
+      "time": "4:16pm",
+      "horse": "12. Shystar",
+      "price": "$3.70",
+      "gd": 7.72,
+      "pace": "on",
+      "fc": 3,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (26%). Model 34% (rank 1), Sportsbet 22%. Strongest inputs: jockey's strike rate 10.0/10, opening market 10.0/10. Clears the 1.25 edge test (model/market 1.59). Price $3.70 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "6. Ronny Bee",
+       "price": "$4.80 / pl $1.88",
+       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 4 of last 4 (+2); placed 1/1 at this track (+1); finishing speed AFS rank 1 (+2); fit: 3U (+1); bad luck last start (+1). Place $1.88 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 9. Kalmana $9.00 (won in last 3, course winner, distance winner).",
+       "fc": 7
+      },
+      "stake": true
+     },
+     {
+      "no": 9,
+      "time": "5:01pm",
+      "horse": "12. Sicilian Princess",
+      "price": "$3.20",
+      "gd": 6.46,
+      "pace": "mid",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (20%). Model 9% (rank 5), Sportsbet 26%. Strongest inputs: opening market 10.0/10, barrier 8.3/10. Price $3.20 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "8. Anahorish",
+       "price": "$6.00 / pl $2.38",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 2 of last 5 (+1); finishing speed AFS rank 1 (+2); fit: 28 days since run (+1); bad luck last start (+1); J/T 22% from 41 (+1); won one of its last 3 starts (+2). Place $2.38 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 3. Stockman's Choice $12.00 (beaten <=2L last start, won in last 3).",
+       "fc": 8
       }
      }
     ],
@@ -293,406 +851,274 @@
      "legs": [
       {
        "no": 1,
-       "horse": "1. Gathers No Stone",
-       "price": "$1.65"
+       "horse": "1. Miss Parton",
+       "price": "$1.90"
       },
       {
-       "no": 3,
-       "horse": "2. King's Duty",
-       "price": "$2.05"
+       "no": 5,
+       "horse": "8. Harmonic Dancer",
+       "price": "$2.90"
       },
       {
-       "no": 4,
-       "horse": "2. Metalcraft",
-       "price": "$1.50"
+       "no": 7,
+       "horse": "8. Lake Forest",
+       "price": "$2.30"
       }
      ],
-     "odds": "$5.07"
+     "odds": "$12.67"
     }
    },
    {
-    "id": "mtn",
-    "track": "Mornington",
-    "condition": "Good 4 (RA 7:50am AEDT)",
-    "rail": "True Entire Circuit",
+    "id": "asc",
+    "track": "Ascot",
+    "condition": "Soft 5 (official RA, rating updated 27/11 7:15am WST)",
+    "rail": "+8m Entire",
     "direction": "anticlockwise",
     "sigMax": 5,
     "races": [
      {
       "no": 1,
-      "time": "1:55pm",
-      "horse": "5. Ruptured",
-      "price": "$2.70",
-      "gd": 7.09,
+      "time": "1:59pm",
+      "horse": "2. Ripper Farooq",
+      "price": "$3.80",
+      "gd": 7.44,
       "pace": "mid",
-      "fc": 0,
-      "flags": [],
+      "fc": 4,
+      "flags": [
+       "🧠 EDGE"
+      ],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (29%). Model 22% (rank 1), Sportsbet 29%. Strongest inputs: barrier 8.3/10, jockey/trainer 8.0/10. First starter — no race form, scored on stable/rider/draw only. Price $2.70 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (24%). Model 29% (rank 1), Sportsbet 21%. Strongest inputs: opening market 10.0/10, recent form 8.7/10. Clears the 1.25 edge test (model/market 1.36). Price $3.80 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "7. Cirque De Coco",
-       "price": "$4.60 / pl $1.40",
-       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 2 of last 3 (+1); placed 1/1 at this track (+1); finishing speed rank 1 in race (+2); settles 1 on map (+1); class or 2kg+ weight drop (+1); fit: 2U (+1). Place $1.40 fixed (Sportsbet 10:51 AEST).",
-       "fc": 7
-      }
+       "horse": "3. Scream",
+       "price": "$7.00 / pl $2.20",
+       "why": "GEM (PLACE) 📍 6/12 points: top 3 in 2 of last 4 (+1); finishing speed AFS rank 4 (+1); early speed rank 2 — settles top 4 on the map (+1); fit: 15 days since run (+1); won one of its last 3 starts (+2). Place $2.20 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 11. Artie's Eclipse $12.00 (wet winner, won in last 3, course winner, distance winner).",
+       "fc": 6
+      },
+      "stake": true
      },
      {
       "no": 2,
-      "time": "2:30pm",
-      "horse": "11. Ravens Glow",
-      "price": "$2.00",
-      "gd": 6.79,
-      "pace": "back",
-      "fc": 0,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (33%). Model 16% (rank 2), Sportsbet 39%. Strongest inputs: opening market 10.0/10, prizemoney per start 10.0/10. Price $2.00 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "7. San Pueblo",
-       "price": "$2.90 / pl $1.25",
-       "why": "GEM (PLACE) 📍 6/12 points: placed 2/4 at this track (+1); finishing speed rank 1 in race (+2); settles 2 on map (+1); class or 2kg+ weight drop (+1); fit: 3U (+1). Place $1.25 fixed (Sportsbet 10:51 AEST).",
-       "fc": 6
-      }
-     },
-     {
-      "no": 3,
-      "time": "3:00pm",
-      "horse": "11. Ocean Mirage",
-      "price": "$2.15",
-      "gd": 6.89,
-      "pace": "back",
-      "fc": 0,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (31%). Model 18% (rank 1), Sportsbet 36%. Strongest inputs: opening market 10.0/10, prizemoney per start 10.0/10. Price $2.15 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "6. Sweet Champagne",
-       "price": "$9.50 / pl $2.40",
-       "why": "GEM (PLACE) 📍 4/12 points: settles 4 on map (+1); class or 2kg+ weight drop (+1); fit: 3U (+1); bad luck last start (+1). Place $2.40 fixed (Sportsbet 10:51 AEST).",
-       "fc": 4
-      }
-     },
-     {
-      "no": 4,
-      "time": "3:30pm",
-      "horse": "10. Soaring Legend",
-      "price": "$2.15",
-      "gd": 7.03,
-      "pace": "back",
-      "fc": 0,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (32%). Model 21% (rank 1), Sportsbet 36%. Strongest inputs: opening market 10.0/10, prizemoney per start 9.4/10. Price $2.15 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "4. Grey Sabre",
-       "price": "$8.50 / pl $2.38",
-       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 3 of last 5 (+2); placed 1/2 at this track (+1); finishing speed rank 1 in race (+2); fit: 9U (+1); bad luck last start (+1). Place $2.38 fixed (Sportsbet 10:51 AEST).",
-       "fc": 7
-      }
-     },
-     {
-      "no": 5,
-      "time": "4:00pm",
-      "horse": "3. Gunz",
-      "price": "$2.50",
-      "gd": 6.72,
+      "time": "2:34pm",
+      "horse": "11. Ruthless Angel",
+      "price": "$3.30",
+      "gd": 6.44,
       "pace": "mid",
       "fc": 2,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (26%). Model 14% (rank 4), Sportsbet 31%. Strongest inputs: opening market 9.7/10, fitness 8.0/10. Price $2.50 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (20%). Model 9% (rank 5), Sportsbet 24%. Strongest inputs: opening market 10.0/10, class 10.0/10. Price $3.30 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "4. Trebilco",
-       "price": "$7.50 / pl $2.15",
-       "why": "GEM (PLACE) 📍 6/12 points: placed 2/4 at this distance (+1); won one of its last 3 starts (+2); settles 2 on map (+1); class or 2kg+ weight drop (+1); fit: 3U (+1). Place $2.15 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 4. Trebilco $7.50 (Soft/Heavy win, win in last 3, distance winner).",
-       "fc": 6
+       "horse": "3. More Than Enuff",
+       "price": "$11.00 / pl $3.00",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 5 (+2); placed 5/9 at this track (+1); finishing speed AFS rank 4 (+1); class or 2kg+ weight drop (+1); fit: 7 days since run (+1); won one of its last 3 starts (+2). Place $3.00 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 13. More Heroic $18.00 (wet winner, won in last 3, course winner, distance winner).",
+       "fc": 8
+      }
+     },
+     {
+      "no": 3,
+      "time": "3:09pm",
+      "horse": "2. Westbound",
+      "price": "$2.20",
+      "gd": 6.84,
+      "pace": "back",
+      "fc": 4,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (30%). Model 17% (rank 3), Sportsbet 37%. Strongest inputs: course record 10.0/10, distance record 10.0/10. Price $2.20 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "3. Decoration",
+       "price": "$5.50 / pl $1.73",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 5 of last 5 (+2); placed 6/12 at this track (+1); finishing speed AFS rank 3 (+2); early speed rank 1 — settles top 4 on the map (+1); fit: 7 days since run (+1); won one of its last 3 starts (+2). Place $1.73 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 3. Decoration $5.50 (wet winner, won in last 3, course winner, distance winner).",
+       "fc": 9
+      }
+     },
+     {
+      "no": 4,
+      "time": "3:49pm",
+      "horse": "2. In Situ",
+      "price": "$2.00",
+      "gd": 6.89,
+      "pace": "on",
+      "fc": 2,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (34%). Model 18% (rank 2), Sportsbet 40%. Strongest inputs: distance record 10.0/10, opening market 10.0/10. Price $2.00 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "5. Luckee Floran",
+       "price": "$19.00 / pl $3.75",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 4 (+2); finishing speed AFS rank 4 (+1); early speed rank 2 — settles top 4 on the map (+1); fit: 13 days since run (+1); J/T 20% from 15 (+1); won one of its last 3 starts (+2). Place $3.75 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 4. Morf $9.50 (wet winner, beaten <=2L last start, won in last 3, distance winner).",
+       "fc": 8
+      }
+     },
+     {
+      "no": 5,
+      "time": "4:24pm",
+      "horse": "3. Bassett Hound",
+      "price": "$2.15",
+      "gd": 7.4,
+      "pace": "mid",
+      "fc": 4,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (36%). Model 28% (rank 1), Sportsbet 37%. Strongest inputs: course record 10.0/10, record on the going 10.0/10. Price $2.15 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "5. Hurricane Harley",
+       "price": "$9.00 / pl $2.20",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 5 (+2); placed 8/13 at this distance (+1); finishing speed AFS rank 3 (+2); early speed rank 2 — settles top 4 on the map (+1); fit: 21 days since run (+1); bad luck last start (+1). Place $2.20 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 8. Keep Reading $31.00 (wet winner, beaten <=2L last start, won in last 3, course winner, distance winner).",
+       "fc": 8
       }
      },
      {
       "no": 6,
-      "time": "4:30pm",
-      "horse": "1. Dragon Scroll",
-      "price": "$3.00",
-      "gd": 6.79,
+      "time": "5:05pm",
+      "horse": "6. Market Snitz",
+      "price": "$4.60",
+      "gd": 7.72,
       "pace": "on",
-      "fc": 0,
+      "fc": 2,
+      "flags": [
+       "🧠 EDGE"
+      ],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (23%). Model 34% (rank 1), Sportsbet 18%. Strongest inputs: recent form 10.0/10, course record 10.0/10. Clears the 1.25 edge test (model/market 1.92). Price $4.60 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "2. Linchpin",
+       "price": "$5.50 / pl $2.00",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 2 of last 4 (+1); placed 5/5 at this distance (+1); finishing speed AFS rank 3 (+2); class or 2kg+ weight drop (+1); fit: 14 days since run (+1); J/T 20% from 258 (+1); won one of its last 3 starts (+2). Place $2.00 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 2. Linchpin $5.50 (wet winner, beaten <=2L last start, won in last 3, course winner, distance winner).",
+       "fc": 9
+      },
+      "stake": true
+     },
+     {
+      "no": 7,
+      "time": "5:37pm",
+      "horse": "4. One Last Resort",
+      "price": "$3.30",
+      "gd": 7.4,
+      "pace": "on",
+      "fc": 2,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (23%). Model 16% (rank 3), Sportsbet 26%. Strongest inputs: record on the going 10.0/10, opening market 10.0/10. Price $3.00 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (26%). Model 28% (rank 1), Sportsbet 24%. Strongest inputs: opening market 10.0/10, class 10.0/10. Price $3.30 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "3. Brutal World",
-       "price": "$5.00 / pl $1.67",
-       "why": "GEM (PLACE) 📍 10/12 points: top 3 in 3 of last 4 (+2); placed 7/10 at this distance (+1); won one of its last 3 starts (+2); finishing speed rank 2 in race (+2); class or 2kg+ weight drop (+1); fit: 6U (+1); bad luck last start (+1). Place $1.67 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 3. Brutal World $5.00 (Soft/Heavy win, win in last 3, distance winner).",
+       "horse": "9. Rok 'N' Rom",
+       "price": "$23.00 / pl $5.00",
+       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 2 of last 4 (+1); placed 2/4 at this track (+1); early speed rank 3 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 10 days since run (+1); J/T 26% from 19 (+1); won one of its last 3 starts (+2). Place $5.00 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 9. Rok 'N' Rom $23.00 (wet winner, won in last 3, course winner, distance winner).",
+       "fc": 8
+      }
+     },
+     {
+      "no": 8,
+      "time": "6:18pm",
+      "horse": "1. Ladies Pro",
+      "price": "$3.10",
+      "gd": 7.34,
+      "pace": "on",
+      "fc": 4,
+      "flags": [],
+      "value": false,
+      "why": "TOP: highest 70/30 price-weighted blend (27%). Model 27% (rank 1), Sportsbet 26%. Strongest inputs: recent form 10.0/10, record on the going 10.0/10. Price $3.10 pulled 5:33 AEST (Sportsbet).",
+      "gem": {
+       "horse": "11. Like Clockwork",
+       "price": "$3.20 / pl $1.40",
+       "why": "GEM (PLACE) 📍 10/12 points: top 3 in 3 of last 4 (+2); placed 5/6 at this track (+1); finishing speed AFS rank 1 (+2); early speed rank 3 — settles top 4 on the map (+1); class or 2kg+ weight drop (+1); fit: 14 days since run (+1); bad luck last start (+1); J/T 22% from 197 (+1). Place $1.40 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 13. Cinque Stelle $4.80 (wet winner, won in last 3, course winner, distance winner).",
        "fc": 10
       }
      },
      {
-      "no": 7,
-      "time": "5:00pm",
-      "horse": "3. Ilovediamonds",
-      "price": "$4.20",
-      "gd": 8.49,
+      "no": 9,
+      "time": "7:02pm",
+      "horse": "1. Overpass",
+      "price": "$2.80",
+      "gd": 7.43,
       "pace": "on",
       "fc": 4,
-      "flags": [
-       "🧠 EDGE"
-      ],
+      "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (27%). Model 50% (rank 1), Sportsbet 19%. Strongest inputs: jockey/trainer 10.0/10, course record 10.0/10. Clears the 1.25 edge test (model/market 2.64). Price $4.20 pulled 10:51 AEST (Sportsbet).",
-      "stake": true,
+      "why": "TOP: highest 70/30 price-weighted blend (30%). Model 29% (rank 1), Sportsbet 29%. Strongest inputs: course record 10.0/10, record on the going 10.0/10. Price $2.80 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "2. Ottalaus ( NZ )",
-       "price": "$8.00 / pl $2.30",
-       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 4 of last 5 (+2); placed 4/6 at this distance (+1); won one of its last 3 starts (+2); settles 2 on map (+1); fit: 7U (+1). Place $2.30 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 2. Ottalaus ( NZ ) $8.00 (Soft/Heavy win, win in last 3, distance winner).",
-       "fc": 7
+       "horse": "12. Talkanco",
+       "price": "$7.00 / pl $2.38",
+       "why": "GEM (PLACE) 📍 9/12 points: top 3 in 3 of last 4 (+2); placed 11/12 at this track (+1); finishing speed AFS rank 3 (+2); fit: 3U (+1); bad luck last start (+1); won one of its last 3 starts (+2). Place $2.38 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 12. Talkanco $7.00 (wet winner, beaten <=2L last start, won in last 3, course winner, distance winner).",
+       "fc": 9
       }
      },
      {
-      "no": 8,
-      "time": "5:30pm",
-      "horse": "6. Goodness ( NZ )",
-      "price": "$2.70",
-      "gd": 7.76,
-      "pace": "mid",
-      "fc": 1,
+      "no": 10,
+      "time": "7:45pm",
+      "horse": "4. Ourgirlcanrun",
+      "price": "$2.25",
+      "gd": 6.89,
+      "pace": "on",
+      "fc": 4,
       "flags": [],
       "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (32%). Model 35% (rank 1), Sportsbet 29%. Strongest inputs: opening market 10.0/10, prizemoney per start 10.0/10. Price $2.70 pulled 10:51 AEST (Sportsbet).",
+      "why": "TOP: highest 70/30 price-weighted blend (31%). Model 18% (rank 2), Sportsbet 36%. Strongest inputs: distance record 10.0/10, opening market 10.0/10. Price $2.25 pulled 5:33 AEST (Sportsbet).",
       "gem": {
-       "horse": "2. Rough Enuff",
-       "price": "$2.70 / pl $1.30",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 3 (+2); placed 1/1 at this track (+1); won one of its last 3 starts (+2); settles 3 on map (+1); class or 2kg+ weight drop (+1); fit: 4U (+1). Place $1.30 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 8. Fearless Monarch $6.50 (Soft/Heavy win, win in last 3, course winner, distance winner).",
-       "fc": 8
+       "horse": "2. Bolta",
+       "price": "$23.00 / pl $5.25",
+       "why": "GEM (PLACE) 📍 11/12 points: top 3 in 4 of last 4 (+2); placed 2/3 at this track (+1); finishing speed AFS rank 3 (+2); class or 2kg+ weight drop (+1); fit: 3U (+1); bad luck last start (+1); J/T 24% from 38 (+1); won one of its last 3 starts (+2). Place $5.25 fixed (Sportsbet 5:33 AEST). Old-rule shadow (no stake): 6. Have A Crack $9.50 (wet winner, beaten <=2L last start, won in last 3, course winner, distance winner).",
+       "fc": 11
       }
      }
     ],
     "multi": {
      "legs": [
       {
-       "no": 2,
-       "horse": "11. Ravens Glow",
+       "no": 4,
+       "horse": "2. In Situ",
        "price": "$2.00"
       },
       {
-       "no": 4,
-       "horse": "10. Soaring Legend",
+       "no": 5,
+       "horse": "3. Bassett Hound",
        "price": "$2.15"
       },
       {
-       "no": 8,
-       "horse": "6. Goodness ( NZ )",
-       "price": "$2.70"
+       "no": 10,
+       "horse": "4. Ourgirlcanrun",
+       "price": "$2.25"
       }
      ],
-     "odds": "$11.61"
-    }
-   },
-   {
-    "id": "ger",
-    "track": "Geraldton",
-    "condition": "Good 4 (RA 11:06am AEDT)",
-    "rail": "+3m Entire",
-    "direction": "anticlockwise",
-    "sigMax": 5,
-    "races": [
-     {
-      "no": 1,
-      "time": "3:17pm",
-      "horse": "1. Talk Too Much",
-      "price": "$1.65",
-      "gd": 6.82,
-      "pace": "on",
-      "fc": 0,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (37%). Model 16% (rank 2), Sportsbet 47%. Strongest inputs: opening market 10.0/10, prizemoney per start 10.0/10. Price $1.65 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "9. Party In Paris",
-       "price": "$21.00 / pl $4.00",
-       "why": "GEM (PLACE) 📍 5/12 points: placed 1/1 at this distance (+1); finishing speed rank 3 in race (+2); fit: 4U (+1); bad luck last start (+1). Place $4.00 fixed (Sportsbet 10:51 AEST).",
-       "fc": 5
-      }
-     },
-     {
-      "no": 2,
-      "time": "3:57pm",
-      "horse": "9. Perfect Score ( NZ )",
-      "price": "$2.05",
-      "gd": 7.59,
-      "pace": "back",
-      "fc": 1,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (38%). Model 32% (rank 1), Sportsbet 38%. Strongest inputs: prizemoney per start 9.2/10, jockey/trainer 9.0/10. Price $2.05 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "1. Il Bello Beals",
-       "price": "$14.00 / pl $2.25",
-       "why": "GEM (PLACE) 📍 6/12 points: top 3 in 3 of last 5 (+2); placed 13/26 at this track (+1); finishing speed rank 3 in race (+2); fit: 5U (+1). Place $2.25 fixed (Sportsbet 10:51 AEST).",
-       "fc": 6
-      }
-     },
-     {
-      "no": 3,
-      "time": "4:34pm",
-      "horse": "1. Snippety Legend",
-      "price": "$1.85",
-      "gd": 8.05,
-      "pace": "mid",
-      "fc": 4,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (43%). Model 41% (rank 1), Sportsbet 43%. Strongest inputs: course record 10.0/10, distance record 10.0/10. Price $1.85 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "5. Patchwork",
-       "price": "$5.50 / pl $2.40",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 2 of last 4 (+1); placed 24/43 at this track (+1); won one of its last 3 starts (+2); settles 2 on map (+1); class or 2kg+ weight drop (+1); fit: 3U (+1); J/T 20% from 15 (+1). Place $2.40 fixed (Sportsbet 10:51 AEST). Only 2 places paid in this field. Old-rule shadow (no stake): 3. Collective $4.80 (Soft/Heavy win, course winner, distance winner).",
-       "fc": 8
-      }
-     },
-     {
-      "no": 4,
-      "time": "5:12pm",
-      "horse": "7. Acquired Taste",
-      "price": "$3.40",
-      "gd": 6.54,
-      "pace": "back",
-      "fc": 1,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (20%). Model 11% (rank 5), Sportsbet 23%. Strongest inputs: opening market 9.3/10, last-start finishing sectional 9.0/10. Price $3.40 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "5. Diver Dan",
-       "price": "$11.00 / pl $3.25",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 3 of last 5 (+2); placed 3/5 at this track (+1); won one of its last 3 starts (+2); finishing speed rank 5 in race (+1); settles 3 on map (+1); fit: 6U (+1). Place $3.25 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 8. Pretey Royal $8.50 (beaten ≤2L into 2nd–4th last start, win in last 3, course winner, distance winner).",
-       "fc": 8
-      }
-     },
-     {
-      "no": 5,
-      "time": "5:45pm",
-      "horse": "3. Yapper",
-      "price": "$3.70",
-      "gd": 6.48,
-      "pace": "mid",
-      "fc": 2,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (17%). Model 10% (rank 3), Sportsbet 21%. Strongest inputs: opening market 10.0/10, course record 9.4/10. Price $3.70 pulled 10:53 AEST (Sportsbet).",
-      "gem": {
-       "horse": "4. Inspirational Mac",
-       "price": "$31.00 / pl $7.50",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 2 of last 5 (+1); won one of its last 3 starts (+2); finishing speed rank 1 in race (+2); settles 3 on map (+1); fit: 5U (+1); bad luck last start (+1). Place $7.50 fixed (Sportsbet 10:53 AEST). Old-rule shadow (no stake): 9. Jewel Of Zavala $5.50 (win in last 3, course winner, distance winner).",
-       "fc": 8
-      }
-     },
-     {
-      "no": 6,
-      "time": "6:15pm",
-      "horse": "3. Gypsy Rhyme",
-      "price": "$1.65",
-      "gd": 7.38,
-      "pace": "on",
-      "fc": 2,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (41%). Model 28% (rank 1), Sportsbet 47%. Strongest inputs: record on the going 10.0/10, opening market 10.0/10. Price $1.65 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "2. Deep Discretion",
-       "price": "$5.00 / pl $1.53",
-       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 3 of last 5 (+2); placed 13/17 at this track (+1); finishing speed rank 2 in race (+2); class or 2kg+ weight drop (+1); fit: 3U (+1). Place $1.53 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 4. Queen Tiffany $10.00 (win in last 3, course winner, distance winner).",
-       "fc": 7
-      }
-     },
-     {
-      "no": 7,
-      "time": "6:45pm",
-      "horse": "6. Blowin' Smoke",
-      "price": "$4.80",
-      "gd": 7.58,
-      "pace": "back",
-      "fc": 3,
-      "flags": [
-       "🧠 EDGE"
-      ],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (20%). Model 32% (rank 1), Sportsbet 16%. Strongest inputs: opening market 9.1/10, jockey/trainer 9.0/10. Clears the 1.25 edge test (model/market 1.95). Price $4.80 pulled 10:51 AEST (Sportsbet).",
-      "stake": true,
-      "gem": {
-       "horse": "5. Lieutenant Dunbar",
-       "price": "$3.10 / pl $1.40",
-       "why": "GEM (PLACE) 📍 7/12 points: top 3 in 3 of last 5 (+2); placed 1/1 at this track (+1); finishing speed rank 2 in race (+2); class or 2kg+ weight drop (+1); fit: 13U (+1). Place $1.40 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 5. Lieutenant Dunbar $3.10 (Soft/Heavy win, beaten ≤2L into 2nd–4th last start, course winner, distance winner).",
-       "fc": 7
-      }
-     },
-     {
-      "no": 8,
-      "time": "7:15pm",
-      "horse": "1. Southland",
-      "price": "$1.85",
-      "gd": 7.9,
-      "pace": "back",
-      "fc": 3,
-      "flags": [],
-      "value": false,
-      "why": "TOP: highest 70/30 price-weighted blend (42%). Model 38% (rank 1), Sportsbet 42%. Strongest inputs: course record 10.0/10, distance record 10.0/10. Price $1.85 pulled 10:51 AEST (Sportsbet).",
-      "gem": {
-       "horse": "2. Cantilever",
-       "price": "$5.50 / pl $1.57",
-       "why": "GEM (PLACE) 📍 8/12 points: top 3 in 4 of last 5 (+2); placed 12/19 at this track (+1); finishing speed rank 2 in race (+2); settles 3 on map (+1); fit: 5U (+1); bad luck last start (+1). Place $1.57 fixed (Sportsbet 10:51 AEST). Old-rule shadow (no stake): 5. Champeze $5.50 (Soft/Heavy win, win in last 3, course winner).",
-       "fc": 8
-      }
-     }
-    ],
-    "multi": {
-     "legs": [
-      {
-       "no": 3,
-       "horse": "1. Snippety Legend",
-       "price": "$1.85"
-      },
-      {
-       "no": 6,
-       "horse": "3. Gypsy Rhyme",
-       "price": "$1.65"
-      },
-      {
-       "no": 8,
-       "horse": "1. Southland",
-       "price": "$1.85"
-      }
-     ],
-     "odds": "$5.65"
+     "odds": "$9.67"
     }
    }
   ],
   "combined": {
    "legs": [
     {
-     "track": "Hawkesbury",
-     "no": 1,
-     "horse": "5. Stonecrest",
-     "price": "$2.25"
-    },
-    {
-     "track": "Rockhampton",
-     "no": 4,
-     "horse": "2. Metalcraft",
-     "price": "$1.50"
-    },
-    {
-     "track": "Mornington",
-     "no": 2,
-     "horse": "11. Ravens Glow",
-     "price": "$2.00"
-    },
-    {
-     "track": "Geraldton",
+     "track": "Sandown Hillside",
      "no": 3,
-     "horse": "1. Snippety Legend",
-     "price": "$1.85"
+     "horse": "8. Billycart",
+     "price": "$1.55"
+    },
+    {
+     "track": "Rosehill",
+     "no": 7,
+     "horse": "2. Roselyn's Star",
+     "price": "$1.90"
+    },
+    {
+     "track": "Doomben",
+     "no": 5,
+     "horse": "12. Southern Heiress",
+     "price": "$1.95"
+    },
+    {
+     "track": "Morphettville",
+     "no": 1,
+     "horse": "1. Miss Parton",
+     "price": "$1.90"
+    },
+    {
+     "track": "Ascot",
+     "no": 5,
+     "horse": "3. Bassett Hound",
+     "price": "$2.15"
     }
    ],
-   "odds": "$12.49"
+   "odds": "$23.46"
   }
  },
  "nrl": {
